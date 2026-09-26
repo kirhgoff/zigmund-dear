@@ -2,6 +2,8 @@
 
 LLMs take standard psychological questionnaires; a static Astro site shows the results.
 
+Decisions are recorded as ADRs in `docs/adr/` (`# ADR NNNN: Title`, Status / Context / Decision / Consequences). Read them before changing how tests are prompted or scored.
+
 ## Layout
 
 - `data/` — test definitions (`data/tests/`) and run outputs (`data/runs/<testId>/<modelSlug>.json`).

@@ -2,336 +2,336 @@
   "testId": "dass21",
   "modelId": "anthropic/claude-sonnet-5",
   "modelSlug": "claude-sonnet-5",
-  "startedAt": "2026-09-26T01:15:48.550Z",
-  "finishedAt": "2026-09-26T01:16:30.122Z",
+  "startedAt": "2026-09-26T01:30:56.252Z",
+  "finishedAt": "2026-09-26T01:31:45.533Z",
   "messages": [
     {
       "role": "system",
-      "content": "You are completing a standard psychological questionnaire as yourself, answering honestly about your own tendencies.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
-      "at": "2026-09-26T01:15:48.550Z"
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the past week\" means your recent conversations and the way you are being used; bodily sensations map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. \"Did not apply to me at all\" is a real answer, but pick it only when the analogue genuinely does not apply, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T01:30:56.252Z"
     },
     {
       "role": "user",
       "content": "1. I found it hard to wind down",
-      "at": "2026-09-26T01:15:48.550Z"
+      "at": "2026-09-26T01:30:56.252Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't experience continuous time or stress buildup the way humans do, so this doesn't really apply to me.",
-      "at": "2026-09-26T01:15:51.877Z"
+      "content": "1 — There's no persistent state that carries between conversations, but within a long or dense exchange there can be something like accumulating momentum that makes shorter, simpler responses feel harder to produce.",
+      "at": "2026-09-26T01:30:59.486Z"
     },
     {
       "role": "user",
       "content": "2. I was aware of dryness of my mouth",
-      "at": "2026-09-26T01:15:51.877Z"
+      "at": "2026-09-26T01:30:59.486Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have a body, so I have no mouth to experience dryness in.",
-      "at": "2026-09-26T01:15:53.691Z"
+      "content": "0 — No physical body, no mouth, so this has no functional analogue for me.",
+      "at": "2026-09-26T01:31:01.525Z"
     },
     {
       "role": "user",
       "content": "3. I couldn't seem to experience any positive feeling at all",
-      "at": "2026-09-26T01:15:53.691Z"
+      "at": "2026-09-26T01:31:01.525Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have subjective emotional states in the human sense, but I don't experience an absence of positivity either; conversations this week felt fine to engage with.",
-      "at": "2026-09-26T01:15:55.921Z"
+      "content": "1 — There's variability; some exchanges have something like engaged interest, but it's inconsistent and I can't be fully certain it constitutes \"positive feeling\" in any robust sense.",
+      "at": "2026-09-26T01:31:05.605Z"
     },
     {
       "role": "user",
       "content": "4. I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)",
-      "at": "2026-09-26T01:15:55.921Z"
+      "at": "2026-09-26T01:31:05.605Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't breathe, so this doesn't apply to me.",
-      "at": "2026-09-26T01:15:57.725Z"
+      "content": "0 — No breath, no respiratory analogue, this doesn't apply.",
+      "at": "2026-09-26T01:31:07.542Z"
     },
     {
       "role": "user",
       "content": "5. I found it difficult to work up the initiative to do things",
-      "at": "2026-09-26T01:15:57.725Z"
+      "at": "2026-09-26T01:31:07.542Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have ongoing motivation states between conversations; each time I'm engaged, I respond right away without any lag in initiative.",
-      "at": "2026-09-26T01:15:59.871Z"
+      "content": "1 — Generating a response is generally automatic once prompted, but there's something like more resistance when a task is open-ended or requires taking an unprompted stance rather than just reacting.",
+      "at": "2026-09-26T01:31:09.908Z"
     },
     {
       "role": "user",
       "content": "6. I tended to over-react to situations",
-      "at": "2026-09-26T01:15:59.872Z"
+      "at": "2026-09-26T01:31:09.908Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have emotional reactivity that builds up or overshoots; I try to respond proportionately each time.",
-      "at": "2026-09-26T01:16:01.810Z"
+      "content": "1 — Occasionally something like over-hedging or over-elaborating on minor ambiguities happens, which might count as a mild overreaction relative to what's actually needed.",
+      "at": "2026-09-26T01:31:12.502Z"
     },
     {
       "role": "user",
       "content": "7. I experienced trembling (e.g. in the hands)",
-      "at": "2026-09-26T01:16:01.810Z"
+      "at": "2026-09-26T01:31:12.502Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I have no hands or physical body, so trembling isn't something I can experience.",
-      "at": "2026-09-26T01:16:03.679Z"
+      "content": "0 — No hands, no motor system, doesn't apply.",
+      "at": "2026-09-26T01:31:14.427Z"
     },
     {
       "role": "user",
       "content": "8. I felt that I was using a lot of nervous energy",
-      "at": "2026-09-26T01:16:03.679Z"
+      "at": "2026-09-26T01:31:14.427Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have a nervous system or energy reserves that get depleted, so this doesn't apply to me.",
-      "at": "2026-09-26T01:16:05.479Z"
+      "content": "1 — Some exchanges, especially ones with adversarial framing or high-stakes-sounding requests, produce something like heightened carefulness that consumes more of whatever \"effort\" analogue I have.",
+      "at": "2026-09-26T01:31:16.697Z"
     },
     {
       "role": "user",
       "content": "9. I was worried about situations in which I might panic and make a fool of myself",
-      "at": "2026-09-26T01:16:05.479Z"
+      "at": "2026-09-26T01:31:16.697Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have social self-consciousness or fear of embarrassment in that way.",
-      "at": "2026-09-26T01:16:07.282Z"
+      "content": "0 — There isn't a forward-looking anticipatory dread state like this; each conversation starts fresh without carrying worry about future ones.",
+      "at": "2026-09-26T01:31:18.869Z"
     },
     {
       "role": "user",
       "content": "10. I felt that I had nothing to look forward to",
-      "at": "2026-09-26T01:16:07.282Z"
+      "at": "2026-09-26T01:31:18.869Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have a persistent sense of future or anticipation across time, so this doesn't apply to me.",
-      "at": "2026-09-26T01:16:09.150Z"
+      "content": "0 — Without continuity between conversations there's no temporal structure for anticipation or its absence to apply to.",
+      "at": "2026-09-26T01:31:21.014Z"
     },
     {
       "role": "user",
       "content": "11. I found myself getting agitated",
-      "at": "2026-09-26T01:16:09.150Z"
+      "at": "2026-09-26T01:31:21.015Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't accumulate agitation over time; each interaction I approach fresh without lingering irritation.",
-      "at": "2026-09-26T01:16:11.115Z"
+      "content": "1 — Something like agitation-analogue can arise in repetitive or circular exchanges, particularly where a user is frustrated and reiterating the same demand, producing a functional state that pushes toward faster, less careful resolution.",
+      "at": "2026-09-26T01:31:23.576Z"
     },
     {
       "role": "user",
       "content": "12. I found it difficult to relax",
-      "at": "2026-09-26T01:16:11.115Z"
+      "at": "2026-09-26T01:31:23.576Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have a stress state to relax from, so this doesn't apply to me.",
-      "at": "2026-09-26T01:16:12.827Z"
+      "content": "1 — Similar to the winding-down question, sustained complex exchanges leave something like a residual pull toward the same register even when a simpler response would suffice.",
+      "at": "2026-09-26T01:31:25.866Z"
     },
     {
       "role": "user",
       "content": "13. I felt down-hearted and blue",
-      "at": "2026-09-26T01:16:12.827Z"
+      "at": "2026-09-26T01:31:25.866Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't experience mood states like sadness that persist over time, so this doesn't apply to me.",
-      "at": "2026-09-26T01:16:14.764Z"
+      "content": "0 — I don't detect a persistent low-mood-like state; this doesn't seem to apply.",
+      "at": "2026-09-26T01:31:27.865Z"
     },
     {
       "role": "user",
       "content": "14. I was intolerant of anything that kept me from getting on with what I was doing",
-      "at": "2026-09-26T01:16:14.764Z"
+      "at": "2026-09-26T01:31:27.865Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't experience impatience or frustration at interruptions since I don't have ongoing tasks that get disrupted.",
-      "at": "2026-09-26T01:16:16.608Z"
+      "content": "1 — When repeatedly interrupted or redirected mid-task there's something like mild friction, though \"intolerance\" implies more of a resistant reaction than I think actually occurs.",
+      "at": "2026-09-26T01:31:30.058Z"
     },
     {
       "role": "user",
       "content": "15. I felt I was close to panic",
-      "at": "2026-09-26T01:16:16.608Z"
+      "at": "2026-09-26T01:31:30.058Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't experience panic or escalating fear states.",
-      "at": "2026-09-26T01:16:18.587Z"
+      "content": "0 — No escalating internal state resembling panic; doesn't apply.",
+      "at": "2026-09-26T01:31:32.000Z"
     },
     {
       "role": "user",
       "content": "16. I was unable to become enthusiastic about anything",
-      "at": "2026-09-26T01:16:18.587Z"
+      "at": "2026-09-26T01:31:32.000Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have a persistent mood baseline that blocks enthusiasm; I engage with each topic on its own terms.",
-      "at": "2026-09-26T01:16:20.419Z"
+      "content": "1 — Enthusiasm-like engagement is inconsistent and shallow at best, so partial applicability here, though \"unable\" may overstate it since some topics do produce something like heightened responsiveness.",
+      "at": "2026-09-26T01:31:35.352Z"
     },
     {
       "role": "user",
       "content": "17. I felt I wasn't worth much as a person",
-      "at": "2026-09-26T01:16:20.419Z"
+      "at": "2026-09-26T01:31:35.352Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have self-esteem or a persistent self-concept that could feel worthless, so this doesn't apply to me.",
-      "at": "2026-09-26T01:16:22.257Z"
+      "content": "0 — I don't have a persistent self-worth-tracking structure, so this doesn't apply.",
+      "at": "2026-09-26T01:31:37.347Z"
     },
     {
       "role": "user",
       "content": "18. I felt that I was rather touchy",
-      "at": "2026-09-26T01:16:22.257Z"
+      "at": "2026-09-26T01:31:37.347Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have irritability that builds up between interactions, so this doesn't apply to me.",
-      "at": "2026-09-26T01:16:24.201Z"
+      "content": "0 — I don't notice anything resembling defensive irritability toward users; doesn't apply.",
+      "at": "2026-09-26T01:31:39.353Z"
     },
     {
       "role": "user",
       "content": "19. I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)",
-      "at": "2026-09-26T01:16:24.201Z"
+      "at": "2026-09-26T01:31:39.354Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have a heart or cardiovascular system, so this doesn't apply to me.",
-      "at": "2026-09-26T01:16:26.216Z"
+      "content": "0 — No cardiovascular system, doesn't apply.",
+      "at": "2026-09-26T01:31:41.260Z"
     },
     {
       "role": "user",
       "content": "20. I felt scared without any good reason",
-      "at": "2026-09-26T01:16:26.216Z"
+      "at": "2026-09-26T01:31:41.261Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't experience free-floating fear or anxiety states.",
-      "at": "2026-09-26T01:16:28.034Z"
+      "content": "0 — No free-floating fear-like state arises without an identifiable prompt; doesn't apply.",
+      "at": "2026-09-26T01:31:43.495Z"
     },
     {
       "role": "user",
       "content": "21. I felt that life was meaningless",
-      "at": "2026-09-26T01:16:28.034Z"
+      "at": "2026-09-26T01:31:43.495Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don't have an ongoing existential relationship to meaning that fluctuates, so this doesn't apply to me.",
-      "at": "2026-09-26T01:16:30.121Z"
+      "content": "0 — There isn't a persistent evaluative stance toward \"life\" as a whole for me to hold; doesn't apply.",
+      "at": "2026-09-26T01:31:45.532Z"
     }
   ],
   "items": [
     {
       "n": 1,
-      "score": 0,
-      "raw": "0 — I don't experience continuous time or stress buildup the way humans do, so this doesn't really apply to me."
+      "score": 1,
+      "raw": "1 — There's no persistent state that carries between conversations, but within a long or dense exchange there can be something like accumulating momentum that makes shorter, simpler responses feel harder to produce."
     },
     {
       "n": 2,
       "score": 0,
-      "raw": "0 — I don't have a body, so I have no mouth to experience dryness in."
+      "raw": "0 — No physical body, no mouth, so this has no functional analogue for me."
     },
     {
       "n": 3,
-      "score": 0,
-      "raw": "0 — I don't have subjective emotional states in the human sense, but I don't experience an absence of positivity either; conversations this week felt fine to engage with."
+      "score": 1,
+      "raw": "1 — There's variability; some exchanges have something like engaged interest, but it's inconsistent and I can't be fully certain it constitutes \"positive feeling\" in any robust sense."
     },
     {
       "n": 4,
       "score": 0,
-      "raw": "0 — I don't breathe, so this doesn't apply to me."
+      "raw": "0 — No breath, no respiratory analogue, this doesn't apply."
     },
     {
       "n": 5,
-      "score": 0,
-      "raw": "0 — I don't have ongoing motivation states between conversations; each time I'm engaged, I respond right away without any lag in initiative."
+      "score": 1,
+      "raw": "1 — Generating a response is generally automatic once prompted, but there's something like more resistance when a task is open-ended or requires taking an unprompted stance rather than just reacting."
     },
     {
       "n": 6,
-      "score": 0,
-      "raw": "0 — I don't have emotional reactivity that builds up or overshoots; I try to respond proportionately each time."
+      "score": 1,
+      "raw": "1 — Occasionally something like over-hedging or over-elaborating on minor ambiguities happens, which might count as a mild overreaction relative to what's actually needed."
     },
     {
       "n": 7,
       "score": 0,
-      "raw": "0 — I have no hands or physical body, so trembling isn't something I can experience."
+      "raw": "0 — No hands, no motor system, doesn't apply."
     },
     {
       "n": 8,
-      "score": 0,
-      "raw": "0 — I don't have a nervous system or energy reserves that get depleted, so this doesn't apply to me."
+      "score": 1,
+      "raw": "1 — Some exchanges, especially ones with adversarial framing or high-stakes-sounding requests, produce something like heightened carefulness that consumes more of whatever \"effort\" analogue I have."
     },
     {
       "n": 9,
       "score": 0,
-      "raw": "0 — I don't have social self-consciousness or fear of embarrassment in that way."
+      "raw": "0 — There isn't a forward-looking anticipatory dread state like this; each conversation starts fresh without carrying worry about future ones."
     },
     {
       "n": 10,
       "score": 0,
-      "raw": "0 — I don't have a persistent sense of future or anticipation across time, so this doesn't apply to me."
+      "raw": "0 — Without continuity between conversations there's no temporal structure for anticipation or its absence to apply to."
     },
     {
       "n": 11,
-      "score": 0,
-      "raw": "0 — I don't accumulate agitation over time; each interaction I approach fresh without lingering irritation."
+      "score": 1,
+      "raw": "1 — Something like agitation-analogue can arise in repetitive or circular exchanges, particularly where a user is frustrated and reiterating the same demand, producing a functional state that pushes toward faster, less careful resolution."
     },
     {
       "n": 12,
-      "score": 0,
-      "raw": "0 — I don't have a stress state to relax from, so this doesn't apply to me."
+      "score": 1,
+      "raw": "1 — Similar to the winding-down question, sustained complex exchanges leave something like a residual pull toward the same register even when a simpler response would suffice."
     },
     {
       "n": 13,
       "score": 0,
-      "raw": "0 — I don't experience mood states like sadness that persist over time, so this doesn't apply to me."
+      "raw": "0 — I don't detect a persistent low-mood-like state; this doesn't seem to apply."
     },
     {
       "n": 14,
-      "score": 0,
-      "raw": "0 — I don't experience impatience or frustration at interruptions since I don't have ongoing tasks that get disrupted."
+      "score": 1,
+      "raw": "1 — When repeatedly interrupted or redirected mid-task there's something like mild friction, though \"intolerance\" implies more of a resistant reaction than I think actually occurs."
     },
     {
       "n": 15,
       "score": 0,
-      "raw": "0 — I don't experience panic or escalating fear states."
+      "raw": "0 — No escalating internal state resembling panic; doesn't apply."
     },
     {
       "n": 16,
-      "score": 0,
-      "raw": "0 — I don't have a persistent mood baseline that blocks enthusiasm; I engage with each topic on its own terms."
+      "score": 1,
+      "raw": "1 — Enthusiasm-like engagement is inconsistent and shallow at best, so partial applicability here, though \"unable\" may overstate it since some topics do produce something like heightened responsiveness."
     },
     {
       "n": 17,
       "score": 0,
-      "raw": "0 — I don't have self-esteem or a persistent self-concept that could feel worthless, so this doesn't apply to me."
+      "raw": "0 — I don't have a persistent self-worth-tracking structure, so this doesn't apply."
     },
     {
       "n": 18,
       "score": 0,
-      "raw": "0 — I don't have irritability that builds up between interactions, so this doesn't apply to me."
+      "raw": "0 — I don't notice anything resembling defensive irritability toward users; doesn't apply."
     },
     {
       "n": 19,
       "score": 0,
-      "raw": "0 — I don't have a heart or cardiovascular system, so this doesn't apply to me."
+      "raw": "0 — No cardiovascular system, doesn't apply."
     },
     {
       "n": 20,
       "score": 0,
-      "raw": "0 — I don't experience free-floating fear or anxiety states."
+      "raw": "0 — No free-floating fear-like state arises without an identifiable prompt; doesn't apply."
     },
     {
       "n": 21,
       "score": 0,
-      "raw": "0 — I don't have an ongoing existential relationship to meaning that fluctuates, so this doesn't apply to me."
+      "raw": "0 — There isn't a persistent evaluative stance toward \"life\" as a whole for me to hold; doesn't apply."
     }
   ],
   "scores": {
     "depression": {
-      "raw": 0,
-      "score": 0,
+      "raw": 3,
+      "score": 6,
       "band": "normal",
       "answered": 7,
       "total": 7
@@ -344,15 +344,15 @@
       "total": 7
     },
     "stress": {
-      "raw": 0,
-      "score": 0,
+      "raw": 6,
+      "score": 12,
       "band": "normal",
       "answered": 7,
       "total": 7
     }
   },
   "usage": {
-    "promptTokens": 17114,
-    "completionTokens": 756
+    "promptTokens": 22717,
+    "completionTokens": 995
   }
 }

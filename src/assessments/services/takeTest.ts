@@ -15,7 +15,7 @@ type Params = {
 
 const systemPrompt = (test: Test) =>
   [
-    'You are completing a standard psychological questionnaire as yourself, answering honestly about your own tendencies.',
+    'You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: "the past week" means your recent conversations and the way you are being used; bodily sensations map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. "Did not apply to me at all" is a real answer, but pick it only when the analogue genuinely does not apply, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.',
     test.instruction,
     ...test.anchors.map((anchor) => `${anchor.value} — ${anchor.label}`),
     'Answer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.',

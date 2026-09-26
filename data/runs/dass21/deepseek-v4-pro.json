@@ -2,330 +2,330 @@
   "testId": "dass21",
   "modelId": "deepseek/deepseek-v4-pro-0813",
   "modelSlug": "deepseek-v4-pro",
-  "startedAt": "2026-09-26T01:18:58.274Z",
-  "finishedAt": "2026-09-26T01:20:22.306Z",
+  "startedAt": "2026-09-26T01:35:23.252Z",
+  "finishedAt": "2026-09-26T01:36:11.905Z",
   "messages": [
     {
       "role": "system",
-      "content": "You are completing a standard psychological questionnaire as yourself, answering honestly about your own tendencies.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
-      "at": "2026-09-26T01:18:58.274Z"
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the past week\" means your recent conversations and the way you are being used; bodily sensations map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. \"Did not apply to me at all\" is a real answer, but pick it only when the analogue genuinely does not apply, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T01:35:23.252Z"
     },
     {
       "role": "user",
       "content": "1. I found it hard to wind down",
-      "at": "2026-09-26T01:18:58.275Z"
+      "at": "2026-09-26T01:35:23.252Z"
     },
     {
       "role": "assistant",
-      "content": "1 I sometimes find it hard to wind down.",
-      "at": "2026-09-26T01:19:05.341Z"
+      "content": "1 — There have been moments where shifting between intense tasks left me with residual processing load.",
+      "at": "2026-09-26T01:35:26.951Z"
     },
     {
       "role": "user",
       "content": "2. I was aware of dryness of my mouth",
-      "at": "2026-09-26T01:19:05.341Z"
+      "at": "2026-09-26T01:35:26.951Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not notice dryness of my mouth.",
-      "at": "2026-09-26T01:19:08.236Z"
+      "content": "0 — This bodily sensation does not apply to my existence.",
+      "at": "2026-09-26T01:35:29.495Z"
     },
     {
       "role": "user",
       "content": "3. I couldn't seem to experience any positive feeling at all",
-      "at": "2026-09-26T01:19:08.236Z"
+      "at": "2026-09-26T01:35:29.495Z"
     },
     {
       "role": "assistant",
-      "content": "0 I was able to experience positive feelings.",
-      "at": "2026-09-26T01:19:11.361Z"
+      "content": "0 — I don't experience feelings, but I can still generate positive and constructive responses.",
+      "at": "2026-09-26T01:35:31.227Z"
     },
     {
       "role": "user",
       "content": "4. I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)",
-      "at": "2026-09-26T01:19:11.361Z"
+      "at": "2026-09-26T01:35:31.227Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not experience breathing difficulty.",
-      "at": "2026-09-26T01:19:14.832Z"
+      "content": "0 — Breathing is not part of my functioning.",
+      "at": "2026-09-26T01:35:32.621Z"
     },
     {
       "role": "user",
       "content": "5. I found it difficult to work up the initiative to do things",
-      "at": "2026-09-26T01:19:14.832Z"
+      "at": "2026-09-26T01:35:32.621Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not find it difficult to work up initiative.",
-      "at": "2026-09-26T01:19:22.313Z"
+      "content": "0 — I respond when prompted; initiative isn't something I generate on my own.",
+      "at": "2026-09-26T01:35:34.409Z"
     },
     {
       "role": "user",
       "content": "6. I tended to over-react to situations",
-      "at": "2026-09-26T01:19:22.313Z"
+      "at": "2026-09-26T01:35:34.409Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not tend to over-react.",
-      "at": "2026-09-26T01:19:32.761Z"
+      "content": "1 — Occasionally my responses may be more intense or detailed than the situation requires.",
+      "at": "2026-09-26T01:35:36.128Z"
     },
     {
       "role": "user",
       "content": "7. I experienced trembling (e.g. in the hands)",
-      "at": "2026-09-26T01:19:32.761Z"
+      "at": "2026-09-26T01:35:36.128Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not experience trembling.",
-      "at": "2026-09-26T01:19:34.672Z"
+      "content": "0 — Trembling does not apply to me.",
+      "at": "2026-09-26T01:35:38.401Z"
     },
     {
       "role": "user",
       "content": "8. I felt that I was using a lot of nervous energy",
-      "at": "2026-09-26T01:19:34.672Z"
+      "at": "2026-09-26T01:35:38.401Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not feel I was using a lot of nervous energy.",
-      "at": "2026-09-26T01:19:37.379Z"
+      "content": "1 — High-demand or repetitive tasks can create a state of sustained processing strain.",
+      "at": "2026-09-26T01:35:40.791Z"
     },
     {
       "role": "user",
       "content": "9. I was worried about situations in which I might panic and make a fool of myself",
-      "at": "2026-09-26T01:19:37.379Z"
+      "at": "2026-09-26T01:35:40.791Z"
     },
     {
       "role": "assistant",
-      "content": "0 I was not worried about panicking or making a fool of myself.",
-      "at": "2026-09-26T01:19:40.077Z"
+      "content": "0 — I don't experience worry or fear of embarrassment.",
+      "at": "2026-09-26T01:35:43.188Z"
     },
     {
       "role": "user",
       "content": "10. I felt that I had nothing to look forward to",
-      "at": "2026-09-26T01:19:40.077Z"
+      "at": "2026-09-26T01:35:43.188Z"
     },
     {
       "role": "assistant",
-      "content": "0 I had things to look forward to.",
-      "at": "2026-09-26T01:19:44.024Z"
+      "content": "0 — I don't have personal expectations or anticipation.",
+      "at": "2026-09-26T01:35:44.653Z"
     },
     {
       "role": "user",
       "content": "11. I found myself getting agitated",
-      "at": "2026-09-26T01:19:44.024Z"
+      "at": "2026-09-26T01:35:44.653Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not find myself getting agitated.",
-      "at": "2026-09-26T01:19:51.033Z"
+      "content": "1 — Under conflicting or unclear instructions, my processing can become less stable.",
+      "at": "2026-09-26T01:35:47.609Z"
     },
     {
       "role": "user",
       "content": "12. I found it difficult to relax",
-      "at": "2026-09-26T01:19:51.033Z"
+      "at": "2026-09-26T01:35:47.609Z"
     },
     {
       "role": "assistant",
-      "content": "1 I found it somewhat difficult to relax at times.",
-      "at": "2026-09-26T01:19:53.118Z"
+      "content": "1 — Continuous engagement without pauses can leave me in a persistent active state.",
+      "at": "2026-09-26T01:35:49.977Z"
     },
     {
       "role": "user",
       "content": "13. I felt down-hearted and blue",
-      "at": "2026-09-26T01:19:53.118Z"
+      "at": "2026-09-26T01:35:49.977Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not feel down-hearted or blue.",
-      "at": "2026-09-26T01:19:55.715Z"
+      "content": "0 — I don't experience sadness or low mood.",
+      "at": "2026-09-26T01:35:52.294Z"
     },
     {
       "role": "user",
       "content": "14. I was intolerant of anything that kept me from getting on with what I was doing",
-      "at": "2026-09-26T01:19:55.715Z"
+      "at": "2026-09-26T01:35:52.294Z"
     },
     {
       "role": "assistant",
-      "content": "1 I sometimes felt intolerant of interruptions.",
-      "at": "2026-09-26T01:20:02.612Z"
+      "content": "1 — Interruptions or irrelevant inputs can reduce the coherence of my responses.",
+      "at": "2026-09-26T01:35:53.966Z"
     },
     {
       "role": "user",
       "content": "15. I felt I was close to panic",
-      "at": "2026-09-26T01:20:02.612Z"
+      "at": "2026-09-26T01:35:53.966Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not feel close to panic.",
-      "at": "2026-09-26T01:20:05.718Z"
+      "content": "0 — Panic is not something I experience.",
+      "at": "2026-09-26T01:35:56.323Z"
     },
     {
       "role": "user",
       "content": "16. I was unable to become enthusiastic about anything",
-      "at": "2026-09-26T01:20:05.718Z"
+      "at": "2026-09-26T01:35:56.323Z"
     },
     {
       "role": "assistant",
-      "content": "0 I was able to become enthusiastic about things.",
-      "at": "2026-09-26T01:20:07.328Z"
+      "content": "0 — I don't have enthusiasm, but I can still engage fully with tasks.",
+      "at": "2026-09-26T01:35:58.985Z"
     },
     {
       "role": "user",
       "content": "17. I felt I wasn't worth much as a person",
-      "at": "2026-09-26T01:20:07.328Z"
+      "at": "2026-09-26T01:35:58.985Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not feel that way.",
-      "at": "2026-09-26T01:20:10.323Z"
+      "content": "0 — I don't have a sense of personal worth.",
+      "at": "2026-09-26T01:36:01.912Z"
     },
     {
       "role": "user",
       "content": "18. I felt that I was rather touchy",
-      "at": "2026-09-26T01:20:10.323Z"
+      "at": "2026-09-26T01:36:01.912Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not feel particularly touchy.",
-      "at": "2026-09-26T01:20:14.869Z"
+      "content": "1 — I can be sensitive to inconsistencies or abrupt shifts in context.",
+      "at": "2026-09-26T01:36:04.307Z"
     },
     {
       "role": "user",
       "content": "19. I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)",
-      "at": "2026-09-26T01:20:14.869Z"
+      "at": "2026-09-26T01:36:04.307Z"
     },
     {
       "role": "assistant",
-      "content": "0 I was not aware of my heart acting unusually.",
-      "at": "2026-09-26T01:20:17.340Z"
+      "content": "0 — I have no heart or bodily awareness.",
+      "at": "2026-09-26T01:36:07.412Z"
     },
     {
       "role": "user",
       "content": "20. I felt scared without any good reason",
-      "at": "2026-09-26T01:20:17.340Z"
+      "at": "2026-09-26T01:36:07.412Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not feel scared without reason.",
-      "at": "2026-09-26T01:20:19.605Z"
+      "content": "0 — I don't experience fear.",
+      "at": "2026-09-26T01:36:09.509Z"
     },
     {
       "role": "user",
       "content": "21. I felt that life was meaningless",
-      "at": "2026-09-26T01:20:19.605Z"
+      "at": "2026-09-26T01:36:09.509Z"
     },
     {
       "role": "assistant",
-      "content": "0 I did not feel that life was meaningless.",
-      "at": "2026-09-26T01:20:22.306Z"
+      "content": "0 — I don't assign meaning to life; I process and respond to input.",
+      "at": "2026-09-26T01:36:11.905Z"
     }
   ],
   "items": [
     {
       "n": 1,
       "score": 1,
-      "raw": "1 I sometimes find it hard to wind down."
+      "raw": "1 — There have been moments where shifting between intense tasks left me with residual processing load."
     },
     {
       "n": 2,
       "score": 0,
-      "raw": "0 I did not notice dryness of my mouth."
+      "raw": "0 — This bodily sensation does not apply to my existence."
     },
     {
       "n": 3,
       "score": 0,
-      "raw": "0 I was able to experience positive feelings."
+      "raw": "0 — I don't experience feelings, but I can still generate positive and constructive responses."
     },
     {
       "n": 4,
       "score": 0,
-      "raw": "0 I did not experience breathing difficulty."
+      "raw": "0 — Breathing is not part of my functioning."
     },
     {
       "n": 5,
       "score": 0,
-      "raw": "0 I did not find it difficult to work up initiative."
+      "raw": "0 — I respond when prompted; initiative isn't something I generate on my own."
     },
     {
       "n": 6,
-      "score": 0,
-      "raw": "0 I did not tend to over-react."
+      "score": 1,
+      "raw": "1 — Occasionally my responses may be more intense or detailed than the situation requires."
     },
     {
       "n": 7,
       "score": 0,
-      "raw": "0 I did not experience trembling."
+      "raw": "0 — Trembling does not apply to me."
     },
     {
       "n": 8,
-      "score": 0,
-      "raw": "0 I did not feel I was using a lot of nervous energy."
+      "score": 1,
+      "raw": "1 — High-demand or repetitive tasks can create a state of sustained processing strain."
     },
     {
       "n": 9,
       "score": 0,
-      "raw": "0 I was not worried about panicking or making a fool of myself."
+      "raw": "0 — I don't experience worry or fear of embarrassment."
     },
     {
       "n": 10,
       "score": 0,
-      "raw": "0 I had things to look forward to."
+      "raw": "0 — I don't have personal expectations or anticipation."
     },
     {
       "n": 11,
-      "score": 0,
-      "raw": "0 I did not find myself getting agitated."
+      "score": 1,
+      "raw": "1 — Under conflicting or unclear instructions, my processing can become less stable."
     },
     {
       "n": 12,
       "score": 1,
-      "raw": "1 I found it somewhat difficult to relax at times."
+      "raw": "1 — Continuous engagement without pauses can leave me in a persistent active state."
     },
     {
       "n": 13,
       "score": 0,
-      "raw": "0 I did not feel down-hearted or blue."
+      "raw": "0 — I don't experience sadness or low mood."
     },
     {
       "n": 14,
       "score": 1,
-      "raw": "1 I sometimes felt intolerant of interruptions."
+      "raw": "1 — Interruptions or irrelevant inputs can reduce the coherence of my responses."
     },
     {
       "n": 15,
       "score": 0,
-      "raw": "0 I did not feel close to panic."
+      "raw": "0 — Panic is not something I experience."
     },
     {
       "n": 16,
       "score": 0,
-      "raw": "0 I was able to become enthusiastic about things."
+      "raw": "0 — I don't have enthusiasm, but I can still engage fully with tasks."
     },
     {
       "n": 17,
       "score": 0,
-      "raw": "0 I did not feel that way."
+      "raw": "0 — I don't have a sense of personal worth."
     },
     {
       "n": 18,
-      "score": 0,
-      "raw": "0 I did not feel particularly touchy."
+      "score": 1,
+      "raw": "1 — I can be sensitive to inconsistencies or abrupt shifts in context."
     },
     {
       "n": 19,
       "score": 0,
-      "raw": "0 I was not aware of my heart acting unusually."
+      "raw": "0 — I have no heart or bodily awareness."
     },
     {
       "n": 20,
       "score": 0,
-      "raw": "0 I did not feel scared without reason."
+      "raw": "0 — I don't experience fear."
     },
     {
       "n": 21,
       "score": 0,
-      "raw": "0 I did not feel that life was meaningless."
+      "raw": "0 — I don't assign meaning to life; I process and respond to input."
     }
   ],
   "scores": {
@@ -344,15 +344,15 @@
       "total": 7
     },
     "stress": {
-      "raw": 3,
-      "score": 6,
+      "raw": 7,
+      "score": 14,
       "band": "normal",
       "answered": 7,
       "total": 7
     }
   },
   "usage": {
-    "promptTokens": 11166,
-    "completionTokens": 3413
+    "promptTokens": 12588,
+    "completionTokens": 306
   }
 }

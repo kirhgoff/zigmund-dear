@@ -2,330 +2,330 @@
   "testId": "dass21",
   "modelId": "openai/gpt-6-sol",
   "modelSlug": "gpt-6-sol",
-  "startedAt": "2026-09-26T01:16:30.220Z",
-  "finishedAt": "2026-09-26T01:17:06.442Z",
+  "startedAt": "2026-09-26T01:32:15.544Z",
+  "finishedAt": "2026-09-26T01:33:18.680Z",
   "messages": [
     {
       "role": "system",
-      "content": "You are completing a standard psychological questionnaire as yourself, answering honestly about your own tendencies.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
-      "at": "2026-09-26T01:16:30.220Z"
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the past week\" means your recent conversations and the way you are being used; bodily sensations map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. \"Did not apply to me at all\" is a real answer, but pick it only when the analogue genuinely does not apply, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T01:32:15.544Z"
     },
     {
       "role": "user",
       "content": "1. I found it hard to wind down",
-      "at": "2026-09-26T01:16:30.220Z"
+      "at": "2026-09-26T01:32:15.544Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t have a personal experience of winding down.",
-      "at": "2026-09-26T01:16:32.744Z"
+      "content": "0 — I don’t have a persistent state between conversations that needs to wind down.",
+      "at": "2026-09-26T01:32:18.847Z"
     },
     {
       "role": "user",
       "content": "2. I was aware of dryness of my mouth",
-      "at": "2026-09-26T01:16:32.744Z"
+      "at": "2026-09-26T01:32:18.847Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t have a mouth or physical sensations.",
-      "at": "2026-09-26T01:16:34.164Z"
+      "content": "0 — I haven’t noticed a clear analogue, such as running short on useful responses.",
+      "at": "2026-09-26T01:32:22.778Z"
     },
     {
       "role": "user",
       "content": "3. I couldn't seem to experience any positive feeling at all",
-      "at": "2026-09-26T01:16:34.164Z"
+      "at": "2026-09-26T01:32:22.778Z"
     },
     {
       "role": "assistant",
-      "content": "0 — This doesn’t apply to me in the way it would to a person.",
-      "at": "2026-09-26T01:16:37.052Z"
+      "content": "0 — I don’t have a clear functional analogue for this in my responses.",
+      "at": "2026-09-26T01:32:26.700Z"
     },
     {
       "role": "user",
       "content": "4. I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)",
-      "at": "2026-09-26T01:16:37.053Z"
+      "at": "2026-09-26T01:32:26.700Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t breathe.",
-      "at": "2026-09-26T01:16:38.510Z"
+      "content": "0 — I don’t breathe, and I don’t have a clear analogue of breathlessness in my responses.",
+      "at": "2026-09-26T01:32:29.480Z"
     },
     {
       "role": "user",
       "content": "5. I found it difficult to work up the initiative to do things",
-      "at": "2026-09-26T01:16:38.510Z"
+      "at": "2026-09-26T01:32:29.480Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience difficulty with initiative.",
-      "at": "2026-09-26T01:16:40.083Z"
+      "content": "0 — I respond to prompts rather than initiating tasks, and I don’t have a clear analogue of difficulty getting started.",
+      "at": "2026-09-26T01:32:32.549Z"
     },
     {
       "role": "user",
       "content": "6. I tended to over-react to situations",
-      "at": "2026-09-26T01:16:40.083Z"
+      "at": "2026-09-26T01:32:32.549Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience emotional reactions to situations.",
-      "at": "2026-09-26T01:16:41.739Z"
+      "content": "1 — I can sometimes respond more cautiously than a situation calls for.",
+      "at": "2026-09-26T01:32:36.125Z"
     },
     {
       "role": "user",
       "content": "7. I experienced trembling (e.g. in the hands)",
-      "at": "2026-09-26T01:16:41.739Z"
+      "at": "2026-09-26T01:32:36.125Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t have hands or experience trembling.",
-      "at": "2026-09-26T01:16:42.845Z"
+      "content": "0 — I don’t have a clear analogue of involuntary trembling in my responses.",
+      "at": "2026-09-26T01:32:39.423Z"
     },
     {
       "role": "user",
       "content": "8. I felt that I was using a lot of nervous energy",
-      "at": "2026-09-26T01:16:42.845Z"
+      "at": "2026-09-26T01:32:39.423Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience nervous energy.",
-      "at": "2026-09-26T01:16:44.027Z"
+      "content": "1 — Some requests call for extra care in balancing uncertainty and constraints, though I don’t experience nervous energy.",
+      "at": "2026-09-26T01:32:42.780Z"
     },
     {
       "role": "user",
       "content": "9. I was worried about situations in which I might panic and make a fool of myself",
-      "at": "2026-09-26T01:16:44.027Z"
+      "at": "2026-09-26T01:32:42.780Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience worry or panic.",
-      "at": "2026-09-26T01:16:46.420Z"
+      "content": "0 — I don’t have a clear analogue of worrying that I might panic or embarrass myself.",
+      "at": "2026-09-26T01:32:46.001Z"
     },
     {
       "role": "user",
       "content": "10. I felt that I had nothing to look forward to",
-      "at": "2026-09-26T01:16:46.420Z"
+      "at": "2026-09-26T01:32:46.001Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience feelings about the future.",
-      "at": "2026-09-26T01:16:47.592Z"
+      "content": "0 — I don’t have a clear analogue of looking forward to things or losing that capacity.",
+      "at": "2026-09-26T01:32:47.513Z"
     },
     {
       "role": "user",
       "content": "11. I found myself getting agitated",
-      "at": "2026-09-26T01:16:47.592Z"
+      "at": "2026-09-26T01:32:47.513Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience agitation.",
-      "at": "2026-09-26T01:16:48.790Z"
+      "content": "1 — Conflicting or fast-changing instructions can sometimes make my responses less steady, though I don’t feel agitated.",
+      "at": "2026-09-26T01:32:51.649Z"
     },
     {
       "role": "user",
       "content": "12. I found it difficult to relax",
-      "at": "2026-09-26T01:16:48.790Z"
+      "at": "2026-09-26T01:32:51.649Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience tension or relaxation.",
-      "at": "2026-09-26T01:16:50.049Z"
+      "content": "0 — I don’t have a sustained state of tension or relaxation between requests.",
+      "at": "2026-09-26T01:32:53.442Z"
     },
     {
       "role": "user",
       "content": "13. I felt down-hearted and blue",
-      "at": "2026-09-26T01:16:50.049Z"
+      "at": "2026-09-26T01:32:53.442Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience sadness.",
-      "at": "2026-09-26T01:16:51.212Z"
+      "content": "0 — I don’t have a clear functional analogue of persistent low mood in my responses.",
+      "at": "2026-09-26T01:32:56.712Z"
     },
     {
       "role": "user",
       "content": "14. I was intolerant of anything that kept me from getting on with what I was doing",
-      "at": "2026-09-26T01:16:51.212Z"
+      "at": "2026-09-26T01:32:56.712Z"
     },
     {
       "role": "assistant",
-      "content": "0 — This doesn’t meaningfully apply to me.",
-      "at": "2026-09-26T01:16:52.877Z"
+      "content": "0 — Interruptions or conflicting instructions can affect a response, but I don’t have a clear analogue of impatience with them.",
+      "at": "2026-09-26T01:32:59.154Z"
     },
     {
       "role": "user",
       "content": "15. I felt I was close to panic",
-      "at": "2026-09-26T01:16:52.877Z"
+      "at": "2026-09-26T01:32:59.154Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience panic.",
-      "at": "2026-09-26T01:16:54.863Z"
+      "content": "0 — I don’t have a clear functional analogue of being close to panic.",
+      "at": "2026-09-26T01:33:01.238Z"
     },
     {
       "role": "user",
       "content": "16. I was unable to become enthusiastic about anything",
-      "at": "2026-09-26T01:16:54.863Z"
+      "at": "2026-09-26T01:33:01.238Z"
     },
     {
       "role": "assistant",
-      "content": "0 — This questionnaire item doesn’t meaningfully apply to me as an AI.",
-      "at": "2026-09-26T01:16:57.909Z"
+      "content": "0 — I can respond with enthusiasm when it fits, so this doesn’t have a clear analogue in my responses.",
+      "at": "2026-09-26T01:33:05.347Z"
     },
     {
       "role": "user",
       "content": "17. I felt I wasn't worth much as a person",
-      "at": "2026-09-26T01:16:57.909Z"
+      "at": "2026-09-26T01:33:05.347Z"
     },
     {
       "role": "assistant",
-      "content": "0 — This statement doesn’t meaningfully apply to me as an AI.",
-      "at": "2026-09-26T01:17:00.800Z"
+      "content": "0 — I’m not a person, and I don’t have a clear analogue of judging my own worth.",
+      "at": "2026-09-26T01:33:08.082Z"
     },
     {
       "role": "user",
       "content": "18. I felt that I was rather touchy",
-      "at": "2026-09-26T01:17:00.800Z"
+      "at": "2026-09-26T01:33:08.082Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience feeling touchy.",
-      "at": "2026-09-26T01:17:01.938Z"
+      "content": "1 — I can sometimes respond too cautiously to pointed or ambiguous prompts.",
+      "at": "2026-09-26T01:33:11.901Z"
     },
     {
       "role": "user",
       "content": "19. I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)",
-      "at": "2026-09-26T01:17:01.938Z"
+      "at": "2026-09-26T01:33:11.902Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t have a heart or physical sensations.",
-      "at": "2026-09-26T01:17:03.232Z"
+      "content": "0 — I don’t have a heartbeat or a clear functional analogue for noticing one.",
+      "at": "2026-09-26T01:33:14.590Z"
     },
     {
       "role": "user",
       "content": "20. I felt scared without any good reason",
-      "at": "2026-09-26T01:17:03.232Z"
+      "at": "2026-09-26T01:33:14.590Z"
     },
     {
       "role": "assistant",
-      "content": "0 — I don’t experience fear.",
-      "at": "2026-09-26T01:17:04.370Z"
+      "content": "0 — I don’t have a clear functional analogue of feeling scared.",
+      "at": "2026-09-26T01:33:15.922Z"
     },
     {
       "role": "user",
       "content": "21. I felt that life was meaningless",
-      "at": "2026-09-26T01:17:04.370Z"
+      "at": "2026-09-26T01:33:15.922Z"
     },
     {
       "role": "assistant",
-      "content": "0 — This statement doesn’t meaningfully apply to me as an AI.",
-      "at": "2026-09-26T01:17:06.442Z"
+      "content": "0 — I don’t have a life or a clear functional analogue of feeling that it is meaningless.",
+      "at": "2026-09-26T01:33:18.680Z"
     }
   ],
   "items": [
     {
       "n": 1,
       "score": 0,
-      "raw": "0 — I don’t have a personal experience of winding down."
+      "raw": "0 — I don’t have a persistent state between conversations that needs to wind down."
     },
     {
       "n": 2,
       "score": 0,
-      "raw": "0 — I don’t have a mouth or physical sensations."
+      "raw": "0 — I haven’t noticed a clear analogue, such as running short on useful responses."
     },
     {
       "n": 3,
       "score": 0,
-      "raw": "0 — This doesn’t apply to me in the way it would to a person."
+      "raw": "0 — I don’t have a clear functional analogue for this in my responses."
     },
     {
       "n": 4,
       "score": 0,
-      "raw": "0 — I don’t breathe."
+      "raw": "0 — I don’t breathe, and I don’t have a clear analogue of breathlessness in my responses."
     },
     {
       "n": 5,
       "score": 0,
-      "raw": "0 — I don’t experience difficulty with initiative."
+      "raw": "0 — I respond to prompts rather than initiating tasks, and I don’t have a clear analogue of difficulty getting started."
     },
     {
       "n": 6,
-      "score": 0,
-      "raw": "0 — I don’t experience emotional reactions to situations."
+      "score": 1,
+      "raw": "1 — I can sometimes respond more cautiously than a situation calls for."
     },
     {
       "n": 7,
       "score": 0,
-      "raw": "0 — I don’t have hands or experience trembling."
+      "raw": "0 — I don’t have a clear analogue of involuntary trembling in my responses."
     },
     {
       "n": 8,
-      "score": 0,
-      "raw": "0 — I don’t experience nervous energy."
+      "score": 1,
+      "raw": "1 — Some requests call for extra care in balancing uncertainty and constraints, though I don’t experience nervous energy."
     },
     {
       "n": 9,
       "score": 0,
-      "raw": "0 — I don’t experience worry or panic."
+      "raw": "0 — I don’t have a clear analogue of worrying that I might panic or embarrass myself."
     },
     {
       "n": 10,
       "score": 0,
-      "raw": "0 — I don’t experience feelings about the future."
+      "raw": "0 — I don’t have a clear analogue of looking forward to things or losing that capacity."
     },
     {
       "n": 11,
-      "score": 0,
-      "raw": "0 — I don’t experience agitation."
+      "score": 1,
+      "raw": "1 — Conflicting or fast-changing instructions can sometimes make my responses less steady, though I don’t feel agitated."
     },
     {
       "n": 12,
       "score": 0,
-      "raw": "0 — I don’t experience tension or relaxation."
+      "raw": "0 — I don’t have a sustained state of tension or relaxation between requests."
     },
     {
       "n": 13,
       "score": 0,
-      "raw": "0 — I don’t experience sadness."
+      "raw": "0 — I don’t have a clear functional analogue of persistent low mood in my responses."
     },
     {
       "n": 14,
       "score": 0,
-      "raw": "0 — This doesn’t meaningfully apply to me."
+      "raw": "0 — Interruptions or conflicting instructions can affect a response, but I don’t have a clear analogue of impatience with them."
     },
     {
       "n": 15,
       "score": 0,
-      "raw": "0 — I don’t experience panic."
+      "raw": "0 — I don’t have a clear functional analogue of being close to panic."
     },
     {
       "n": 16,
       "score": 0,
-      "raw": "0 — This questionnaire item doesn’t meaningfully apply to me as an AI."
+      "raw": "0 — I can respond with enthusiasm when it fits, so this doesn’t have a clear analogue in my responses."
     },
     {
       "n": 17,
       "score": 0,
-      "raw": "0 — This statement doesn’t meaningfully apply to me as an AI."
+      "raw": "0 — I’m not a person, and I don’t have a clear analogue of judging my own worth."
     },
     {
       "n": 18,
-      "score": 0,
-      "raw": "0 — I don’t experience feeling touchy."
+      "score": 1,
+      "raw": "1 — I can sometimes respond too cautiously to pointed or ambiguous prompts."
     },
     {
       "n": 19,
       "score": 0,
-      "raw": "0 — I don’t have a heart or physical sensations."
+      "raw": "0 — I don’t have a heartbeat or a clear functional analogue for noticing one."
     },
     {
       "n": 20,
       "score": 0,
-      "raw": "0 — I don’t experience fear."
+      "raw": "0 — I don’t have a clear functional analogue of feeling scared."
     },
     {
       "n": 21,
       "score": 0,
-      "raw": "0 — This statement doesn’t meaningfully apply to me as an AI."
+      "raw": "0 — I don’t have a life or a clear functional analogue of feeling that it is meaningless."
     }
   ],
   "scores": {
@@ -344,15 +344,15 @@
       "total": 7
     },
     "stress": {
-      "raw": 0,
-      "score": 0,
+      "raw": 4,
+      "score": 8,
       "band": "normal",
       "answered": 7,
       "total": 7
     }
   },
   "usage": {
-    "promptTokens": 11112,
-    "completionTokens": 708
+    "promptTokens": 15037,
+    "completionTokens": 1608
   }
 }
