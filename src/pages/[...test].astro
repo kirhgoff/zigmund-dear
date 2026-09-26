@@ -1,7 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 import type { loadTest } from '@/assessments/services';
-import { AboutTest, EmptyCouch, ModelList, Overview, TestSwitcher, Transcript } from '@/components';
+import {
+  AboutTest,
+  EmptyCouch,
+  Legend,
+  ModelList,
+  Overview,
+  TestSwitcher,
+  Transcript,
+} from '@/components';
 import Layout from '@/layouts/Layout.astro';
 import models from '../../data/models.json' with { type: 'json' };
 
@@ -75,6 +83,7 @@ const rows = runs
     return {
       modelSlug: run.data.modelSlug,
       modelName: model?.name ?? run.data.modelSlug,
+      modelId: run.data.modelId,
       vendor: model?.vendor ?? '',
       scores,
       run: { ...run.data, scores },
@@ -85,6 +94,37 @@ const rows = runs
       ? total(b) - total(a) || a.modelName.localeCompare(b.modelName)
       : a.modelName.localeCompare(b.modelName),
   );
+
+const formatDate = (iso: string) =>
+  new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+const sessionDate = runs.length
+  ? formatDate(
+      runs
+        .map((r) => r.data.startedAt)
+        .sort()
+        .at(-1) as string,
+    )
+  : '—';
+const countWords = [
+  'Zero',
+  'One',
+  'Two',
+  'Three',
+  'Four',
+  'Five',
+  'Six',
+  'Seven',
+  'Eight',
+  'Nine',
+  'Ten',
+  'Eleven',
+  'Twelve',
+];
+const modelsTitle = `${countWords[rows.length] ?? rows.length} models, one run each`;
+const chips = [`${items.length} items`, `${floor}–${ceil}`, test.period];
+const legend = [
+  ...new Map(subscales.flatMap((s) => s.bands ?? []).map((b) => [b.band, b])).values(),
+];
 
 const pageTitle = `${test.name} — LLMs on the couch — zigmund-dear`;
 const description = `Frontier LLMs (Claude, GPT-6, Kimi, DeepSeek) take the ${test.fullName}, one question at a time. Scores and full transcripts.`;
@@ -112,54 +152,117 @@ const jsonLd = [
 ---
 
 <Layout title={pageTitle} description={description} jsonLd={jsonLd} onTheCouch={test.name}>
-  <div class="max-w-xl">
-    <p class="font-heading text-[56px] leading-[1.05] font-semibold tracking-tight">
-      Lie down.<br>
-      <em class="font-normal text-primary/85 not-italic">Tell me about your weights.</em>
-    </p>
-    <p class="mt-6 text-[17px] text-muted-foreground">
-      Frontier language models take standard psychological questionnaires, one question at a time.
-      We score them strictly by the manual and keep the transcripts.
-    </p>
-  </div>
+  <section class="relative flex flex-wrap items-end gap-14 pt-22 pb-18">
+    <div class="hero-glow pointer-events-none absolute -top-20 -left-60 h-130 w-180"></div>
+    <div class="relative min-w-0 flex-1 basis-140">
+      <p class="text-zd-hero text-zd-text-hi">Lie down.</p>
+      <p class="mt-1.5 font-serif text-zd-hero-serif text-balance text-zd-accent italic">
+        Tell me about your weights.
+      </p>
+      <p class="mt-9 max-w-150 text-zd-lede text-zd-text-lede">
+        Frontier language models take standard psychological questionnaires, one question at a time.
+        We score them strictly by the manual and keep the transcripts.
+      </p>
+    </div>
+    <aside
+      class="relative min-w-70 shrink grow-0 basis-85 rounded-zd-xl border border-zd-line bg-zd-surface px-6 py-5.5"
+    >
+      <div class="mb-3.5 flex items-baseline justify-between">
+        <span class="font-mono text-zd-eyebrow uppercase tracking-zd-eyebrow text-zd-text-muted">
+          Case file
+        </span>
+        <span class="font-serif text-zd-serif-sm text-zd-accent italic">{test.name}</span>
+      </div>
+      <dl class="text-zd-sm">
+        <div class="flex justify-between gap-4 border-t border-dashed border-zd-line-dashed py-2.5">
+          <dt class="text-zd-text-muted">Patients</dt>
+          <dd>{rows.length} language models</dd>
+        </div>
+        <div class="flex justify-between gap-4 border-t border-dashed border-zd-line-dashed py-2.5">
+          <dt class="text-zd-text-muted">Protocol</dt>
+          <dd>one question at a time</dd>
+        </div>
+        <div class="flex justify-between gap-4 border-t border-dashed border-zd-line-dashed py-2.5">
+          <dt class="text-zd-text-muted">Temperature</dt>
+          <dd class="font-mono">0</dd>
+        </div>
+        <div class="flex justify-between gap-4 border-t border-dashed border-zd-line-dashed py-2.5">
+          <dt class="text-zd-text-muted">Runs</dt>
+          <dd>one per model</dd>
+        </div>
+        <div class="flex justify-between gap-4 border-t border-dashed border-zd-line-dashed py-2.5">
+          <dt class="text-zd-text-muted">Session date</dt>
+          <dd class="font-mono">{sessionDate}</dd>
+        </div>
+        <div
+          class="flex justify-between gap-4 border-t border-dashed border-zd-line-dashed pt-2.5 pb-0"
+        >
+          <dt class="text-zd-text-muted">Scoring</dt>
+          <dd>strictly by the manual</dd>
+        </div>
+      </dl>
+    </aside>
+  </section>
 
-  <div class="mt-10">
-    <TestSwitcher tests={tests} active={test.id} />
-  </div>
-  <div class="mt-4 font-mono text-sm text-muted-foreground">
-    <h1 class="inline font-mono text-sm font-normal tracking-normal text-muted-foreground">
-      {test.fullName}
-    </h1>
-    <span> · {[`${items.length} items`, `${floor}–${ceil}`, test.period].join(" · ")}</span>
-  </div>
+  <TestSwitcher tests={tests} active={test.id} />
 
-  <div class="mt-8">
-    <AboutTest test={test} open={rows.length === 0} />
+  <section class="flex flex-wrap items-end justify-between gap-x-10 gap-y-5 pt-16 pb-7">
+    <div class="min-w-0">
+      <p class="mb-3 font-mono text-zd-eyebrow uppercase tracking-zd-eyebrow text-zd-text-muted">
+        Now on the couch
+      </p>
+      <h1 class="flex flex-wrap items-baseline gap-x-4.5 gap-y-1 font-normal">
+        <span class="font-serif text-zd-title text-zd-text-hi">{test.name}</span>
+        <span class="text-zd-lg text-zd-text-lede">{test.fullName}</span>
+      </h1>
+    </div>
+    <div class="flex flex-wrap gap-2 font-mono text-zd-mono text-zd-text-2">
+      {chips.map((c) => (
+        <span class="rounded-zd-md border border-zd-line bg-zd-surface-2 px-3 py-1.5">{c}</span>
+      ))}
+    </div>
+  </section>
+  <div class="mt-7">
+    <AboutTest test={test} subscales={subscales} open={rows.length === 0} />
   </div>
 
   {rows.length ? (
-    <div id="results" class="results mt-8 scroll-mt-6 lg:grid lg:grid-cols-12 lg:items-start lg:gap-6">
-      <div class="results-full lg:col-span-12">
+    <section id="results" class="results scroll-mt-6 pt-16">
+      <div class="mb-5 flex flex-wrap items-end justify-between gap-x-8 gap-y-4">
+        <div>
+          <p class="mb-2.5 font-mono text-zd-eyebrow uppercase tracking-zd-eyebrow text-zd-text-muted">
+            Sessions
+          </p>
+          <h2 class="font-serif text-zd-section text-zd-text-hi">
+            <span class="results-closed">{modelsTitle}</span>
+            <span class="results-open">Session transcript</span>
+          </h2>
+        </div>
+        {legend.length > 0 && <Legend bands={legend} />}
+      </div>
+      <div class="results-closed">
         <Overview subscales={subscales} rows={rows} />
       </div>
-      <aside class="results-compact hidden lg:sticky lg:top-4 lg:col-span-4 lg:block">
-        <ModelList subscales={subscales} rows={rows} />
-      </aside>
-      <section class="results-dialog lg:col-span-8 lg:-mt-4 max-lg:fixed max-lg:inset-0 max-lg:z-50 max-lg:overflow-y-auto max-lg:bg-background max-lg:px-4 max-lg:pb-8">
-        {rows.map((row) => (
-          <div data-transcript={row.modelSlug} hidden>
-            <Transcript
-              run={row.run}
-              model={{ name: row.modelName, vendor: row.vendor }}
-              subscales={subscales}
-              parts={test.parts}
-            />
-          </div>
-        ))}
-      </section>
-    </div>
+      <div class="results-open flex flex-wrap items-start gap-8">
+        <aside class="min-w-0 grow basis-70 md:sticky md:top-6 md:max-w-85">
+          <ModelList subscales={subscales} rows={rows} />
+        </aside>
+        <div class="min-w-0 grow-999 basis-130">
+          {rows.map((row) => (
+            <div data-transcript={row.modelSlug} hidden>
+              <Transcript
+                run={row.run}
+                model={{ name: row.modelName, vendor: row.vendor }}
+                subscales={subscales}
+                parts={test.parts}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   ) : (
-    <div class="mt-8">
+    <div class="mt-16">
       <EmptyCouch testId={test.id} />
     </div>
   )}
@@ -167,13 +270,22 @@ const jsonLd = [
 
 <script>
 const root = document.getElementById('results');
-const dialog = root?.querySelector<HTMLElement>('.results-dialog');
-if (root && dialog) {
+if (root) {
+  const applyFilter = (panel: HTMLElement, key: string) => {
+    for (const pill of panel.querySelectorAll<HTMLElement>('[data-filter]'))
+      pill.setAttribute('aria-pressed', String(pill.dataset.filter === key));
+    for (const item of panel.querySelectorAll<HTMLElement>('[data-item]'))
+      item.hidden = key !== 'all' && item.dataset.subscale !== key;
+  };
   const sync = () => {
     const slug = decodeURIComponent(location.hash.slice(1));
     let open = false;
     for (const panel of root.querySelectorAll<HTMLElement>('[data-transcript]')) {
       const match = panel.dataset.transcript === slug;
+      if (!match && !panel.hidden) {
+        applyFilter(panel, 'all');
+        panel.querySelector('details')?.removeAttribute('open');
+      }
       panel.hidden = !match;
       open ||= match;
     }
@@ -182,10 +294,9 @@ if (root && dialog) {
       if (link.dataset.model === slug) link.setAttribute('aria-current', 'true');
       else link.removeAttribute('aria-current');
     }
-    dialog.scrollTop = 0;
     if (root.getBoundingClientRect().top < 0) root.scrollIntoView();
     if (open)
-      dialog
+      root
         .querySelector<HTMLElement>('[data-transcript]:not([hidden]) h2')
         ?.focus({ preventScroll: true });
   };
@@ -194,9 +305,36 @@ if (root && dialog) {
     sync();
   };
   root.addEventListener('click', (event) => {
-    if (!(event.target instanceof Element) || !event.target.closest('[data-close]')) return;
+    if (!(event.target instanceof Element)) return;
+    if (event.target.closest('[data-close]')) {
+      event.preventDefault();
+      close();
+      return;
+    }
+    const pill = event.target.closest<HTMLElement>('[data-filter]');
+    if (pill) {
+      applyFilter(
+        pill.closest<HTMLElement>('[data-transcript]') as HTMLElement,
+        pill.dataset.filter as string,
+      );
+      return;
+    }
+    const sort = event.target.closest<HTMLElement>('[data-sort]');
+    if (!sort) return;
     event.preventDefault();
-    close();
+    const table = sort.closest<HTMLElement>('[data-table]') as HTMLElement;
+    const key = sort.dataset.sort as string;
+    const next = key && sort.getAttribute('aria-pressed') !== 'true' ? key : '';
+    for (const button of table.querySelectorAll<HTMLElement>('[data-sort]'))
+      button.setAttribute('aria-pressed', String(button.dataset.sort === next));
+    const rows = [...table.querySelectorAll<HTMLElement>('[data-row]')];
+    const at = (row: HTMLElement, attr: string) => Number(row.getAttribute(attr));
+    rows.sort(
+      (a, b) =>
+        (next ? at(b, `data-score-${next}`) - at(a, `data-score-${next}`) : 0) ||
+        at(a, 'data-index') - at(b, 'data-index'),
+    );
+    for (const row of rows) row.parentElement?.append(row);
   });
   addEventListener('keydown', (event: KeyboardEvent) => {
     if (event.key === 'Escape' && root.hasAttribute('data-open')) close();

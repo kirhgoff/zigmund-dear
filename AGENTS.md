@@ -2,11 +2,15 @@
 
 LLMs take standard psychological questionnaires; a static Astro site shows the results.
 
-Decisions are recorded as ADRs in `docs/adr/` (`# ADR NNNN: Title`, Status / Context / Decision / Consequences). Read them before changing how tests are prompted or scored. ADR 0001 sets the Analogue framing; ADR 0002 sets the one-schema-for-all-questionnaires shape (parts, subscales, bands with severity).
+Decisions are recorded as ADRs in `docs/adr/` (`# ADR NNNN: Title`, Status / Context / Decision / Consequences). Read them before changing how tests are prompted or scored. ADR 0001 sets the Analogue framing; ADR 0002 sets the one-schema-for-all-questionnaires shape (parts, subscales, bands with severity); ADR 0003 adopts the 2026-09 design handoff.
 
 ## Layout
 
 - `data/` — test definitions (`data/tests/`) and run outputs (`data/runs/<testId>/<modelSlug>.json`).
+- `docs/design/2026-09-handoff` — the design system (README spec, tokens.css, HTML reference). Tokens are
+  `--zd-*` custom properties in `src/styles/global.css`, mapped into Tailwind `@theme` as `zd-*` utilities
+  (`bg-zd-surface`, `text-zd-body`, `rounded-zd-lg`). One accent (lavender); other colour only for severity
+  bands. ADR 0003.
 - `scripts/take-test.ts` — runs a test against a model over the OpenRouter API and writes a run file.
 - `src/assessments/services` — pure scoring, answer parsing, run/test validation, and the OpenRouter call.
 - `src/components` — presentational React components rendered server-side into `.astro` pages.

@@ -20,12 +20,8 @@
   "dependencies": {
     "@astrojs/react": "^7.0.0",
     "@astrojs/sitemap": "^3.7.4",
-    "@base-ui/react": "^1.8.0",
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.3.5",
-    "class-variance-authority": "^0.7.1",
-    "cn": "^0.4.0",
-    "lucide-react": "^1.48.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "shadcn": "^4.21.0",

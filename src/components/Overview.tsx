@@ -1,12 +1,11 @@
-import { Badge } from '@/components/ui/badge';
-import { SeverityMeter, severityBgClass } from './SeverityMeter';
+import { bandTextClass, ScoreMeter } from './ScoreMeter';
 
 type Subscale = {
   id: string;
   name: string;
   min: number;
   max: number;
-  bands?: Array<{ band: string; min: number; severity: number }>;
+  bands?: Array<{ min: number }>;
 };
 type Score = {
   score: number;
@@ -19,73 +18,118 @@ type Row = {
   modelSlug: string;
   modelName: string;
   vendor: string;
+  modelId: string;
   scores: Record<string, Score>;
 };
-type Props = {
-  subscales: Subscale[];
-  rows: Row[];
-};
+type Props = { subscales: Subscale[]; rows: Row[] };
+
+const resultsGridClass = [
+  '',
+  'md:results-grid-1',
+  'md:results-grid-2',
+  'md:results-grid-3',
+  'md:results-grid-4',
+  'md:results-grid-5',
+  'md:results-grid-6',
+];
+const stackClass = ['', 'grid-cols-1', 'grid-cols-2', 'grid-cols-3'];
 
 export const Overview = ({ subscales, rows }: Props) => {
-  const legend = [
-    ...new Map(
-      subscales.flatMap((subscale) => subscale.bands ?? []).map((band) => [band.band, band]),
-    ).values(),
-  ];
+  const n = subscales.length;
 
   return (
-    <div>
-      <div className="overflow-hidden rounded-xl bg-card text-card-foreground ring-1 ring-foreground/10">
-        <div className="flex gap-6 px-4 pt-4 pb-3 font-mono text-xs tracking-wide text-muted-foreground uppercase">
-          <span className="w-2/5 shrink-0">Model</span>
+    <>
+      <div
+        data-table
+        className="overflow-hidden rounded-zd-2xl border border-zd-line bg-zd-surface"
+      >
+        <div
+          className={`hidden gap-7 bg-zd-bg-sunken px-7 py-4 font-mono text-zd-eyebrow uppercase tracking-zd-th text-zd-text-muted md:grid ${resultsGridClass[n]}`}
+        >
+          <button
+            type="button"
+            data-sort=""
+            aria-pressed="true"
+            className="text-left uppercase aria-pressed:text-zd-text hover:text-zd-text"
+          >
+            Model
+          </button>
           {subscales.map((subscale) => (
-            <span key={subscale.id} className="min-w-0 flex-1">
-              {subscale.name}
-            </span>
+            <button
+              key={subscale.id}
+              type="button"
+              data-sort={subscale.id}
+              aria-pressed="false"
+              className="group flex gap-1.5 text-left uppercase aria-pressed:text-zd-text hover:text-zd-text"
+            >
+              <span>{subscale.name}</span>
+              <span className="hidden group-aria-pressed:inline">↓</span>
+            </button>
           ))}
+          <span />
         </div>
-        {rows.map((row) => (
+        {rows.map((row, index) => (
           <a
             key={row.modelSlug}
             href={`#${row.modelSlug}`}
-            data-press
-            className="flex items-center gap-6 border-b border-border px-4 py-4 transition-colors duration-150 last:border-0 hover:bg-accent/40"
+            data-row
+            data-index={index}
+            {...Object.fromEntries(
+              subscales.map((subscale) => [
+                `data-score-${subscale.id}`,
+                row.scores[subscale.id].score,
+              ]),
+            )}
+            className={`grid gap-4 border-t border-zd-line-soft px-7 py-5 text-zd-text hover:bg-zd-surface-hover md:items-center md:gap-7 ${resultsGridClass[n]}`}
           >
-            <div className="w-2/5 shrink-0">
-              <div className="text-sm font-medium">{row.modelName}</div>
-              <Badge variant="outline" className="mt-1">
-                {row.vendor}
-              </Badge>
+            <div className="flex min-w-0 flex-col gap-1">
+              <span className="text-zd-body font-medium">{row.modelName}</span>
+              <span className="truncate font-mono text-zd-eyebrow text-zd-text-faint">
+                {row.vendor} · {row.modelId}
+              </span>
             </div>
-            {subscales.map((subscale) => {
-              const score = row.scores[subscale.id];
-              return (
-                <div key={subscale.id} className="min-w-0 flex-1">
-                  <SeverityMeter
-                    score={score.score}
-                    min={subscale.min}
-                    max={subscale.max}
-                    severity={score.severity}
-                    label={score.label}
-                    tickMins={(subscale.bands ?? []).slice(1).map((band) => band.min)}
-                    caption={{ answered: score.answered, total: score.total }}
-                  />
-                </div>
-              );
-            })}
+            <div className={`grid gap-4 md:contents ${stackClass[Math.min(n, 3)]}`}>
+              {subscales.map((subscale) => {
+                const score = row.scores[subscale.id];
+                return (
+                  <div key={subscale.id} className="flex min-w-0 flex-col gap-2.5">
+                    <span className="truncate font-mono text-zd-tag uppercase tracking-zd-th text-zd-text-muted md:hidden">
+                      {subscale.name}
+                    </span>
+                    <div className="flex items-baseline gap-2.5">
+                      <span className="min-w-7 font-mono text-zd-score font-medium text-zd-text-hi tabular-nums">
+                        {score.score}
+                      </span>
+                      {score.label && (
+                        <span className={`text-zd-sm ${bandTextClass[score.severity as number]}`}>
+                          {score.label}
+                        </span>
+                      )}
+                      {score.answered < score.total && (
+                        <span className="font-mono text-zd-eyebrow text-zd-text-ghost">
+                          {score.answered}/{score.total}
+                        </span>
+                      )}
+                    </div>
+                    <ScoreMeter
+                      score={score.score}
+                      min={subscale.min}
+                      max={subscale.max}
+                      bands={subscale.bands}
+                      severity={score.severity}
+                      size="md"
+                    />
+                  </div>
+                );
+              })}
+            </div>
+            <span className="hidden text-right text-lg text-zd-text-ghost md:block">→</span>
           </a>
         ))}
       </div>
-      {legend.length > 0 && (
-        <div className="mt-4 flex flex-wrap gap-4 text-xs text-muted-foreground">
-          {legend.map((band) => (
-            <span key={band.band} className="inline-flex items-center gap-1.5">
-              <span className={`size-2 rounded-full ${severityBgClass[band.severity]}`} />
-              {band.band.replaceAll('-', ' ')}
-            </span>
-          ))}
-        </div>
-      )}
-    </div>
+      <p className="mt-3.5 text-zd-sm text-zd-text-faint">
+        Select a model to read its full session.
+      </p>
+    </>
   );
 };

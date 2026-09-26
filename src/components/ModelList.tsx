@@ -1,4 +1,4 @@
-import { severityTextClass } from './SeverityMeter';
+import { bandTextClass } from './ScoreMeter';
 
 type Score = { score: number; severity: number | null };
 type Row = {
@@ -12,30 +12,32 @@ type Props = { subscales: Array<{ id: string; short: string }>; rows: Row[] };
 export const ModelList = ({ subscales, rows }: Props) => (
   <nav
     aria-label="Models"
-    className="overflow-hidden rounded-xl bg-card text-card-foreground ring-1 ring-foreground/10"
+    className="overflow-hidden rounded-zd-xl border border-zd-line bg-zd-surface"
   >
     {rows.map((row) => (
       <a
         key={row.modelSlug}
         href={`#${row.modelSlug}`}
         data-model={row.modelSlug}
-        data-press
-        className="flex items-center justify-between gap-3 border-b border-border px-4 py-3 transition-colors duration-150 last:border-0 hover:bg-accent/40"
+        className="flex items-center justify-between gap-3 border-t border-zd-line-soft px-4.5 py-3.5 text-zd-text first:border-t-0 hover:bg-zd-surface-hover"
       >
         <span className="min-w-0">
-          <span className="block truncate text-sm font-medium">{row.modelName}</span>
-          <span className="block text-xs text-muted-foreground">{row.vendor}</span>
+          <span className="block truncate text-zd-ui font-medium">{row.modelName}</span>
+          <span className="block text-zd-mono text-zd-text-faint">{row.vendor}</span>
         </span>
-        <span className="tabular flex shrink-0 gap-3 font-mono text-sm">
+        <span className="flex shrink-0 flex-wrap justify-end gap-2.5 font-mono text-zd-mono tabular-nums">
           {subscales.map((subscale) => {
             const score = row.scores[subscale.id];
             return (
-              <span
-                key={subscale.id}
-                className={score.severity === null ? '' : severityTextClass[score.severity]}
-              >
-                <span className="text-muted-foreground">{subscale.short} </span>
-                {score.score}
+              <span key={subscale.id} className="flex gap-1">
+                <span className="text-zd-text-ghost">{subscale.short}</span>
+                <span
+                  className={
+                    score.severity === null ? 'text-zd-text-2' : bandTextClass[score.severity]
+                  }
+                >
+                  {score.score}
+                </span>
               </span>
             );
           })}
