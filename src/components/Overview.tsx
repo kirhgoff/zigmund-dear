@@ -93,6 +93,9 @@ export const Overview = ({ subscales, rows }: Props) => {
                 const score = row.scores[subscale.id];
                 return (
                   <div key={subscale.id} className="flex min-w-0 flex-col gap-2.5">
+                    <span className="truncate font-mono text-zd-tag uppercase tracking-zd-th text-zd-text-muted md:hidden">
+                      {subscale.name}
+                    </span>
                     <div className="flex items-baseline gap-2.5">
                       <span className="min-w-7 font-mono text-zd-score font-medium text-zd-text-hi tabular-nums">
                         {score.score}
