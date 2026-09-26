@@ -15,7 +15,7 @@ const { title, description, noindex = false, jsonLd = [], onTheCouch } = Astro.p
 const site = Astro.site as URL;
 const canonicalUrl = new URL(Astro.url.pathname, site);
 const ogImageUrl = new URL('/og.png', site);
-const themeColor = 'oklch(0.15 0.022 268)';
+const themeColor = 'oklch(0.15 0.03 275)';
 ---
 
 <html lang="en" class="dark">
@@ -62,7 +62,11 @@ const themeColor = 'oklch(0.15 0.022 268)';
   <body>
     <div class="border-b border-border">
       <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <span class="font-heading font-semibold text-[22px]">zigmund-dear</span>
+        <a
+          href="/"
+          class="font-heading font-semibold text-[22px] transition-opacity duration-150 hover:opacity-80"
+          >zigmund-dear</a
+        >
         {onTheCouch && <span class="text-sm text-muted-foreground">on the couch: {onTheCouch}</span>}
       </div>
     </div>
