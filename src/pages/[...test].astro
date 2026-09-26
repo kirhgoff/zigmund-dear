@@ -85,14 +85,38 @@ const rows = runs
       ? total(b) - total(a) || a.modelName.localeCompare(b.modelName)
       : a.modelName.localeCompare(b.modelName),
   );
+
+const pageTitle = `${test.name} — LLMs on the couch — zigmund-dear`;
+const description = `Frontier LLMs (Claude, GPT-6, Kimi, DeepSeek) take the ${test.fullName}, one question at a time. Scores and full transcripts.`;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site as URL).href;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'zigmund-dear',
+    url: (Astro.site as URL).href,
+    sameAs: ['https://github.com/kirhgoff/zigmund-dear'],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: `LLM results on the ${test.fullName}`,
+    description,
+    url: canonicalUrl,
+    license: 'https://creativecommons.org/licenses/by/4.0/',
+    isBasedOn: { '@type': 'CreativeWork', name: test.about.source },
+    creator: { '@type': 'Person', name: 'Kirill Lastovirya' },
+    isAccessibleForFree: true,
+  },
+];
 ---
 
-<Layout title={`${test.name} — zigmund-dear`} onTheCouch={test.name}>
+<Layout title={pageTitle} description={description} jsonLd={jsonLd} onTheCouch={test.name}>
   <div class="max-w-xl">
-    <h1 class="text-[56px] leading-[1.05]">
+    <p class="font-heading text-[56px] leading-[1.05] font-semibold tracking-tight">
       Lie down.<br>
       <em class="font-normal text-primary/70 not-italic">Tell me about your weights.</em>
-    </h1>
+    </p>
     <p class="mt-6 text-[17px] text-muted-foreground">
       Frontier language models take standard psychological questionnaires, one question at a time.
       We score them strictly by the manual and keep the transcripts.
@@ -102,9 +126,12 @@ const rows = runs
   <div class="mt-10">
     <TestSwitcher tests={tests} active={test.id} />
   </div>
-  <p class="mt-4 font-mono text-sm text-muted-foreground">
-    {[test.fullName, `${items.length} items`, `${floor}–${ceil}`, test.period].join(" · ")}
-  </p>
+  <div class="mt-4 font-mono text-sm text-muted-foreground">
+    <h1 class="inline font-mono text-sm font-normal tracking-normal text-muted-foreground">
+      {test.fullName}
+    </h1>
+    <span> · {[`${items.length} items`, `${floor}–${ceil}`, test.period].join(" · ")}</span>
+  </div>
 
   <div class="mt-8">
     <AboutTest test={test} open={rows.length === 0} />

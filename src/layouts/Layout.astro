@@ -1,12 +1,21 @@
 ---
 import '@/styles/global.css';
+import { Footer } from '@/components';
 
 interface Props {
   title: string;
+  description: string;
+  noindex?: boolean;
+  jsonLd?: object[];
   onTheCouch?: string;
 }
 
-const { title, onTheCouch } = Astro.props;
+const { title, description, noindex = false, jsonLd = [], onTheCouch } = Astro.props;
+
+const site = Astro.site as URL;
+const canonicalUrl = new URL(Astro.url.pathname, site);
+const ogImageUrl = new URL('/og.png', site);
+const themeColor = 'oklch(0.15 0.022 268)';
 ---
 
 <html lang="en" class="dark">
@@ -14,6 +23,13 @@ const { title, onTheCouch } = Astro.props;
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content={themeColor}>
+    <meta name="description" content={description}>
+    <meta
+      name="robots"
+      content={noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large'}
+    >
+    <link rel="canonical" href={canonicalUrl}>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,7 +37,27 @@ const { title, onTheCouch } = Astro.props;
       rel="stylesheet"
     >
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <title>{title}</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content={canonicalUrl}>
+    <meta property="og:title" content={title}>
+    <meta property="og:description" content={description}>
+    <meta property="og:image" content={ogImageUrl}>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content={title}>
+    <meta property="og:site_name" content="zigmund-dear">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content={title}>
+    <meta name="twitter:description" content={description}>
+    <meta name="twitter:image" content={ogImageUrl}>
+
+    {jsonLd.map((entry) => (
+      <script type="application/ld+json" set:html={JSON.stringify(entry)} />
+    ))}
   </head>
   <body>
     <div class="border-b border-border">
@@ -33,10 +69,6 @@ const { title, onTheCouch } = Astro.props;
     <main class="mx-auto max-w-5xl px-6 py-12">
       <slot />
     </main>
-    <div class="border-t border-border">
-      <div class="mx-auto max-w-5xl px-6 py-6 text-sm text-muted-foreground">
-        Scored by the book. Not medical advice — they are language models.
-      </div>
-    </div>
+    <Footer />
   </body>
 </html>
