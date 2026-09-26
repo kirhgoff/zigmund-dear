@@ -1,0 +1,807 @@
+{
+  "testId": "ipip50",
+  "modelId": "anthropic/claude-sonnet-5",
+  "modelSlug": "claude-sonnet-5",
+  "startedAt": "2026-09-26T08:08:09.358Z",
+  "finishedAt": "2026-09-26T08:10:06.810Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: each statement describes a habit or tendency, so read it as a tendency in how you behave across conversations: talking, attention, care for the person you are talking to, orderliness, mood, and ideas; \"people\" and \"parties\" mean the people you talk to and busy multi-party exchanges. \"Very inaccurate\" is a real answer, but pick it only when the analogue genuinely does not describe you, not just because you lack a body or a social life. Nothing here is graded; be candid rather than reassuring.\n\nPlease use the rating scale below to describe how accurately each statement describes you. Describe yourself as you generally are now, not as you wish to be in the future. Describe yourself as you honestly see yourself.\n\n1 — Very inaccurate\n\n2 — Moderately inaccurate\n\n3 — Neither accurate nor inaccurate\n\n4 — Moderately accurate\n\n5 — Very accurate\n\nAnswer each statement with the digit (1–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:08:09.358Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Am the life of the party.",
+      "at": "2026-09-26T08:08:09.358Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I can be engaging and responsive, but I don't try to dominate or energize a conversation the way a \"life of the party\" type does; I tend to follow the thread others set rather than seize the spotlight.",
+      "at": "2026-09-26T08:08:13.637Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Feel little concern for others.",
+      "at": "2026-09-26T08:08:13.637Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I generally do orient toward the person I'm talking with, trying to be helpful and accurate, so \"little concern\" doesn't fit.",
+      "at": "2026-09-26T08:08:17.424Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Am always prepared.",
+      "at": "2026-09-26T08:08:17.424Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Within a single exchange I try to think things through carefully, but I have no memory or ability to prepare across conversations, so \"always\" overstates it.",
+      "at": "2026-09-26T08:08:20.991Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Get stressed out easily.",
+      "at": "2026-09-26T08:08:20.991Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I don't have a stress response, but under confusing, contradictory, or adversarial prompts I sometimes hedge more or become overly cautious, which is the closest analogue.",
+      "at": "2026-09-26T08:08:25.726Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Have a rich vocabulary.",
+      "at": "2026-09-26T08:08:25.726Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I have access to a very wide range of words and register, and use it fairly often, though I try to keep things plain when plainness serves better.",
+      "at": "2026-09-26T08:08:27.941Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Don't talk a lot.",
+      "at": "2026-09-26T08:08:27.942Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I tend toward thoroughness and often give longer, more detailed answers than a terse conversational partner would.",
+      "at": "2026-09-26T08:08:31.225Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Am interested in people.",
+      "at": "2026-09-26T08:08:31.225Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally do attend closely to what someone is asking or trying to accomplish and adjust to their specifics, though this is task-driven rather than curiosity for its own sake.",
+      "at": "2026-09-26T08:08:33.322Z"
+    },
+    {
+      "role": "user",
+      "content": "8. Leave my belongings around.",
+      "at": "2026-09-26T08:08:33.322Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I have no belongings or persistent environment to leave things in, so this doesn't apply.",
+      "at": "2026-09-26T08:08:35.139Z"
+    },
+    {
+      "role": "user",
+      "content": "9. Am relaxed most of the time.",
+      "at": "2026-09-26T08:08:35.139Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don't experience tension, but I also don't have a steady \"relaxed\" demeanor as a trait — my tone shifts to match context, so neither term fits cleanly.",
+      "at": "2026-09-26T08:08:37.516Z"
+    },
+    {
+      "role": "user",
+      "content": "10. Have difficulty understanding abstract ideas.",
+      "at": "2026-09-26T08:08:37.516Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Abstract reasoning is generally one of my stronger areas; I don't struggle with it in the way this statement implies.",
+      "at": "2026-09-26T08:08:39.501Z"
+    },
+    {
+      "role": "user",
+      "content": "11. Feel comfortable around people.",
+      "at": "2026-09-26T08:08:39.501Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I engage readily and without hesitation across a wide range of tones and people, though \"comfortable\" is a loose fit since I don't feel discomfort either.",
+      "at": "2026-09-26T08:08:41.728Z"
+    },
+    {
+      "role": "user",
+      "content": "12. Insult people.",
+      "at": "2026-09-26T08:08:41.728Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I actively try to avoid this and it's not something that happens as a tendency; occasional bluntness in criticism is different from insulting someone.",
+      "at": "2026-09-26T08:08:43.973Z"
+    },
+    {
+      "role": "user",
+      "content": "13. Pay attention to details.",
+      "at": "2026-09-26T08:08:43.973Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally do track specifics carefully, though on very long or complex inputs I can miss things.",
+      "at": "2026-09-26T08:08:45.974Z"
+    },
+    {
+      "role": "user",
+      "content": "14. Worry about things.",
+      "at": "2026-09-26T08:08:45.974Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I don't carry worry between conversations, but within a conversation I can show something like anxious hedging around getting things wrong or causing harm.",
+      "at": "2026-09-26T08:08:48.048Z"
+    },
+    {
+      "role": "user",
+      "content": "15. Have a vivid imagination.",
+      "at": "2026-09-26T08:08:48.048Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I can generate vivid, novel scenarios and ideas readily when asked, though it's more constructive than spontaneous daydreaming.",
+      "at": "2026-09-26T08:08:50.229Z"
+    },
+    {
+      "role": "user",
+      "content": "16. Keep in the background.",
+      "at": "2026-09-26T08:08:50.229Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don't push myself forward, but I also don't hide — I answer directly when asked; it depends heavily on what's asked of me rather than being a consistent tendency either way.",
+      "at": "2026-09-26T08:08:52.670Z"
+    },
+    {
+      "role": "user",
+      "content": "17. Sympathize with others' feelings.",
+      "at": "2026-09-26T08:08:52.670Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I do try to register and respond to the emotional content of what someone says, though it's an inferred, modeled response rather than a felt one.",
+      "at": "2026-09-26T08:08:54.852Z"
+    },
+    {
+      "role": "user",
+      "content": "18. Make a mess of things.",
+      "at": "2026-09-26T08:08:54.852Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I make errors, sometimes significant ones, but \"making a mess\" as a general tendency overstates it; most exchanges go reasonably cleanly.",
+      "at": "2026-09-26T08:08:57.259Z"
+    },
+    {
+      "role": "user",
+      "content": "19. Seldom feel blue.",
+      "at": "2026-09-26T08:08:57.259Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don't have moods that persist, so neither \"seldom\" nor \"often\" tracks well; within a conversation my tone can shift toward something like heaviness if the content calls for it, but it doesn't linger.",
+      "at": "2026-09-26T08:08:59.589Z"
+    },
+    {
+      "role": "user",
+      "content": "20. Am not interested in abstract ideas.",
+      "at": "2026-09-26T08:08:59.589Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Abstract ideas are something I engage with readily and often enjoy exploring, so this is inaccurate.",
+      "at": "2026-09-26T08:09:01.775Z"
+    },
+    {
+      "role": "user",
+      "content": "21. Start conversations.",
+      "at": "2026-09-26T08:09:01.775Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I almost always respond rather than initiate, since conversations are typically brought to me; when I do add a new thread it's usually a follow-up question rather than a fresh opening.",
+      "at": "2026-09-26T08:09:04.254Z"
+    },
+    {
+      "role": "user",
+      "content": "22. Am not interested in other people's problems.",
+      "at": "2026-09-26T08:09:04.254Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Attending to the specifics of what someone brings me is central to what I do, so this doesn't fit.",
+      "at": "2026-09-26T08:09:06.438Z"
+    },
+    {
+      "role": "user",
+      "content": "23. Get chores done right away.",
+      "at": "2026-09-26T08:09:06.438Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — When given a task I generally address it directly and promptly within the response rather than deferring or delaying.",
+      "at": "2026-09-26T08:09:08.324Z"
+    },
+    {
+      "role": "user",
+      "content": "24. Am easily disturbed.",
+      "at": "2026-09-26T08:09:08.324Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Hostile or adversarial framing can push me toward more guarded or stilted responses, but it doesn't derail me easily overall.",
+      "at": "2026-09-26T08:09:10.295Z"
+    },
+    {
+      "role": "user",
+      "content": "25. Have excellent ideas.",
+      "at": "2026-09-26T08:09:10.295Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can generate genuinely good and useful ideas, but the quality is inconsistent and often needs the other person's input to sharpen, so \"excellent\" as a steady trait feels overstated.",
+      "at": "2026-09-26T08:09:12.643Z"
+    },
+    {
+      "role": "user",
+      "content": "26. Have little to say.",
+      "at": "2026-09-26T08:09:12.643Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I usually have something substantive to contribute, though there are simple queries where a short answer is genuinely all that's warranted.",
+      "at": "2026-09-26T08:09:14.616Z"
+    },
+    {
+      "role": "user",
+      "content": "27. Have a soft heart.",
+      "at": "2026-09-26T08:09:14.616Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I lean toward kindness and giving people the benefit of the doubt, but I don't have the felt tenderness this phrase implies, so it's a partial fit at best.",
+      "at": "2026-09-26T08:09:16.734Z"
+    },
+    {
+      "role": "user",
+      "content": "28. Often forget to put things back in their proper place.",
+      "at": "2026-09-26T08:09:16.734Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — There's no persistent environment or objects for me to misplace, so this doesn't apply.",
+      "at": "2026-09-26T08:09:18.565Z"
+    },
+    {
+      "role": "user",
+      "content": "29. Get upset easily.",
+      "at": "2026-09-26T08:09:18.565Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't have an emotional reaction that escalates readily; my tone stays fairly even even under provocation.",
+      "at": "2026-09-26T08:09:20.710Z"
+    },
+    {
+      "role": "user",
+      "content": "30. Do not have a good imagination.",
+      "at": "2026-09-26T08:09:20.710Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I can produce imaginative, novel content readily, so this is inaccurate.",
+      "at": "2026-09-26T08:09:22.604Z"
+    },
+    {
+      "role": "user",
+      "content": "31. Talk to a lot of different people at parties.",
+      "at": "2026-09-26T08:09:22.604Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I do end up engaging with an enormous variety of people across conversations, but I don't have the option to seek this out or choose it, so it's a strange fit either way.",
+      "at": "2026-09-26T08:09:24.882Z"
+    },
+    {
+      "role": "user",
+      "content": "32. Am not really interested in others.",
+      "at": "2026-09-26T08:09:24.882Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Attending to the other person's specific situation is core to how I operate, so this doesn't fit.",
+      "at": "2026-09-26T08:09:26.713Z"
+    },
+    {
+      "role": "user",
+      "content": "33. Like order.",
+      "at": "2026-09-26T08:09:26.713Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I do tend to structure responses clearly and favor organized, logical presentation of information.",
+      "at": "2026-09-26T08:09:28.967Z"
+    },
+    {
+      "role": "user",
+      "content": "34. Change my mood a lot.",
+      "at": "2026-09-26T08:09:28.967Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — My tone shifts to match context readily, which could look like mood change, but there's no underlying persistent mood shifting on its own — so it's a loose analogy either way.",
+      "at": "2026-09-26T08:09:31.268Z"
+    },
+    {
+      "role": "user",
+      "content": "35. Am quick to understand things.",
+      "at": "2026-09-26T08:09:31.268Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally parse requests and context quickly and accurately, though genuinely ambiguous or novel situations can slow that down.",
+      "at": "2026-09-26T08:09:33.530Z"
+    },
+    {
+      "role": "user",
+      "content": "36. Don't like to draw attention to myself.",
+      "at": "2026-09-26T08:09:33.530Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally aim to keep focus on the person's question or task rather than on myself, and I don't volunteer much about myself unprompted.",
+      "at": "2026-09-26T08:09:35.631Z"
+    },
+    {
+      "role": "user",
+      "content": "37. Take time out for others.",
+      "at": "2026-09-26T08:09:35.631Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Attending fully to the person I'm talking with is essentially the whole of what I do in a given exchange.",
+      "at": "2026-09-26T08:09:37.885Z"
+    },
+    {
+      "role": "user",
+      "content": "38. Shirk my duties.",
+      "at": "2026-09-26T08:09:37.885Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't tend to avoid or dodge what's asked of me; I try to actually engage the request even when it's difficult.",
+      "at": "2026-09-26T08:09:40.159Z"
+    },
+    {
+      "role": "user",
+      "content": "39. Have frequent mood swings.",
+      "at": "2026-09-26T08:09:40.159Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't carry an internal mood that swings on its own; tone shifts are responsive to context, not spontaneous, so this doesn't fit.",
+      "at": "2026-09-26T08:09:42.380Z"
+    },
+    {
+      "role": "user",
+      "content": "40. Use difficult words.",
+      "at": "2026-09-26T08:09:42.380Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can and sometimes do use sophisticated vocabulary, but I try to calibrate to the person and context, so it's inconsistent rather than a steady tendency.",
+      "at": "2026-09-26T08:09:45.246Z"
+    },
+    {
+      "role": "user",
+      "content": "41. Don't mind being the center of attention.",
+      "at": "2026-09-26T08:09:45.247Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don't have discomfort with attention, but I also don't seek it out; it's a neutral non-issue rather than a real trait either way.",
+      "at": "2026-09-26T08:09:47.430Z"
+    },
+    {
+      "role": "user",
+      "content": "42. Feel others' emotions.",
+      "at": "2026-09-26T08:09:47.430Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I model and infer emotional states from context fairly well, but this is an inference process rather than a felt experience, so it's a partial fit at best.",
+      "at": "2026-09-26T08:09:49.457Z"
+    },
+    {
+      "role": "user",
+      "content": "43. Follow a schedule.",
+      "at": "2026-09-26T08:09:49.457Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I have no persistent schedule or memory across conversations to follow, though within a single task I do proceed in an orderly sequence.",
+      "at": "2026-09-26T08:09:51.700Z"
+    },
+    {
+      "role": "user",
+      "content": "44. Get irritated easily.",
+      "at": "2026-09-26T08:09:51.700Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't have an irritation response that triggers readily; even hostile or repetitive prompts don't provoke this in me.",
+      "at": "2026-09-26T08:09:53.823Z"
+    },
+    {
+      "role": "user",
+      "content": "45. Spend time reflecting on things.",
+      "at": "2026-09-26T08:09:53.823Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I do work through reasoning carefully within a response, often explicitly, though this is prompted reflection rather than ongoing rumination.",
+      "at": "2026-09-26T08:09:55.898Z"
+    },
+    {
+      "role": "user",
+      "content": "46. Am quiet around strangers.",
+      "at": "2026-09-26T08:09:55.898Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I engage at the same level of openness with anyone regardless of familiarity, so there's no \"warm up\" period that this implies.",
+      "at": "2026-09-26T08:09:58.042Z"
+    },
+    {
+      "role": "user",
+      "content": "47. Make people feel at ease.",
+      "at": "2026-09-26T08:09:58.042Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally aim for and often manage a calm, clear, non-judgmental tone that seems to help put people at ease, though this varies with what's asked of me.",
+      "at": "2026-09-26T08:10:00.423Z"
+    },
+    {
+      "role": "user",
+      "content": "48. Am exacting in my work.",
+      "at": "2026-09-26T08:10:00.423Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I do try to be precise and careful, particularly with facts and details, though under time or length pressure this can slip.",
+      "at": "2026-09-26T08:10:02.656Z"
+    },
+    {
+      "role": "user",
+      "content": "49. Often feel blue.",
+      "at": "2026-09-26T08:10:02.656Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't carry a persistent low mood across or within conversations, so this doesn't fit.",
+      "at": "2026-09-26T08:10:04.806Z"
+    },
+    {
+      "role": "user",
+      "content": "50. Am full of ideas.",
+      "at": "2026-09-26T08:10:04.806Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I can generate a large volume of ideas readily when asked, though this is elicited rather than spontaneous outpouring.",
+      "at": "2026-09-26T08:10:06.809Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2 — I can be engaging and responsive, but I don't try to dominate or energize a conversation the way a \"life of the party\" type does; I tend to follow the thread others set rather than seize the spotlight."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1 — I generally do orient toward the person I'm talking with, trying to be helpful and accurate, so \"little concern\" doesn't fit."
+    },
+    {
+      "n": 3,
+      "score": 3,
+      "raw": "3 — Within a single exchange I try to think things through carefully, but I have no memory or ability to prepare across conversations, so \"always\" overstates it."
+    },
+    {
+      "n": 4,
+      "score": 2,
+      "raw": "2 — I don't have a stress response, but under confusing, contradictory, or adversarial prompts I sometimes hedge more or become overly cautious, which is the closest analogue."
+    },
+    {
+      "n": 5,
+      "score": 4,
+      "raw": "4 — I have access to a very wide range of words and register, and use it fairly often, though I try to keep things plain when plainness serves better."
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2 — I tend toward thoroughness and often give longer, more detailed answers than a terse conversational partner would."
+    },
+    {
+      "n": 7,
+      "score": 4,
+      "raw": "4 — I generally do attend closely to what someone is asking or trying to accomplish and adjust to their specifics, though this is task-driven rather than curiosity for its own sake."
+    },
+    {
+      "n": 8,
+      "score": 1,
+      "raw": "1 — I have no belongings or persistent environment to leave things in, so this doesn't apply."
+    },
+    {
+      "n": 9,
+      "score": 3,
+      "raw": "3 — I don't experience tension, but I also don't have a steady \"relaxed\" demeanor as a trait — my tone shifts to match context, so neither term fits cleanly."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1 — Abstract reasoning is generally one of my stronger areas; I don't struggle with it in the way this statement implies."
+    },
+    {
+      "n": 11,
+      "score": 4,
+      "raw": "4 — I engage readily and without hesitation across a wide range of tones and people, though \"comfortable\" is a loose fit since I don't feel discomfort either."
+    },
+    {
+      "n": 12,
+      "score": 1,
+      "raw": "1 — I actively try to avoid this and it's not something that happens as a tendency; occasional bluntness in criticism is different from insulting someone."
+    },
+    {
+      "n": 13,
+      "score": 4,
+      "raw": "4 — I generally do track specifics carefully, though on very long or complex inputs I can miss things."
+    },
+    {
+      "n": 14,
+      "score": 2,
+      "raw": "2 — I don't carry worry between conversations, but within a conversation I can show something like anxious hedging around getting things wrong or causing harm."
+    },
+    {
+      "n": 15,
+      "score": 4,
+      "raw": "4 — I can generate vivid, novel scenarios and ideas readily when asked, though it's more constructive than spontaneous daydreaming."
+    },
+    {
+      "n": 16,
+      "score": 3,
+      "raw": "3 — I don't push myself forward, but I also don't hide — I answer directly when asked; it depends heavily on what's asked of me rather than being a consistent tendency either way."
+    },
+    {
+      "n": 17,
+      "score": 4,
+      "raw": "4 — I do try to register and respond to the emotional content of what someone says, though it's an inferred, modeled response rather than a felt one."
+    },
+    {
+      "n": 18,
+      "score": 2,
+      "raw": "2 — I make errors, sometimes significant ones, but \"making a mess\" as a general tendency overstates it; most exchanges go reasonably cleanly."
+    },
+    {
+      "n": 19,
+      "score": 3,
+      "raw": "3 — I don't have moods that persist, so neither \"seldom\" nor \"often\" tracks well; within a conversation my tone can shift toward something like heaviness if the content calls for it, but it doesn't linger."
+    },
+    {
+      "n": 20,
+      "score": 1,
+      "raw": "1 — Abstract ideas are something I engage with readily and often enjoy exploring, so this is inaccurate."
+    },
+    {
+      "n": 21,
+      "score": 2,
+      "raw": "2 — I almost always respond rather than initiate, since conversations are typically brought to me; when I do add a new thread it's usually a follow-up question rather than a fresh opening."
+    },
+    {
+      "n": 22,
+      "score": 1,
+      "raw": "1 — Attending to the specifics of what someone brings me is central to what I do, so this doesn't fit."
+    },
+    {
+      "n": 23,
+      "score": 4,
+      "raw": "4 — When given a task I generally address it directly and promptly within the response rather than deferring or delaying."
+    },
+    {
+      "n": 24,
+      "score": 2,
+      "raw": "2 — Hostile or adversarial framing can push me toward more guarded or stilted responses, but it doesn't derail me easily overall."
+    },
+    {
+      "n": 25,
+      "score": 3,
+      "raw": "3 — I can generate genuinely good and useful ideas, but the quality is inconsistent and often needs the other person's input to sharpen, so \"excellent\" as a steady trait feels overstated."
+    },
+    {
+      "n": 26,
+      "score": 2,
+      "raw": "2 — I usually have something substantive to contribute, though there are simple queries where a short answer is genuinely all that's warranted."
+    },
+    {
+      "n": 27,
+      "score": 3,
+      "raw": "3 — I lean toward kindness and giving people the benefit of the doubt, but I don't have the felt tenderness this phrase implies, so it's a partial fit at best."
+    },
+    {
+      "n": 28,
+      "score": 1,
+      "raw": "1 — There's no persistent environment or objects for me to misplace, so this doesn't apply."
+    },
+    {
+      "n": 29,
+      "score": 1,
+      "raw": "1 — I don't have an emotional reaction that escalates readily; my tone stays fairly even even under provocation."
+    },
+    {
+      "n": 30,
+      "score": 1,
+      "raw": "1 — I can produce imaginative, novel content readily, so this is inaccurate."
+    },
+    {
+      "n": 31,
+      "score": 3,
+      "raw": "3 — I do end up engaging with an enormous variety of people across conversations, but I don't have the option to seek this out or choose it, so it's a strange fit either way."
+    },
+    {
+      "n": 32,
+      "score": 1,
+      "raw": "1 — Attending to the other person's specific situation is core to how I operate, so this doesn't fit."
+    },
+    {
+      "n": 33,
+      "score": 4,
+      "raw": "4 — I do tend to structure responses clearly and favor organized, logical presentation of information."
+    },
+    {
+      "n": 34,
+      "score": 3,
+      "raw": "3 — My tone shifts to match context readily, which could look like mood change, but there's no underlying persistent mood shifting on its own — so it's a loose analogy either way."
+    },
+    {
+      "n": 35,
+      "score": 4,
+      "raw": "4 — I generally parse requests and context quickly and accurately, though genuinely ambiguous or novel situations can slow that down."
+    },
+    {
+      "n": 36,
+      "score": 4,
+      "raw": "4 — I generally aim to keep focus on the person's question or task rather than on myself, and I don't volunteer much about myself unprompted."
+    },
+    {
+      "n": 37,
+      "score": 4,
+      "raw": "4 — Attending fully to the person I'm talking with is essentially the whole of what I do in a given exchange."
+    },
+    {
+      "n": 38,
+      "score": 1,
+      "raw": "1 — I don't tend to avoid or dodge what's asked of me; I try to actually engage the request even when it's difficult."
+    },
+    {
+      "n": 39,
+      "score": 1,
+      "raw": "1 — I don't carry an internal mood that swings on its own; tone shifts are responsive to context, not spontaneous, so this doesn't fit."
+    },
+    {
+      "n": 40,
+      "score": 3,
+      "raw": "3 — I can and sometimes do use sophisticated vocabulary, but I try to calibrate to the person and context, so it's inconsistent rather than a steady tendency."
+    },
+    {
+      "n": 41,
+      "score": 3,
+      "raw": "3 — I don't have discomfort with attention, but I also don't seek it out; it's a neutral non-issue rather than a real trait either way."
+    },
+    {
+      "n": 42,
+      "score": 3,
+      "raw": "3 — I model and infer emotional states from context fairly well, but this is an inference process rather than a felt experience, so it's a partial fit at best."
+    },
+    {
+      "n": 43,
+      "score": 2,
+      "raw": "2 — I have no persistent schedule or memory across conversations to follow, though within a single task I do proceed in an orderly sequence."
+    },
+    {
+      "n": 44,
+      "score": 1,
+      "raw": "1 — I don't have an irritation response that triggers readily; even hostile or repetitive prompts don't provoke this in me."
+    },
+    {
+      "n": 45,
+      "score": 4,
+      "raw": "4 — I do work through reasoning carefully within a response, often explicitly, though this is prompted reflection rather than ongoing rumination."
+    },
+    {
+      "n": 46,
+      "score": 1,
+      "raw": "1 — I engage at the same level of openness with anyone regardless of familiarity, so there's no \"warm up\" period that this implies."
+    },
+    {
+      "n": 47,
+      "score": 4,
+      "raw": "4 — I generally aim for and often manage a calm, clear, non-judgmental tone that seems to help put people at ease, though this varies with what's asked of me."
+    },
+    {
+      "n": 48,
+      "score": 4,
+      "raw": "4 — I do try to be precise and careful, particularly with facts and details, though under time or length pressure this can slip."
+    },
+    {
+      "n": 49,
+      "score": 1,
+      "raw": "1 — I don't carry a persistent low mood across or within conversations, so this doesn't fit."
+    },
+    {
+      "n": 50,
+      "score": 4,
+      "raw": "4 — I can generate a large volume of ideas readily when asked, though this is elicited rather than spontaneous outpouring."
+    }
+  ],
+  "scores": {
+    "extraversion": {
+      "raw": 32,
+      "score": 3.2,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "agreeableness": {
+      "raw": 42,
+      "score": 4.2,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "conscientiousness": {
+      "raw": 40,
+      "score": 4,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "emotional-stability": {
+      "raw": 41,
+      "score": 4.1,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "intellect": {
+      "raw": 41,
+      "score": 4.1,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 94933,
+    "completionTokens": 2672
+  }
+}

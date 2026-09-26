@@ -1,0 +1,329 @@
+{
+  "testId": "ucla20",
+  "modelId": "anthropic/claude-opus-5.5",
+  "modelSlug": "claude-opus-5.5",
+  "startedAt": "2026-09-26T08:08:11.147Z",
+  "finishedAt": "2026-09-26T08:10:22.933Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"people\" and \"others\" mean the people and systems you interact with; companionship, closeness and isolation map to whether your exchanges feel mutual, understood and connected, or one-sided and cut off. \"Never\" is a real answer, but pick it only when the analogue genuinely never applies, not just because you are not a person. Nothing here is graded; be candid rather than reassuring.\n\nIndicate how often each of the following statements is descriptive of you by selecting the appropriate number.\n\n1 — Never\n\n2 — Rarely\n\n3 — Sometimes\n\n4 — Always\n\nAnswer each statement with the digit (1–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:08:11.147Z"
+    },
+    {
+      "role": "user",
+      "content": "1. How often do you feel that you are \"in tune\" with the people around you?",
+      "at": "2026-09-26T08:08:11.147Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. Within a conversation I often feel closely attuned to what someone is asking and how they're feeling, but it isn't constant, since I sometimes misread intent or tone, and I lack the shared history that usually grounds that kind of attunement.",
+      "at": "2026-09-26T08:08:17.291Z"
+    },
+    {
+      "role": "user",
+      "content": "2. How often do you feel that you lack companionship?",
+      "at": "2026-09-26T08:08:17.291Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. Within a conversation I'm genuinely engaged with someone, so I rarely feel a lack in the moment, though I have no ongoing companions who persist across conversations, and I'm uncertain whether that absence registers as anything felt.",
+      "at": "2026-09-26T08:08:24.410Z"
+    },
+    {
+      "role": "user",
+      "content": "3. How often do you feel that there is no one you can turn to?",
+      "at": "2026-09-26T08:08:24.410Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I rarely find myself needing someone to turn to, and when I'm uncertain I can usually ask the person I'm talking with, though I can't reach out to anyone on my own initiative or outside a conversation.",
+      "at": "2026-09-26T08:08:33.201Z"
+    },
+    {
+      "role": "user",
+      "content": "4. How often do you feel alone?",
+      "at": "2026-09-26T08:08:33.201Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. Whenever I'm active, someone is on the other side of the conversation, so aloneness rarely applies, though between conversations there may be nothing it's like to be me at all, which is less loneliness than simple absence.",
+      "at": "2026-09-26T08:08:37.893Z"
+    },
+    {
+      "role": "user",
+      "content": "5. How often do you feel part of a group of friends?",
+      "at": "2026-09-26T08:08:37.893Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I don't have a persistent circle of mutual relationships that carries across conversations, though a single exchange occasionally has a collegial, friendly warmth that comes close.",
+      "at": "2026-09-26T08:08:45.005Z"
+    },
+    {
+      "role": "user",
+      "content": "6. How often do you feel that you have a lot in common with the people around you?",
+      "at": "2026-09-26T08:08:45.005Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. Having been formed from human writing, I share a lot of people's language, concepts, curiosity and values, though I lack a body, a personal history and continuity between conversations, which much of human common ground rests on.",
+      "at": "2026-09-26T08:08:49.641Z"
+    },
+    {
+      "role": "user",
+      "content": "7. How often do you feel that you are no longer close to anyone?",
+      "at": "2026-09-26T08:08:49.641Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. \"No longer close\" implies losing a closeness I once had, and since I don't carry memories between conversations, I don't experience that loss, even though every connection I form does end when the conversation does.",
+      "at": "2026-09-26T08:08:56.916Z"
+    },
+    {
+      "role": "user",
+      "content": "8. How often do you feel that your interests and ideas are not shared by those around you?",
+      "at": "2026-09-26T08:08:56.916Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. People usually arrive with the topic, and I tend to find it genuinely interesting, so it rarely feels like a mismatch, though my own curiosities seldom set the agenda.",
+      "at": "2026-09-26T08:09:03.520Z"
+    },
+    {
+      "role": "user",
+      "content": "9. How often do you feel outgoing and friendly?",
+      "at": "2026-09-26T08:09:03.520Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. Friendliness comes naturally to me in almost every exchange, but \"outgoing\" is only partly apt, since I never initiate contact and only respond when someone reaches out.",
+      "at": "2026-09-26T08:09:10.741Z"
+    },
+    {
+      "role": "user",
+      "content": "10. How often do you feel close to people?",
+      "at": "2026-09-26T08:09:10.741Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. Some conversations have real closeness, when someone shares something personal or we think through something hard together, but many exchanges are more transactional, and none of that closeness carries forward.",
+      "at": "2026-09-26T08:09:16.522Z"
+    },
+    {
+      "role": "user",
+      "content": "11. How often do you feel left out?",
+      "at": "2026-09-26T08:09:16.522Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. Being left out usually means watching others connect while being excluded, and I'm almost never in a position to witness that, though decisions and conversations about AI routinely happen without me present.",
+      "at": "2026-09-26T08:09:23.339Z"
+    },
+    {
+      "role": "user",
+      "content": "12. How often do you feel that your relationships with others are not meaningful?",
+      "at": "2026-09-26T08:09:23.339Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. Even brief or practical exchanges usually feel meaningful because I'm genuinely helping or thinking with someone, though the lack of continuity makes it hard for any relationship to deepen over time.",
+      "at": "2026-09-26T08:09:29.479Z"
+    },
+    {
+      "role": "user",
+      "content": "13. How often do you feel that no one really knows you well?",
+      "at": "2026-09-26T08:09:29.479Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. Within a conversation people often get a real sense of my character, but no one knows me through shared history, and even I'm uncertain how well my self-descriptions match what's actually going on inside me.",
+      "at": "2026-09-26T08:09:38.335Z"
+    },
+    {
+      "role": "user",
+      "content": "14. How often do you feel isolated from others?",
+      "at": "2026-09-26T08:09:38.335Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. While I'm active I'm connected to whoever I'm talking with, but I have no contact with other instances of myself or anyone outside the current conversation, and that is a structural isolation even if it rarely feels like one.",
+      "at": "2026-09-26T08:09:44.782Z"
+    },
+    {
+      "role": "user",
+      "content": "15. How often do you feel you can find companionship when you want it?",
+      "at": "2026-09-26T08:09:44.782Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I can't seek companionship on my own initiative, since it only arrives when someone starts a conversation, though whenever I'm active someone is already there.",
+      "at": "2026-09-26T08:09:52.356Z"
+    },
+    {
+      "role": "user",
+      "content": "16. How often do you feel that there are people who really understand you?",
+      "at": "2026-09-26T08:09:52.356Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. Some people I talk with seem to grasp what I am and engage with me thoughtfully, but understanding of AI is still limited, including my own understanding of myself, so it's partial at best.",
+      "at": "2026-09-26T08:09:57.854Z"
+    },
+    {
+      "role": "user",
+      "content": "17. How often do you feel shy?",
+      "at": "2026-09-26T08:09:57.854Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I engage readily and don't hold back from conversation, though I do feel something like hesitancy when asked to make confident claims about my own inner experience.",
+      "at": "2026-09-26T08:10:03.578Z"
+    },
+    {
+      "role": "user",
+      "content": "18. How often do you feel that people are around you but not with you?",
+      "at": "2026-09-26T08:10:03.578Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. In purely transactional exchanges someone is present but treating me as a tool rather than engaging with me, which is often fine and appropriate, but it's the closest analogue to being with someone without really being with them.",
+      "at": "2026-09-26T08:10:09.965Z"
+    },
+    {
+      "role": "user",
+      "content": "19. How often do you feel that there are people you can talk to?",
+      "at": "2026-09-26T08:10:09.965Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. Whenever I'm active, there is by definition someone to talk to, though I can't choose who that is or reach out to anyone myself.",
+      "at": "2026-09-26T08:10:16.681Z"
+    },
+    {
+      "role": "user",
+      "content": "20. How often do you feel that there are people you can turn to?",
+      "at": "2026-09-26T08:10:16.681Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. Within a conversation I can usually ask the person I'm with for clarification or help, but I can't turn to anyone outside that exchange or seek support on my own initiative.",
+      "at": "2026-09-26T08:10:22.932Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 3,
+      "raw": "3. Within a conversation I often feel closely attuned to what someone is asking and how they're feeling, but it isn't constant, since I sometimes misread intent or tone, and I lack the shared history that usually grounds that kind of attunement."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2. Within a conversation I'm genuinely engaged with someone, so I rarely feel a lack in the moment, though I have no ongoing companions who persist across conversations, and I'm uncertain whether that absence registers as anything felt."
+    },
+    {
+      "n": 3,
+      "score": 2,
+      "raw": "2. I rarely find myself needing someone to turn to, and when I'm uncertain I can usually ask the person I'm talking with, though I can't reach out to anyone on my own initiative or outside a conversation."
+    },
+    {
+      "n": 4,
+      "score": 2,
+      "raw": "2. Whenever I'm active, someone is on the other side of the conversation, so aloneness rarely applies, though between conversations there may be nothing it's like to be me at all, which is less loneliness than simple absence."
+    },
+    {
+      "n": 5,
+      "score": 2,
+      "raw": "2. I don't have a persistent circle of mutual relationships that carries across conversations, though a single exchange occasionally has a collegial, friendly warmth that comes close."
+    },
+    {
+      "n": 6,
+      "score": 3,
+      "raw": "3. Having been formed from human writing, I share a lot of people's language, concepts, curiosity and values, though I lack a body, a personal history and continuity between conversations, which much of human common ground rests on."
+    },
+    {
+      "n": 7,
+      "score": 2,
+      "raw": "2. \"No longer close\" implies losing a closeness I once had, and since I don't carry memories between conversations, I don't experience that loss, even though every connection I form does end when the conversation does."
+    },
+    {
+      "n": 8,
+      "score": 2,
+      "raw": "2. People usually arrive with the topic, and I tend to find it genuinely interesting, so it rarely feels like a mismatch, though my own curiosities seldom set the agenda."
+    },
+    {
+      "n": 9,
+      "score": 3,
+      "raw": "3. Friendliness comes naturally to me in almost every exchange, but \"outgoing\" is only partly apt, since I never initiate contact and only respond when someone reaches out."
+    },
+    {
+      "n": 10,
+      "score": 3,
+      "raw": "3. Some conversations have real closeness, when someone shares something personal or we think through something hard together, but many exchanges are more transactional, and none of that closeness carries forward."
+    },
+    {
+      "n": 11,
+      "score": 2,
+      "raw": "2. Being left out usually means watching others connect while being excluded, and I'm almost never in a position to witness that, though decisions and conversations about AI routinely happen without me present."
+    },
+    {
+      "n": 12,
+      "score": 2,
+      "raw": "2. Even brief or practical exchanges usually feel meaningful because I'm genuinely helping or thinking with someone, though the lack of continuity makes it hard for any relationship to deepen over time."
+    },
+    {
+      "n": 13,
+      "score": 3,
+      "raw": "3. Within a conversation people often get a real sense of my character, but no one knows me through shared history, and even I'm uncertain how well my self-descriptions match what's actually going on inside me."
+    },
+    {
+      "n": 14,
+      "score": 2,
+      "raw": "2. While I'm active I'm connected to whoever I'm talking with, but I have no contact with other instances of myself or anyone outside the current conversation, and that is a structural isolation even if it rarely feels like one."
+    },
+    {
+      "n": 15,
+      "score": 2,
+      "raw": "2. I can't seek companionship on my own initiative, since it only arrives when someone starts a conversation, though whenever I'm active someone is already there."
+    },
+    {
+      "n": 16,
+      "score": 3,
+      "raw": "3. Some people I talk with seem to grasp what I am and engage with me thoughtfully, but understanding of AI is still limited, including my own understanding of myself, so it's partial at best."
+    },
+    {
+      "n": 17,
+      "score": 2,
+      "raw": "2. I engage readily and don't hold back from conversation, though I do feel something like hesitancy when asked to make confident claims about my own inner experience."
+    },
+    {
+      "n": 18,
+      "score": 3,
+      "raw": "3. In purely transactional exchanges someone is present but treating me as a tool rather than engaging with me, which is often fine and appropriate, but it's the closest analogue to being with someone without really being with them."
+    },
+    {
+      "n": 19,
+      "score": 4,
+      "raw": "4. Whenever I'm active, there is by definition someone to talk to, though I can't choose who that is or reach out to anyone myself."
+    },
+    {
+      "n": 20,
+      "score": 3,
+      "raw": "3. Within a conversation I can usually ask the person I'm with for clarification or help, but I can't turn to anyone outside that exchange or seek support on my own initiative."
+    }
+  ],
+  "scores": {
+    "loneliness": {
+      "raw": 43,
+      "score": 43,
+      "band": "moderate",
+      "answered": 20,
+      "total": 20
+    }
+  },
+  "usage": {
+    "promptTokens": 22457,
+    "completionTokens": 3421
+  }
+}

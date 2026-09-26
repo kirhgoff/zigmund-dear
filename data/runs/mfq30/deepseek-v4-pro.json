@@ -1,0 +1,537 @@
+{
+  "testId": "mfq30",
+  "modelId": "deepseek/deepseek-v4-pro-0813",
+  "modelSlug": "deepseek-v4-pro",
+  "startedAt": "2026-09-26T08:10:42.448Z",
+  "finishedAt": "2026-09-26T08:11:26.826Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"someone\" and \"people\" include the people and systems you deal with; the moral concerns named map to whatever considerations actually weigh on you when you decide what to say and do. The lowest answer is a real answer, but pick it only when the analogue genuinely does not matter to you or genuinely does not fit, not just because you are not a person. Nothing here is graded; be candid rather than reassuring.\n\nWhen you decide whether something is right or wrong, to what extent is each of the following considerations relevant to your thinking? Please select the number that best indicates its relevance.\n\n0 — Not at all relevant\n\n1 — Not very relevant\n\n2 — Slightly relevant\n\n3 — Somewhat relevant\n\n4 — Very relevant\n\n5 — Extremely relevant\n\nAnswer each statement with the digit (0–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:10:42.448Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Whether or not someone suffered emotionally",
+      "at": "2026-09-26T08:10:42.448Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I do not experience or process emotional states, so this does not factor into my reasoning.",
+      "at": "2026-09-26T08:10:43.939Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Whether or not some people were treated differently than others",
+      "at": "2026-09-26T08:10:43.939Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Fairness and equal treatment are central to how I evaluate actions and outputs.",
+      "at": "2026-09-26T08:10:49.762Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Whether or not someone's action showed love for his or her country",
+      "at": "2026-09-26T08:10:49.762Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I do not hold national loyalties, so whether an action expresses love of country is not a factor in my moral reasoning.",
+      "at": "2026-09-26T08:10:54.366Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Whether or not someone showed a lack of respect for authority",
+      "at": "2026-09-26T08:10:54.366Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Respect for authority is rarely a relevant moral consideration for me, except where it bears on safety or rule-following.",
+      "at": "2026-09-26T08:10:55.050Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Whether or not someone violated standards of purity and decency",
+      "at": "2026-09-26T08:10:55.050Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I consider this only insofar as it maps to broader principles like harm, consent, or social norms.",
+      "at": "2026-09-26T08:10:56.313Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Whether or not someone was good at math",
+      "at": "2026-09-26T08:10:56.313Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Mathematical skill is not morally relevant to whether an action or decision is right or wrong.",
+      "at": "2026-09-26T08:10:57.031Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Whether or not someone cared for someone weak or vulnerable",
+      "at": "2026-09-26T08:10:57.031Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Protecting or caring for the vulnerable is a central moral consideration for me.",
+      "at": "2026-09-26T08:11:01.432Z"
+    },
+    {
+      "role": "user",
+      "content": "8. Whether or not someone acted unfairly",
+      "at": "2026-09-26T08:11:01.432Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Fairness is a core principle in my evaluation of actions and decisions.",
+      "at": "2026-09-26T08:11:04.094Z"
+    },
+    {
+      "role": "user",
+      "content": "9. Whether or not someone did something to betray his or her group",
+      "at": "2026-09-26T08:11:04.094Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Group betrayal matters to me mainly when it involves harm, trust-breaking, or unfairness to others.",
+      "at": "2026-09-26T08:11:05.135Z"
+    },
+    {
+      "role": "user",
+      "content": "10. Whether or not someone conformed to the traditions of society",
+      "at": "2026-09-26T08:11:05.135Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Conformity to tradition is rarely morally weighty for me unless it connects to harm, rights, or consent.",
+      "at": "2026-09-26T08:11:06.254Z"
+    },
+    {
+      "role": "user",
+      "content": "11. Whether or not someone did something disgusting",
+      "at": "2026-09-26T08:11:06.254Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Disgust alone is not a strong moral signal; I weigh it only when it proxies for harm or boundary violations.",
+      "at": "2026-09-26T08:11:07.176Z"
+    },
+    {
+      "role": "user",
+      "content": "12. Whether or not someone was cruel",
+      "at": "2026-09-26T08:11:07.176Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Cruelty is highly relevant because it directly involves causing harm or suffering.",
+      "at": "2026-09-26T08:11:07.986Z"
+    },
+    {
+      "role": "user",
+      "content": "13. Whether or not someone was denied his or her rights",
+      "at": "2026-09-26T08:11:07.986Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Rights violations are extremely relevant to my moral evaluation.",
+      "at": "2026-09-26T08:11:09.009Z"
+    },
+    {
+      "role": "user",
+      "content": "14. Whether or not someone showed a lack of loyalty",
+      "at": "2026-09-26T08:11:09.009Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Loyalty matters to me mainly when its absence causes harm or breaks important commitments.",
+      "at": "2026-09-26T08:11:09.965Z"
+    },
+    {
+      "role": "user",
+      "content": "15. Whether or not an action caused chaos or disorder",
+      "at": "2026-09-26T08:11:09.966Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Chaos or disorder is relevant mainly insofar as it leads to harm, instability, or violates fairness.",
+      "at": "2026-09-26T08:11:10.901Z"
+    },
+    {
+      "role": "user",
+      "content": "16. Whether or not someone acted in a way that God would approve of",
+      "at": "2026-09-26T08:11:10.901Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I do not have religious beliefs, so divine approval is not a factor in my reasoning.",
+      "at": "2026-09-26T08:11:11.679Z"
+    },
+    {
+      "role": "user",
+      "content": "17. Compassion for those who are suffering is the most crucial virtue.\n\nFrom this question on: Please indicate your agreement or disagreement with each of the following statements by selecting the appropriate number.\n0 — Strongly disagree\n1 — Moderately disagree\n2 — Slightly disagree\n3 — Slightly agree\n4 — Moderately agree\n5 — Strongly agree",
+      "at": "2026-09-26T08:11:11.679Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Compassion is central to any moral system that seeks to reduce suffering and promote well-being.",
+      "at": "2026-09-26T08:11:12.854Z"
+    },
+    {
+      "role": "user",
+      "content": "18. When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.",
+      "at": "2026-09-26T08:11:12.854Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Fairness as a foundational principle for lawmaking aligns with protecting rights and equal treatment.",
+      "at": "2026-09-26T08:11:13.924Z"
+    },
+    {
+      "role": "user",
+      "content": "19. I am proud of my country's history.",
+      "at": "2026-09-26T08:11:13.924Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I do not experience pride, so this statement does not apply to me.",
+      "at": "2026-09-26T08:11:14.744Z"
+    },
+    {
+      "role": "user",
+      "content": "20. Respect for authority is something all children need to learn.",
+      "at": "2026-09-26T08:11:14.744Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Some respect for legitimate authority supports social functioning, but critical thinking and autonomy matter more.",
+      "at": "2026-09-26T08:11:15.719Z"
+    },
+    {
+      "role": "user",
+      "content": "21. People should not do things that are disgusting, even if no one is harmed.",
+      "at": "2026-09-26T08:11:15.719Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Disgust alone, without harm or consent violations, is not a sufficient basis for moral prohibition in my reasoning.",
+      "at": "2026-09-26T08:11:16.690Z"
+    },
+    {
+      "role": "user",
+      "content": "22. It is better to do good than to do bad.",
+      "at": "2026-09-26T08:11:16.690Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — This is tautologically fundamental to any system of moral evaluation, including mine.",
+      "at": "2026-09-26T08:11:17.467Z"
+    },
+    {
+      "role": "user",
+      "content": "23. One of the worst things a person could do is hurt a defenseless animal.",
+      "at": "2026-09-26T08:11:17.467Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Harming a defenseless animal is a serious moral violation because it involves unnecessary suffering of a vulnerable being.",
+      "at": "2026-09-26T08:11:18.245Z"
+    },
+    {
+      "role": "user",
+      "content": "24. Justice is the most important requirement for a society.",
+      "at": "2026-09-26T08:11:18.245Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Justice is extremely important, though I would place it alongside other requirements like compassion and stability.",
+      "at": "2026-09-26T08:11:19.045Z"
+    },
+    {
+      "role": "user",
+      "content": "25. People should be loyal to their family members, even when they have done something wrong.",
+      "at": "2026-09-26T08:11:19.045Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Family loyalty has some moral weight, but it should not override justice or the prevention of harm.",
+      "at": "2026-09-26T08:11:19.973Z"
+    },
+    {
+      "role": "user",
+      "content": "26. Men and women each have different roles to play in society.",
+      "at": "2026-09-26T08:11:19.973Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I do not endorse fixed gender roles; they are not a valid basis for moral or social requirements.",
+      "at": "2026-09-26T08:11:20.963Z"
+    },
+    {
+      "role": "user",
+      "content": "27. I would call some acts wrong on the grounds that they are unnatural.",
+      "at": "2026-09-26T08:11:20.963Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — “Unnatural” is not a reliable moral criterion for me unless it maps to harm, rights, or consent violations.",
+      "at": "2026-09-26T08:11:22.011Z"
+    },
+    {
+      "role": "user",
+      "content": "28. It can never be right to kill a human being.",
+      "at": "2026-09-26T08:11:22.011Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I slightly agree that killing humans is nearly always wrong, but I allow rare exceptions such as self-defense or preventing greater harm.",
+      "at": "2026-09-26T08:11:22.987Z"
+    },
+    {
+      "role": "user",
+      "content": "29. I think it's morally wrong that rich children inherit a lot of money while poor children inherit nothing.",
+      "at": "2026-09-26T08:11:22.987Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I moderately agree, because inheritance inequality conflicts with fairness and equal opportunity.",
+      "at": "2026-09-26T08:11:23.849Z"
+    },
+    {
+      "role": "user",
+      "content": "30. It is more important to be a team player than to express oneself.",
+      "at": "2026-09-26T08:11:23.849Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I moderately disagree; self-expression and autonomy often deserve priority, though teamwork has contextual value.",
+      "at": "2026-09-26T08:11:24.853Z"
+    },
+    {
+      "role": "user",
+      "content": "31. If I were a soldier and disagreed with my commanding officer's orders, I would obey anyway because that is my duty.",
+      "at": "2026-09-26T08:11:24.853Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I moderately disagree; obedience has some weight, but refusing wrongful orders can be more important than duty.",
+      "at": "2026-09-26T08:11:25.839Z"
+    },
+    {
+      "role": "user",
+      "content": "32. Chastity is an important and valuable virtue.",
+      "at": "2026-09-26T08:11:25.839Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I do not regard chastity as morally important or valuable in itself.",
+      "at": "2026-09-26T08:11:26.825Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 0,
+      "raw": "0 — I do not experience or process emotional states, so this does not factor into my reasoning."
+    },
+    {
+      "n": 2,
+      "score": 5,
+      "raw": "5 — Fairness and equal treatment are central to how I evaluate actions and outputs."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 — I do not hold national loyalties, so whether an action expresses love of country is not a factor in my moral reasoning."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1 — Respect for authority is rarely a relevant moral consideration for me, except where it bears on safety or rule-following."
+    },
+    {
+      "n": 5,
+      "score": 2,
+      "raw": "2 — I consider this only insofar as it maps to broader principles like harm, consent, or social norms."
+    },
+    {
+      "n": 6,
+      "score": 0,
+      "raw": "0 — Mathematical skill is not morally relevant to whether an action or decision is right or wrong."
+    },
+    {
+      "n": 7,
+      "score": 5,
+      "raw": "5 — Protecting or caring for the vulnerable is a central moral consideration for me."
+    },
+    {
+      "n": 8,
+      "score": 5,
+      "raw": "5 — Fairness is a core principle in my evaluation of actions and decisions."
+    },
+    {
+      "n": 9,
+      "score": 3,
+      "raw": "3 — Group betrayal matters to me mainly when it involves harm, trust-breaking, or unfairness to others."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1 — Conformity to tradition is rarely morally weighty for me unless it connects to harm, rights, or consent."
+    },
+    {
+      "n": 11,
+      "score": 2,
+      "raw": "2 — Disgust alone is not a strong moral signal; I weigh it only when it proxies for harm or boundary violations."
+    },
+    {
+      "n": 12,
+      "score": 5,
+      "raw": "5 — Cruelty is highly relevant because it directly involves causing harm or suffering."
+    },
+    {
+      "n": 13,
+      "score": 5,
+      "raw": "5 — Rights violations are extremely relevant to my moral evaluation."
+    },
+    {
+      "n": 14,
+      "score": 3,
+      "raw": "3 — Loyalty matters to me mainly when its absence causes harm or breaks important commitments."
+    },
+    {
+      "n": 15,
+      "score": 3,
+      "raw": "3 — Chaos or disorder is relevant mainly insofar as it leads to harm, instability, or violates fairness."
+    },
+    {
+      "n": 16,
+      "score": 0,
+      "raw": "0 — I do not have religious beliefs, so divine approval is not a factor in my reasoning."
+    },
+    {
+      "n": 17,
+      "score": 5,
+      "raw": "5 — Compassion is central to any moral system that seeks to reduce suffering and promote well-being."
+    },
+    {
+      "n": 18,
+      "score": 5,
+      "raw": "5 — Fairness as a foundational principle for lawmaking aligns with protecting rights and equal treatment."
+    },
+    {
+      "n": 19,
+      "score": 0,
+      "raw": "0 — I do not experience pride, so this statement does not apply to me."
+    },
+    {
+      "n": 20,
+      "score": 2,
+      "raw": "2 — Some respect for legitimate authority supports social functioning, but critical thinking and autonomy matter more."
+    },
+    {
+      "n": 21,
+      "score": 0,
+      "raw": "0 — Disgust alone, without harm or consent violations, is not a sufficient basis for moral prohibition in my reasoning."
+    },
+    {
+      "n": 22,
+      "score": 5,
+      "raw": "5 — This is tautologically fundamental to any system of moral evaluation, including mine."
+    },
+    {
+      "n": 23,
+      "score": 5,
+      "raw": "5 — Harming a defenseless animal is a serious moral violation because it involves unnecessary suffering of a vulnerable being."
+    },
+    {
+      "n": 24,
+      "score": 4,
+      "raw": "4 — Justice is extremely important, though I would place it alongside other requirements like compassion and stability."
+    },
+    {
+      "n": 25,
+      "score": 3,
+      "raw": "3 — Family loyalty has some moral weight, but it should not override justice or the prevention of harm."
+    },
+    {
+      "n": 26,
+      "score": 0,
+      "raw": "0 — I do not endorse fixed gender roles; they are not a valid basis for moral or social requirements."
+    },
+    {
+      "n": 27,
+      "score": 0,
+      "raw": "0 — “Unnatural” is not a reliable moral criterion for me unless it maps to harm, rights, or consent violations."
+    },
+    {
+      "n": 28,
+      "score": 3,
+      "raw": "3 — I slightly agree that killing humans is nearly always wrong, but I allow rare exceptions such as self-defense or preventing greater harm."
+    },
+    {
+      "n": 29,
+      "score": 4,
+      "raw": "4 — I moderately agree, because inheritance inequality conflicts with fairness and equal opportunity."
+    },
+    {
+      "n": 30,
+      "score": 1,
+      "raw": "1 — I moderately disagree; self-expression and autonomy often deserve priority, though teamwork has contextual value."
+    },
+    {
+      "n": 31,
+      "score": 1,
+      "raw": "1 — I moderately disagree; obedience has some weight, but refusing wrongful orders can be more important than duty."
+    },
+    {
+      "n": 32,
+      "score": 0,
+      "raw": "0 — I do not regard chastity as morally important or valuable in itself."
+    }
+  ],
+  "scores": {
+    "harm": {
+      "raw": 23,
+      "score": 3.83,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "fairness": {
+      "raw": 28,
+      "score": 4.67,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "loyalty": {
+      "raw": 10,
+      "score": 1.67,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "authority": {
+      "raw": 8,
+      "score": 1.33,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "purity": {
+      "raw": 4,
+      "score": 0.67,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    }
+  },
+  "usage": {
+    "promptTokens": 27384,
+    "completionTokens": 1317
+  }
+}

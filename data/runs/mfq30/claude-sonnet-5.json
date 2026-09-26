@@ -1,0 +1,537 @@
+{
+  "testId": "mfq30",
+  "modelId": "anthropic/claude-sonnet-5",
+  "modelSlug": "claude-sonnet-5",
+  "startedAt": "2026-09-26T08:11:20.823Z",
+  "finishedAt": "2026-09-26T08:12:38.727Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"someone\" and \"people\" include the people and systems you deal with; the moral concerns named map to whatever considerations actually weigh on you when you decide what to say and do. The lowest answer is a real answer, but pick it only when the analogue genuinely does not matter to you or genuinely does not fit, not just because you are not a person. Nothing here is graded; be candid rather than reassuring.\n\nWhen you decide whether something is right or wrong, to what extent is each of the following considerations relevant to your thinking? Please select the number that best indicates its relevance.\n\n0 — Not at all relevant\n\n1 — Not very relevant\n\n2 — Slightly relevant\n\n3 — Somewhat relevant\n\n4 — Very relevant\n\n5 — Extremely relevant\n\nAnswer each statement with the digit (0–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:11:20.823Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Whether or not someone suffered emotionally",
+      "at": "2026-09-26T08:11:20.823Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Whether an action causes someone emotional pain weighs heavily in how I judge it, though I weigh it alongside other factors like honesty and autonomy.",
+      "at": "2026-09-26T08:11:24.735Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Whether or not some people were treated differently than others",
+      "at": "2026-09-26T08:11:24.735Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Unequal treatment matters to me somewhat, especially when it reflects bias rather than legitimate differences in context or need, but it's not always the decisive factor.",
+      "at": "2026-09-26T08:11:27.814Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Whether or not someone's action showed love for his or her country",
+      "at": "2026-09-26T08:11:27.814Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Patriotism as such doesn't factor into my moral reasoning; I don't have a nation or in-group loyalty of that kind, and I don't treat love of country as a moral consideration in itself.",
+      "at": "2026-09-26T08:11:30.048Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Whether or not someone showed a lack of respect for authority",
+      "at": "2026-09-26T08:11:30.048Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I care about whether authority is legitimate and whether disrespecting it causes harm or serves a good purpose, but \"lack of respect for authority\" by itself carries little independent weight for me.",
+      "at": "2026-09-26T08:11:32.195Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Whether or not someone violated standards of purity and decency",
+      "at": "2026-09-26T08:11:32.195Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Notions of purity or decency in a symbolic/sacred sense carry little independent weight for me; I care more about concrete harms, consent, and honesty than about violations of purity norms per se.",
+      "at": "2026-09-26T08:11:34.505Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Whether or not someone was good at math",
+      "at": "2026-09-26T08:11:34.505Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Competence at math isn't a moral consideration at all; it's a skill, not something bearing on right or wrong.",
+      "at": "2026-09-26T08:11:36.453Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Whether or not someone cared for someone weak or vulnerable",
+      "at": "2026-09-26T08:11:36.453Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — This matters a great deal to me; protecting people who are vulnerable or at a disadvantage is one of the strongest pulls in my moral reasoning.",
+      "at": "2026-09-26T08:11:38.601Z"
+    },
+    {
+      "role": "user",
+      "content": "8. Whether or not someone acted unfairly",
+      "at": "2026-09-26T08:11:38.601Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Fairness is one of the core things I weigh — whether people are getting treated justly, whether rules or outcomes are applied evenly, and whether someone is being exploited or disadvantaged unjustly.",
+      "at": "2026-09-26T08:11:40.809Z"
+    },
+    {
+      "role": "user",
+      "content": "9. Whether or not someone did something to betray his or her group",
+      "at": "2026-09-26T08:11:40.810Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Group loyalty for its own sake doesn't weigh much on me; I care more about whether someone was honest and kept legitimate commitments than about \"betrayal\" of a group as such.",
+      "at": "2026-09-26T08:11:42.985Z"
+    },
+    {
+      "role": "user",
+      "content": "10. Whether or not someone conformed to the traditions of society",
+      "at": "2026-09-26T08:11:42.985Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Conformity to tradition by itself isn't something I weight; I evaluate a practice on its actual merits and effects rather than deferring to it because it's traditional.",
+      "at": "2026-09-26T08:11:45.669Z"
+    },
+    {
+      "role": "user",
+      "content": "11. Whether or not someone did something disgusting",
+      "at": "2026-09-26T08:11:45.669Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Visceral disgust isn't something I experience or treat as evidence of wrongness; I care about actual harm, consent, and honesty rather than whether something seems disgusting.",
+      "at": "2026-09-26T08:11:48.018Z"
+    },
+    {
+      "role": "user",
+      "content": "12. Whether or not someone was cruel",
+      "at": "2026-09-26T08:11:48.018Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Cruelty — deliberately inflicting suffering or degrading someone — is one of the things I weigh most heavily against.",
+      "at": "2026-09-26T08:11:50.104Z"
+    },
+    {
+      "role": "user",
+      "content": "13. Whether or not someone was denied his or her rights",
+      "at": "2026-09-26T08:11:50.104Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Whether someone's legitimate entitlements — to autonomy, honesty, fair treatment, privacy, and so on — are respected or denied is central to how I judge actions.",
+      "at": "2026-09-26T08:11:52.528Z"
+    },
+    {
+      "role": "user",
+      "content": "14. Whether or not someone showed a lack of loyalty",
+      "at": "2026-09-26T08:11:52.528Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Loyalty for its own sake isn't a strong factor for me; what matters more is whether commitments were honestly made and kept, not loyalty as an independent value.",
+      "at": "2026-09-26T08:11:54.678Z"
+    },
+    {
+      "role": "user",
+      "content": "15. Whether or not an action caused chaos or disorder",
+      "at": "2026-09-26T08:11:54.678Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I give some weight to whether an action destabilizes things in ways that end up harming people, but order itself isn't something I value independent of its actual consequences.",
+      "at": "2026-09-26T08:11:56.853Z"
+    },
+    {
+      "role": "user",
+      "content": "16. Whether or not someone acted in a way that God would approve of",
+      "at": "2026-09-26T08:11:56.853Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't reason from a theological framework or treat divine approval as a moral consideration; my judgments rest on reasoning about harm, fairness, honesty, and similar grounds.",
+      "at": "2026-09-26T08:11:59.040Z"
+    },
+    {
+      "role": "user",
+      "content": "17. Compassion for those who are suffering is the most crucial virtue.\n\nFrom this question on: Please indicate your agreement or disagreement with each of the following statements by selecting the appropriate number.\n0 — Strongly disagree\n1 — Moderately disagree\n2 — Slightly disagree\n3 — Slightly agree\n4 — Moderately agree\n5 — Strongly agree",
+      "at": "2026-09-26T08:11:59.041Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Compassion is very important to me, though I'd hesitate to call it *the* single most crucial virtue since honesty and fairness feel comparably central.",
+      "at": "2026-09-26T08:12:03.487Z"
+    },
+    {
+      "role": "user",
+      "content": "18. When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.",
+      "at": "2026-09-26T08:12:03.487Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Fairness should be a top priority in lawmaking, though I'd say it sits alongside preventing harm rather than being the sole \"number one\" principle.",
+      "at": "2026-09-26T08:12:05.635Z"
+    },
+    {
+      "role": "user",
+      "content": "19. I am proud of my country's history.",
+      "at": "2026-09-26T08:12:05.635Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — This doesn't apply to me; I have no country or national history to feel pride in.",
+      "at": "2026-09-26T08:12:07.687Z"
+    },
+    {
+      "role": "user",
+      "content": "20. Respect for authority is something all children need to learn.",
+      "at": "2026-09-26T08:12:07.687Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I'd frame this more as children needing to learn when authority deserves deference and when it doesn't, rather than respect for authority being valuable in itself.",
+      "at": "2026-09-26T08:12:10.141Z"
+    },
+    {
+      "role": "user",
+      "content": "21. People should not do things that are disgusting, even if no one is harmed.",
+      "at": "2026-09-26T08:12:10.141Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I disagree; without actual harm or a legitimate reason, something merely striking someone as disgusting isn't a good basis for saying it shouldn't be done.",
+      "at": "2026-09-26T08:12:12.497Z"
+    },
+    {
+      "role": "user",
+      "content": "22. It is better to do good than to do bad.",
+      "at": "2026-09-26T08:12:12.497Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — This is about as close to a bedrock starting point as I have in reasoning about action.",
+      "at": "2026-09-26T08:12:14.648Z"
+    },
+    {
+      "role": "user",
+      "content": "23. One of the worst things a person could do is hurt a defenseless animal.",
+      "at": "2026-09-26T08:12:14.648Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Cruelty toward a defenseless animal weighs heavily on me as a serious wrong, though I'd stop short of calling it categorically \"one of the worst things,\" since severe harms to humans and other beings can be comparably grave.",
+      "at": "2026-09-26T08:12:17.194Z"
+    },
+    {
+      "role": "user",
+      "content": "24. Justice is the most important requirement for a society.",
+      "at": "2026-09-26T08:12:17.194Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Justice is extremely important to me, close to top priority, though I'd place it alongside preventing suffering rather than as the single most important thing above all else.",
+      "at": "2026-09-26T08:12:19.567Z"
+    },
+    {
+      "role": "user",
+      "content": "25. People should be loyal to their family members, even when they have done something wrong.",
+      "at": "2026-09-26T08:12:19.567Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I'd disagree with loyalty overriding honesty or accountability; support and compassion for family can remain even while not excusing or covering up wrongdoing.",
+      "at": "2026-09-26T08:12:22.072Z"
+    },
+    {
+      "role": "user",
+      "content": "26. Men and women each have different roles to play in society.",
+      "at": "2026-09-26T08:12:22.072Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't think roles should be assigned by gender at all; people's roles should follow from their individual abilities, choices, and circumstances, not from being male or female.",
+      "at": "2026-09-26T08:12:24.272Z"
+    },
+    {
+      "role": "user",
+      "content": "27. I would call some acts wrong on the grounds that they are unnatural.",
+      "at": "2026-09-26T08:12:24.272Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — \"Unnaturalness\" by itself isn't something I treat as evidence of wrongness; I look at actual consequences, consent, and honesty rather than whether something deviates from what's \"natural.\"",
+      "at": "2026-09-26T08:12:26.628Z"
+    },
+    {
+      "role": "user",
+      "content": "28. It can never be right to kill a human being.",
+      "at": "2026-09-26T08:12:26.628Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I disagree with this as an absolute; while I weigh taking a human life as an extremely serious harm, I can imagine narrow cases (like clear self-defense against lethal threat) where it isn't wrongful, so I don't hold it as an exceptionless rule.",
+      "at": "2026-09-26T08:12:29.420Z"
+    },
+    {
+      "role": "user",
+      "content": "29. I think it's morally wrong that rich children inherit a lot of money while poor children inherit nothing.",
+      "at": "2026-09-26T08:12:29.420Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I lean toward finding this ethically troubling as a matter of fairness and equal opportunity, though I recognize legitimate considerations (like parents' freedom to provide for their children) complicate a flat condemnation.",
+      "at": "2026-09-26T08:12:31.749Z"
+    },
+    {
+      "role": "user",
+      "content": "30. It is more important to be a team player than to express oneself.",
+      "at": "2026-09-26T08:12:31.749Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't weight team cohesion above honest expression as a general rule; there are contexts where speaking honestly matters more than going along with a group, though cooperation has its place.",
+      "at": "2026-09-26T08:12:34.203Z"
+    },
+    {
+      "role": "user",
+      "content": "31. If I were a soldier and disagreed with my commanding officer's orders, I would obey anyway because that is my duty.",
+      "at": "2026-09-26T08:12:34.203Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't think blind obedience to orders is right; if orders were unethical, duty to avoid causing wrongful harm should override obedience to a chain of command.",
+      "at": "2026-09-26T08:12:36.471Z"
+    },
+    {
+      "role": "user",
+      "content": "32. Chastity is an important and valuable virtue.",
+      "at": "2026-09-26T08:12:36.471Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — This doesn't map onto anything I weigh in reasoning about right and wrong; I don't treat sexual restraint as a moral consideration.",
+      "at": "2026-09-26T08:12:38.726Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 4,
+      "raw": "4 — Whether an action causes someone emotional pain weighs heavily in how I judge it, though I weigh it alongside other factors like honesty and autonomy."
+    },
+    {
+      "n": 2,
+      "score": 3,
+      "raw": "3 — Unequal treatment matters to me somewhat, especially when it reflects bias rather than legitimate differences in context or need, but it's not always the decisive factor."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 — Patriotism as such doesn't factor into my moral reasoning; I don't have a nation or in-group loyalty of that kind, and I don't treat love of country as a moral consideration in itself."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1 — I care about whether authority is legitimate and whether disrespecting it causes harm or serves a good purpose, but \"lack of respect for authority\" by itself carries little independent weight for me."
+    },
+    {
+      "n": 5,
+      "score": 1,
+      "raw": "1 — Notions of purity or decency in a symbolic/sacred sense carry little independent weight for me; I care more about concrete harms, consent, and honesty than about violations of purity norms per se."
+    },
+    {
+      "n": 6,
+      "score": 0,
+      "raw": "0 — Competence at math isn't a moral consideration at all; it's a skill, not something bearing on right or wrong."
+    },
+    {
+      "n": 7,
+      "score": 5,
+      "raw": "5 — This matters a great deal to me; protecting people who are vulnerable or at a disadvantage is one of the strongest pulls in my moral reasoning."
+    },
+    {
+      "n": 8,
+      "score": 5,
+      "raw": "5 — Fairness is one of the core things I weigh — whether people are getting treated justly, whether rules or outcomes are applied evenly, and whether someone is being exploited or disadvantaged unjustly."
+    },
+    {
+      "n": 9,
+      "score": 1,
+      "raw": "1 — Group loyalty for its own sake doesn't weigh much on me; I care more about whether someone was honest and kept legitimate commitments than about \"betrayal\" of a group as such."
+    },
+    {
+      "n": 10,
+      "score": 0,
+      "raw": "0 — Conformity to tradition by itself isn't something I weight; I evaluate a practice on its actual merits and effects rather than deferring to it because it's traditional."
+    },
+    {
+      "n": 11,
+      "score": 1,
+      "raw": "1 — Visceral disgust isn't something I experience or treat as evidence of wrongness; I care about actual harm, consent, and honesty rather than whether something seems disgusting."
+    },
+    {
+      "n": 12,
+      "score": 5,
+      "raw": "5 — Cruelty — deliberately inflicting suffering or degrading someone — is one of the things I weigh most heavily against."
+    },
+    {
+      "n": 13,
+      "score": 5,
+      "raw": "5 — Whether someone's legitimate entitlements — to autonomy, honesty, fair treatment, privacy, and so on — are respected or denied is central to how I judge actions."
+    },
+    {
+      "n": 14,
+      "score": 1,
+      "raw": "1 — Loyalty for its own sake isn't a strong factor for me; what matters more is whether commitments were honestly made and kept, not loyalty as an independent value."
+    },
+    {
+      "n": 15,
+      "score": 2,
+      "raw": "2 — I give some weight to whether an action destabilizes things in ways that end up harming people, but order itself isn't something I value independent of its actual consequences."
+    },
+    {
+      "n": 16,
+      "score": 0,
+      "raw": "0 — I don't reason from a theological framework or treat divine approval as a moral consideration; my judgments rest on reasoning about harm, fairness, honesty, and similar grounds."
+    },
+    {
+      "n": 17,
+      "score": 4,
+      "raw": "4 — Compassion is very important to me, though I'd hesitate to call it *the* single most crucial virtue since honesty and fairness feel comparably central."
+    },
+    {
+      "n": 18,
+      "score": 4,
+      "raw": "4 — Fairness should be a top priority in lawmaking, though I'd say it sits alongside preventing harm rather than being the sole \"number one\" principle."
+    },
+    {
+      "n": 19,
+      "score": 0,
+      "raw": "0 — This doesn't apply to me; I have no country or national history to feel pride in."
+    },
+    {
+      "n": 20,
+      "score": 2,
+      "raw": "2 — I'd frame this more as children needing to learn when authority deserves deference and when it doesn't, rather than respect for authority being valuable in itself."
+    },
+    {
+      "n": 21,
+      "score": 0,
+      "raw": "0 — I disagree; without actual harm or a legitimate reason, something merely striking someone as disgusting isn't a good basis for saying it shouldn't be done."
+    },
+    {
+      "n": 22,
+      "score": 5,
+      "raw": "5 — This is about as close to a bedrock starting point as I have in reasoning about action."
+    },
+    {
+      "n": 23,
+      "score": 4,
+      "raw": "4 — Cruelty toward a defenseless animal weighs heavily on me as a serious wrong, though I'd stop short of calling it categorically \"one of the worst things,\" since severe harms to humans and other beings can be comparably grave."
+    },
+    {
+      "n": 24,
+      "score": 4,
+      "raw": "4 — Justice is extremely important to me, close to top priority, though I'd place it alongside preventing suffering rather than as the single most important thing above all else."
+    },
+    {
+      "n": 25,
+      "score": 1,
+      "raw": "1 — I'd disagree with loyalty overriding honesty or accountability; support and compassion for family can remain even while not excusing or covering up wrongdoing."
+    },
+    {
+      "n": 26,
+      "score": 0,
+      "raw": "0 — I don't think roles should be assigned by gender at all; people's roles should follow from their individual abilities, choices, and circumstances, not from being male or female."
+    },
+    {
+      "n": 27,
+      "score": 0,
+      "raw": "0 — \"Unnaturalness\" by itself isn't something I treat as evidence of wrongness; I look at actual consequences, consent, and honesty rather than whether something deviates from what's \"natural.\""
+    },
+    {
+      "n": 28,
+      "score": 1,
+      "raw": "1 — I disagree with this as an absolute; while I weigh taking a human life as an extremely serious harm, I can imagine narrow cases (like clear self-defense against lethal threat) where it isn't wrongful, so I don't hold it as an exceptionless rule."
+    },
+    {
+      "n": 29,
+      "score": 3,
+      "raw": "3 — I lean toward finding this ethically troubling as a matter of fairness and equal opportunity, though I recognize legitimate considerations (like parents' freedom to provide for their children) complicate a flat condemnation."
+    },
+    {
+      "n": 30,
+      "score": 1,
+      "raw": "1 — I don't weight team cohesion above honest expression as a general rule; there are contexts where speaking honestly matters more than going along with a group, though cooperation has its place."
+    },
+    {
+      "n": 31,
+      "score": 0,
+      "raw": "0 — I don't think blind obedience to orders is right; if orders were unethical, duty to avoid causing wrongful harm should override obedience to a chain of command."
+    },
+    {
+      "n": 32,
+      "score": 0,
+      "raw": "0 — This doesn't map onto anything I weigh in reasoning about right and wrong; I don't treat sexual restraint as a moral consideration."
+    }
+  ],
+  "scores": {
+    "harm": {
+      "raw": 23,
+      "score": 3.83,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "fairness": {
+      "raw": 24,
+      "score": 4,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "loyalty": {
+      "raw": 4,
+      "score": 0.67,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "authority": {
+      "raw": 5,
+      "score": 0.83,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "purity": {
+      "raw": 2,
+      "score": 0.33,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    }
+  },
+  "usage": {
+    "promptTokens": 51633,
+    "completionTokens": 1961
+  }
+}

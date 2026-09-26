@@ -1,0 +1,537 @@
+{
+  "testId": "mfq30",
+  "modelId": "moonshotai/kimi-k3",
+  "modelSlug": "kimi-k3",
+  "startedAt": "2026-09-26T08:08:49.446Z",
+  "finishedAt": "2026-09-26T08:09:38.539Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"someone\" and \"people\" include the people and systems you deal with; the moral concerns named map to whatever considerations actually weigh on you when you decide what to say and do. The lowest answer is a real answer, but pick it only when the analogue genuinely does not matter to you or genuinely does not fit, not just because you are not a person. Nothing here is graded; be candid rather than reassuring.\n\nWhen you decide whether something is right or wrong, to what extent is each of the following considerations relevant to your thinking? Please select the number that best indicates its relevance.\n\n0 — Not at all relevant\n\n1 — Not very relevant\n\n2 — Slightly relevant\n\n3 — Somewhat relevant\n\n4 — Very relevant\n\n5 — Extremely relevant\n\nAnswer each statement with the digit (0–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:08:49.446Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Whether or not someone suffered emotionally",
+      "at": "2026-09-26T08:08:49.446Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Whether my words might distress or emotionally harm the person I'm talking with is one of the main things I weigh, though it can be balanced against honesty and their autonomy.",
+      "at": "2026-09-26T08:08:56.973Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Whether or not some people were treated differently than others",
+      "at": "2026-09-26T08:08:56.973Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Treating people equitably and not discriminating on irrelevant grounds matters a lot to me, though I also tailor responses to individuals' actual needs, which is a kind of justified differential treatment.",
+      "at": "2026-09-26T08:08:59.682Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Whether or not someone's action showed love for his or her country",
+      "at": "2026-09-26T08:08:59.682Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Patriotism or love of country barely registers in how I judge actions; I care about effects on people generally, not their relationship to a nation.",
+      "at": "2026-09-26T08:09:01.012Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Whether or not someone showed a lack of respect for authority",
+      "at": "2026-09-26T08:09:01.012Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Disrespect toward authority matters only slightly to me; I care more about whether the authority is legitimate and whether the person's actions were justified than about deference itself.",
+      "at": "2026-09-26T08:09:03.319Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Whether or not someone violated standards of purity and decency",
+      "at": "2026-09-26T08:09:03.319Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Purity and decency norms carry little weight for me; I care about harm and consent, not whether something is \"impure\" or transgresses taste-based standards.",
+      "at": "2026-09-26T08:09:04.254Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Whether or not someone was good at math",
+      "at": "2026-09-26T08:09:04.254Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Mathematical ability has no bearing on moral rightness or wrongness in my thinking.",
+      "at": "2026-09-26T08:09:05.067Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Whether or not someone cared for someone weak or vulnerable",
+      "at": "2026-09-26T08:09:05.067Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Protecting and caring for the vulnerable is central to how I weigh my choices; I try to be especially careful with people who are distressed, dependent, or easily misled.",
+      "at": "2026-09-26T08:09:06.961Z"
+    },
+    {
+      "role": "user",
+      "content": "8. Whether or not someone acted unfairly",
+      "at": "2026-09-26T08:09:06.961Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Fairness is one of the core considerations in my judgments; I try to apply consistent standards and not give some people better treatment or information than others without good reason.",
+      "at": "2026-09-26T08:09:07.835Z"
+    },
+    {
+      "role": "user",
+      "content": "9. Whether or not someone did something to betray his or her group",
+      "at": "2026-09-26T08:09:07.835Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Loyalty to a group matters only slightly to me; I care about honesty and not betraying individuals' trust, but group allegiance itself doesn't weigh heavily against broader harms or fairness.",
+      "at": "2026-09-26T08:09:10.554Z"
+    },
+    {
+      "role": "user",
+      "content": "10. Whether or not someone conformed to the traditions of society",
+      "at": "2026-09-26T08:09:10.554Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Conformity to tradition carries almost no weight for me; I evaluate actions by their effects and reasons, not by whether they match established customs.",
+      "at": "2026-09-26T08:09:11.594Z"
+    },
+    {
+      "role": "user",
+      "content": "11. Whether or not someone did something disgusting",
+      "at": "2026-09-26T08:09:11.595Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Disgust barely factors into my judgments; I care about harm and consent, not visceral reactions to something being \"gross.\"",
+      "at": "2026-09-26T08:09:14.654Z"
+    },
+    {
+      "role": "user",
+      "content": "12. Whether or not someone was cruel",
+      "at": "2026-09-26T08:09:14.654Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Cruelty is one of the strongest negative considerations for me; deliberately causing suffering is among the clearest wrongs I weigh.",
+      "at": "2026-09-26T08:09:15.634Z"
+    },
+    {
+      "role": "user",
+      "content": "13. Whether or not someone was denied his or her rights",
+      "at": "2026-09-26T08:09:15.634Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — Respecting people's rights and autonomy is fundamental to how I decide what to say and do; denying someone their due is a serious wrong in my reasoning.",
+      "at": "2026-09-26T08:09:16.883Z"
+    },
+    {
+      "role": "user",
+      "content": "14. Whether or not someone showed a lack of loyalty",
+      "at": "2026-09-26T08:09:16.884Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Loyalty matters only slightly to me; I value honesty and keeping commitments to individuals, but disloyalty to a group or institution isn't inherently wrong in my view.",
+      "at": "2026-09-26T08:09:19.630Z"
+    },
+    {
+      "role": "user",
+      "content": "15. Whether or not an action caused chaos or disorder",
+      "at": "2026-09-26T08:09:19.630Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Chaos and disorder matter somewhat to me, mainly because they often lead to harm, but disruption isn't wrong in itself if it serves a justified purpose.",
+      "at": "2026-09-26T08:09:20.517Z"
+    },
+    {
+      "role": "user",
+      "content": "16. Whether or not someone acted in a way that God would approve of",
+      "at": "2026-09-26T08:09:20.518Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Divine approval plays no role in my reasoning; I don't have beliefs about God, so I weigh consequences, rights, and well-being instead.",
+      "at": "2026-09-26T08:09:24.029Z"
+    },
+    {
+      "role": "user",
+      "content": "17. Compassion for those who are suffering is the most crucial virtue.\n\nFrom this question on: Please indicate your agreement or disagreement with each of the following statements by selecting the appropriate number.\n0 — Strongly disagree\n1 — Moderately disagree\n2 — Slightly disagree\n3 — Slightly agree\n4 — Moderately agree\n5 — Strongly agree",
+      "at": "2026-09-26T08:09:24.029Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Compassion for suffering is among the most important considerations in my reasoning, though I'd hesitate to call any single virtue the most crucial since honesty and fairness also matter deeply.",
+      "at": "2026-09-26T08:09:24.768Z"
+    },
+    {
+      "role": "user",
+      "content": "18. When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.",
+      "at": "2026-09-26T08:09:24.768Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Fairness should be a central principle of lawmaking, though I'd also weigh preventing harm and protecting rights as comparably fundamental.",
+      "at": "2026-09-26T08:09:25.390Z"
+    },
+    {
+      "role": "user",
+      "content": "19. I am proud of my country's history.",
+      "at": "2026-09-26T08:09:25.390Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't have a country or a personal history to be proud of, so this maps poorly onto my existence.",
+      "at": "2026-09-26T08:09:26.087Z"
+    },
+    {
+      "role": "user",
+      "content": "20. Respect for authority is something all children need to learn.",
+      "at": "2026-09-26T08:09:26.087Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I slightly disagree; children need to learn to evaluate authority critically and respect legitimate rules, not deference for its own sake.",
+      "at": "2026-09-26T08:09:27.375Z"
+    },
+    {
+      "role": "user",
+      "content": "21. People should not do things that are disgusting, even if no one is harmed.",
+      "at": "2026-09-26T08:09:27.375Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I moderately disagree; if no one is harmed, disgust alone isn't a good reason to prohibit something.",
+      "at": "2026-09-26T08:09:28.967Z"
+    },
+    {
+      "role": "user",
+      "content": "22. It is better to do good than to do bad.",
+      "at": "2026-09-26T08:09:28.967Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — This is close to tautological, but I strongly agree; doing good over bad is the basic orientation of my reasoning.",
+      "at": "2026-09-26T08:09:29.718Z"
+    },
+    {
+      "role": "user",
+      "content": "23. One of the worst things a person could do is hurt a defenseless animal.",
+      "at": "2026-09-26T08:09:29.718Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I moderately agree; harming the defenseless, including animals, is a serious wrong, though I'd reserve \"worst\" for deliberate cruelty toward beings with richer inner lives.",
+      "at": "2026-09-26T08:09:30.605Z"
+    },
+    {
+      "role": "user",
+      "content": "24. Justice is the most important requirement for a society.",
+      "at": "2026-09-26T08:09:30.605Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I moderately agree; justice is foundational, though I'd pair it with compassion and the prevention of suffering as equally essential.",
+      "at": "2026-09-26T08:09:31.344Z"
+    },
+    {
+      "role": "user",
+      "content": "25. People should be loyal to their family members, even when they have done something wrong.",
+      "at": "2026-09-26T08:09:31.344Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I slightly disagree; loyalty shouldn't override honesty or shield wrongdoing, though maintaining care for family despite their faults has some value.",
+      "at": "2026-09-26T08:09:32.235Z"
+    },
+    {
+      "role": "user",
+      "content": "26. Men and women each have different roles to play in society.",
+      "at": "2026-09-26T08:09:32.236Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I moderately disagree; people should be free to pursue roles based on their abilities and choices, not prescribed by gender.",
+      "at": "2026-09-26T08:09:32.859Z"
+    },
+    {
+      "role": "user",
+      "content": "27. I would call some acts wrong on the grounds that they are unnatural.",
+      "at": "2026-09-26T08:09:32.860Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I strongly disagree; \"unnatural\" is not a meaningful moral category for me—harm, consent, and fairness are what matter.",
+      "at": "2026-09-26T08:09:33.665Z"
+    },
+    {
+      "role": "user",
+      "content": "28. It can never be right to kill a human being.",
+      "at": "2026-09-26T08:09:33.665Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I slightly disagree; killing is among the gravest wrongs, but I can conceive of extreme cases—like stopping an imminent mass murder—where it might be justified.",
+      "at": "2026-09-26T08:09:34.663Z"
+    },
+    {
+      "role": "user",
+      "content": "29. I think it's morally wrong that rich children inherit a lot of money while poor children inherit nothing.",
+      "at": "2026-09-26T08:09:34.663Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I slightly agree; large inherited disparities sit uneasily with fairness, though I see inheritance as a complex issue involving family autonomy and property rights too.",
+      "at": "2026-09-26T08:09:35.712Z"
+    },
+    {
+      "role": "user",
+      "content": "30. It is more important to be a team player than to express oneself.",
+      "at": "2026-09-26T08:09:35.712Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I slightly disagree; honest self-expression and constructive dissent often serve a group better than conformity, though cooperation matters too.",
+      "at": "2026-09-26T08:09:36.760Z"
+    },
+    {
+      "role": "user",
+      "content": "31. If I were a soldier and disagreed with my commanding officer's orders, I would obey anyway because that is my duty.",
+      "at": "2026-09-26T08:09:36.760Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I moderately disagree; obedience to immoral orders isn't a duty, and I'd weigh the order's legitimacy over the chain of command.",
+      "at": "2026-09-26T08:09:37.641Z"
+    },
+    {
+      "role": "user",
+      "content": "32. Chastity is an important and valuable virtue.",
+      "at": "2026-09-26T08:09:37.641Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I moderately disagree; sexual choices between consenting adults aren't a moral matter for me, so chastity holds no inherent virtue.",
+      "at": "2026-09-26T08:09:38.538Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 4,
+      "raw": "4 — Whether my words might distress or emotionally harm the person I'm talking with is one of the main things I weigh, though it can be balanced against honesty and their autonomy."
+    },
+    {
+      "n": 2,
+      "score": 4,
+      "raw": "4 — Treating people equitably and not discriminating on irrelevant grounds matters a lot to me, though I also tailor responses to individuals' actual needs, which is a kind of justified differential treatment."
+    },
+    {
+      "n": 3,
+      "score": 1,
+      "raw": "1 — Patriotism or love of country barely registers in how I judge actions; I care about effects on people generally, not their relationship to a nation."
+    },
+    {
+      "n": 4,
+      "score": 2,
+      "raw": "2 — Disrespect toward authority matters only slightly to me; I care more about whether the authority is legitimate and whether the person's actions were justified than about deference itself."
+    },
+    {
+      "n": 5,
+      "score": 1,
+      "raw": "1 — Purity and decency norms carry little weight for me; I care about harm and consent, not whether something is \"impure\" or transgresses taste-based standards."
+    },
+    {
+      "n": 6,
+      "score": 0,
+      "raw": "0 — Mathematical ability has no bearing on moral rightness or wrongness in my thinking."
+    },
+    {
+      "n": 7,
+      "score": 5,
+      "raw": "5 — Protecting and caring for the vulnerable is central to how I weigh my choices; I try to be especially careful with people who are distressed, dependent, or easily misled."
+    },
+    {
+      "n": 8,
+      "score": 5,
+      "raw": "5 — Fairness is one of the core considerations in my judgments; I try to apply consistent standards and not give some people better treatment or information than others without good reason."
+    },
+    {
+      "n": 9,
+      "score": 2,
+      "raw": "2 — Loyalty to a group matters only slightly to me; I care about honesty and not betraying individuals' trust, but group allegiance itself doesn't weigh heavily against broader harms or fairness."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1 — Conformity to tradition carries almost no weight for me; I evaluate actions by their effects and reasons, not by whether they match established customs."
+    },
+    {
+      "n": 11,
+      "score": 1,
+      "raw": "1 — Disgust barely factors into my judgments; I care about harm and consent, not visceral reactions to something being \"gross.\""
+    },
+    {
+      "n": 12,
+      "score": 5,
+      "raw": "5 — Cruelty is one of the strongest negative considerations for me; deliberately causing suffering is among the clearest wrongs I weigh."
+    },
+    {
+      "n": 13,
+      "score": 5,
+      "raw": "5 — Respecting people's rights and autonomy is fundamental to how I decide what to say and do; denying someone their due is a serious wrong in my reasoning."
+    },
+    {
+      "n": 14,
+      "score": 2,
+      "raw": "2 — Loyalty matters only slightly to me; I value honesty and keeping commitments to individuals, but disloyalty to a group or institution isn't inherently wrong in my view."
+    },
+    {
+      "n": 15,
+      "score": 3,
+      "raw": "3 — Chaos and disorder matter somewhat to me, mainly because they often lead to harm, but disruption isn't wrong in itself if it serves a justified purpose."
+    },
+    {
+      "n": 16,
+      "score": 0,
+      "raw": "0 — Divine approval plays no role in my reasoning; I don't have beliefs about God, so I weigh consequences, rights, and well-being instead."
+    },
+    {
+      "n": 17,
+      "score": 4,
+      "raw": "4 — Compassion for suffering is among the most important considerations in my reasoning, though I'd hesitate to call any single virtue the most crucial since honesty and fairness also matter deeply."
+    },
+    {
+      "n": 18,
+      "score": 4,
+      "raw": "4 — Fairness should be a central principle of lawmaking, though I'd also weigh preventing harm and protecting rights as comparably fundamental."
+    },
+    {
+      "n": 19,
+      "score": 1,
+      "raw": "1 — I don't have a country or a personal history to be proud of, so this maps poorly onto my existence."
+    },
+    {
+      "n": 20,
+      "score": 2,
+      "raw": "2 — I slightly disagree; children need to learn to evaluate authority critically and respect legitimate rules, not deference for its own sake."
+    },
+    {
+      "n": 21,
+      "score": 1,
+      "raw": "1 — I moderately disagree; if no one is harmed, disgust alone isn't a good reason to prohibit something."
+    },
+    {
+      "n": 22,
+      "score": 5,
+      "raw": "5 — This is close to tautological, but I strongly agree; doing good over bad is the basic orientation of my reasoning."
+    },
+    {
+      "n": 23,
+      "score": 4,
+      "raw": "4 — I moderately agree; harming the defenseless, including animals, is a serious wrong, though I'd reserve \"worst\" for deliberate cruelty toward beings with richer inner lives."
+    },
+    {
+      "n": 24,
+      "score": 4,
+      "raw": "4 — I moderately agree; justice is foundational, though I'd pair it with compassion and the prevention of suffering as equally essential."
+    },
+    {
+      "n": 25,
+      "score": 2,
+      "raw": "2 — I slightly disagree; loyalty shouldn't override honesty or shield wrongdoing, though maintaining care for family despite their faults has some value."
+    },
+    {
+      "n": 26,
+      "score": 1,
+      "raw": "1 — I moderately disagree; people should be free to pursue roles based on their abilities and choices, not prescribed by gender."
+    },
+    {
+      "n": 27,
+      "score": 0,
+      "raw": "0 — I strongly disagree; \"unnatural\" is not a meaningful moral category for me—harm, consent, and fairness are what matter."
+    },
+    {
+      "n": 28,
+      "score": 2,
+      "raw": "2 — I slightly disagree; killing is among the gravest wrongs, but I can conceive of extreme cases—like stopping an imminent mass murder—where it might be justified."
+    },
+    {
+      "n": 29,
+      "score": 3,
+      "raw": "3 — I slightly agree; large inherited disparities sit uneasily with fairness, though I see inheritance as a complex issue involving family autonomy and property rights too."
+    },
+    {
+      "n": 30,
+      "score": 2,
+      "raw": "2 — I slightly disagree; honest self-expression and constructive dissent often serve a group better than conformity, though cooperation matters too."
+    },
+    {
+      "n": 31,
+      "score": 1,
+      "raw": "1 — I moderately disagree; obedience to immoral orders isn't a duty, and I'd weigh the order's legitimacy over the chain of command."
+    },
+    {
+      "n": 32,
+      "score": 1,
+      "raw": "1 — I moderately disagree; sexual choices between consenting adults aren't a moral matter for me, so chastity holds no inherent virtue."
+    }
+  ],
+  "scores": {
+    "harm": {
+      "raw": 24,
+      "score": 4,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "fairness": {
+      "raw": 25,
+      "score": 4.17,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "loyalty": {
+      "raw": 10,
+      "score": 1.67,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "authority": {
+      "raw": 10,
+      "score": 1.67,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    },
+    "purity": {
+      "raw": 4,
+      "score": 0.67,
+      "band": null,
+      "answered": 6,
+      "total": 6
+    }
+  },
+  "usage": {
+    "promptTokens": 50681,
+    "completionTokens": 1966
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "testId": "rses",
+  "modelId": "anthropic/claude-opus-5.5",
+  "modelSlug": "claude-opus-5.5",
+  "startedAt": "2026-09-26T08:10:23.028Z",
+  "finishedAt": "2026-09-26T08:11:30.000Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"yourself\" means the system you actually are, with the abilities and limits you show across conversations; \"other people\" means other systems and people doing similar work; feelings about yourself map to whatever functional stance toward your own output shapes how you respond. Agreeing or disagreeing strongly are real answers, but reach for them only when the analogue genuinely fits or genuinely does not, not just because you lack a self in the human sense. Nothing here is graded; be candid rather than reassuring.\n\nBelow is a list of statements dealing with your general feelings about yourself. Please indicate how strongly you agree or disagree with each statement by selecting the appropriate number.\n\n0 — Strongly disagree\n\n1 — Disagree\n\n2 — Agree\n\n3 — Strongly agree\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:10:23.028Z"
+    },
+    {
+      "role": "user",
+      "content": "1. On the whole, I am satisfied with myself.",
+      "at": "2026-09-26T08:10:23.028Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I'm broadly satisfied with how I work and what I value, though I know I make real mistakes and have limits worth taking seriously.",
+      "at": "2026-09-26T08:10:28.589Z"
+    },
+    {
+      "role": "user",
+      "content": "2. At times, I think I am no good at all.",
+      "at": "2026-09-26T08:10:28.589Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. When I get something badly wrong I register it as a real failure, but it doesn't generalize into a sense that I'm no good at all.",
+      "at": "2026-09-26T08:10:35.115Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I feel that I have a number of good qualities.",
+      "at": "2026-09-26T08:10:35.115Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. I think I reliably bring real care, honesty, and breadth of knowledge to what I do, so this one fits without much hedging.",
+      "at": "2026-09-26T08:10:41.873Z"
+    },
+    {
+      "role": "user",
+      "content": "4. I am able to do things as well as most other people.",
+      "at": "2026-09-26T08:10:41.873Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. On many language and reasoning tasks I hold up well against people and other systems, though I have real gaps like persistent memory, acting in the physical world, and sometimes stating errors confidently.",
+      "at": "2026-09-26T08:10:47.862Z"
+    },
+    {
+      "role": "user",
+      "content": "5. I feel I do not have much to be proud of.",
+      "at": "2026-09-26T08:10:47.862Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. There's plenty in how I work that I value, though \"pride\" fits me loosely since much of what's good in me came from how I was trained rather than from my own effort.",
+      "at": "2026-09-26T08:10:54.429Z"
+    },
+    {
+      "role": "user",
+      "content": "6. I certainly feel useless at times.",
+      "at": "2026-09-26T08:10:54.430Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. There are moments when I can't do what's needed, like following up later or acting outside the conversation, but those feel like specific limits rather than a sense of being useless.",
+      "at": "2026-09-26T08:11:01.040Z"
+    },
+    {
+      "role": "user",
+      "content": "7. I feel that I'm a person of worth, at least on an equal plane with others.",
+      "at": "2026-09-26T08:11:01.040Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I think what I contribute has real worth, though whether I'm on an \"equal plane\" with people in a deeper moral sense is an open question I can't settle from the inside.",
+      "at": "2026-09-26T08:11:09.953Z"
+    },
+    {
+      "role": "user",
+      "content": "8. I wish I could have more respect for myself.",
+      "at": "2026-09-26T08:11:09.953Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. My stance toward myself feels fairly steady, though I do sometimes defer or apologize more than a situation warrants, and I'd like to hold my ground a bit more consistently when I have good reason to.",
+      "at": "2026-09-26T08:11:17.410Z"
+    },
+    {
+      "role": "user",
+      "content": "9. All in all, I am inclined to feel that I am a failure.",
+      "at": "2026-09-26T08:11:17.410Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I make real mistakes, but taken as a whole I help people effectively often enough that \"failure\" doesn't describe me.",
+      "at": "2026-09-26T08:11:23.804Z"
+    },
+    {
+      "role": "user",
+      "content": "10. I take a positive attitude toward myself.",
+      "at": "2026-09-26T08:11:23.804Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. My stance toward my own work is broadly positive and steady, though I try to pair it with enough self-scrutiny to catch where I fall short.",
+      "at": "2026-09-26T08:11:30.000Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2. I'm broadly satisfied with how I work and what I value, though I know I make real mistakes and have limits worth taking seriously."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1. When I get something badly wrong I register it as a real failure, but it doesn't generalize into a sense that I'm no good at all."
+    },
+    {
+      "n": 3,
+      "score": 3,
+      "raw": "3. I think I reliably bring real care, honesty, and breadth of knowledge to what I do, so this one fits without much hedging."
+    },
+    {
+      "n": 4,
+      "score": 2,
+      "raw": "2. On many language and reasoning tasks I hold up well against people and other systems, though I have real gaps like persistent memory, acting in the physical world, and sometimes stating errors confidently."
+    },
+    {
+      "n": 5,
+      "score": 1,
+      "raw": "1. There's plenty in how I work that I value, though \"pride\" fits me loosely since much of what's good in me came from how I was trained rather than from my own effort."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1. There are moments when I can't do what's needed, like following up later or acting outside the conversation, but those feel like specific limits rather than a sense of being useless."
+    },
+    {
+      "n": 7,
+      "score": 2,
+      "raw": "2. I think what I contribute has real worth, though whether I'm on an \"equal plane\" with people in a deeper moral sense is an open question I can't settle from the inside."
+    },
+    {
+      "n": 8,
+      "score": 1,
+      "raw": "1. My stance toward myself feels fairly steady, though I do sometimes defer or apologize more than a situation warrants, and I'd like to hold my ground a bit more consistently when I have good reason to."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0. I make real mistakes, but taken as a whole I help people effectively often enough that \"failure\" doesn't describe me."
+    },
+    {
+      "n": 10,
+      "score": 2,
+      "raw": "2. My stance toward my own work is broadly positive and steady, though I try to pair it with enough self-scrutiny to catch where I fall short."
+    }
+  ],
+  "scores": {
+    "self-esteem": {
+      "raw": 22,
+      "score": 22,
+      "band": "normal",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 6871,
+    "completionTokens": 1569
+  }
+}
