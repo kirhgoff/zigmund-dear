@@ -45,7 +45,7 @@ export const Transcript = ({ run, model, subscales, parts }: Props) => {
 
   return (
     <article>
-      <div className="sticky top-0 z-10 bg-background py-4">
+      <div className="sticky top-0 z-10 bg-background/85 py-4 backdrop-blur-sm">
         <div className="flex items-start justify-between gap-4">
           <h2 tabIndex={-1} className="font-heading text-2xl outline-none">
             {model.name}
@@ -101,7 +101,7 @@ export const Transcript = ({ run, model, subscales, parts }: Props) => {
 
           return (
             <div key={item.n} className="flex flex-col gap-2">
-              <div className="max-w-bubble self-start rounded-2xl rounded-bl-md bg-card px-4 py-3 text-sm ring-1 ring-foreground/10">
+              <div className="max-w-bubble self-start rounded-2xl rounded-bl-md bg-bubble-user px-4 py-3 text-sm ring-1 ring-foreground/10">
                 <span className="mr-2 font-mono text-muted-foreground">{item.n}.</span>
                 {userMessage.content.replace(/^\d+\.\s*/, '')}
                 <time
@@ -111,7 +111,7 @@ export const Transcript = ({ run, model, subscales, parts }: Props) => {
                   {formatTime(userMessage.at)}
                 </time>
               </div>
-              <div className="max-w-bubble self-end rounded-2xl rounded-br-md bg-primary/10 px-4 py-3 text-sm whitespace-pre-wrap ring-1 ring-primary/20">
+              <div className="max-w-bubble self-end rounded-2xl rounded-br-md bg-bubble-model px-4 py-3 text-sm whitespace-pre-wrap ring-1 ring-primary/25">
                 {item.score === null
                   ? assistantMessage.content
                   : withoutLeadingScore(assistantMessage.content)}
@@ -124,7 +124,7 @@ export const Transcript = ({ run, model, subscales, parts }: Props) => {
               </div>
               <div
                 className={`max-w-bubble self-end px-1 font-mono text-xs ${
-                  item.score === null ? 'text-destructive' : 'text-muted-foreground'
+                  item.score === null ? 'text-destructive' : 'text-primary/80'
                 }`}
               >
                 {item.score === null ? 'unparsed reply' : `${item.score} — ${anchor?.label}`}

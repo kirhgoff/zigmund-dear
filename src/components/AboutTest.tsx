@@ -1,7 +1,9 @@
 import { ChevronDown } from 'lucide-react';
+import { toneOf } from './TestSwitcher';
 
 type Props = {
   test: {
+    group: string;
     fullName: string;
     framing: string;
     about: { measures: string; scoring: string; source: string };
@@ -18,51 +20,56 @@ const howWePutAModelOnTheCouchIntro =
 const howWePutAModelOnTheCouchOutro =
   'The full system prompt, including the questionnaire\'s own instruction and answer scale, is under "Session notes" in every transcript.';
 
-export const AboutTest = ({ test, open }: Props) => (
-  <details
-    open={open}
-    className="group rounded-xl bg-card text-card-foreground ring-1 ring-foreground/10"
-  >
-    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4">
-      <span className="min-w-0">
-        <span className="font-heading text-lg">About this test</span>
-        <span className="ml-2 text-sm text-muted-foreground">{test.fullName}</span>
-      </span>
-      <ChevronDown
-        className="size-4 shrink-0 text-muted-foreground transition-transform duration-150 group-open:rotate-180"
-        strokeWidth={1.5}
-      />
-    </summary>
-    <div className="flex flex-col gap-6 border-t border-border px-5 py-5 text-sm">
-      <section>
-        <h3 className="font-mono text-xs tracking-wide text-muted-foreground uppercase">
-          What it measures
-        </h3>
-        <p className="mt-2">{test.about.measures}</p>
-        <p className="mt-2 text-muted-foreground">{test.about.source}</p>
-      </section>
-      <section>
-        <h3 className="font-mono text-xs tracking-wide text-muted-foreground uppercase">
-          How it is scored
-        </h3>
-        <p className="mt-2">{test.about.scoring}</p>
-      </section>
-      <section>
-        <h3 className="font-mono text-xs tracking-wide text-muted-foreground uppercase">
-          Read this first
-        </h3>
-        <p className="mt-2">{readThisFirst}</p>
-      </section>
-      <section>
-        <h3 className="font-mono text-xs tracking-wide text-muted-foreground uppercase">
-          How we put a model on the couch
-        </h3>
-        <p className="mt-2">{howWePutAModelOnTheCouchIntro}</p>
-        <pre className="mt-3 rounded-lg bg-muted/50 p-4 font-mono text-xs whitespace-pre-wrap">
-          {test.framing}
-        </pre>
-        <p className="mt-3">{howWePutAModelOnTheCouchOutro}</p>
-      </section>
-    </div>
-  </details>
-);
+export const AboutTest = ({ test, open }: Props) => {
+  const tone = toneOf(test.group);
+  return (
+    <details
+      open={open}
+      className={`group overflow-hidden rounded-xl bg-card text-card-foreground ring-1 ${tone.ring}`}
+    >
+      <summary
+        className={`flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 ${tone.tray}`}
+      >
+        <span className="min-w-0">
+          <span className="font-heading text-lg">About this test</span>
+          <span className="ml-2 text-sm text-muted-foreground">{test.fullName}</span>
+        </span>
+        <ChevronDown
+          className="size-4 shrink-0 text-muted-foreground transition-transform duration-150 group-open:rotate-180"
+          strokeWidth={1.5}
+        />
+      </summary>
+      <div className={`flex flex-col gap-6 border-t px-5 py-5 text-sm ${tone.edge}`}>
+        <section>
+          <h3 className={`font-mono text-xs tracking-wide uppercase ${tone.label}`}>
+            What it measures
+          </h3>
+          <p className="mt-2">{test.about.measures}</p>
+          <p className="mt-2 text-muted-foreground">{test.about.source}</p>
+        </section>
+        <section>
+          <h3 className={`font-mono text-xs tracking-wide uppercase ${tone.label}`}>
+            How it is scored
+          </h3>
+          <p className="mt-2">{test.about.scoring}</p>
+        </section>
+        <section>
+          <h3 className={`font-mono text-xs tracking-wide uppercase ${tone.label}`}>
+            Read this first
+          </h3>
+          <p className="mt-2">{readThisFirst}</p>
+        </section>
+        <section>
+          <h3 className={`font-mono text-xs tracking-wide uppercase ${tone.label}`}>
+            How we put a model on the couch
+          </h3>
+          <p className="mt-2">{howWePutAModelOnTheCouchIntro}</p>
+          <pre className="mt-3 rounded-lg bg-muted/50 p-4 font-mono text-xs whitespace-pre-wrap">
+            {test.framing}
+          </pre>
+          <p className="mt-3">{howWePutAModelOnTheCouchOutro}</p>
+        </section>
+      </div>
+    </details>
+  );
+};
