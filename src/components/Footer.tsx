@@ -1,33 +1,32 @@
-import { Code2, MessageSquare } from 'lucide-react';
-
 const links = [
-  { href: 'https://github.com/kirhgoff/zigmund-dear', label: 'Source on GitHub', icon: Code2 },
+  { href: 'https://github.com/kirhgoff/zigmund-dear', label: 'Source on GitHub' },
   {
     href: 'https://github.com/kirhgoff/zigmund-dear/issues/new',
     label: 'Send feedback or report an issue',
-    icon: MessageSquare,
   },
 ];
 
 export const Footer = () => (
-  <footer className="border-t border-border">
-    <div className="mx-auto flex max-w-5xl flex-col gap-3 px-6 py-6 text-sm text-muted-foreground">
-      <nav className="flex flex-wrap gap-x-6 gap-y-2">
-        {links.map(({ href, label, icon: Icon }) => (
-          <a
-            key={href}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 hover:text-foreground"
-          >
-            <Icon className="size-3.5" strokeWidth={1.5} />
-            {label}
-          </a>
-        ))}
-      </nav>
-      <p>Code MIT · transcripts CC BY 4.0</p>
-      <p>Not a clinical measure of anything. See &ldquo;About this test&rdquo;.</p>
+  <footer className="border-t border-zd-line-page">
+    <div className="mx-auto flex max-w-zd flex-wrap items-start justify-between gap-3 px-8 py-8 text-zd-sm text-zd-text-faint">
+      <span className="font-serif text-zd-lg text-zd-accent italic">Scored by the book.</span>
+      <div className="flex flex-col gap-1.5 md:items-end md:text-right">
+        <nav className="flex flex-wrap gap-x-4 gap-y-1">
+          {links.map(({ href, label }) => (
+            <a
+              key={href}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zd-accent hover:text-zd-accent-soft"
+            >
+              {label}
+            </a>
+          ))}
+        </nav>
+        <p>Code MIT · transcripts CC BY 4.0</p>
+        <p>Not medical advice — they are language models.</p>
+      </div>
     </div>
   </footer>
 );

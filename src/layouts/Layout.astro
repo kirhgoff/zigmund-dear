@@ -15,10 +15,10 @@ const { title, description, noindex = false, jsonLd = [], onTheCouch } = Astro.p
 const site = Astro.site as URL;
 const canonicalUrl = new URL(Astro.url.pathname, site);
 const ogImageUrl = new URL('/og.png', site);
-const themeColor = 'oklch(0.15 0.03 275)';
+const themeColor = '#090c14';
 ---
 
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@ const themeColor = 'oklch(0.15 0.03 275)';
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..600&family=Instrument+Sans:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     >
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -59,18 +59,28 @@ const themeColor = 'oklch(0.15 0.03 275)';
       <script type="application/ld+json" set:html={JSON.stringify(entry)} />
     ))}
   </head>
-  <body>
-    <div class="border-b border-border">
-      <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <a
-          href="/"
-          class="font-heading font-semibold text-[22px] transition-opacity duration-150 hover:opacity-80"
-          >zigmund-dear</a
-        >
-        {onTheCouch && <span class="text-sm text-muted-foreground">on the couch: {onTheCouch}</span>}
+  <body class="overflow-x-clip">
+    <header class="border-b border-zd-line-page bg-zd-bg-header">
+      <div
+        class="mx-auto flex max-w-zd flex-wrap items-center justify-between gap-6 px-4 py-4.5 md:px-8"
+      >
+        <a href="/" class="flex items-center gap-3 text-zd-text">
+          <span
+            class="flex size-8.5 items-center justify-center rounded-full border border-zd-accent/40 font-serif text-zd-logo text-zd-accent"
+            >Ψ</span
+          >
+          <span class="text-zd-lg font-semibold tracking-zd-wordmark">zigmund-dear</span>
+        </a>
+        {onTheCouch && (
+          <div class="flex items-center gap-2.5 text-zd-sm text-zd-text-muted">
+            <span class="size-1.75 rounded-full bg-zd-band-normal ring-4 ring-zd-band-normal/12"></span>
+            <span>on the couch:</span>
+            <span class="font-mono text-zd-text">{onTheCouch}</span>
+          </div>
+        )}
       </div>
-    </div>
-    <main class="mx-auto max-w-5xl px-6 py-12">
+    </header>
+    <main class="mx-auto max-w-zd px-4 pb-24 md:px-8">
       <slot />
     </main>
     <Footer />
