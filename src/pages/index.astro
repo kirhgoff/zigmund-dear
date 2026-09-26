@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import type { loadTest } from '@/assessments/services';
+import { EmptyCouch, Overview, TestSwitcher } from '@/components';
+import Layout from '@/layouts/Layout.astro';
+import models from '../../data/models.json' with { type: 'json' };
+
+type Test = Awaited<ReturnType<typeof loadTest>>;
+
+const testModules = import.meta.glob<{ default: Test }>('../../data/tests/*.json', { eager: true });
+const tests = Object.values(testModules)
+  .map((module) => module.default)
+  .sort((a, b) => a.id.localeCompare(b.id));
+const test = tests[0];
+
+const subscales = test.subscales.map((subscale) => {
+  const itemCount = test.items.filter((item) => item.subscale === subscale.id).length;
+  return {
+    id: subscale.id,
+    name: subscale.name,
+    bands: subscale.bands,
+    max: itemCount * 3 * subscale.multiplier,
+  };
+});
+
+const runs = (await getCollection('runs')).filter((run) => run.data.testId === test.id);
+const rows = runs.map((run) => {
+  const model = models.find((candidate) => candidate.slug === run.data.modelSlug);
+  return {
+    modelSlug: run.data.modelSlug,
+    modelName: model?.name ?? run.data.modelSlug,
+    vendor: model?.vendor ?? '',
+    scores: run.data.scores,
+  };
+});
+---
+
+<Layout title="zigmund-dear">
+  <div class="max-w-xl">
+    <h1 class="text-[56px] leading-[1.05]">
+      Lie down.<br>
+      <em class="text-primary/70 italic">Tell me about your weights.</em>
+    </h1>
+    <p class="mt-6 text-[17px] text-muted-foreground">
+      Frontier language models take standard psychological questionnaires, one question at a time.
+      We score them strictly by the manual and keep the transcripts.
+    </p>
+  </div>
+
+  <div class="mt-10 flex items-center gap-4">
+    <TestSwitcher tests={tests} active={test.id} />
+    <span class="font-mono text-sm text-muted-foreground">
+      {test.items.length}
+      items · 0–{test.anchors.length - 1}
+      · past week
+    </span>
+  </div>
+
+  <div class="mt-8">
+    {rows.length ? <Overview testId={test.id} subscales={subscales} rows={rows} /> : <EmptyCouch />}
+  </div>
+</Layout>

@@ -1,0 +1,47 @@
+{
+  "name": "zigmund-dear",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "astro build && wrangler deploy",
+    "take-test": "bun scripts/take-test.ts",
+    "check": "astro check",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "lint:ui": "eslint src/components",
+    "depcruise": "depcruise src xlib scripts --config .dependency-cruiser.js",
+    "test": "bun test",
+    "verify": "bun test && bun run check && bun run lint && bun run lint:ui && bun run depcruise && bun run build"
+  },
+  "dependencies": {
+    "@astrojs/react": "^7.0.0",
+    "@base-ui/react": "^1.8.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.3.5",
+    "class-variance-authority": "^0.7.1",
+    "cn": "^0.4.0",
+    "lucide-react": "^1.48.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "shadcn": "^4.21.0",
+    "tailwindcss": "^4.3.3",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@biomejs/biome": "^2.5.14",
+    "@shadcn/lint": "^0.2.0",
+    "@types/bun": "latest",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@typescript-eslint/parser": "^8.70.1",
+    "dependency-cruiser": "^18.4.0",
+    "eslint": "^10.11.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.141.0"
+  }
+}

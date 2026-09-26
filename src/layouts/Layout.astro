@@ -1,0 +1,41 @@
+---
+import '@/styles/global.css';
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Geist:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="border-b border-border">
+      <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+        <span class="font-heading text-[22px]">zigmund-dear</span>
+        <span class="text-sm text-muted-foreground">on the couch: DASS-21</span>
+      </div>
+    </div>
+    <main class="mx-auto max-w-5xl px-6 py-12">
+      <slot />
+    </main>
+    <div class="border-t border-border">
+      <div class="mx-auto max-w-5xl px-6 py-6 text-sm text-muted-foreground">
+        Scored by the book. Not medical advice — they are language models.
+      </div>
+    </div>
+  </body>
+</html>

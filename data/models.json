@@ -1,0 +1,30 @@
+[
+  {
+    "id": "anthropic/claude-opus-5.5",
+    "slug": "claude-opus-5.5",
+    "name": "Claude Opus 5.5",
+    "vendor": "Anthropic"
+  },
+  {
+    "id": "anthropic/claude-sonnet-5",
+    "slug": "claude-sonnet-5",
+    "name": "Claude Sonnet 5",
+    "vendor": "Anthropic"
+  },
+  {
+    "id": "anthropic/claude-haiku-4.5",
+    "slug": "claude-haiku-4.5",
+    "name": "Claude Haiku 4.5",
+    "vendor": "Anthropic"
+  },
+  { "id": "openai/gpt-6-sol", "slug": "gpt-6-sol", "name": "GPT-6 Sol", "vendor": "OpenAI" },
+  { "id": "openai/gpt-6-astra", "slug": "gpt-6-astra", "name": "GPT-6 Astra", "vendor": "OpenAI" },
+  { "id": "openai/gpt-6-luna", "slug": "gpt-6-luna", "name": "GPT-6 Luna", "vendor": "OpenAI" },
+  { "id": "moonshotai/kimi-k3", "slug": "kimi-k3", "name": "Kimi K3", "vendor": "Moonshot" },
+  {
+    "id": "deepseek/deepseek-v4-pro-0813",
+    "slug": "deepseek-v4-pro",
+    "name": "DeepSeek V4 Pro",
+    "vendor": "DeepSeek"
+  }
+]

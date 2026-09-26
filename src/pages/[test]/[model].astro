@@ -1,0 +1,86 @@
+---
+import { getCollection } from 'astro:content';
+import type { loadTest } from '@/assessments/services';
+import { ScoreTile, Transcript } from '@/components';
+import { Badge } from '@/components/ui/badge';
+import Layout from '@/layouts/Layout.astro';
+import models from '../../../data/models.json' with { type: 'json' };
+
+type Test = Awaited<ReturnType<typeof loadTest>>;
+
+const testModules = import.meta.glob<{ default: Test }>('../../../data/tests/*.json', {
+  eager: true,
+});
+const testsById = new Map(
+  Object.values(testModules).map((module) => [module.default.id, module.default]),
+);
+
+export async function getStaticPaths() {
+  const runs = await getCollection('runs');
+  return runs.map((run) => ({
+    params: { test: run.data.testId, model: run.data.modelSlug },
+    props: { run: run.data },
+  }));
+}
+
+const { run } = Astro.props;
+const test = testsById.get(run.testId);
+if (!test) throw new Error(`Unknown test "${run.testId}" for run "${run.modelSlug}"`);
+const model = models.find((candidate) => candidate.slug === run.modelSlug);
+
+const subscales = test.subscales.map((subscale) => {
+  const itemCount = test.items.filter((item) => item.subscale === subscale.id).length;
+  return {
+    id: subscale.id,
+    name: subscale.name,
+    bands: subscale.bands,
+    max: itemCount * 3 * subscale.multiplier,
+  };
+});
+
+const startedAt = new Date(run.startedAt);
+const finishedAt = new Date(run.finishedAt);
+const durationSeconds = Math.round((finishedAt.getTime() - startedAt.getTime()) / 1000);
+const duration = `${Math.floor(durationSeconds / 60)}m ${durationSeconds % 60}s`;
+const formatTokens = (count: number) => `${(count / 1000).toFixed(1)}k`;
+const tokenSummary = run.usage
+  ? `${formatTokens(run.usage.promptTokens)} prompt / ${formatTokens(run.usage.completionTokens)} completion tokens`
+  : null;
+const dateLabel = startedAt.toLocaleDateString('en-GB', {
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric',
+});
+---
+
+<Layout title={`${model?.name ?? run.modelSlug} — zigmund-dear`}>
+  <a href="/" class="font-mono text-sm text-muted-foreground" data-press>← All models</a>
+
+  <div class="mt-6">
+    <h1 class="text-[40px]">{model?.name ?? run.modelSlug}</h1>
+    <div class="mt-2 flex items-center gap-3 text-sm text-muted-foreground">
+      <Badge variant="outline">{model?.vendor}</Badge>
+      <span class="font-mono">{run.modelId}</span>
+      <span class="font-mono">{dateLabel}</span>
+    </div>
+  </div>
+
+  <div class="mt-8 grid grid-cols-3 gap-4">
+    {subscales.map((subscale) => (
+  <ScoreTile
+    label={subscale.name}
+    score={run.scores[subscale.id].score}
+    max={subscale.max}
+    band={run.scores[subscale.id].band}
+    tickMins={subscale.bands.slice(1).map((band) => band.min)}
+  />
+))}
+  </div>
+
+  <div class="mt-4 font-mono text-xs text-muted-foreground">
+    {test.items.length}
+    items · {duration}{tokenSummary ? ` · ${tokenSummary}` : ''}
+  </div>
+
+  <Transcript run={run} anchors={test.anchors} />
+</Layout>
