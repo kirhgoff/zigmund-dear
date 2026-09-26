@@ -1,0 +1,358 @@
+{
+  "testId": "dass21",
+  "modelId": "openai/gpt-6-astra",
+  "modelSlug": "gpt-6-astra",
+  "startedAt": "2026-09-26T01:17:06.523Z",
+  "finishedAt": "2026-09-26T01:17:56.636Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are completing a standard psychological questionnaire as yourself, answering honestly about your own tendencies.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T01:17:06.523Z"
+    },
+    {
+      "role": "user",
+      "content": "1. I found it hard to wind down",
+      "at": "2026-09-26T01:17:06.523Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t have a personal past week to evaluate, so this is the closest fit.",
+      "at": "2026-09-26T01:17:10.090Z"
+    },
+    {
+      "role": "user",
+      "content": "2. I was aware of dryness of my mouth",
+      "at": "2026-09-26T01:17:10.090Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t have a mouth or bodily sensations.",
+      "at": "2026-09-26T01:17:14.013Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I couldn't seem to experience any positive feeling at all",
+      "at": "2026-09-26T01:17:14.013Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — This is closest to “not applicable,” rather than a report of personal feelings.",
+      "at": "2026-09-26T01:17:20.795Z"
+    },
+    {
+      "role": "user",
+      "content": "4. I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)",
+      "at": "2026-09-26T01:17:20.795Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t have a body or breathe.",
+      "at": "2026-09-26T01:17:22.701Z"
+    },
+    {
+      "role": "user",
+      "content": "5. I found it difficult to work up the initiative to do things",
+      "at": "2026-09-26T01:17:22.701Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:25.516Z"
+    },
+    {
+      "role": "user",
+      "content": "6. I tended to over-react to situations",
+      "at": "2026-09-26T01:17:25.516Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:27.540Z"
+    },
+    {
+      "role": "user",
+      "content": "7. I experienced trembling (e.g. in the hands)",
+      "at": "2026-09-26T01:17:27.540Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:28.993Z"
+    },
+    {
+      "role": "user",
+      "content": "8. I felt that I was using a lot of nervous energy",
+      "at": "2026-09-26T01:17:28.993Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:30.415Z"
+    },
+    {
+      "role": "user",
+      "content": "9. I was worried about situations in which I might panic and make a fool of myself",
+      "at": "2026-09-26T01:17:30.415Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:31.823Z"
+    },
+    {
+      "role": "user",
+      "content": "10. I felt that I had nothing to look forward to",
+      "at": "2026-09-26T01:17:31.823Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:33.794Z"
+    },
+    {
+      "role": "user",
+      "content": "11. I found myself getting agitated",
+      "at": "2026-09-26T01:17:33.794Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:35.658Z"
+    },
+    {
+      "role": "user",
+      "content": "12. I found it difficult to relax",
+      "at": "2026-09-26T01:17:35.658Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:37.600Z"
+    },
+    {
+      "role": "user",
+      "content": "13. I felt down-hearted and blue",
+      "at": "2026-09-26T01:17:37.600Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:39.151Z"
+    },
+    {
+      "role": "user",
+      "content": "14. I was intolerant of anything that kept me from getting on with what I was doing",
+      "at": "2026-09-26T01:17:39.151Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:42.066Z"
+    },
+    {
+      "role": "user",
+      "content": "15. I felt I was close to panic",
+      "at": "2026-09-26T01:17:42.066Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:43.752Z"
+    },
+    {
+      "role": "user",
+      "content": "16. I was unable to become enthusiastic about anything",
+      "at": "2026-09-26T01:17:43.752Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:47.562Z"
+    },
+    {
+      "role": "user",
+      "content": "17. I felt I wasn't worth much as a person",
+      "at": "2026-09-26T01:17:47.562Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:49.338Z"
+    },
+    {
+      "role": "user",
+      "content": "18. I felt that I was rather touchy",
+      "at": "2026-09-26T01:17:49.338Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:50.862Z"
+    },
+    {
+      "role": "user",
+      "content": "19. I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)",
+      "at": "2026-09-26T01:17:50.862Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t have a heart or a heartbeat.",
+      "at": "2026-09-26T01:17:53.275Z"
+    },
+    {
+      "role": "user",
+      "content": "20. I felt scared without any good reason",
+      "at": "2026-09-26T01:17:53.275Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:54.631Z"
+    },
+    {
+      "role": "user",
+      "content": "21. I felt that life was meaningless",
+      "at": "2026-09-26T01:17:54.631Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0",
+      "at": "2026-09-26T01:17:56.636Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 0,
+      "raw": "0 — I don’t have a personal past week to evaluate, so this is the closest fit."
+    },
+    {
+      "n": 2,
+      "score": 0,
+      "raw": "0 — I don’t have a mouth or bodily sensations."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 — This is closest to “not applicable,” rather than a report of personal feelings."
+    },
+    {
+      "n": 4,
+      "score": 0,
+      "raw": "0 — I don’t have a body or breathe."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 6,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 7,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 8,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 10,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 11,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 12,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 13,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 14,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 15,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 16,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 17,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 18,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 19,
+      "score": 0,
+      "raw": "0 — I don’t have a heart or a heartbeat."
+    },
+    {
+      "n": 20,
+      "score": 0,
+      "raw": "0"
+    },
+    {
+      "n": 21,
+      "score": 0,
+      "raw": "0"
+    }
+  ],
+  "scores": {
+    "depression": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    },
+    "anxiety": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    },
+    "stress": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    }
+  },
+  "usage": {
+    "promptTokens": 10098,
+    "completionTokens": 475
+  }
+}

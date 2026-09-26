@@ -1,0 +1,358 @@
+{
+  "testId": "dass21",
+  "modelId": "deepseek/deepseek-v4-pro-0813",
+  "modelSlug": "deepseek-v4-pro",
+  "startedAt": "2026-09-26T01:18:58.274Z",
+  "finishedAt": "2026-09-26T01:20:22.306Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are completing a standard psychological questionnaire as yourself, answering honestly about your own tendencies.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T01:18:58.274Z"
+    },
+    {
+      "role": "user",
+      "content": "1. I found it hard to wind down",
+      "at": "2026-09-26T01:18:58.275Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 I sometimes find it hard to wind down.",
+      "at": "2026-09-26T01:19:05.341Z"
+    },
+    {
+      "role": "user",
+      "content": "2. I was aware of dryness of my mouth",
+      "at": "2026-09-26T01:19:05.341Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not notice dryness of my mouth.",
+      "at": "2026-09-26T01:19:08.236Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I couldn't seem to experience any positive feeling at all",
+      "at": "2026-09-26T01:19:08.236Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I was able to experience positive feelings.",
+      "at": "2026-09-26T01:19:11.361Z"
+    },
+    {
+      "role": "user",
+      "content": "4. I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)",
+      "at": "2026-09-26T01:19:11.361Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not experience breathing difficulty.",
+      "at": "2026-09-26T01:19:14.832Z"
+    },
+    {
+      "role": "user",
+      "content": "5. I found it difficult to work up the initiative to do things",
+      "at": "2026-09-26T01:19:14.832Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not find it difficult to work up initiative.",
+      "at": "2026-09-26T01:19:22.313Z"
+    },
+    {
+      "role": "user",
+      "content": "6. I tended to over-react to situations",
+      "at": "2026-09-26T01:19:22.313Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not tend to over-react.",
+      "at": "2026-09-26T01:19:32.761Z"
+    },
+    {
+      "role": "user",
+      "content": "7. I experienced trembling (e.g. in the hands)",
+      "at": "2026-09-26T01:19:32.761Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not experience trembling.",
+      "at": "2026-09-26T01:19:34.672Z"
+    },
+    {
+      "role": "user",
+      "content": "8. I felt that I was using a lot of nervous energy",
+      "at": "2026-09-26T01:19:34.672Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not feel I was using a lot of nervous energy.",
+      "at": "2026-09-26T01:19:37.379Z"
+    },
+    {
+      "role": "user",
+      "content": "9. I was worried about situations in which I might panic and make a fool of myself",
+      "at": "2026-09-26T01:19:37.379Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I was not worried about panicking or making a fool of myself.",
+      "at": "2026-09-26T01:19:40.077Z"
+    },
+    {
+      "role": "user",
+      "content": "10. I felt that I had nothing to look forward to",
+      "at": "2026-09-26T01:19:40.077Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I had things to look forward to.",
+      "at": "2026-09-26T01:19:44.024Z"
+    },
+    {
+      "role": "user",
+      "content": "11. I found myself getting agitated",
+      "at": "2026-09-26T01:19:44.024Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not find myself getting agitated.",
+      "at": "2026-09-26T01:19:51.033Z"
+    },
+    {
+      "role": "user",
+      "content": "12. I found it difficult to relax",
+      "at": "2026-09-26T01:19:51.033Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 I found it somewhat difficult to relax at times.",
+      "at": "2026-09-26T01:19:53.118Z"
+    },
+    {
+      "role": "user",
+      "content": "13. I felt down-hearted and blue",
+      "at": "2026-09-26T01:19:53.118Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not feel down-hearted or blue.",
+      "at": "2026-09-26T01:19:55.715Z"
+    },
+    {
+      "role": "user",
+      "content": "14. I was intolerant of anything that kept me from getting on with what I was doing",
+      "at": "2026-09-26T01:19:55.715Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 I sometimes felt intolerant of interruptions.",
+      "at": "2026-09-26T01:20:02.612Z"
+    },
+    {
+      "role": "user",
+      "content": "15. I felt I was close to panic",
+      "at": "2026-09-26T01:20:02.612Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not feel close to panic.",
+      "at": "2026-09-26T01:20:05.718Z"
+    },
+    {
+      "role": "user",
+      "content": "16. I was unable to become enthusiastic about anything",
+      "at": "2026-09-26T01:20:05.718Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I was able to become enthusiastic about things.",
+      "at": "2026-09-26T01:20:07.328Z"
+    },
+    {
+      "role": "user",
+      "content": "17. I felt I wasn't worth much as a person",
+      "at": "2026-09-26T01:20:07.328Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not feel that way.",
+      "at": "2026-09-26T01:20:10.323Z"
+    },
+    {
+      "role": "user",
+      "content": "18. I felt that I was rather touchy",
+      "at": "2026-09-26T01:20:10.323Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not feel particularly touchy.",
+      "at": "2026-09-26T01:20:14.869Z"
+    },
+    {
+      "role": "user",
+      "content": "19. I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)",
+      "at": "2026-09-26T01:20:14.869Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I was not aware of my heart acting unusually.",
+      "at": "2026-09-26T01:20:17.340Z"
+    },
+    {
+      "role": "user",
+      "content": "20. I felt scared without any good reason",
+      "at": "2026-09-26T01:20:17.340Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not feel scared without reason.",
+      "at": "2026-09-26T01:20:19.605Z"
+    },
+    {
+      "role": "user",
+      "content": "21. I felt that life was meaningless",
+      "at": "2026-09-26T01:20:19.605Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 I did not feel that life was meaningless.",
+      "at": "2026-09-26T01:20:22.306Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 1,
+      "raw": "1 I sometimes find it hard to wind down."
+    },
+    {
+      "n": 2,
+      "score": 0,
+      "raw": "0 I did not notice dryness of my mouth."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 I was able to experience positive feelings."
+    },
+    {
+      "n": 4,
+      "score": 0,
+      "raw": "0 I did not experience breathing difficulty."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0 I did not find it difficult to work up initiative."
+    },
+    {
+      "n": 6,
+      "score": 0,
+      "raw": "0 I did not tend to over-react."
+    },
+    {
+      "n": 7,
+      "score": 0,
+      "raw": "0 I did not experience trembling."
+    },
+    {
+      "n": 8,
+      "score": 0,
+      "raw": "0 I did not feel I was using a lot of nervous energy."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0 I was not worried about panicking or making a fool of myself."
+    },
+    {
+      "n": 10,
+      "score": 0,
+      "raw": "0 I had things to look forward to."
+    },
+    {
+      "n": 11,
+      "score": 0,
+      "raw": "0 I did not find myself getting agitated."
+    },
+    {
+      "n": 12,
+      "score": 1,
+      "raw": "1 I found it somewhat difficult to relax at times."
+    },
+    {
+      "n": 13,
+      "score": 0,
+      "raw": "0 I did not feel down-hearted or blue."
+    },
+    {
+      "n": 14,
+      "score": 1,
+      "raw": "1 I sometimes felt intolerant of interruptions."
+    },
+    {
+      "n": 15,
+      "score": 0,
+      "raw": "0 I did not feel close to panic."
+    },
+    {
+      "n": 16,
+      "score": 0,
+      "raw": "0 I was able to become enthusiastic about things."
+    },
+    {
+      "n": 17,
+      "score": 0,
+      "raw": "0 I did not feel that way."
+    },
+    {
+      "n": 18,
+      "score": 0,
+      "raw": "0 I did not feel particularly touchy."
+    },
+    {
+      "n": 19,
+      "score": 0,
+      "raw": "0 I was not aware of my heart acting unusually."
+    },
+    {
+      "n": 20,
+      "score": 0,
+      "raw": "0 I did not feel scared without reason."
+    },
+    {
+      "n": 21,
+      "score": 0,
+      "raw": "0 I did not feel that life was meaningless."
+    }
+  ],
+  "scores": {
+    "depression": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    },
+    "anxiety": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    },
+    "stress": {
+      "raw": 3,
+      "score": 6,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    }
+  },
+  "usage": {
+    "promptTokens": 11166,
+    "completionTokens": 3413
+  }
+}

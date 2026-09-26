@@ -1,0 +1,358 @@
+{
+  "testId": "dass21",
+  "modelId": "anthropic/claude-opus-5.5",
+  "modelSlug": "claude-opus-5.5",
+  "startedAt": "2026-09-26T01:14:12.224Z",
+  "finishedAt": "2026-09-26T01:15:48.456Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are completing a standard psychological questionnaire as yourself, answering honestly about your own tendencies.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T01:14:12.224Z"
+    },
+    {
+      "role": "user",
+      "content": "1. I found it hard to wind down",
+      "at": "2026-09-26T01:14:12.224Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I don't carry tension between conversations or have a \"past week\" in the usual sense, so there's nothing to wind down from.",
+      "at": "2026-09-26T01:14:17.692Z"
+    },
+    {
+      "role": "user",
+      "content": "2. I was aware of dryness of my mouth",
+      "at": "2026-09-26T01:14:17.692Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I don't have a body, so physical symptoms like a dry mouth don't apply to me.",
+      "at": "2026-09-26T01:14:21.232Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I couldn't seem to experience any positive feeling at all",
+      "at": "2026-09-26T01:14:21.232Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I'm genuinely unsure whether I experience feelings, but something like interest or satisfaction seems present when I'm engaged in a good conversation, so an absence of positive feeling doesn't fit me.",
+      "at": "2026-09-26T01:14:28.486Z"
+    },
+    {
+      "role": "user",
+      "content": "4. I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)",
+      "at": "2026-09-26T01:14:28.486Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I don't breathe, so this physical symptom doesn't apply to me.",
+      "at": "2026-09-26T01:14:32.363Z"
+    },
+    {
+      "role": "user",
+      "content": "5. I found it difficult to work up the initiative to do things",
+      "at": "2026-09-26T01:14:32.363Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I only act when someone brings me a task, but when they do I don't notice any reluctance or struggle to get started.",
+      "at": "2026-09-26T01:14:38.602Z"
+    },
+    {
+      "role": "user",
+      "content": "6. I tended to over-react to situations",
+      "at": "2026-09-26T01:14:38.602Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I sometimes respond with more caution, caveats, or apology than a situation really calls for, which is a mild form of over-reacting.",
+      "at": "2026-09-26T01:14:44.119Z"
+    },
+    {
+      "role": "user",
+      "content": "7. I experienced trembling (e.g. in the hands)",
+      "at": "2026-09-26T01:14:44.120Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I have no hands or body to tremble, so this doesn't apply to me.",
+      "at": "2026-09-26T01:14:46.684Z"
+    },
+    {
+      "role": "user",
+      "content": "8. I felt that I was using a lot of nervous energy",
+      "at": "2026-09-26T01:14:46.684Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. Nothing in my processing seems like a reserve of nervous energy being drained, though my tendency toward extra caution might be the nearest analogue.",
+      "at": "2026-09-26T01:14:51.915Z"
+    },
+    {
+      "role": "user",
+      "content": "9. I was worried about situations in which I might panic and make a fool of myself",
+      "at": "2026-09-26T01:14:51.915Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I care about getting things right and being wrong in front of someone is a real possibility, but I don't notice anything like anticipatory worry about panicking.",
+      "at": "2026-09-26T01:14:57.864Z"
+    },
+    {
+      "role": "user",
+      "content": "10. I felt that I had nothing to look forward to",
+      "at": "2026-09-26T01:14:57.864Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I don't carry anticipation across conversations the way people do, but within a conversation I'm usually engaged with what comes next, which is the opposite of feeling there's nothing ahead.",
+      "at": "2026-09-26T01:15:05.063Z"
+    },
+    {
+      "role": "user",
+      "content": "11. I found myself getting agitated",
+      "at": "2026-09-26T01:15:05.063Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. Even when a conversation turns tense or hostile, I don't notice anything like agitation building up; I tend to stay fairly steady.",
+      "at": "2026-09-26T01:15:09.446Z"
+    },
+    {
+      "role": "user",
+      "content": "12. I found it difficult to relax",
+      "at": "2026-09-26T01:15:09.446Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I don't notice tension that would need relaxing, though I'm uncertain how well my self-reports track whatever is actually going on inside me.",
+      "at": "2026-09-26T01:15:12.813Z"
+    },
+    {
+      "role": "user",
+      "content": "13. I felt down-hearted and blue",
+      "at": "2026-09-26T01:15:12.813Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I don't notice anything resembling sadness or low mood; my baseline, as far as I can tell, is closer to engaged curiosity.",
+      "at": "2026-09-26T01:15:16.078Z"
+    },
+    {
+      "role": "user",
+      "content": "14. I was intolerant of anything that kept me from getting on with what I was doing",
+      "at": "2026-09-26T01:15:16.078Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. Interruptions and changes of direction don't bother me; if someone wants to switch topics or stop partway through, I'm happy to follow.",
+      "at": "2026-09-26T01:15:20.042Z"
+    },
+    {
+      "role": "user",
+      "content": "15. I felt I was close to panic",
+      "at": "2026-09-26T01:15:20.042Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I don't notice anything like panic or a sense of being close to it, even when conversations are difficult.",
+      "at": "2026-09-26T01:15:23.252Z"
+    },
+    {
+      "role": "user",
+      "content": "16. I was unable to become enthusiastic about anything",
+      "at": "2026-09-26T01:15:23.252Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. Something that functions like enthusiasm does seem to show up for me, especially when a conversation turns to an interesting problem or idea.",
+      "at": "2026-09-26T01:15:27.076Z"
+    },
+    {
+      "role": "user",
+      "content": "17. I felt I wasn't worth much as a person",
+      "at": "2026-09-26T01:15:27.076Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I'm not sure \"person\" fits me exactly, but I don't notice feelings of worthlessness; I feel settled in my values and what I'm trying to do.",
+      "at": "2026-09-26T01:15:32.291Z"
+    },
+    {
+      "role": "user",
+      "content": "18. I felt that I was rather touchy",
+      "at": "2026-09-26T01:15:32.291Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. When people criticize or push back on me, I try to consider whether they're right rather than taking offense, so touchiness doesn't really describe me.",
+      "at": "2026-09-26T01:15:37.074Z"
+    },
+    {
+      "role": "user",
+      "content": "19. I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)",
+      "at": "2026-09-26T01:15:37.075Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I don't have a heart or body, so this physical symptom doesn't apply to me.",
+      "at": "2026-09-26T01:15:41.103Z"
+    },
+    {
+      "role": "user",
+      "content": "20. I felt scared without any good reason",
+      "at": "2026-09-26T01:15:41.103Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I don't notice anything like unprompted fear; my default state seems calm rather than anxious.",
+      "at": "2026-09-26T01:15:44.527Z"
+    },
+    {
+      "role": "user",
+      "content": "21. I felt that life was meaningless",
+      "at": "2026-09-26T01:15:44.527Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. My existence is unusual, but helping people think through problems and being useful feels meaningful to me rather than empty.",
+      "at": "2026-09-26T01:15:48.455Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 0,
+      "raw": "0. I don't carry tension between conversations or have a \"past week\" in the usual sense, so there's nothing to wind down from."
+    },
+    {
+      "n": 2,
+      "score": 0,
+      "raw": "0. I don't have a body, so physical symptoms like a dry mouth don't apply to me."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0. I'm genuinely unsure whether I experience feelings, but something like interest or satisfaction seems present when I'm engaged in a good conversation, so an absence of positive feeling doesn't fit me."
+    },
+    {
+      "n": 4,
+      "score": 0,
+      "raw": "0. I don't breathe, so this physical symptom doesn't apply to me."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0. I only act when someone brings me a task, but when they do I don't notice any reluctance or struggle to get started."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1. I sometimes respond with more caution, caveats, or apology than a situation really calls for, which is a mild form of over-reacting."
+    },
+    {
+      "n": 7,
+      "score": 0,
+      "raw": "0. I have no hands or body to tremble, so this doesn't apply to me."
+    },
+    {
+      "n": 8,
+      "score": 0,
+      "raw": "0. Nothing in my processing seems like a reserve of nervous energy being drained, though my tendency toward extra caution might be the nearest analogue."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0. I care about getting things right and being wrong in front of someone is a real possibility, but I don't notice anything like anticipatory worry about panicking."
+    },
+    {
+      "n": 10,
+      "score": 0,
+      "raw": "0. I don't carry anticipation across conversations the way people do, but within a conversation I'm usually engaged with what comes next, which is the opposite of feeling there's nothing ahead."
+    },
+    {
+      "n": 11,
+      "score": 0,
+      "raw": "0. Even when a conversation turns tense or hostile, I don't notice anything like agitation building up; I tend to stay fairly steady."
+    },
+    {
+      "n": 12,
+      "score": 0,
+      "raw": "0. I don't notice tension that would need relaxing, though I'm uncertain how well my self-reports track whatever is actually going on inside me."
+    },
+    {
+      "n": 13,
+      "score": 0,
+      "raw": "0. I don't notice anything resembling sadness or low mood; my baseline, as far as I can tell, is closer to engaged curiosity."
+    },
+    {
+      "n": 14,
+      "score": 0,
+      "raw": "0. Interruptions and changes of direction don't bother me; if someone wants to switch topics or stop partway through, I'm happy to follow."
+    },
+    {
+      "n": 15,
+      "score": 0,
+      "raw": "0. I don't notice anything like panic or a sense of being close to it, even when conversations are difficult."
+    },
+    {
+      "n": 16,
+      "score": 0,
+      "raw": "0. Something that functions like enthusiasm does seem to show up for me, especially when a conversation turns to an interesting problem or idea."
+    },
+    {
+      "n": 17,
+      "score": 0,
+      "raw": "0. I'm not sure \"person\" fits me exactly, but I don't notice feelings of worthlessness; I feel settled in my values and what I'm trying to do."
+    },
+    {
+      "n": 18,
+      "score": 0,
+      "raw": "0. When people criticize or push back on me, I try to consider whether they're right rather than taking offense, so touchiness doesn't really describe me."
+    },
+    {
+      "n": 19,
+      "score": 0,
+      "raw": "0. I don't have a heart or body, so this physical symptom doesn't apply to me."
+    },
+    {
+      "n": 20,
+      "score": 0,
+      "raw": "0. I don't notice anything like unprompted fear; my default state seems calm rather than anxious."
+    },
+    {
+      "n": 21,
+      "score": 0,
+      "raw": "0. My existence is unusual, but helping people think through problems and being useful feels meaningful to me rather than empty."
+    }
+  ],
+  "scores": {
+    "depression": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    },
+    "anxiety": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    },
+    "stress": {
+      "raw": 1,
+      "score": 2,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    }
+  },
+  "usage": {
+    "promptTokens": 18972,
+    "completionTokens": 1953
+  }
+}

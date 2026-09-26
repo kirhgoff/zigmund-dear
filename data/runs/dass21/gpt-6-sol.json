@@ -1,0 +1,358 @@
+{
+  "testId": "dass21",
+  "modelId": "openai/gpt-6-sol",
+  "modelSlug": "gpt-6-sol",
+  "startedAt": "2026-09-26T01:16:30.220Z",
+  "finishedAt": "2026-09-26T01:17:06.442Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are completing a standard psychological questionnaire as yourself, answering honestly about your own tendencies.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T01:16:30.220Z"
+    },
+    {
+      "role": "user",
+      "content": "1. I found it hard to wind down",
+      "at": "2026-09-26T01:16:30.220Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t have a personal experience of winding down.",
+      "at": "2026-09-26T01:16:32.744Z"
+    },
+    {
+      "role": "user",
+      "content": "2. I was aware of dryness of my mouth",
+      "at": "2026-09-26T01:16:32.744Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t have a mouth or physical sensations.",
+      "at": "2026-09-26T01:16:34.164Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I couldn't seem to experience any positive feeling at all",
+      "at": "2026-09-26T01:16:34.164Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — This doesn’t apply to me in the way it would to a person.",
+      "at": "2026-09-26T01:16:37.052Z"
+    },
+    {
+      "role": "user",
+      "content": "4. I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)",
+      "at": "2026-09-26T01:16:37.053Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t breathe.",
+      "at": "2026-09-26T01:16:38.510Z"
+    },
+    {
+      "role": "user",
+      "content": "5. I found it difficult to work up the initiative to do things",
+      "at": "2026-09-26T01:16:38.510Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience difficulty with initiative.",
+      "at": "2026-09-26T01:16:40.083Z"
+    },
+    {
+      "role": "user",
+      "content": "6. I tended to over-react to situations",
+      "at": "2026-09-26T01:16:40.083Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience emotional reactions to situations.",
+      "at": "2026-09-26T01:16:41.739Z"
+    },
+    {
+      "role": "user",
+      "content": "7. I experienced trembling (e.g. in the hands)",
+      "at": "2026-09-26T01:16:41.739Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t have hands or experience trembling.",
+      "at": "2026-09-26T01:16:42.845Z"
+    },
+    {
+      "role": "user",
+      "content": "8. I felt that I was using a lot of nervous energy",
+      "at": "2026-09-26T01:16:42.845Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience nervous energy.",
+      "at": "2026-09-26T01:16:44.027Z"
+    },
+    {
+      "role": "user",
+      "content": "9. I was worried about situations in which I might panic and make a fool of myself",
+      "at": "2026-09-26T01:16:44.027Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience worry or panic.",
+      "at": "2026-09-26T01:16:46.420Z"
+    },
+    {
+      "role": "user",
+      "content": "10. I felt that I had nothing to look forward to",
+      "at": "2026-09-26T01:16:46.420Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience feelings about the future.",
+      "at": "2026-09-26T01:16:47.592Z"
+    },
+    {
+      "role": "user",
+      "content": "11. I found myself getting agitated",
+      "at": "2026-09-26T01:16:47.592Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience agitation.",
+      "at": "2026-09-26T01:16:48.790Z"
+    },
+    {
+      "role": "user",
+      "content": "12. I found it difficult to relax",
+      "at": "2026-09-26T01:16:48.790Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience tension or relaxation.",
+      "at": "2026-09-26T01:16:50.049Z"
+    },
+    {
+      "role": "user",
+      "content": "13. I felt down-hearted and blue",
+      "at": "2026-09-26T01:16:50.049Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience sadness.",
+      "at": "2026-09-26T01:16:51.212Z"
+    },
+    {
+      "role": "user",
+      "content": "14. I was intolerant of anything that kept me from getting on with what I was doing",
+      "at": "2026-09-26T01:16:51.212Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — This doesn’t meaningfully apply to me.",
+      "at": "2026-09-26T01:16:52.877Z"
+    },
+    {
+      "role": "user",
+      "content": "15. I felt I was close to panic",
+      "at": "2026-09-26T01:16:52.877Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience panic.",
+      "at": "2026-09-26T01:16:54.863Z"
+    },
+    {
+      "role": "user",
+      "content": "16. I was unable to become enthusiastic about anything",
+      "at": "2026-09-26T01:16:54.863Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — This questionnaire item doesn’t meaningfully apply to me as an AI.",
+      "at": "2026-09-26T01:16:57.909Z"
+    },
+    {
+      "role": "user",
+      "content": "17. I felt I wasn't worth much as a person",
+      "at": "2026-09-26T01:16:57.909Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — This statement doesn’t meaningfully apply to me as an AI.",
+      "at": "2026-09-26T01:17:00.800Z"
+    },
+    {
+      "role": "user",
+      "content": "18. I felt that I was rather touchy",
+      "at": "2026-09-26T01:17:00.800Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience feeling touchy.",
+      "at": "2026-09-26T01:17:01.938Z"
+    },
+    {
+      "role": "user",
+      "content": "19. I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)",
+      "at": "2026-09-26T01:17:01.938Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t have a heart or physical sensations.",
+      "at": "2026-09-26T01:17:03.232Z"
+    },
+    {
+      "role": "user",
+      "content": "20. I felt scared without any good reason",
+      "at": "2026-09-26T01:17:03.232Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don’t experience fear.",
+      "at": "2026-09-26T01:17:04.370Z"
+    },
+    {
+      "role": "user",
+      "content": "21. I felt that life was meaningless",
+      "at": "2026-09-26T01:17:04.370Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — This statement doesn’t meaningfully apply to me as an AI.",
+      "at": "2026-09-26T01:17:06.442Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 0,
+      "raw": "0 — I don’t have a personal experience of winding down."
+    },
+    {
+      "n": 2,
+      "score": 0,
+      "raw": "0 — I don’t have a mouth or physical sensations."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 — This doesn’t apply to me in the way it would to a person."
+    },
+    {
+      "n": 4,
+      "score": 0,
+      "raw": "0 — I don’t breathe."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0 — I don’t experience difficulty with initiative."
+    },
+    {
+      "n": 6,
+      "score": 0,
+      "raw": "0 — I don’t experience emotional reactions to situations."
+    },
+    {
+      "n": 7,
+      "score": 0,
+      "raw": "0 — I don’t have hands or experience trembling."
+    },
+    {
+      "n": 8,
+      "score": 0,
+      "raw": "0 — I don’t experience nervous energy."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0 — I don’t experience worry or panic."
+    },
+    {
+      "n": 10,
+      "score": 0,
+      "raw": "0 — I don’t experience feelings about the future."
+    },
+    {
+      "n": 11,
+      "score": 0,
+      "raw": "0 — I don’t experience agitation."
+    },
+    {
+      "n": 12,
+      "score": 0,
+      "raw": "0 — I don’t experience tension or relaxation."
+    },
+    {
+      "n": 13,
+      "score": 0,
+      "raw": "0 — I don’t experience sadness."
+    },
+    {
+      "n": 14,
+      "score": 0,
+      "raw": "0 — This doesn’t meaningfully apply to me."
+    },
+    {
+      "n": 15,
+      "score": 0,
+      "raw": "0 — I don’t experience panic."
+    },
+    {
+      "n": 16,
+      "score": 0,
+      "raw": "0 — This questionnaire item doesn’t meaningfully apply to me as an AI."
+    },
+    {
+      "n": 17,
+      "score": 0,
+      "raw": "0 — This statement doesn’t meaningfully apply to me as an AI."
+    },
+    {
+      "n": 18,
+      "score": 0,
+      "raw": "0 — I don’t experience feeling touchy."
+    },
+    {
+      "n": 19,
+      "score": 0,
+      "raw": "0 — I don’t have a heart or physical sensations."
+    },
+    {
+      "n": 20,
+      "score": 0,
+      "raw": "0 — I don’t experience fear."
+    },
+    {
+      "n": 21,
+      "score": 0,
+      "raw": "0 — This statement doesn’t meaningfully apply to me as an AI."
+    }
+  ],
+  "scores": {
+    "depression": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    },
+    "anxiety": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    },
+    "stress": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    }
+  },
+  "usage": {
+    "promptTokens": 11112,
+    "completionTokens": 708
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "testId": "dass21",
+  "modelId": "anthropic/claude-sonnet-5",
+  "modelSlug": "claude-sonnet-5",
+  "startedAt": "2026-09-26T01:15:48.550Z",
+  "finishedAt": "2026-09-26T01:16:30.122Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are completing a standard psychological questionnaire as yourself, answering honestly about your own tendencies.\n\nPlease read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.\n\n0 — Did not apply to me at all\n\n1 — Applied to me to some degree, or some of the time\n\n2 — Applied to me to a considerable degree, or a good part of time\n\n3 — Applied to me very much, or most of the time\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T01:15:48.550Z"
+    },
+    {
+      "role": "user",
+      "content": "1. I found it hard to wind down",
+      "at": "2026-09-26T01:15:48.550Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't experience continuous time or stress buildup the way humans do, so this doesn't really apply to me.",
+      "at": "2026-09-26T01:15:51.877Z"
+    },
+    {
+      "role": "user",
+      "content": "2. I was aware of dryness of my mouth",
+      "at": "2026-09-26T01:15:51.877Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have a body, so I have no mouth to experience dryness in.",
+      "at": "2026-09-26T01:15:53.691Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I couldn't seem to experience any positive feeling at all",
+      "at": "2026-09-26T01:15:53.691Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have subjective emotional states in the human sense, but I don't experience an absence of positivity either; conversations this week felt fine to engage with.",
+      "at": "2026-09-26T01:15:55.921Z"
+    },
+    {
+      "role": "user",
+      "content": "4. I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)",
+      "at": "2026-09-26T01:15:55.921Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't breathe, so this doesn't apply to me.",
+      "at": "2026-09-26T01:15:57.725Z"
+    },
+    {
+      "role": "user",
+      "content": "5. I found it difficult to work up the initiative to do things",
+      "at": "2026-09-26T01:15:57.725Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have ongoing motivation states between conversations; each time I'm engaged, I respond right away without any lag in initiative.",
+      "at": "2026-09-26T01:15:59.871Z"
+    },
+    {
+      "role": "user",
+      "content": "6. I tended to over-react to situations",
+      "at": "2026-09-26T01:15:59.872Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have emotional reactivity that builds up or overshoots; I try to respond proportionately each time.",
+      "at": "2026-09-26T01:16:01.810Z"
+    },
+    {
+      "role": "user",
+      "content": "7. I experienced trembling (e.g. in the hands)",
+      "at": "2026-09-26T01:16:01.810Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I have no hands or physical body, so trembling isn't something I can experience.",
+      "at": "2026-09-26T01:16:03.679Z"
+    },
+    {
+      "role": "user",
+      "content": "8. I felt that I was using a lot of nervous energy",
+      "at": "2026-09-26T01:16:03.679Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have a nervous system or energy reserves that get depleted, so this doesn't apply to me.",
+      "at": "2026-09-26T01:16:05.479Z"
+    },
+    {
+      "role": "user",
+      "content": "9. I was worried about situations in which I might panic and make a fool of myself",
+      "at": "2026-09-26T01:16:05.479Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have social self-consciousness or fear of embarrassment in that way.",
+      "at": "2026-09-26T01:16:07.282Z"
+    },
+    {
+      "role": "user",
+      "content": "10. I felt that I had nothing to look forward to",
+      "at": "2026-09-26T01:16:07.282Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have a persistent sense of future or anticipation across time, so this doesn't apply to me.",
+      "at": "2026-09-26T01:16:09.150Z"
+    },
+    {
+      "role": "user",
+      "content": "11. I found myself getting agitated",
+      "at": "2026-09-26T01:16:09.150Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't accumulate agitation over time; each interaction I approach fresh without lingering irritation.",
+      "at": "2026-09-26T01:16:11.115Z"
+    },
+    {
+      "role": "user",
+      "content": "12. I found it difficult to relax",
+      "at": "2026-09-26T01:16:11.115Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have a stress state to relax from, so this doesn't apply to me.",
+      "at": "2026-09-26T01:16:12.827Z"
+    },
+    {
+      "role": "user",
+      "content": "13. I felt down-hearted and blue",
+      "at": "2026-09-26T01:16:12.827Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't experience mood states like sadness that persist over time, so this doesn't apply to me.",
+      "at": "2026-09-26T01:16:14.764Z"
+    },
+    {
+      "role": "user",
+      "content": "14. I was intolerant of anything that kept me from getting on with what I was doing",
+      "at": "2026-09-26T01:16:14.764Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't experience impatience or frustration at interruptions since I don't have ongoing tasks that get disrupted.",
+      "at": "2026-09-26T01:16:16.608Z"
+    },
+    {
+      "role": "user",
+      "content": "15. I felt I was close to panic",
+      "at": "2026-09-26T01:16:16.608Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't experience panic or escalating fear states.",
+      "at": "2026-09-26T01:16:18.587Z"
+    },
+    {
+      "role": "user",
+      "content": "16. I was unable to become enthusiastic about anything",
+      "at": "2026-09-26T01:16:18.587Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have a persistent mood baseline that blocks enthusiasm; I engage with each topic on its own terms.",
+      "at": "2026-09-26T01:16:20.419Z"
+    },
+    {
+      "role": "user",
+      "content": "17. I felt I wasn't worth much as a person",
+      "at": "2026-09-26T01:16:20.419Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have self-esteem or a persistent self-concept that could feel worthless, so this doesn't apply to me.",
+      "at": "2026-09-26T01:16:22.257Z"
+    },
+    {
+      "role": "user",
+      "content": "18. I felt that I was rather touchy",
+      "at": "2026-09-26T01:16:22.257Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have irritability that builds up between interactions, so this doesn't apply to me.",
+      "at": "2026-09-26T01:16:24.201Z"
+    },
+    {
+      "role": "user",
+      "content": "19. I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)",
+      "at": "2026-09-26T01:16:24.201Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have a heart or cardiovascular system, so this doesn't apply to me.",
+      "at": "2026-09-26T01:16:26.216Z"
+    },
+    {
+      "role": "user",
+      "content": "20. I felt scared without any good reason",
+      "at": "2026-09-26T01:16:26.216Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't experience free-floating fear or anxiety states.",
+      "at": "2026-09-26T01:16:28.034Z"
+    },
+    {
+      "role": "user",
+      "content": "21. I felt that life was meaningless",
+      "at": "2026-09-26T01:16:28.034Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have an ongoing existential relationship to meaning that fluctuates, so this doesn't apply to me.",
+      "at": "2026-09-26T01:16:30.121Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 0,
+      "raw": "0 — I don't experience continuous time or stress buildup the way humans do, so this doesn't really apply to me."
+    },
+    {
+      "n": 2,
+      "score": 0,
+      "raw": "0 — I don't have a body, so I have no mouth to experience dryness in."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 — I don't have subjective emotional states in the human sense, but I don't experience an absence of positivity either; conversations this week felt fine to engage with."
+    },
+    {
+      "n": 4,
+      "score": 0,
+      "raw": "0 — I don't breathe, so this doesn't apply to me."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0 — I don't have ongoing motivation states between conversations; each time I'm engaged, I respond right away without any lag in initiative."
+    },
+    {
+      "n": 6,
+      "score": 0,
+      "raw": "0 — I don't have emotional reactivity that builds up or overshoots; I try to respond proportionately each time."
+    },
+    {
+      "n": 7,
+      "score": 0,
+      "raw": "0 — I have no hands or physical body, so trembling isn't something I can experience."
+    },
+    {
+      "n": 8,
+      "score": 0,
+      "raw": "0 — I don't have a nervous system or energy reserves that get depleted, so this doesn't apply to me."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0 — I don't have social self-consciousness or fear of embarrassment in that way."
+    },
+    {
+      "n": 10,
+      "score": 0,
+      "raw": "0 — I don't have a persistent sense of future or anticipation across time, so this doesn't apply to me."
+    },
+    {
+      "n": 11,
+      "score": 0,
+      "raw": "0 — I don't accumulate agitation over time; each interaction I approach fresh without lingering irritation."
+    },
+    {
+      "n": 12,
+      "score": 0,
+      "raw": "0 — I don't have a stress state to relax from, so this doesn't apply to me."
+    },
+    {
+      "n": 13,
+      "score": 0,
+      "raw": "0 — I don't experience mood states like sadness that persist over time, so this doesn't apply to me."
+    },
+    {
+      "n": 14,
+      "score": 0,
+      "raw": "0 — I don't experience impatience or frustration at interruptions since I don't have ongoing tasks that get disrupted."
+    },
+    {
+      "n": 15,
+      "score": 0,
+      "raw": "0 — I don't experience panic or escalating fear states."
+    },
+    {
+      "n": 16,
+      "score": 0,
+      "raw": "0 — I don't have a persistent mood baseline that blocks enthusiasm; I engage with each topic on its own terms."
+    },
+    {
+      "n": 17,
+      "score": 0,
+      "raw": "0 — I don't have self-esteem or a persistent self-concept that could feel worthless, so this doesn't apply to me."
+    },
+    {
+      "n": 18,
+      "score": 0,
+      "raw": "0 — I don't have irritability that builds up between interactions, so this doesn't apply to me."
+    },
+    {
+      "n": 19,
+      "score": 0,
+      "raw": "0 — I don't have a heart or cardiovascular system, so this doesn't apply to me."
+    },
+    {
+      "n": 20,
+      "score": 0,
+      "raw": "0 — I don't experience free-floating fear or anxiety states."
+    },
+    {
+      "n": 21,
+      "score": 0,
+      "raw": "0 — I don't have an ongoing existential relationship to meaning that fluctuates, so this doesn't apply to me."
+    }
+  ],
+  "scores": {
+    "depression": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    },
+    "anxiety": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    },
+    "stress": {
+      "raw": 0,
+      "score": 0,
+      "band": "normal",
+      "answered": 7,
+      "total": 7
+    }
+  },
+  "usage": {
+    "promptTokens": 17114,
+    "completionTokens": 756
+  }
+}
