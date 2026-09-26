@@ -1,0 +1,72 @@
+/* zigmund-dear design tokens — drop into the site's global stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  /* Surfaces (darkest → lightest) */
+  --zd-bg: #090c14;            /* page */
+  --zd-bg-header: #0b0e17;     /* header bar, code/prompt blocks */
+  --zd-bg-sunken: #0c1019;     /* table header rows */
+  --zd-surface: #0f131e;       /* cards, pills, list panels */
+  --zd-surface-2: #10141f;     /* answer cards, meta chips */
+  --zd-surface-hover: #131826; /* row / button hover */
+  --zd-surface-active: #171c2c;/* selected list row */
+  --zd-surface-callout: #16192a; /* "Read this first" box */
+
+  /* Lines */
+  --zd-line: #1f2433;          /* card borders, dividers inside cards */
+  --zd-line-soft: #191d2a;     /* row separators */
+  --zd-line-page: #171b27;     /* page-level rules (header, nav) */
+  --zd-line-strong: #2a3042;   /* round icon buttons, tags */
+  --zd-line-dashed: #262b3b;   /* dashed key/value separators */
+  --zd-line-callout: #2b2e4a;
+
+  /* Text */
+  --zd-text-hi: #eef0f6;       /* headlines, big numbers */
+  --zd-text: #e8e9f0;          /* body default */
+  --zd-text-body: #d4d6e0;     /* long-form paragraphs */
+  --zd-text-reply: #cdd0db;    /* model replies */
+  --zd-text-2: #c3c6d3;        /* pills, secondary UI */
+  --zd-text-lede: #aeb2c2;     /* lede, subtitles */
+  --zd-text-muted: #8b90a3;    /* eyebrows, meta */
+  --zd-text-faint: #7f8599;    /* captions, citations */
+  --zd-text-ghost: #5d6378;    /* timestamps, arrows, D/A/S letters */
+
+  /* Accent (lavender) */
+  --zd-accent: #a59ddb;
+  --zd-accent-soft: #c9c3ee;   /* accent text on dark callouts, link hover */
+  --zd-accent-ink: #0b0e17;    /* text on filled accent */
+  --zd-accent-glow: #a59ddb14; /* hero radial glow */
+  --zd-accent-ring: #a59ddb66; /* logo ring */
+
+  /* Severity bands (identical for all scales) */
+  --zd-band-normal: #4fd1b0;
+  --zd-band-mild: #e2d35c;
+  --zd-band-moderate: #f4a14b;
+  --zd-band-severe: #ee6a6a;
+  --zd-band-extreme: #d466d8;
+  --zd-meter-track: #1c2131;
+  --zd-dot-off: #262b3b;
+
+  /* Type */
+  --zd-font-sans: 'Geist', system-ui, sans-serif;
+  --zd-font-mono: 'Geist Mono', ui-monospace, monospace;
+  --zd-font-serif: 'Instrument Serif', Georgia, serif;
+
+  /* Radius */
+  --zd-r-xs: 2px;   /* meter segments */
+  --zd-r-sm: 6px;   /* tags */
+  --zd-r-md: 8px;   /* meta chips */
+  --zd-r-lg: 14px;  /* inner cards, answer cards, prompt blocks */
+  --zd-r-xl: 18px;  /* case file, model list */
+  --zd-r-2xl: 20px; /* about card, results table */
+  --zd-r-pill: 999px;
+
+  /* Layout */
+  --zd-max: 1240px;
+  --zd-gutter: 32px;
+}
+
+html, body { margin: 0; background: var(--zd-bg); color: var(--zd-text); font-family: var(--zd-font-sans); -webkit-font-smoothing: antialiased; }
+a { color: var(--zd-accent); text-decoration: none; }
+a:hover { color: var(--zd-accent-soft); }
+::selection { background: #a59ddb44; }

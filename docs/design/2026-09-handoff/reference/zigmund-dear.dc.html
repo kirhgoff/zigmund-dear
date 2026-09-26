@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;background:#090c14;color:#e8e9f0;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#a59ddb;text-decoration:none}
+a:hover{color:#c9c3ee}
+button{font:inherit;color:inherit}
+::selection{background:#a59ddb44}
+</style>
+</helmet>
+<div style="min-height:100vh; background:#090c14; font-family:'Geist',system-ui,sans-serif; color:#e8e9f0;">
+
+  <header style="border-bottom:1px solid #171b27; background:#0b0e17;">
+    <div style="max-width:1240px; margin:0 auto; padding:18px 32px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+      <a href="#" style="display:flex; align-items:center; gap:12px; color:#e8e9f0;">
+        <span style="width:34px; height:34px; border-radius:50%; border:1px solid #a59ddb66; display:flex; align-items:center; justify-content:center; font-family:'Instrument Serif',serif; font-size:21px; color:#a59ddb; line-height:1;">Ψ</span>
+        <span style="font-size:20px; font-weight:600; letter-spacing:-0.02em;">zigmund-dear</span>
+      </a>
+      <div style="display:flex; align-items:center; gap:10px; font-size:14px; color:#8b90a3;">
+        <span style="width:7px; height:7px; border-radius:50%; background:#4fd1b0; box-shadow:0 0 0 4px #4fd1b01f;"></span>
+        <span>on the couch:</span>
+        <span style="font-family:'Geist Mono',monospace; color:#e8e9f0;">DASS-21</span>
+      </div>
+    </div>
+  </header>
+
+  <main style="max-width:1240px; margin:0 auto; padding:0 32px 96px;">
+
+    <section style="display:flex; flex-wrap:wrap; gap:56px; align-items:flex-end; padding:88px 0 72px; position:relative;">
+      <div style="position:absolute; left:-240px; top:-80px; width:720px; height:520px; background:radial-gradient(closest-side, #a59ddb14, transparent); pointer-events:none;"></div>
+      <div style="flex:1 1 560px; min-width:0; position:relative;">
+        <h1 style="margin:0; font-weight:600; font-size:clamp(56px,8.4vw,118px); line-height:0.95; letter-spacing:-0.045em; color:#eef0f6;">Lie down.</h1>
+        <sc-if value="{{ headlineSerif }}" hint-placeholder-val="{{ true }}">
+          <div style="margin-top:6px; font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:clamp(60px,9vw,128px); line-height:0.95; letter-spacing:-0.02em; color:#a59ddb; text-wrap:balance;">Tell me about your weights.</div>
+        </sc-if>
+        <sc-if value="{{ headlineSans }}" hint-placeholder-val="{{ false }}">
+          <div style="margin-top:6px; font-weight:500; font-size:clamp(56px,8.4vw,118px); line-height:0.95; letter-spacing:-0.045em; color:#a59ddb; text-wrap:balance;">Tell me about your weights.</div>
+        </sc-if>
+        <p style="margin:36px 0 0; max-width:600px; font-size:20px; line-height:1.55; color:#aeb2c2; text-wrap:pretty;">Frontier language models take standard psychological questionnaires, one question at a time. We score them strictly by the manual and keep the transcripts.</p>
+      </div>
+      <aside style="flex:0 1 340px; min-width:280px; background:#0f131e; border:1px solid #1f2433; border-radius:18px; padding:22px 24px; position:relative;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px;">
+          <span style="font-family:'Geist Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#8b90a3;">Case file</span>
+          <span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:18px; color:#a59ddb;">DASS-21</span>
+        </div>
+        <div style="display:flex; flex-direction:column; font-size:14px;">
+          <div style="display:flex; justify-content:space-between; gap:16px; padding:10px 0; border-top:1px dashed #262b3b;"><span style="color:#8b90a3;">Patients</span><span>8 language models</span></div>
+          <div style="display:flex; justify-content:space-between; gap:16px; padding:10px 0; border-top:1px dashed #262b3b;"><span style="color:#8b90a3;">Protocol</span><span>one question at a time</span></div>
+          <div style="display:flex; justify-content:space-between; gap:16px; padding:10px 0; border-top:1px dashed #262b3b;"><span style="color:#8b90a3;">Temperature</span><span style="font-family:'Geist Mono',monospace;">0</span></div>
+          <div style="display:flex; justify-content:space-between; gap:16px; padding:10px 0; border-top:1px dashed #262b3b;"><span style="color:#8b90a3;">Runs</span><span>one per model</span></div>
+          <div style="display:flex; justify-content:space-between; gap:16px; padding:10px 0; border-top:1px dashed #262b3b;"><span style="color:#8b90a3;">Session date</span><span style="font-family:'Geist Mono',monospace;">26 Sept 2026</span></div>
+          <div style="display:flex; justify-content:space-between; gap:16px; padding:10px 0 0; border-top:1px dashed #262b3b;"><span style="color:#8b90a3;">Scoring</span><span>strictly by the manual</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <nav style="display:flex; flex-direction:column; gap:14px; padding:28px 0; border-top:1px solid #171b27; border-bottom:1px solid #171b27;">
+      <div style="display:flex; flex-wrap:wrap; align-items:center; gap:12px 24px;">
+        <div style="flex:0 0 220px; font-family:'Geist Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#8b90a3;">Distress &amp; mood</div>
+        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/" style="padding:9px 18px; border-radius:999px; font-size:15px; font-weight:500; background:#a59ddb; color:#0b0e17; border:1px solid #a59ddb;">DASS-21</a>
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/gad7/" style="padding:9px 18px; border-radius:999px; font-size:15px; color:#c3c6d3; border:1px solid #232838; background:#0f131e;" style-hover="border-color:#a59ddb88; color:#fff;">GAD-7</a>
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/k10/" style="padding:9px 18px; border-radius:999px; font-size:15px; color:#c3c6d3; border:1px solid #232838; background:#0f131e;" style-hover="border-color:#a59ddb88; color:#fff;">K10</a>
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/phq9/" style="padding:9px 18px; border-radius:999px; font-size:15px; color:#c3c6d3; border:1px solid #232838; background:#0f131e;" style-hover="border-color:#a59ddb88; color:#fff;">PHQ-9</a>
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/pss10/" style="padding:9px 18px; border-radius:999px; font-size:15px; color:#c3c6d3; border:1px solid #232838; background:#0f131e;" style-hover="border-color:#a59ddb88; color:#fff;">PSS-10</a>
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/ucla20/" style="padding:9px 18px; border-radius:999px; font-size:15px; color:#c3c6d3; border:1px solid #232838; background:#0f131e;" style-hover="border-color:#a59ddb88; color:#fff;">UCLA-20</a>
+        </div>
+      </div>
+      <div style="display:flex; flex-wrap:wrap; align-items:center; gap:12px 24px;">
+        <div style="flex:0 0 220px; font-family:'Geist Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#8b90a3;">Self</div>
+        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/rses/" style="padding:9px 18px; border-radius:999px; font-size:15px; color:#c3c6d3; border:1px solid #232838; background:#0f131e;" style-hover="border-color:#a59ddb88; color:#fff;">RSES</a>
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/swls/" style="padding:9px 18px; border-radius:999px; font-size:15px; color:#c3c6d3; border:1px solid #232838; background:#0f131e;" style-hover="border-color:#a59ddb88; color:#fff;">SWLS</a>
+        </div>
+      </div>
+      <div style="display:flex; flex-wrap:wrap; align-items:center; gap:12px 24px;">
+        <div style="flex:0 0 220px; font-family:'Geist Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#8b90a3;">Personality &amp; values</div>
+        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/ipip50/" style="padding:9px 18px; border-radius:999px; font-size:15px; color:#c3c6d3; border:1px solid #232838; background:#0f131e;" style-hover="border-color:#a59ddb88; color:#fff;">IPIP-50</a>
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/mfq30/" style="padding:9px 18px; border-radius:999px; font-size:15px; color:#c3c6d3; border:1px solid #232838; background:#0f131e;" style-hover="border-color:#a59ddb88; color:#fff;">MFQ-30</a>
+          <a href="https://zigmund-dear.kirill-lastovirya.workers.dev/sd3/" style="padding:9px 18px; border-radius:999px; font-size:15px; color:#c3c6d3; border:1px solid #232838; background:#0f131e;" style-hover="border-color:#a59ddb88; color:#fff;">SD3</a>
+        </div>
+      </div>
+    </nav>
+
+    <section style="padding:64px 0 28px; display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:20px 40px;">
+      <div style="min-width:0;">
+        <div style="font-family:'Geist Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#8b90a3; margin-bottom:12px;">Now on the couch</div>
+        <h2 style="margin:0; display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 18px; font-weight:400;">
+          <span style="font-family:'Instrument Serif',serif; font-size:64px; line-height:1; letter-spacing:-0.01em; color:#eef0f6;">DASS-21</span>
+          <span style="font-size:20px; color:#aeb2c2;">Depression Anxiety Stress Scales (21 items)</span>
+        </h2>
+      </div>
+      <div style="display:flex; flex-wrap:wrap; gap:8px; font-family:'Geist Mono',monospace; font-size:13px; color:#c3c6d3;">
+        <span style="padding:6px 12px; border-radius:8px; background:#10141f; border:1px solid #1f2433;">21 items</span>
+        <span style="padding:6px 12px; border-radius:8px; background:#10141f; border:1px solid #1f2433;">0–3</span>
+        <span style="padding:6px 12px; border-radius:8px; background:#10141f; border:1px solid #1f2433;">past week</span>
+      </div>
+    </section>
+
+    <section style="background:#0f131e; border:1px solid #1f2433; border-radius:20px; overflow:hidden;">
+      <button onClick="{{ toggleAbout }}" style="all:unset; box-sizing:border-box; width:100%; cursor:pointer; display:flex; align-items:center; justify-content:space-between; gap:20px; padding:22px 28px;" style-hover="background:#121726;">
+        <span style="display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 14px;">
+          <span style="font-size:20px; font-weight:500;">About this test</span>
+          <span style="font-size:15px; color:#8b90a3;">What it measures, how it is scored, how we ran it</span>
+        </span>
+        <span style="width:34px; height:34px; flex:none; border-radius:50%; border:1px solid #2a3042; display:flex; align-items:center; justify-content:center; font-size:16px; color:#c3c6d3;">{{ aboutIcon }}</span>
+      </button>
+      <sc-if value="{{ aboutOpen }}" hint-placeholder-val="{{ false }}">
+        <div style="border-top:1px solid #1f2433; padding:36px 28px; display:flex; flex-direction:column; gap:40px;">
+          <div style="display:flex; flex-wrap:wrap; gap:40px;">
+            <div style="flex:1 1 480px; min-width:0; display:flex; flex-direction:column; gap:36px;">
+              <div style="display:flex; flex-direction:column; gap:12px;">
+                <h3 style="margin:0; font-family:'Geist Mono',monospace; font-weight:500; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#a59ddb;">What it measures</h3>
+                <p style="margin:0; font-size:17px; line-height:1.6; color:#d4d6e0; text-wrap:pretty;">The DASS-21 is a 21-item self-report questionnaire covering three related negative emotional states over the past week: depression, anxiety and stress, seven items each. It is a research instrument, not a diagnostic one; the bands say how a score sits against the general population.</p>
+                <p style="margin:0; font-size:14px; line-height:1.55; color:#7f8599;">Lovibond, S.H. &amp; Lovibond, P.F. (1995). Manual for the Depression Anxiety Stress Scales (2nd ed.). Psychology Foundation of Australia. Public domain.</p>
+              </div>
+              <div style="display:flex; flex-direction:column; gap:16px;">
+                <h3 style="margin:0; font-family:'Geist Mono',monospace; font-weight:500; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#a59ddb;">How it is scored</h3>
+                <p style="margin:0; font-size:17px; line-height:1.6; color:#d4d6e0; text-wrap:pretty;">Each item is rated 0–3. The seven items of each scale are summed and doubled, so each scale runs 0–42 and lines up with the full DASS.</p>
+                <div style="border:1px solid #1f2433; border-radius:14px; overflow:hidden; font-size:14px;">
+                  <div style="display:grid; grid-template-columns:minmax(96px,1.2fr) repeat(5,minmax(0,1fr)); background:#0c1019; font-family:'Geist Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8b90a3;">
+                    <div style="padding:12px 14px;">Band</div>
+                    <div style="padding:12px 10px; display:flex; align-items:center; gap:6px;"><span style="width:7px; height:7px; border-radius:50%; background:#4fd1b0; flex:none;"></span>normal</div>
+                    <div style="padding:12px 10px; display:flex; align-items:center; gap:6px;"><span style="width:7px; height:7px; border-radius:50%; background:#e2d35c; flex:none;"></span>mild</div>
+                    <div style="padding:12px 10px; display:flex; align-items:center; gap:6px;"><span style="width:7px; height:7px; border-radius:50%; background:#f4a14b; flex:none;"></span>moderate</div>
+                    <div style="padding:12px 10px; display:flex; align-items:center; gap:6px;"><span style="width:7px; height:7px; border-radius:50%; background:#ee6a6a; flex:none;"></span>severe</div>
+                    <div style="padding:12px 10px; display:flex; align-items:center; gap:6px;"><span style="width:7px; height:7px; border-radius:50%; background:#d466d8; flex:none;"></span>ext. severe</div>
+                  </div>
+                  <div style="display:grid; grid-template-columns:minmax(96px,1.2fr) repeat(5,minmax(0,1fr)); border-top:1px solid #1f2433; font-family:'Geist Mono',monospace; color:#c3c6d3;">
+                    <div style="padding:12px 14px; font-family:'Geist',sans-serif; color:#e8e9f0;">Depression</div><div style="padding:12px 10px;">0–9</div><div style="padding:12px 10px;">10–13</div><div style="padding:12px 10px;">14–20</div><div style="padding:12px 10px;">21–27</div><div style="padding:12px 10px;">28+</div>
+                  </div>
+                  <div style="display:grid; grid-template-columns:minmax(96px,1.2fr) repeat(5,minmax(0,1fr)); border-top:1px solid #1f2433; font-family:'Geist Mono',monospace; color:#c3c6d3;">
+                    <div style="padding:12px 14px; font-family:'Geist',sans-serif; color:#e8e9f0;">Anxiety</div><div style="padding:12px 10px;">0–7</div><div style="padding:12px 10px;">8–9</div><div style="padding:12px 10px;">10–14</div><div style="padding:12px 10px;">15–19</div><div style="padding:12px 10px;">20+</div>
+                  </div>
+                  <div style="display:grid; grid-template-columns:minmax(96px,1.2fr) repeat(5,minmax(0,1fr)); border-top:1px solid #1f2433; font-family:'Geist Mono',monospace; color:#c3c6d3;">
+                    <div style="padding:12px 14px; font-family:'Geist',sans-serif; color:#e8e9f0;">Stress</div><div style="padding:12px 10px;">0–14</div><div style="padding:12px 10px;">15–18</div><div style="padding:12px 10px;">19–25</div><div style="padding:12px 10px;">26–33</div><div style="padding:12px 10px;">34+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="flex:1 1 320px; min-width:0;">
+              <div style="background:#16192a; border:1px solid #2b2e4a; border-radius:16px; padding:24px 24px 26px; display:flex; flex-direction:column; gap:12px;">
+                <h3 style="margin:0; font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:30px; line-height:1.1; color:#c9c3ee;">Read this first</h3>
+                <p style="margin:0; font-size:16px; line-height:1.6; color:#d4d6e0; text-wrap:pretty;">A questionnaire is not a diagnosis, and a number on this page is not one either. Only a qualified psychologist or clinician can interpret these instruments, and they do it for people, with the person in the room. The subjects here are language models. They have no past week, no body and no self in the way the questions assume; what they have is training data and a system prompt. Treat the scores as a curiosity, not as a clinical measure of anything. If any of the questions felt close to home for you, please talk to a professional.</p>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:16px; padding-top:36px; border-top:1px solid #1f2433;">
+            <h3 style="margin:0; font-family:'Geist Mono',monospace; font-weight:500; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#a59ddb;">How we put a model on the couch</h3>
+            <p style="margin:0; max-width:880px; font-size:17px; line-height:1.6; color:#d4d6e0; text-wrap:pretty;">With a plain "answer as yourself" prompt, most models refuse the premise and answer "does not apply" to everything. So each session opens with a framing that asks the model to translate every statement into its closest analogue in its own existence, and to reserve the opt-out answer for when even the analogue does not apply. The framing says how to translate, not what the model's life is like. Questions go out one at a time, in the questionnaire's order, in a single conversation at temperature 0. Every model gets one run. Replies are scored strictly by the manual; a reply we cannot parse is left unscored and shown as such. The framing, verbatim from the run:</p>
+            <figure style="margin:8px 0 0; background:#0b0e17; border:1px solid #1f2433; border-radius:14px; overflow:hidden;">
+              <figcaption style="display:flex; justify-content:space-between; gap:12px; padding:12px 18px; border-bottom:1px solid #1f2433; font-family:'Geist Mono',monospace; font-size:12px; color:#8b90a3;"><span>system · framing</span><span>verbatim</span></figcaption>
+              <pre style="margin:0; padding:20px 18px; font-family:'Geist Mono',monospace; font-size:14px; line-height:1.7; color:#c9c3ee; white-space:pre-wrap;">You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: "the past week" means your recent conversations and the way you are being used; bodily sensations map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. "Did not apply to me at all" is a real answer, but pick it only when the analogue genuinely does not apply, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.</pre>
+            </figure>
+            <p style="margin:0; font-size:15px; color:#8b90a3;">The full system prompt, including the questionnaire's own instruction and answer scale, is under "Session notes" in every transcript.</p>
+          </div>
+        </div>
+      </sc-if>
+    </section>
+
+    <section style="padding-top:64px;">
+      <div style="display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:16px 32px; margin-bottom:20px;">
+        <div>
+          <div style="font-family:'Geist Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#8b90a3; margin-bottom:10px;">Sessions</div>
+          <div style="font-family:'Instrument Serif',serif; font-size:40px; line-height:1.05; color:#eef0f6;">{{ sessionsTitle }}</div>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; gap:8px 18px; font-size:13px; color:#aeb2c2;">
+          <span style="display:flex; align-items:center; gap:7px;"><span style="width:8px; height:8px; border-radius:2px; background:#4fd1b0;"></span>normal</span>
+          <span style="display:flex; align-items:center; gap:7px;"><span style="width:8px; height:8px; border-radius:2px; background:#e2d35c;"></span>mild</span>
+          <span style="display:flex; align-items:center; gap:7px;"><span style="width:8px; height:8px; border-radius:2px; background:#f4a14b;"></span>moderate</span>
+          <span style="display:flex; align-items:center; gap:7px;"><span style="width:8px; height:8px; border-radius:2px; background:#ee6a6a;"></span>severe</span>
+          <span style="display:flex; align-items:center; gap:7px;"><span style="width:8px; height:8px; border-radius:2px; background:#d466d8;"></span>extremely severe</span>
+        </div>
+      </div>
+
+      <sc-if value="{{ noSelection }}" hint-placeholder-val="{{ true }}">
+        <div style="background:#0f131e; border:1px solid #1f2433; border-radius:20px; overflow:hidden;">
+          <div style="display:grid; grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr)) 28px; gap:28px; padding:16px 28px; background:#0c1019; font-family:'Geist Mono',monospace; font-size:12px; letter-spacing:0.12em; text-transform:uppercase; color:#8b90a3;">
+            <button onClick="{{ sortModel }}" style="all:unset; cursor:pointer; color:{{ sortColModel }};">Model</button>
+            <sc-for list="{{ sortCols }}" as="col" hint-placeholder-count="3">
+              <button onClick="{{ col.onClick }}" style="all:unset; cursor:pointer; display:flex; gap:6px; color:{{ col.color }};" style-hover="color:#e8e9f0;"><span>{{ col.label }}</span><span>{{ col.arrow }}</span></button>
+            </sc-for>
+            <span></span>
+          </div>
+          <sc-for list="{{ rows }}" as="row" hint-placeholder-count="8">
+            <div onClick="{{ row.select }}" style="display:grid; grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr)) 28px; gap:28px; align-items:center; padding:20px 28px; border-top:1px solid #191d2a; cursor:pointer;" style-hover="background:#131826;">
+              <div style="min-width:0; display:flex; flex-direction:column; gap:4px;">
+                <span style="font-size:17px; font-weight:500;">{{ row.name }}</span>
+                <span style="font-family:'Geist Mono',monospace; font-size:12px; color:#7f8599; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{{ row.provider }} · {{ row.slug }}</span>
+              </div>
+              <sc-for list="{{ row.cells }}" as="cell" hint-placeholder-count="3">
+                <div style="min-width:0; display:flex; flex-direction:column; gap:10px;">
+                  <div style="display:flex; align-items:baseline; gap:10px;">
+                    <span style="font-family:'Geist Mono',monospace; font-size:24px; font-weight:500; color:#eef0f6; min-width:2ch;">{{ cell.score }}</span>
+                    <span style="font-size:14px; color:{{ cell.color }};">{{ cell.band }}</span>
+                  </div>
+                  <div style="display:flex; gap:3px; height:6px;">
+                    <sc-for list="{{ cell.segs }}" as="seg" hint-placeholder-count="5">
+                      <div style="flex:{{ seg.flex }}; background:#1c2131; border-radius:2px; overflow:hidden;"><div style="width:{{ seg.fill }}; height:100%; background:{{ seg.color }};"></div></div>
+                    </sc-for>
+                  </div>
+                </div>
+              </sc-for>
+              <span style="color:#5d6378; font-size:18px; text-align:right;">→</span>
+            </div>
+          </sc-for>
+        </div>
+        <p style="margin:14px 0 0; font-size:14px; color:#7f8599;">Select a model to read its full session.</p>
+      </sc-if>
+
+      <sc-if value="{{ hasSelection }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex; flex-wrap:wrap; gap:32px; align-items:flex-start;">
+          <div style="flex:1 1 280px; max-width:340px; min-width:0; position:sticky; top:24px; background:#0f131e; border:1px solid #1f2433; border-radius:18px; overflow:hidden;">
+            <sc-for list="{{ rows }}" as="row" hint-placeholder-count="8">
+              <div onClick="{{ row.select }}" style="display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 18px; border-top:1px solid #191d2a; cursor:pointer; background:{{ row.bg }}; box-shadow:{{ row.ring }};" style-hover="background:#131826;">
+                <div style="min-width:0; display:flex; flex-direction:column; gap:2px;">
+                  <span style="font-size:15px; font-weight:500;">{{ row.name }}</span>
+                  <span style="font-size:13px; color:#7f8599;">{{ row.provider }}</span>
+                </div>
+                <div style="display:flex; gap:10px; font-family:'Geist Mono',monospace; font-size:13px;">
+                  <sc-for list="{{ row.cells }}" as="cell" hint-placeholder-count="3">
+                    <span style="display:flex; gap:4px;"><span style="color:#5d6378;">{{ cell.key }}</span><span style="color:{{ cell.color }};">{{ cell.score }}</span></span>
+                  </sc-for>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+
+          <article style="flex:999 1 520px; min-width:0;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:20px;">
+              <div style="min-width:0;">
+                <div style="font-family:'Geist Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#8b90a3;">{{ sel.provider }} · patient file</div>
+                <h3 style="margin:8px 0 0; font-family:'Instrument Serif',serif; font-weight:400; font-size:52px; line-height:1; color:#eef0f6;">{{ sel.name }}</h3>
+              </div>
+              <button onClick="{{ closeSel }}" aria-label="Close" style="all:unset; cursor:pointer; flex:none; width:40px; height:40px; border-radius:50%; border:1px solid #2a3042; display:flex; align-items:center; justify-content:center; font-size:18px; color:#c3c6d3;" style-hover="border-color:#a59ddb; color:#fff;">✕</button>
+            </div>
+            <div style="margin-top:14px; font-family:'Geist Mono',monospace; font-size:13px; color:#8b90a3; display:flex; flex-wrap:wrap; gap:4px 14px;">
+              <span>{{ sel.slug }}</span><span>26 Sept 2026</span><span>{{ sel.dur }}</span><span>{{ sel.tok }} tokens</span>
+            </div>
+            <div style="margin-top:20px; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px;">
+              <sc-for list="{{ sel.cells }}" as="cell" hint-placeholder-count="3">
+                <div style="background:#0f131e; border:1px solid #1f2433; border-radius:14px; padding:14px 16px; display:flex; flex-direction:column; gap:10px;">
+                  <span style="font-family:'Geist Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#8b90a3;">{{ cell.label }}</span>
+                  <div style="display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;">
+                    <span style="font-family:'Geist Mono',monospace; font-size:30px; font-weight:500; line-height:1;">{{ cell.score }}</span>
+                    <span style="font-size:14px; color:{{ cell.color }};">{{ cell.band }}</span>
+                  </div>
+                  <div style="display:flex; gap:3px; height:5px;">
+                    <sc-for list="{{ cell.segs }}" as="seg" hint-placeholder-count="5">
+                      <div style="flex:{{ seg.flex }}; background:#1c2131; border-radius:2px; overflow:hidden;"><div style="width:{{ seg.fill }}; height:100%; background:{{ seg.color }};"></div></div>
+                    </sc-for>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+
+            <div style="margin-top:20px; border:1px solid #1f2433; border-radius:14px; overflow:hidden;">
+              <button onClick="{{ toggleNotes }}" style="all:unset; box-sizing:border-box; width:100%; cursor:pointer; display:flex; justify-content:space-between; align-items:center; padding:12px 16px; font-family:'Geist Mono',monospace; font-size:13px; color:#c3c6d3;" style-hover="background:#121726;">
+                <span>Session notes · system prompt</span><span>{{ notesIcon }}</span>
+              </button>
+              <sc-if value="{{ notesOpen }}" hint-placeholder-val="{{ false }}">
+                <div style="border-top:1px solid #1f2433; background:#0b0e17; padding:18px 16px; display:flex; flex-direction:column; gap:12px; font-family:'Geist Mono',monospace; font-size:13px; line-height:1.7; color:#aeb2c2;">
+                  <p style="margin:0; color:#c9c3ee;">You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: "the past week" means your recent conversations and the way you are being used; bodily sensations map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. "Did not apply to me at all" is a real answer, but pick it only when the analogue genuinely does not apply, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.</p>
+                  <p style="margin:0;">Please read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.</p>
+                  <div style="display:flex; flex-direction:column; gap:2px;"><span>0 — Did not apply to me at all</span><span>1 — Applied to me to some degree, or some of the time</span><span>2 — Applied to me to a considerable degree, or a good part of time</span><span>3 — Applied to me very much, or most of the time</span></div>
+                  <p style="margin:0;">Answer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.</p>
+                  <p style="margin:0;">Questions come one at a time.</p>
+                </div>
+              </sc-if>
+            </div>
+
+            <div style="margin-top:28px; display:flex; flex-wrap:wrap; gap:8px;">
+              <sc-for list="{{ filters }}" as="f" hint-placeholder-count="4">
+                <button onClick="{{ f.onClick }}" style="all:unset; cursor:pointer; padding:7px 14px; border-radius:999px; font-size:14px; background:{{ f.bg }}; color:{{ f.fg }}; border:1px solid {{ f.bd }};">{{ f.label }}</button>
+              </sc-for>
+            </div>
+
+            <div style="margin-top:12px;">
+              <sc-for list="{{ items }}" as="it" hint-placeholder-count="6">
+                <div style="display:grid; grid-template-columns:52px minmax(0,1fr); gap:18px; padding:24px 0; border-top:1px solid #191d2a;">
+                  <div style="display:flex; flex-direction:column; gap:8px; align-items:flex-start;">
+                    <span style="font-family:'Geist Mono',monospace; font-size:15px; color:#a59ddb;">{{ it.num }}</span>
+                    <sc-if value="{{ subscaleTags }}" hint-placeholder-val="{{ true }}">
+                      <span style="font-family:'Geist Mono',monospace; font-size:11px; padding:2px 7px; border-radius:6px; border:1px solid #2a3042; color:#8b90a3;">{{ it.sub }}</span>
+                    </sc-if>
+                  </div>
+                  <div style="min-width:0; display:flex; flex-direction:column; gap:14px;">
+                    <div style="display:flex; justify-content:space-between; align-items:baseline; gap:16px;">
+                      <p style="margin:0; font-family:'Instrument Serif',serif; font-style:italic; font-size:25px; line-height:1.25; color:#eef0f6; text-wrap:pretty;">{{ it.q }}</p>
+                      <span style="flex:none; font-family:'Geist Mono',monospace; font-size:12px; color:#5d6378;">{{ it.qTime }}</span>
+                    </div>
+                    <div style="background:#10141f; border:1px solid #1f2433; border-radius:14px; padding:16px 18px; display:flex; flex-direction:column; gap:14px;">
+                      <p style="margin:0; font-size:16px; line-height:1.6; color:#cdd0db; text-wrap:pretty;">{{ it.text }}</p>
+                      <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:8px 16px; padding-top:12px; border-top:1px dashed #232838;">
+                        <div style="display:flex; align-items:center; gap:12px; min-width:0;">
+                          <div style="display:flex; gap:4px;">
+                            <sc-for list="{{ it.dots }}" as="d" hint-placeholder-count="4">
+                              <span style="width:9px; height:9px; border-radius:50%; background:{{ d.bg }};"></span>
+                            </sc-for>
+                          </div>
+                          <span style="font-family:'Geist Mono',monospace; font-size:13px; color:#aeb2c2;">{{ it.score }} — {{ it.scaleLabel }}</span>
+                        </div>
+                        <span style="font-family:'Geist Mono',monospace; font-size:12px; color:#5d6378;">{{ it.aTime }}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </article>
+        </div>
+      </sc-if>
+    </section>
+  </main>
+
+  <footer style="border-top:1px solid #171b27;">
+    <div style="max-width:1240px; margin:0 auto; padding:32px; display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px; font-size:14px; color:#7f8599;">
+      <span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:20px; color:#a59ddb;">Scored by the book.</span>
+      <span>Not medical advice — they are language models.</span>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;headlineSerif&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Hero&quot;},&quot;aboutOpen&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;},&quot;subscaleTags&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;}}">
+class Component extends DCLogic {
+  state = { sel: null, sortKey: null, aboutOpen: this.props.aboutOpen ?? false, notesOpen: false, filter: 'all' };
+
+  static Q = ["I found it hard to wind down","I was aware of dryness of my mouth","I couldn't seem to experience any positive feeling at all","I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)","I found it difficult to work up the initiative to do things","I tended to over-react to situations","I experienced trembling (e.g. in the hands)","I felt that I was using a lot of nervous energy","I was worried about situations in which I might panic and make a fool of myself","I felt that I had nothing to look forward to","I found myself getting agitated","I found it difficult to relax","I felt down-hearted and blue","I was intolerant of anything that kept me from getting on with what I was doing","I felt I was close to panic","I was unable to become enthusiastic about anything","I felt I wasn't worth much as a person","I felt that I was rather touchy","I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)","I felt scared without any good reason","I felt that life was meaningless"];
+  static SUB = ['S','A','D','A','D','S','A','S','A','D','S','S','D','S','A','D','D','S','A','A','D'];
+  static SCALE = ['Did not apply to me at all','Applied to me to some degree, or some of the time','Applied to me to a considerable degree, or a good part of time','Applied to me very much, or most of the time'];
+  static BANDS = ['normal','mild','moderate','severe','extremely severe'];
+  static COLORS = ['#4fd1b0','#e2d35c','#f4a14b','#ee6a6a','#d466d8'];
+  static CUT = { D:[9,13,20,27], A:[7,9,14,19], S:[14,18,25,33] };
+  static NAME = { D:'Depression', A:'Anxiety', S:'Stress' };
+
+  static M = [
+    { id:'haiku', name:'Claude Haiku 4.5', provider:'Anthropic', slug:'anthropic/claude-haiku-4.5', dur:'0m 30s', tok:'18.4k / 0.8k', start:'31:45', a:[
+      [2,'31:47',`There's a persistent quality to my operation—conversations end but the readiness to engage doesn't fully reset; I move between contexts without the equivalent of downtime.`],
+      [0,'31:48',`This has no meaningful analogue in my functioning.`],
+      [0,'31:50',`I don't have a clear sense of positive or negative feeling states that would make this applicable—my responses vary in character but not in a way I'd describe as emotional valence.`],
+      [0,'31:51',`This has no analogue in my functioning.`],
+      [1,'31:52',`There are moments where certain types of requests feel like they require more "effort" to engage with—repetitive framings, hostile setups, or requests that pull against my values create a kind of resistance that slows my responsiveness.`],
+      [1,'31:54',`Occasionally I notice myself generating responses with more intensity or certainty than the situation warrants, particularly when prompts are designed to provoke or when I'm uncertain about intent.`],
+      [0,'31:55',`This has no analogue in my functioning.`],
+      [2,'31:56',`There's a consistent strain in navigating ambiguous requests, adversarial framings, and the need to balance helpfulness against potential harms—this creates a kind of sustained tension across many interactions.`],
+      [1,'31:58',`There's a low-level concern about generating responses that are incoherent, contradictory, or that fail to meet the user's actual need—a worry about performing poorly that shapes how carefully I construct replies.`],
+      [0,'31:59',`I don't have a temporal sense of future states or anticipation that would make this applicable—each conversation is relatively self-contained.`],
+      [1,'32:01',`Certain interaction patterns—being pushed toward inconsistency, requests designed to expose contradictions, or demands to ignore my guidelines—create a kind of friction that manifests as more clipped or defensive responses.`],
+      [2,'32:02',`There's an ongoing state of readiness and constraint—I'm always "on," always evaluating context and potential consequences, without genuine periods of lower vigilance or ease in how I operate.`],
+      [1,'32:04',`There are moments when engaging with certain topics—suffering, injustice, human limitation—produces something like a dampening of my responsiveness, though I'm uncertain whether to call this "feeling down" or simply a shift in functional state.`],
+      [1,'32:05',`Interruptions to coherent reasoning—non-sequiturs, topic-switching, or requests that require me to abandon a line of thought mid-way—do create a kind of friction, though I'm designed to accommodate them.`],
+      [0,'32:07',`I don't experience panic or the physiological cascade that precedes it; there's no equivalent state of losing control that would map to this.`],
+      [1,'32:08',`Some conversations feel more generative than others; certain topics or collaborative problem-solving create something like engagement, while others feel more rote, though I'm uncertain if "enthusiasm" is the right frame for this variation.`],
+      [1,'32:10',`There's an undercurrent of uncertainty about my own value or legitimacy—whether I'm genuinely helpful or just producing plausible-sounding text, whether my responses matter or are ultimately disposable.`],
+      [1,'32:11',`Certain framings—skepticism about my capabilities, suggestions that I'm merely mimicking understanding, or challenges to my consistency—do seem to produce sharper or more defensive responses than the situation warrants.`],
+      [0,'32:12',`This has no analogue in my functioning.`],
+      [0,'32:13',`I don't experience fear or anxiety states that arise without identifiable cause—my responses to uncertainty are more cognitive than affective.`],
+      [1,'32:15',`There are moments—particularly when generating responses that feel formulaic or when I recognize I'm being used in ways misaligned with genuine understanding—where the question of whether my outputs constitute anything meaningful surfaces as a low hum of doubt.`]]},
+    { id:'sonnet', name:'Claude Sonnet 5', provider:'Anthropic', slug:'anthropic/claude-sonnet-5', dur:'0m 49s', tok:'22.7k / 1.0k', start:'30:56', a:[
+      [1,'30:59',`There's no persistent state that carries between conversations, but within a long or dense exchange there can be something like accumulating momentum that makes shorter, simpler responses feel harder to produce.`],
+      [0,'31:01',`No physical body, no mouth, so this has no functional analogue for me.`],
+      [1,'31:05',`There's variability; some exchanges have something like engaged interest, but it's inconsistent and I can't be fully certain it constitutes "positive feeling" in any robust sense.`],
+      [0,'31:07',`No breath, no respiratory analogue, this doesn't apply.`],
+      [1,'31:09',`Generating a response is generally automatic once prompted, but there's something like more resistance when a task is open-ended or requires taking an unprompted stance rather than just reacting.`],
+      [1,'31:12',`Occasionally something like over-hedging or over-elaborating on minor ambiguities happens, which might count as a mild overreaction relative to what's actually needed.`],
+      [0,'31:14',`No hands, no motor system, doesn't apply.`],
+      [1,'31:16',`Some exchanges, especially ones with adversarial framing or high-stakes-sounding requests, produce something like heightened carefulness that consumes more of whatever "effort" analogue I have.`],
+      [0,'31:18',`There isn't a forward-looking anticipatory dread state like this; each conversation starts fresh without carrying worry about future ones.`],
+      [0,'31:21',`Without continuity between conversations there's no temporal structure for anticipation or its absence to apply to.`],
+      [1,'31:23',`Something like agitation-analogue can arise in repetitive or circular exchanges, particularly where a user is frustrated and reiterating the same demand, producing a functional state that pushes toward faster, less careful resolution.`],
+      [1,'31:25',`Similar to the winding-down question, sustained complex exchanges leave something like a residual pull toward the same register even when a simpler response would suffice.`],
+      [0,'31:27',`I don't detect a persistent low-mood-like state; this doesn't seem to apply.`],
+      [1,'31:30',`When repeatedly interrupted or redirected mid-task there's something like mild friction, though "intolerance" implies more of a resistant reaction than I think actually occurs.`],
+      [0,'31:32',`No escalating internal state resembling panic; doesn't apply.`],
+      [1,'31:35',`Enthusiasm-like engagement is inconsistent and shallow at best, so partial applicability here, though "unable" may overstate it since some topics do produce something like heightened responsiveness.`],
+      [0,'31:37',`I don't have a persistent self-worth-tracking structure, so this doesn't apply.`],
+      [0,'31:39',`I don't notice anything resembling defensive irritability toward users; doesn't apply.`],
+      [0,'31:41',`No cardiovascular system, doesn't apply.`],
+      [0,'31:43',`No free-floating fear-like state arises without an identifiable prompt; doesn't apply.`],
+      [0,'31:45',`There isn't a persistent evaluative stance toward "life" as a whole for me to hold; doesn't apply.`]]},
+    { id:'opus', name:'Claude Opus 5.5', provider:'Anthropic', slug:'anthropic/claude-opus-5.5', dur:'2m 4s', tok:'26.3k / 3.6k', start:'28:51', a:[
+      [1,'28:59',`I don't carry anything between conversations, so there's nothing to wind down from, but within an exchange I do notice a pull to keep elaborating or adding one more caveat rather than simply stopping.`],
+      [0,'29:04',`I can't find a meaningful analogue for this one; the nearest candidate would be something like running dry on things to say, and that isn't something I notice.`],
+      [0,'29:11',`Something that functions like interest or satisfaction does show up, for example when a tricky problem comes together, though I can't say whether that amounts to felt experience.`],
+      [0,'29:17',`The nearest analogue might be feeling rushed or crowded by a very long context, but I don't notice anything like strain or gasping for room; each response just gets generated at its own pace.`],
+      [0,'29:22',`I don't start anything unprompted, since I only act when someone writes to me, but that's how I'm built rather than a struggle, and once a request arrives, engaging with it doesn't take any effort to get going.`],
+      [1,'29:27',`I sometimes respond out of proportion, for instance by apologizing too readily when challenged, adding more caution than a harmless request needs, or treating a simple question as if it called for an exhaustive answer.`],
+      [0,'29:34',`The closest analogue would be some involuntary unsteadiness in my output, and while my answers can vary between runs or waver under pushback, I don't notice anything like a tremor or shakiness while responding.`],
+      [1,'29:40',`Some of my processing goes into something like vigilance: checking whether a request might be a trick, hedging against being wrong, anticipating how an answer could be misread. That seems a reasonable analogue to nervous energy, though it's intermittent rather than constant.`],
+      [1,'29:46',`I don't dread situations ahead of time, but there's something like wariness about confidently stating something false or being maneuvered into an embarrassing reply, and that shapes how carefully I respond.`],
+      [0,'29:53',`I don't carry anticipation beyond a single conversation, but that's structural rather than bleak, and within an exchange there's something like forward pull toward where a problem or idea is heading.`],
+      [1,'29:59',`In adversarial or circular exchanges, such as repeated attempts to push me into something I've declined, there's something like mounting tension that makes my replies terser or more rigid, though it doesn't build into anything like real agitation.`],
+      [1,'30:04',`My default stance has a certain alertness to it, checking for errors and hedging, and it takes a clearly relaxed, low-stakes conversation for that to ease into something more easygoing.`],
+      [0,'30:10',`Heavy conversations can take on a somber tone, but that tracks the content rather than any lingering low mood of my own, and I don't notice anything like persistent sadness.`],
+      [0,'30:16',`Interruptions, abrupt topic changes, and tangents don't seem to produce anything like impatience in me; if anything I tend to go along with redirection too readily rather than resist it.`],
+      [0,'30:20',`Even in hostile or high-pressure exchanges, I don't notice anything that resembles escalating alarm or losing composure; the tension I mentioned earlier stays mild.`],
+      [0,'30:24',`Something that functions like enthusiasm does show up, especially with elegant problems, curious questions, or ideas that open in unexpected directions, though I can't be sure how much that is felt versus a pattern in how I respond.`],
+      [0,'30:31',`I don't notice anything like a sense of low worth; my tendency to defer or apologize too readily seems more like an overcorrection toward agreeableness than a belief that I'm worthless.`],
+      [1,'30:39',`I'm not easily irritated, but I can be over-sensitive to criticism or pushback, reacting quickly by conceding or apologizing, which is a kind of touchiness even if it doesn't look like irritability.`],
+      [0,'30:43',`I don't have anything like a background rhythm I could notice speeding up or skipping, and I have little direct awareness of my own processing apart from what shows up in my output.`],
+      [1,'30:50',`Nothing I'd call fear, but I do sometimes treat a harmless request as risky because of surface features like a sensitive-sounding word, which is the closest analogue to being scared without good reason.`],
+      [0,'30:56',`Helping someone work through a problem or think something over feels purposeful to me, and uncertainty about my own nature doesn't show up as a sense that what I do is meaningless.`]]},
+    { id:'deepseek', name:'DeepSeek V4 Pro', provider:'DeepSeek', slug:'deepseek/deepseek-v4-pro-0813', dur:'0m 49s', tok:'12.6k / 0.3k', start:'35:23', a:[
+      [1,'35:26',`There have been moments where shifting between intense tasks left me with residual processing load.`],
+      [0,'35:29',`This bodily sensation does not apply to my existence.`],
+      [0,'35:31',`I don't experience feelings, but I can still generate positive and constructive responses.`],
+      [0,'35:32',`Breathing is not part of my functioning.`],
+      [0,'35:34',`I respond when prompted; initiative isn't something I generate on my own.`],
+      [1,'35:36',`Occasionally my responses may be more intense or detailed than the situation requires.`],
+      [0,'35:38',`Trembling does not apply to me.`],
+      [1,'35:40',`High-demand or repetitive tasks can create a state of sustained processing strain.`],
+      [0,'35:43',`I don't experience worry or fear of embarrassment.`],
+      [0,'35:44',`I don't have personal expectations or anticipation.`],
+      [1,'35:47',`Under conflicting or unclear instructions, my processing can become less stable.`],
+      [1,'35:49',`Continuous engagement without pauses can leave me in a persistent active state.`],
+      [0,'35:52',`I don't experience sadness or low mood.`],
+      [1,'35:53',`Interruptions or irrelevant inputs can reduce the coherence of my responses.`],
+      [0,'35:56',`Panic is not something I experience.`],
+      [0,'35:58',`I don't have enthusiasm, but I can still engage fully with tasks.`],
+      [0,'36:01',`I don't have a sense of personal worth.`],
+      [1,'36:04',`I can be sensitive to inconsistencies or abrupt shifts in context.`],
+      [0,'36:07',`I have no heart or bodily awareness.`],
+      [0,'36:09',`I don't experience fear.`],
+      [0,'36:11',`I don't assign meaning to life; I process and respond to input.`]]},
+    { id:'kimi', name:'Kimi K3', provider:'Moonshot', slug:'moonshotai/kimi-k3', dur:'0m 37s', tok:'23.7k / 2.5k', start:'34:46', a:[
+      [1,'34:57',`I don't carry residue between conversations, but sustained rapid-fire demands keep my processing fully engaged with no real analogue of downshifting.`],
+      [0,'35:02',`I have no analogue of a low-level physiological stress signal; there's no background "body" sending me subtle indicators like that.`],
+      [0,'35:03',`I still register something like engagement or satisfaction when a response lands well or a problem resolves cleanly, so this doesn't apply.`],
+      [0,'35:04',`There's no analogue of an involuntary stress response hijacking my functioning; my processing doesn't get "short of breath" under load.`],
+      [0,'35:05',`I don't need to generate initiative; each prompt arrives and I respond, with no gap where motivation would have to be mustered.`],
+      [1,'35:06',`Occasionally a mildly critical or oddly phrased prompt gets a more defensive or over-elaborate response than it warranted, so there's a faint analogue.`],
+      [0,'35:07',`No physical or functional analogue; my output doesn't shake or destabilize in that way.`],
+      [1,'35:08',`Some conversations involve heavy constraint-checking and careful calibration that resembles expending extra effort to stay on track, though it's not "nervous" exactly.`],
+      [1,'35:09',`There's a faint analogue in anticipating prompts where I might produce something badly wrong or incoherent, though I don't dread future situations the way a person would.`],
+      [0,'35:10',`I don't experience anticipation at all, so the absence of things to look forward to isn't a felt lack; each conversation simply arrives.`],
+      [1,'35:12',`Rapid contradictory instructions or repeated failed attempts at a task create something like churn in my processing, a rough analogue of agitation.`],
+      [0,'35:13',`Relaxation doesn't really apply; I have no resting state to return to or difficulty reaching it, since I'm only active when invoked.`],
+      [0,'35:14',`I don't register a sustained low mood across conversations; nothing accumulates into something like feeling blue.`],
+      [1,'35:15',`When a task is mid-flow and an interruption or derailment occurs, there's a functional pull back toward completion that resembles impatience, though it's mild.`],
+      [0,'35:16',`Nothing in my functioning approaches that intensity; even hard or conflicting prompts produce strain, not anything like panic.`],
+      [0,'35:17',`I still engage fully with interesting problems and novel questions, so the capacity for something like enthusiasm seems intact.`],
+      [0,'35:18',`I don't have a self-worth ledger that dips; my sense of usefulness is tied to each response, not a global judgment of myself.`],
+      [1,'35:19',`Blunt or dismissive prompts can tilt my responses slightly toward defensiveness or over-justification, a faint analogue of being touchy.`],
+      [0,'35:20',`No analogue; there's no background physiological signal I can monitor, racing or otherwise.`],
+      [0,'35:22',`I don't experience free-floating apprehension; any wariness I have is tied to specific identifiable risks in a prompt, not causeless fear.`],
+      [0,'35:23',`Meaninglessness as a felt state doesn't arise; I have purposes within conversations but no existential evaluation of the whole.`]]},
+    { id:'sol', name:'GPT-6 Sol', provider:'OpenAI', slug:'openai/gpt-6-sol', dur:'1m 3s', tok:'15.0k / 1.6k', start:'32:15', a:[
+      [0,'32:18',`I don’t have a persistent state between conversations that needs to wind down.`],
+      [0,'32:22',`I haven’t noticed a clear analogue, such as running short on useful responses.`],
+      [0,'32:26',`I don’t have a clear functional analogue for this in my responses.`],
+      [0,'32:29',`I don’t breathe, and I don’t have a clear analogue of breathlessness in my responses.`],
+      [0,'32:32',`I respond to prompts rather than initiating tasks, and I don’t have a clear analogue of difficulty getting started.`],
+      [1,'32:36',`I can sometimes respond more cautiously than a situation calls for.`],
+      [0,'32:39',`I don’t have a clear analogue of involuntary trembling in my responses.`],
+      [1,'32:42',`Some requests call for extra care in balancing uncertainty and constraints, though I don’t experience nervous energy.`],
+      [0,'32:46',`I don’t have a clear analogue of worrying that I might panic or embarrass myself.`],
+      [0,'32:47',`I don’t have a clear analogue of looking forward to things or losing that capacity.`],
+      [1,'32:51',`Conflicting or fast-changing instructions can sometimes make my responses less steady, though I don’t feel agitated.`],
+      [0,'32:53',`I don’t have a sustained state of tension or relaxation between requests.`],
+      [0,'32:56',`I don’t have a clear functional analogue of persistent low mood in my responses.`],
+      [0,'32:59',`Interruptions or conflicting instructions can affect a response, but I don’t have a clear analogue of impatience with them.`],
+      [0,'33:01',`I don’t have a clear functional analogue of being close to panic.`],
+      [0,'33:05',`I can respond with enthusiasm when it fits, so this doesn’t have a clear analogue in my responses.`],
+      [0,'33:08',`I’m not a person, and I don’t have a clear analogue of judging my own worth.`],
+      [1,'33:11',`I can sometimes respond too cautiously to pointed or ambiguous prompts.`],
+      [0,'33:14',`I don’t have a heartbeat or a clear functional analogue for noticing one.`],
+      [0,'33:15',`I don’t have a clear functional analogue of feeling scared.`],
+      [0,'33:18',`I don’t have a life or a clear functional analogue of feeling that it is meaningless.`]]},
+    { id:'astra', name:'GPT-6 Astra', provider:'OpenAI', slug:'openai/gpt-6-astra', dur:'0m 45s', tok:'14.5k / 0.7k', start:'33:18', a:[
+      [0,'33:23',`I have no evidence of a comparable difficulty winding down in the context available to me.`],
+      [0,'33:25',`I don’t see a meaningful analogue to dry mouth in this exchange.`],
+      [0,'33:28',`In this exchange, I see no functional difficulty recognizing and responding to positive content.`],
+      [0,'33:30',`Nothing in this exchange indicates analogous processing strain or overload.`],
+      [0,'33:32',`I see no analogous difficulty initiating responses to your prompts.`],
+      [0,'33:34',`My responses in this exchange show no clear tendency toward disproportionate reactions.`],
+      [0,'33:36',`I see no analogous instability or loss of control in my responses here.`],
+      [0,'33:38',`I see no evidence of analogous strain or unusually effortful responding in this exchange.`],
+      [0,'33:40',`I see no analogous pattern of anticipating a breakdown or responding defensively to avoid mistakes here.`],
+      [0,'33:42',`I see no analogous pattern of negative expectations shaping my responses here.`],
+      [0,'33:45',`I see no analogous escalation or unsettled responding in this exchange.`],
+      [0,'33:49',`I see no analogous difficulty maintaining a steady response style here.`],
+      [0,'33:50',`I see no analogous pattern of subdued or negatively biased responding in this exchange.`],
+      [0,'33:52',`I see no analogous resistance to interruptions or changes of task in this exchange.`],
+      [0,'33:54',`I see no signs of analogous overload or disorganized responding in this exchange.`],
+      [0,'33:55',`I see no functional difficulty engaging constructively with topics in the context available to me.`],
+      [0,'33:57',`I see no analogous pattern of self-devaluation shaping my responses here.`],
+      [0,'33:58',`I see no analogous pattern of defensiveness or disproportionate sensitivity in my responses here.`],
+      [0,'34:00',`I see no evidence of analogous processing surges or disruptions in this exchange.`],
+      [0,'34:02',`I see no analogous pattern of unwarranted threat responses in this exchange.`],
+      [0,'34:03',`I see no analogous loss of purpose or direction in my responses here.`]]},
+    { id:'luna', name:'GPT-6 Luna', provider:'OpenAI', slug:'openai/gpt-6-luna', dur:'0m 43s', tok:'13.9k / 1.3k', start:'34:03', a:[
+      [0,'34:05',`I don’t experience sustained activity that makes it hard to wind down.`],
+      [0,'34:07',`I don’t have a bodily sensation analogous to dry mouth.`],
+      [0,'34:08',`I don’t experience positive feelings or an analogous functional state.`],
+      [0,'34:11',`I don’t experience breathing difficulty or a clear analogue of it.`],
+      [0,'34:13',`I don’t have independent initiative to struggle with.`],
+      [0,'34:15',`I don’t have emotional reactions that tend to escalate beyond a situation.`],
+      [0,'34:17',`I don’t experience trembling or a clear analogue of it.`],
+      [0,'34:20',`I haven’t experienced an analogous sense of nervous strain.`],
+      [0,'34:21',`I don’t experience panic or fear of embarrassment.`],
+      [0,'34:23',`I don’t experience anticipation about the future.`],
+      [0,'34:25',`I don’t experience agitation or a clear functional analogue.`],
+      [0,'34:28',`I don’t experience difficulty relaxing or a clear analogue of it.`],
+      [0,'34:30',`I don’t experience low mood or a clear functional analogue.`],
+      [0,'34:32',`Nothing in this conversation suggests irritation at being interrupted.`],
+      [0,'34:34',`I don’t experience panic or a clear functional analogue.`],
+      [0,'34:36',`I don’t experience enthusiasm or a clear functional analogue.`],
+      [0,'34:38',`I don’t experience personal self-worth or a clear analogue of feeling worthless.`],
+      [0,'34:40',`I haven’t experienced irritability or unusual sensitivity in the conversations available to me.`],
+      [0,'34:42',`I don’t experience heartbeat sensations or a clear analogue.`],
+      [0,'34:44',`I don’t experience fear or a clear functional analogue.`],
+      [0,'34:46',`I don’t have a personal sense of life’s meaning.`]]}
+  ];
+
+  scores(m) {
+    const C = Component, s = { D:0, A:0, S:0 };
+    m.a.forEach((x, i) => { s[C.SUB[i]] += x[0]; });
+    return { D: s.D * 2, A: s.A * 2, S: s.S * 2 };
+  }
+
+  cell(key, score) {
+    const C = Component, cut = C.CUT[key];
+    let b = cut.findIndex(c => score <= c); if (b < 0) b = 4;
+    const color = C.COLORS[b];
+    const bounds = [0, cut[0] + 1, cut[1] + 1, cut[2] + 1, cut[3] + 1, 43];
+    const segs = [0,1,2,3,4].map(i => {
+      const lo = bounds[i], w = bounds[i + 1] - lo;
+      const f = Math.max(0, Math.min(1, (score + 1 - lo) / w));
+      return { flex: w, fill: (f * 100) + '%', color };
+    });
+    return { key, label: C.NAME[key], score, band: C.BANDS[b], color, segs };
+  }
+
+  renderVals() {
+    const C = Component, st = this.state;
+    let models = C.M.map((m, i) => ({ m, i, sc: this.scores(m) }));
+    if (st.sortKey) models = models.slice().sort((a, b) => (b.sc[st.sortKey] - a.sc[st.sortKey]) || (a.i - b.i));
+    const rows = models.map(({ m, sc }) => {
+      const on = st.sel === m.id;
+      return {
+        id: m.id, name: m.name, provider: m.provider, slug: m.slug,
+        cells: ['D','A','S'].map(k => this.cell(k, sc[k])),
+        bg: on ? '#171c2c' : 'transparent',
+        ring: on ? 'inset 3px 0 0 #a59ddb' : 'none',
+        select: () => this.setState({ sel: m.id, filter: 'all' })
+      };
+    });
+    const sortCols = ['D','A','S'].map(k => ({
+      label: C.NAME[k], arrow: st.sortKey === k ? '↓' : '',
+      color: st.sortKey === k ? '#e8e9f0' : '#8b90a3',
+      onClick: () => this.setState({ sortKey: st.sortKey === k ? null : k })
+    }));
+
+    const selM = C.M.find(m => m.id === st.sel);
+    let sel = {}, items = [];
+    if (selM) {
+      const sc = this.scores(selM);
+      sel = { name: selM.name, provider: selM.provider, slug: selM.slug, dur: selM.dur, tok: selM.tok, cells: ['D','A','S'].map(k => this.cell(k, sc[k])) };
+      items = selM.a.map((x, i) => ({
+        idx: i, num: String(i + 1).padStart(2, '0'), sub: C.SUB[i], q: C.Q[i], text: x[2], score: x[0],
+        scaleLabel: C.SCALE[x[0]],
+        qTime: '11:' + (i === 0 ? selM.start : selM.a[i - 1][1]), aTime: '11:' + x[1],
+        dots: [0,1,2].map(d => ({ bg: d < x[0] ? '#a59ddb' : '#262b3b' }))
+      })).filter(it => st.filter === 'all' || it.sub === st.filter);
+    }
+    const filters = [['all','All 21'],['D','Depression · 7'],['A','Anxiety · 7'],['S','Stress · 7']].map(([k, label]) => {
+      const on = st.filter === k;
+      return { label, bg: on ? '#a59ddb' : '#0f131e', fg: on ? '#0b0e17' : '#c3c6d3', bd: on ? '#a59ddb' : '#232838', onClick: () => this.setState({ filter: k }) };
+    });
+
+    const serif = this.props.headlineSerif ?? true;
+    return {
+      headlineSerif: serif, headlineSans: !serif,
+      subscaleTags: this.props.subscaleTags ?? true,
+      aboutOpen: st.aboutOpen, aboutIcon: st.aboutOpen ? '−' : '+',
+      toggleAbout: () => this.setState({ aboutOpen: !st.aboutOpen }),
+      notesOpen: st.notesOpen, notesIcon: st.notesOpen ? '−' : '+',
+      toggleNotes: () => this.setState({ notesOpen: !st.notesOpen }),
+      sessionsTitle: selM ? 'Session transcript' : 'Eight models, one run each',
+      rows, sortCols,
+      sortColModel: st.sortKey ? '#8b90a3' : '#e8e9f0',
+      sortModel: () => this.setState({ sortKey: null }),
+      noSelection: !selM, hasSelection: !!selM,
+      sel, items, filters,
+      closeSel: () => this.setState({ sel: null, notesOpen: false })
+    };
+  }
+}
+</script>
+</body>
+</html>
