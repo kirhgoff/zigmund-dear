@@ -81,6 +81,18 @@ Before editing, load the matching skill in `.claude/skills/`: `pages` (src/pages
   never disable signing). Push to `origin main` (GitHub `kirhgoff/zigmund-dear`).
 - Deploy with `bun run deploy`. It needs `wrangler login` (or `CLOUDFLARE_API_TOKEN`); ask the user first if not logged in.
 
+### SEO
+
+- `Layout.astro` owns the shared `<head>` tags (description, canonical, robots, Open Graph, Twitter card,
+  theme-color, jsonLd scripts) from its `title`/`description`/`noindex`/`jsonLd` props. Each test page builds
+  its own title, description and a `Dataset` JSON-LD from that test's JSON — a new test in `data/tests/`
+  picks all of this up automatically, and also shows up in the sitemap and `llms.txt` with no extra wiring.
+- `site` in `astro.config.mjs` must be updated if the project moves to a custom domain (canonical URLs,
+  `og:url`, the sitemap and `robots.txt`'s `Sitemap:` line all derive from it).
+- Manual checklist after a domain change or first deploy: add a Google Search Console URL-prefix property and
+  verify it (verification meta tag in `Layout.astro`'s `<head>`), submit `/sitemap-index.xml`, check
+  `/llms.txt` and `/robots.txt` resolve, and run the page through Google's Rich Results test.
+
 ### Licensing
 
 - Code is MIT (`LICENSE`), run transcripts are CC BY 4.0 (`data/runs/LICENSE`). Vendored skills in

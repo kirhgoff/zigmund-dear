@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zigmund-dear.kirill-lastovirya.workers.dev/sitemap-index.xml
