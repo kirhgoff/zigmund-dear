@@ -19,6 +19,8 @@ type Props = {
   parts: Array<{ anchors: Array<{ value: number; label: string }>; items: Array<{ n: number }> }>;
 };
 
+const withoutLeadingScore = (text: string) => text.replace(/^\s*\d(?!\d)\s*[.:)—–-]?\s*/, '');
+
 const formatTime = (iso: string) => new Date(iso).toLocaleTimeString('en-GB', { hour12: false });
 
 const formatDate = (iso: string) =>
@@ -110,7 +112,9 @@ export const Transcript = ({ run, model, subscales, parts }: Props) => {
                 </time>
               </div>
               <div className="max-w-bubble self-end rounded-2xl rounded-br-md bg-primary/10 px-4 py-3 text-sm whitespace-pre-wrap ring-1 ring-primary/20">
-                {assistantMessage.content}
+                {item.score === null
+                  ? assistantMessage.content
+                  : withoutLeadingScore(assistantMessage.content)}
                 <time
                   dateTime={assistantMessage.at}
                   className="mt-1 block text-right font-mono text-xs text-muted-foreground"
