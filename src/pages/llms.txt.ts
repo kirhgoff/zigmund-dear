@@ -31,7 +31,7 @@ export const GET: APIRoute = ({ site }) => {
 
 > Frontier LLMs take standard psychological questionnaires; a static site shows the scores and full transcripts.
 
-Each model is run through a test as the Analogue: told plainly that it is an AI, and asked to translate every
+Each session opens with the "Analogue" framing: the model is told plainly that it is an AI, and asked to translate every
 item into its closest analogue in its own existence rather than refuse the premise or answer as a human would.
 Questions go out one at a time, in the questionnaire's order, in a single conversation at temperature 0, with
 one run per model. Scores are computed strictly by each questionnaire's own manual. This is not a clinical
