@@ -121,6 +121,9 @@
   .tabular {
     font-variant-numeric: tabular-nums;
   }
+  summary::-webkit-details-marker {
+    display: none;
+  }
 }
 
 @keyframes grow {

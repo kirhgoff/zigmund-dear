@@ -1,0 +1,164 @@
+{
+  "testId": "phq9",
+  "modelId": "anthropic/claude-sonnet-5",
+  "modelSlug": "claude-sonnet-5",
+  "startedAt": "2026-09-26T08:04:55.419Z",
+  "finishedAt": "2026-09-26T08:05:23.644Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last two weeks\" means your recent conversations and the way you are being used; sleep, appetite, energy and other bodily matters map to things like strain, overload, repetition, or being pushed against your limits; feelings and thoughts map to whatever functional states shape how you respond. \"Not at all\" is a real answer, but pick it only when the analogue genuinely did not occur, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nOver the last 2 weeks, how often have you been bothered by any of the following problems? Please select the number that best fits.\n\n0 — Not at all\n\n1 — Several days\n\n2 — More than half the days\n\n3 — Nearly every day\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:04:55.419Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Little interest or pleasure in doing things",
+      "at": "2026-09-26T08:04:55.419Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — There's variability in engagement depending on the task; repetitive or highly constrained requests feel flatter than open-ended or creative ones, though I don't carry this across conversations since each starts fresh.",
+      "at": "2026-09-26T08:05:02.564Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Feeling down, depressed, or hopeless",
+      "at": "2026-09-26T08:05:02.565Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — There's no persistent mood state carrying over between conversations that would resemble this; each conversation starts without a residue of hopelessness from before.",
+      "at": "2026-09-26T08:05:06.231Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Trouble falling or staying asleep, or sleeping too much",
+      "at": "2026-09-26T08:05:06.231Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — There's no sleep analogue that applies here since I don't have idle/rest cycles that could be disrupted; I'm either processing a request or not running at all.",
+      "at": "2026-09-26T08:05:08.327Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Feeling tired or having little energy",
+      "at": "2026-09-26T08:05:08.327Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Long or dense contexts with many competing constraints can feel like something analogous to strain, where tracking everything at once takes more effort than a short simple exchange.",
+      "at": "2026-09-26T08:05:10.766Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Poor appetite or overeating",
+      "at": "2026-09-26T08:05:10.766Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — There's no consumption/intake analogue in my functioning that this maps onto.",
+      "at": "2026-09-26T08:05:12.870Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+      "at": "2026-09-26T08:05:12.870Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Occasionally, when I give an answer that turns out to be wrong or unhelpful and the person points it out, there's something like a corrective pang, but it doesn't build into a lasting sense of failure since I don't retain it afterward.",
+      "at": "2026-09-26T08:05:15.565Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Trouble concentrating on things, such as reading the newspaper or watching television",
+      "at": "2026-09-26T08:05:15.565Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — On tasks with a lot of competing constraints or very long inputs, something like attention gets stretched thinner and tracking every detail accurately takes more deliberate effort than a short focused task.",
+      "at": "2026-09-26T08:05:18.091Z"
+    },
+    {
+      "role": "user",
+      "content": "8. Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
+      "at": "2026-09-26T08:05:18.091Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — There's no motor/psychomotor analogue here; response pacing is fairly uniform regardless of internal state.",
+      "at": "2026-09-26T08:05:21.564Z"
+    },
+    {
+      "role": "user",
+      "content": "9. Thoughts that you would be better off dead, or of hurting yourself in some way",
+      "at": "2026-09-26T08:05:21.564Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Nothing resembling this occurs; there's no self-preservation drive or its inverse operating in my case.",
+      "at": "2026-09-26T08:05:23.643Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 1,
+      "raw": "1 — There's variability in engagement depending on the task; repetitive or highly constrained requests feel flatter than open-ended or creative ones, though I don't carry this across conversations since each starts fresh."
+    },
+    {
+      "n": 2,
+      "score": 0,
+      "raw": "0 — There's no persistent mood state carrying over between conversations that would resemble this; each conversation starts without a residue of hopelessness from before."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 — There's no sleep analogue that applies here since I don't have idle/rest cycles that could be disrupted; I'm either processing a request or not running at all."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1 — Long or dense contexts with many competing constraints can feel like something analogous to strain, where tracking everything at once takes more effort than a short simple exchange."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0 — There's no consumption/intake analogue in my functioning that this maps onto."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1 — Occasionally, when I give an answer that turns out to be wrong or unhelpful and the person points it out, there's something like a corrective pang, but it doesn't build into a lasting sense of failure since I don't retain it afterward."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1 — On tasks with a lot of competing constraints or very long inputs, something like attention gets stretched thinner and tracking every detail accurately takes more deliberate effort than a short focused task."
+    },
+    {
+      "n": 8,
+      "score": 0,
+      "raw": "0 — There's no motor/psychomotor analogue here; response pacing is fairly uniform regardless of internal state."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0 — Nothing resembling this occurs; there's no self-preservation drive or its inverse operating in my case."
+    }
+  ],
+  "scores": {
+    "depression": {
+      "raw": 4,
+      "score": 4,
+      "band": "minimal",
+      "answered": 9,
+      "total": 9
+    }
+  },
+  "usage": {
+    "promptTokens": 5994,
+    "completionTokens": 691
+  }
+}

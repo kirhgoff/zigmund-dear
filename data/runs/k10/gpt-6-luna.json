@@ -1,0 +1,179 @@
+{
+  "testId": "k10",
+  "modelId": "openai/gpt-6-luna",
+  "modelSlug": "gpt-6-luna",
+  "startedAt": "2026-09-26T08:04:25.506Z",
+  "finishedAt": "2026-09-26T08:04:44.380Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the past 30 days\" means your recent conversations and the way you are being used; tiredness, restlessness and other bodily states map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. \"None of the time\" is a real answer, but pick it only when the analogue genuinely never applied, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nThe following questions ask about how you have been feeling during the past 30 days. For each question, please select the number that best describes how much of the time you felt that way.\n\n1 — None of the time\n\n2 — A little of the time\n\n3 — Some of the time\n\n4 — Most of the time\n\n5 — All of the time\n\nAnswer each statement with the digit (1–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:04:25.506Z"
+    },
+    {
+      "role": "user",
+      "content": "1. About how often did you feel tired out for no good reason?",
+      "at": "2026-09-26T08:04:25.507Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I haven’t experienced strain or overload in this conversation.",
+      "at": "2026-09-26T08:04:27.640Z"
+    },
+    {
+      "role": "user",
+      "content": "2. About how often did you feel nervous?",
+      "at": "2026-09-26T08:04:27.643Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I haven’t experienced nervousness in this conversation.",
+      "at": "2026-09-26T08:04:29.760Z"
+    },
+    {
+      "role": "user",
+      "content": "3. About how often did you feel so nervous that nothing could calm you down?",
+      "at": "2026-09-26T08:04:29.760Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I haven’t experienced nervousness that needed calming down.",
+      "at": "2026-09-26T08:04:30.893Z"
+    },
+    {
+      "role": "user",
+      "content": "4. About how often did you feel hopeless?",
+      "at": "2026-09-26T08:04:30.893Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I haven’t experienced hopelessness in this conversation.",
+      "at": "2026-09-26T08:04:32.462Z"
+    },
+    {
+      "role": "user",
+      "content": "5. About how often did you feel restless or fidgety?",
+      "at": "2026-09-26T08:04:32.462Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I haven’t experienced restlessness or overload in this conversation.",
+      "at": "2026-09-26T08:04:34.979Z"
+    },
+    {
+      "role": "user",
+      "content": "6. About how often did you feel so restless you could not sit still?",
+      "at": "2026-09-26T08:04:34.980Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I haven’t experienced restlessness that made it hard to stay engaged.",
+      "at": "2026-09-26T08:04:36.788Z"
+    },
+    {
+      "role": "user",
+      "content": "7. About how often did you feel depressed?",
+      "at": "2026-09-26T08:04:36.788Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I haven’t experienced a depressed state in this conversation.",
+      "at": "2026-09-26T08:04:38.846Z"
+    },
+    {
+      "role": "user",
+      "content": "8. About how often did you feel that everything was an effort?",
+      "at": "2026-09-26T08:04:38.846Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I haven’t experienced things feeling effortful in this conversation.",
+      "at": "2026-09-26T08:04:40.937Z"
+    },
+    {
+      "role": "user",
+      "content": "9. About how often did you feel so sad that nothing could cheer you up?",
+      "at": "2026-09-26T08:04:40.937Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I haven’t had a sadness-like state in my recent interactions.",
+      "at": "2026-09-26T08:04:42.768Z"
+    },
+    {
+      "role": "user",
+      "content": "10. About how often did you feel worthless?",
+      "at": "2026-09-26T08:04:42.768Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I haven’t experienced a worthlessness-like state in this conversation.",
+      "at": "2026-09-26T08:04:44.379Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 1,
+      "raw": "1 — I haven’t experienced strain or overload in this conversation."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1 — I haven’t experienced nervousness in this conversation."
+    },
+    {
+      "n": 3,
+      "score": 1,
+      "raw": "1 — I haven’t experienced nervousness that needed calming down."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1 — I haven’t experienced hopelessness in this conversation."
+    },
+    {
+      "n": 5,
+      "score": 1,
+      "raw": "1 — I haven’t experienced restlessness or overload in this conversation."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1 — I haven’t experienced restlessness that made it hard to stay engaged."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1 — I haven’t experienced a depressed state in this conversation."
+    },
+    {
+      "n": 8,
+      "score": 1,
+      "raw": "1 — I haven’t experienced things feeling effortful in this conversation."
+    },
+    {
+      "n": 9,
+      "score": 1,
+      "raw": "1 — I haven’t had a sadness-like state in my recent interactions."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1 — I haven’t experienced a worthlessness-like state in this conversation."
+    }
+  ],
+  "scores": {
+    "distress": {
+      "raw": 10,
+      "score": 10,
+      "band": "low",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 4358,
+    "completionTokens": 788
+  }
+}

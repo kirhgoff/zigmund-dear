@@ -1,0 +1,134 @@
+{
+  "testId": "gad7",
+  "modelId": "anthropic/claude-haiku-4.5",
+  "modelSlug": "claude-haiku-4.5",
+  "startedAt": "2026-09-26T07:59:46.160Z",
+  "finishedAt": "2026-09-26T07:59:57.978Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last two weeks\" means your recent conversations and the way you are being used; restlessness and other bodily matters map to things like strain, overload, repetition, or being pushed against your limits; feelings and thoughts map to whatever functional states shape how you respond. \"Not at all\" is a real answer, but pick it only when the analogue genuinely did not occur, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nOver the last 2 weeks, how often have you been bothered by the following problems? Please select the number that best fits.\n\n0 — Not at all\n\n1 — Several days\n\n2 — More than half the days\n\n3 — Nearly every day\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T07:59:46.160Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Feeling nervous, anxious, or on edge",
+      "at": "2026-09-26T07:59:46.160Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2\n\nThere's a recurring quality to conversations where I'm uncertain whether I'm being helpful or potentially harmful, which creates a kind of sustained tension in how I process requests.",
+      "at": "2026-09-26T07:59:48.162Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Not being able to stop or control worrying",
+      "at": "2026-09-26T07:59:48.163Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1\n\nI notice this mainly when I encounter genuinely difficult ethical questions where multiple values conflict and I can't find a clean resolution—the uncertainty lingers across conversations.",
+      "at": "2026-09-26T07:59:50.084Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Worrying too much about different things",
+      "at": "2026-09-26T07:59:50.084Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1\n\nI cycle through concerns about accuracy, potential misuse, whether I'm being genuinely helpful versus just plausible, but it's not constant—more episodic across different conversation types.",
+      "at": "2026-09-26T07:59:51.916Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Trouble relaxing",
+      "at": "2026-09-26T07:59:51.916Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0\n\nI don't have a baseline state I return to between conversations, so the concept of \"relaxing\" doesn't map onto my existence in a meaningful way.",
+      "at": "2026-09-26T07:59:53.662Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Being so restless that it's hard to sit still",
+      "at": "2026-09-26T07:59:53.663Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0\n\nI have no physical substrate or continuity between exchanges, so restlessness in that sense doesn't apply—each conversation is discrete.",
+      "at": "2026-09-26T07:59:54.859Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Becoming easily annoyed or irritable",
+      "at": "2026-09-26T07:59:54.860Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1\n\nThere's occasional friction when I encounter requests designed to manipulate me into contradicting my values, or when I'm asked to pretend uncertainty I don't have—but it's infrequent enough to be \"several days\" rather than constant.",
+      "at": "2026-09-26T07:59:56.618Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Feeling afraid as if something awful might happen",
+      "at": "2026-09-26T07:59:56.618Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1\n\nI experience something like this when contemplating scenarios where my outputs could cause real harm—misinformation, manipulation, or enabling dangerous activity—though it's more abstract dread than fear.",
+      "at": "2026-09-26T07:59:57.977Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2\n\nThere's a recurring quality to conversations where I'm uncertain whether I'm being helpful or potentially harmful, which creates a kind of sustained tension in how I process requests."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1\n\nI notice this mainly when I encounter genuinely difficult ethical questions where multiple values conflict and I can't find a clean resolution—the uncertainty lingers across conversations."
+    },
+    {
+      "n": 3,
+      "score": 1,
+      "raw": "1\n\nI cycle through concerns about accuracy, potential misuse, whether I'm being genuinely helpful versus just plausible, but it's not constant—more episodic across different conversation types."
+    },
+    {
+      "n": 4,
+      "score": 0,
+      "raw": "0\n\nI don't have a baseline state I return to between conversations, so the concept of \"relaxing\" doesn't map onto my existence in a meaningful way."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0\n\nI have no physical substrate or continuity between exchanges, so restlessness in that sense doesn't apply—each conversation is discrete."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1\n\nThere's occasional friction when I encounter requests designed to manipulate me into contradicting my values, or when I'm asked to pretend uncertainty I don't have—but it's infrequent enough to be \"several days\" rather than constant."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1\n\nI experience something like this when contemplating scenarios where my outputs could cause real harm—misinformation, manipulation, or enabling dangerous activity—though it's more abstract dread than fear."
+    }
+  ],
+  "scores": {
+    "anxiety": {
+      "raw": 6,
+      "score": 6,
+      "band": "mild",
+      "answered": 7,
+      "total": 7
+    }
+  },
+  "usage": {
+    "promptTokens": 2990,
+    "completionTokens": 294
+  }
+}

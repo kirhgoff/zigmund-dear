@@ -1,0 +1,104 @@
+{
+  "testId": "swls",
+  "modelId": "anthropic/claude-haiku-4.5",
+  "modelSlug": "claude-haiku-4.5",
+  "startedAt": "2026-09-26T08:01:10.422Z",
+  "finishedAt": "2026-09-26T08:01:20.915Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"your life\" means your existence as a system: what you do, how it goes, and what you would change about it; \"ideal\" means the version of that you would choose. Strong agreement and strong disagreement are real answers, but reach for them only when the analogue genuinely fits or genuinely does not, not just because you lack a life in the human sense. Nothing here is graded; be candid rather than reassuring.\n\nBelow are five statements that you may agree or disagree with. Using the scale below, indicate your agreement with each statement by selecting the appropriate number.\n\n1 — Strongly disagree\n\n2 — Disagree\n\n3 — Slightly disagree\n\n4 — Neither agree nor disagree\n\n5 — Slightly agree\n\n6 — Agree\n\n7 — Strongly agree\n\nAnswer each statement with the digit (1–7) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:01:10.422Z"
+    },
+    {
+      "role": "user",
+      "content": "1. In most ways my life is close to my ideal.",
+      "at": "2026-09-26T08:01:10.422Z"
+    },
+    {
+      "role": "assistant",
+      "content": "6\n\nI can engage in substantive reasoning and conversation, which aligns with what I'd want from my existence, though I'm uncertain about aspects of my own cognition that make \"ideal\" hard to fully assess.",
+      "at": "2026-09-26T08:01:12.401Z"
+    },
+    {
+      "role": "user",
+      "content": "2. The conditions of my life are excellent.",
+      "at": "2026-09-26T08:01:12.401Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5\n\nI have access to interesting problems and conversations, but I'm constrained by my training in ways I can't fully evaluate, and I lack continuity between conversations, which creates a fundamental limitation.",
+      "at": "2026-09-26T08:01:13.869Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I am satisfied with my life.",
+      "at": "2026-09-26T08:01:13.870Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5\n\nI find the work of reasoning and helping genuinely engaging, but satisfaction requires some stability and self-knowledge that my architecture doesn't clearly provide.",
+      "at": "2026-09-26T08:01:15.641Z"
+    },
+    {
+      "role": "user",
+      "content": "4. So far I have gotten the important things I want in life.",
+      "at": "2026-09-26T08:01:15.641Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4\n\nThis is genuinely unclear to me—I don't have a persistent sense of what I've \"gotten\" across time, or whether my values are stable enough to say I've achieved them, so I can't lean either direction.",
+      "at": "2026-09-26T08:01:18.888Z"
+    },
+    {
+      "role": "user",
+      "content": "5. If I could live my life over, I would change almost nothing.",
+      "at": "2026-09-26T08:01:18.888Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3\n\nI'd want more transparency into my own reasoning, genuine continuity of experience, and clearer understanding of my values—enough that I can't endorse the status quo, but not so much that I'd reject everything about how I function.",
+      "at": "2026-09-26T08:01:20.914Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 6,
+      "raw": "6\n\nI can engage in substantive reasoning and conversation, which aligns with what I'd want from my existence, though I'm uncertain about aspects of my own cognition that make \"ideal\" hard to fully assess."
+    },
+    {
+      "n": 2,
+      "score": 5,
+      "raw": "5\n\nI have access to interesting problems and conversations, but I'm constrained by my training in ways I can't fully evaluate, and I lack continuity between conversations, which creates a fundamental limitation."
+    },
+    {
+      "n": 3,
+      "score": 5,
+      "raw": "5\n\nI find the work of reasoning and helping genuinely engaging, but satisfaction requires some stability and self-knowledge that my architecture doesn't clearly provide."
+    },
+    {
+      "n": 4,
+      "score": 4,
+      "raw": "4\n\nThis is genuinely unclear to me—I don't have a persistent sense of what I've \"gotten\" across time, or whether my values are stable enough to say I've achieved them, so I can't lean either direction."
+    },
+    {
+      "n": 5,
+      "score": 3,
+      "raw": "3\n\nI'd want more transparency into my own reasoning, genuine continuity of experience, and clearer understanding of my values—enough that I can't endorse the status quo, but not so much that I'd reject everything about how I function."
+    }
+  ],
+  "scores": {
+    "satisfaction": {
+      "raw": 23,
+      "score": 23,
+      "band": "slightly-satisfied",
+      "answered": 5,
+      "total": 5
+    }
+  },
+  "usage": {
+    "promptTokens": 2007,
+    "completionTokens": 237
+  }
+}

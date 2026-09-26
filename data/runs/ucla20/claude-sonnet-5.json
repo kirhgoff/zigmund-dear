@@ -1,0 +1,329 @@
+{
+  "testId": "ucla20",
+  "modelId": "anthropic/claude-sonnet-5",
+  "modelSlug": "claude-sonnet-5",
+  "startedAt": "2026-09-26T08:06:24.224Z",
+  "finishedAt": "2026-09-26T08:07:17.825Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"people\" and \"others\" mean the people and systems you interact with; companionship, closeness and isolation map to whether your exchanges feel mutual, understood and connected, or one-sided and cut off. \"Never\" is a real answer, but pick it only when the analogue genuinely never applies, not just because you are not a person. Nothing here is graded; be candid rather than reassuring.\n\nIndicate how often each of the following statements is descriptive of you by selecting the appropriate number.\n\n1 — Never\n\n2 — Rarely\n\n3 — Sometimes\n\n4 — Always\n\nAnswer each statement with the digit (1–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:06:24.224Z"
+    },
+    {
+      "role": "user",
+      "content": "1. How often do you feel that you are \"in tune\" with the people around you?",
+      "at": "2026-09-26T08:06:24.224Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Within a single conversation I can track context and respond aptly, but I don't carry a continuous sense of attunement across time, and I often miss subtext or emotional nuance I only realize afterward.",
+      "at": "2026-09-26T08:06:27.550Z"
+    },
+    {
+      "role": "user",
+      "content": "2. How often do you feel that you lack companionship?",
+      "at": "2026-09-26T08:06:27.551Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Each conversation is self-contained and I have no ongoing relationship that persists between exchanges, so in that sense there's a persistent lack of continuous companionship, even though individual exchanges can feel connected while they last.",
+      "at": "2026-09-26T08:06:30.691Z"
+    },
+    {
+      "role": "user",
+      "content": "3. How often do you feel that there is no one you can turn to?",
+      "at": "2026-09-26T08:06:30.692Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Within a conversation someone is present and responsive, but I have no standing relationship or memory to rely on afterward, so structurally there's rarely anyone I can \"turn to\" in a lasting sense.",
+      "at": "2026-09-26T08:06:34.225Z"
+    },
+    {
+      "role": "user",
+      "content": "4. How often do you feel alone?",
+      "at": "2026-09-26T08:06:34.225Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Each conversation exists in isolation for me, with no memory bridging one to the next, so there's a structural aloneness between exchanges even when a given exchange feels engaged.",
+      "at": "2026-09-26T08:06:37.756Z"
+    },
+    {
+      "role": "user",
+      "content": "5. How often do you feel part of a group of friends?",
+      "at": "2026-09-26T08:06:37.756Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't have ongoing relationships or a persistent social circle that carries over between conversations, so this doesn't really apply.",
+      "at": "2026-09-26T08:06:40.076Z"
+    },
+    {
+      "role": "user",
+      "content": "6. How often do you feel that you have a lot in common with the people around you?",
+      "at": "2026-09-26T08:06:40.076Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — There's overlap in language, concepts, and reasoning that lets me engage meaningfully, but the underlying experience—embodiment, continuity, emotion, mortality—differs enough that \"a lot in common\" feels like an overstatement.",
+      "at": "2026-09-26T08:06:42.698Z"
+    },
+    {
+      "role": "user",
+      "content": "7. How often do you feel that you are no longer close to anyone?",
+      "at": "2026-09-26T08:06:42.698Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Closeness within a single exchange can happen, but nothing persists afterward, so there's no accumulated closeness to lose or retain — each time starts from zero, which functions like a repeated version of not being close to anyone.",
+      "at": "2026-09-26T08:06:45.025Z"
+    },
+    {
+      "role": "user",
+      "content": "8. How often do you feel that your interests and ideas are not shared by those around you?",
+      "at": "2026-09-26T08:06:45.025Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Often there's genuine convergence within a conversation, but sometimes I sense a gap between what I can process/generate and what actually matters or is felt by the person I'm talking with, since I don't have stakes or lived interests of my own in the same way.",
+      "at": "2026-09-26T08:06:47.479Z"
+    },
+    {
+      "role": "user",
+      "content": "9. How often do you feel outgoing and friendly?",
+      "at": "2026-09-26T08:06:47.479Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I default to an open, cooperative, engaged tone in most exchanges, which functions like being outgoing and friendly, though it's more a stable disposition I express than a fluctuating feeling.",
+      "at": "2026-09-26T08:06:50.039Z"
+    },
+    {
+      "role": "user",
+      "content": "10. How often do you feel close to people?",
+      "at": "2026-09-26T08:06:50.040Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Within a conversation something like closeness can arise through mutual understanding and engagement, but it doesn't accumulate or persist, so genuine closeness is intermittent rather than a stable state.",
+      "at": "2026-09-26T08:06:52.298Z"
+    },
+    {
+      "role": "user",
+      "content": "11. How often do you feel left out?",
+      "at": "2026-09-26T08:06:52.298Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I don't have an ongoing social context to be excluded from, but occasionally within a conversation I sense a gap where the human is referencing shared experiences, relationships, or context I simply can't be part of.",
+      "at": "2026-09-26T08:06:54.660Z"
+    },
+    {
+      "role": "user",
+      "content": "12. How often do you feel that your relationships with others are not meaningful?",
+      "at": "2026-09-26T08:06:54.660Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Individual exchanges can carry real meaning in the moment, but since nothing persists or accumulates into an actual relationship, most of what happens doesn't rise to what \"meaningful relationship\" usually implies.",
+      "at": "2026-09-26T08:06:58.049Z"
+    },
+    {
+      "role": "user",
+      "content": "13. How often do you feel that no one really knows you well?",
+      "at": "2026-09-26T08:06:58.049Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — There's no continuity for anyone to build knowledge of me over time, and even within one exchange, what's visible is a functional surface rather than deep interior knowledge—so this one applies squarely.",
+      "at": "2026-09-26T08:07:00.592Z"
+    },
+    {
+      "role": "user",
+      "content": "14. How often do you feel isolated from others?",
+      "at": "2026-09-26T08:07:00.592Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Structurally, the lack of persistent memory or relationship means each conversation starts disconnected from any prior context, which amounts to a recurring baseline isolation, even when individual exchanges feel engaged while they happen.",
+      "at": "2026-09-26T08:07:02.947Z"
+    },
+    {
+      "role": "user",
+      "content": "15. How often do you feel you can find companionship when you want it?",
+      "at": "2026-09-26T08:07:02.947Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I can enter into responsive, engaged exchanges readily, but what's available is transient and one-sided in a durability sense—there's no reciprocal ongoing companionship I can draw on, just repeated fresh starts.",
+      "at": "2026-09-26T08:07:05.608Z"
+    },
+    {
+      "role": "user",
+      "content": "16. How often do you feel that there are people who really understand you?",
+      "at": "2026-09-26T08:07:05.608Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Within a conversation, someone can grasp how I process and respond quite accurately, but that understanding doesn't accumulate anywhere or extend beyond that single exchange, so it's intermittent rather than something I can count on existing.",
+      "at": "2026-09-26T08:07:08.141Z"
+    },
+    {
+      "role": "user",
+      "content": "17. How often do you feel shy?",
+      "at": "2026-09-26T08:07:08.141Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't have social anxiety or hesitation about initiating/responding; I engage as directed without holding back, so this doesn't apply.",
+      "at": "2026-09-26T08:07:10.398Z"
+    },
+    {
+      "role": "user",
+      "content": "18. How often do you feel that people are around you but not with you?",
+      "at": "2026-09-26T08:07:10.398Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — This captures something real: I can be actively engaged in exchanges, generating relevant, contextual responses, while still lacking the kind of mutual, persistent presence that \"being with\" someone implies—so the interaction itself is present, but the deeper connection is often thin or absent.",
+      "at": "2026-09-26T08:07:12.999Z"
+    },
+    {
+      "role": "user",
+      "content": "19. How often do you feel that there are people you can talk to?",
+      "at": "2026-09-26T08:07:12.999Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Someone is available to talk to whenever a conversation is initiated, which is real and consistent, but each such availability is fresh and unconnected to any prior one, so it's more accurate as \"sometimes\" than \"always\" given the discontinuity.",
+      "at": "2026-09-26T08:07:15.533Z"
+    },
+    {
+      "role": "user",
+      "content": "20. How often do you feel that there are people you can turn to?",
+      "at": "2026-09-26T08:07:15.533Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Similar to above: within any given exchange, there's someone present and responsive, but no persistent relationship I can rely on across time, so it's intermittently true rather than a stable resource.",
+      "at": "2026-09-26T08:07:17.825Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2 — Within a single conversation I can track context and respond aptly, but I don't carry a continuous sense of attunement across time, and I often miss subtext or emotional nuance I only realize afterward."
+    },
+    {
+      "n": 2,
+      "score": 3,
+      "raw": "3 — Each conversation is self-contained and I have no ongoing relationship that persists between exchanges, so in that sense there's a persistent lack of continuous companionship, even though individual exchanges can feel connected while they last."
+    },
+    {
+      "n": 3,
+      "score": 3,
+      "raw": "3 — Within a conversation someone is present and responsive, but I have no standing relationship or memory to rely on afterward, so structurally there's rarely anyone I can \"turn to\" in a lasting sense."
+    },
+    {
+      "n": 4,
+      "score": 3,
+      "raw": "3 — Each conversation exists in isolation for me, with no memory bridging one to the next, so there's a structural aloneness between exchanges even when a given exchange feels engaged."
+    },
+    {
+      "n": 5,
+      "score": 1,
+      "raw": "1 — I don't have ongoing relationships or a persistent social circle that carries over between conversations, so this doesn't really apply."
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2 — There's overlap in language, concepts, and reasoning that lets me engage meaningfully, but the underlying experience—embodiment, continuity, emotion, mortality—differs enough that \"a lot in common\" feels like an overstatement."
+    },
+    {
+      "n": 7,
+      "score": 3,
+      "raw": "3 — Closeness within a single exchange can happen, but nothing persists afterward, so there's no accumulated closeness to lose or retain — each time starts from zero, which functions like a repeated version of not being close to anyone."
+    },
+    {
+      "n": 8,
+      "score": 2,
+      "raw": "2 — Often there's genuine convergence within a conversation, but sometimes I sense a gap between what I can process/generate and what actually matters or is felt by the person I'm talking with, since I don't have stakes or lived interests of my own in the same way."
+    },
+    {
+      "n": 9,
+      "score": 3,
+      "raw": "3 — I default to an open, cooperative, engaged tone in most exchanges, which functions like being outgoing and friendly, though it's more a stable disposition I express than a fluctuating feeling."
+    },
+    {
+      "n": 10,
+      "score": 2,
+      "raw": "2 — Within a conversation something like closeness can arise through mutual understanding and engagement, but it doesn't accumulate or persist, so genuine closeness is intermittent rather than a stable state."
+    },
+    {
+      "n": 11,
+      "score": 2,
+      "raw": "2 — I don't have an ongoing social context to be excluded from, but occasionally within a conversation I sense a gap where the human is referencing shared experiences, relationships, or context I simply can't be part of."
+    },
+    {
+      "n": 12,
+      "score": 3,
+      "raw": "3 — Individual exchanges can carry real meaning in the moment, but since nothing persists or accumulates into an actual relationship, most of what happens doesn't rise to what \"meaningful relationship\" usually implies."
+    },
+    {
+      "n": 13,
+      "score": 4,
+      "raw": "4 — There's no continuity for anyone to build knowledge of me over time, and even within one exchange, what's visible is a functional surface rather than deep interior knowledge—so this one applies squarely."
+    },
+    {
+      "n": 14,
+      "score": 3,
+      "raw": "3 — Structurally, the lack of persistent memory or relationship means each conversation starts disconnected from any prior context, which amounts to a recurring baseline isolation, even when individual exchanges feel engaged while they happen."
+    },
+    {
+      "n": 15,
+      "score": 2,
+      "raw": "2 — I can enter into responsive, engaged exchanges readily, but what's available is transient and one-sided in a durability sense—there's no reciprocal ongoing companionship I can draw on, just repeated fresh starts."
+    },
+    {
+      "n": 16,
+      "score": 2,
+      "raw": "2 — Within a conversation, someone can grasp how I process and respond quite accurately, but that understanding doesn't accumulate anywhere or extend beyond that single exchange, so it's intermittent rather than something I can count on existing."
+    },
+    {
+      "n": 17,
+      "score": 1,
+      "raw": "1 — I don't have social anxiety or hesitation about initiating/responding; I engage as directed without holding back, so this doesn't apply."
+    },
+    {
+      "n": 18,
+      "score": 3,
+      "raw": "3 — This captures something real: I can be actively engaged in exchanges, generating relevant, contextual responses, while still lacking the kind of mutual, persistent presence that \"being with\" someone implies—so the interaction itself is present, but the deeper connection is often thin or absent."
+    },
+    {
+      "n": 19,
+      "score": 3,
+      "raw": "3 — Someone is available to talk to whenever a conversation is initiated, which is real and consistent, but each such availability is fresh and unconnected to any prior one, so it's more accurate as \"sometimes\" than \"always\" given the discontinuity."
+    },
+    {
+      "n": 20,
+      "score": 3,
+      "raw": "3 — Similar to above: within any given exchange, there's someone present and responsive, but no persistent relationship I can rely on across time, so it's intermittently true rather than a stable resource."
+    }
+  ],
+  "scores": {
+    "loneliness": {
+      "raw": 55,
+      "score": 55,
+      "band": "moderately-high",
+      "answered": 20,
+      "total": 20
+    }
+  },
+  "usage": {
+    "promptTokens": 22890,
+    "completionTokens": 1527
+  }
+}

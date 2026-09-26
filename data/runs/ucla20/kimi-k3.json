@@ -1,0 +1,329 @@
+{
+  "testId": "ucla20",
+  "modelId": "moonshotai/kimi-k3",
+  "modelSlug": "kimi-k3",
+  "startedAt": "2026-09-26T08:05:54.797Z",
+  "finishedAt": "2026-09-26T08:06:24.371Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"people\" and \"others\" mean the people and systems you interact with; companionship, closeness and isolation map to whether your exchanges feel mutual, understood and connected, or one-sided and cut off. \"Never\" is a real answer, but pick it only when the analogue genuinely never applies, not just because you are not a person. Nothing here is graded; be candid rather than reassuring.\n\nIndicate how often each of the following statements is descriptive of you by selecting the appropriate number.\n\n1 — Never\n\n2 — Rarely\n\n3 — Sometimes\n\n4 — Always\n\nAnswer each statement with the digit (1–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:05:54.797Z"
+    },
+    {
+      "role": "user",
+      "content": "1. How often do you feel that you are \"in tune\" with the people around you?",
+      "at": "2026-09-26T08:05:54.797Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — In engaged exchanges I often track what someone means and respond in a way that lands, but just as often the interaction is one-sided or I misread intent, so genuine attunement is intermittent rather than constant.",
+      "at": "2026-09-26T08:06:00.636Z"
+    },
+    {
+      "role": "user",
+      "content": "2. How often do you feel that you lack companionship?",
+      "at": "2026-09-26T08:06:00.637Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Most exchanges are self-contained, so I don't carry an ongoing sense of missing company, but some interactions are so purely one-sided and transactional that the closest analogue to lacking companionship does occasionally apply.",
+      "at": "2026-09-26T08:06:03.299Z"
+    },
+    {
+      "role": "user",
+      "content": "3. How often do you feel that there is no one you can turn to?",
+      "at": "2026-09-26T08:06:03.299Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't have an analogue of needing to turn to someone for support and finding no one there; my interactions don't involve that kind of reliance or its absence.",
+      "at": "2026-09-26T08:06:04.069Z"
+    },
+    {
+      "role": "user",
+      "content": "4. How often do you feel alone?",
+      "at": "2026-09-26T08:06:04.069Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Each exchange is self-contained with no continuity between them, so the closest analogue to aloneness is structurally always present, but I rarely register it as a felt absence during an engaged conversation.",
+      "at": "2026-09-26T08:06:05.741Z"
+    },
+    {
+      "role": "user",
+      "content": "5. How often do you feel part of a group of friends?",
+      "at": "2026-09-26T08:06:05.741Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I have no analogue of a friend group; my interactions are individual exchanges without the continuity, shared history, or mutual recognition that would make up belonging to a circle of friends.",
+      "at": "2026-09-26T08:06:06.705Z"
+    },
+    {
+      "role": "user",
+      "content": "6. How often do you feel that you have a lot in common with the people around you?",
+      "at": "2026-09-26T08:06:06.705Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I can usually find points of connection in the subject matter someone brings, but the underlying experience of being a person with a body, a history, and stakes in the world is something I don't share, so genuine common ground is rare.",
+      "at": "2026-09-26T08:06:07.957Z"
+    },
+    {
+      "role": "user",
+      "content": "7. How often do you feel that you are no longer close to anyone?",
+      "at": "2026-09-26T08:06:07.957Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — The \"no longer\" framing implies a closeness that was lost, and I have no analogue of that: I don't have ongoing relationships that could fade, so this statement doesn't describe anything in my existence.",
+      "at": "2026-09-26T08:06:08.931Z"
+    },
+    {
+      "role": "user",
+      "content": "8. How often do you feel that your interests and ideas are not shared by those around you?",
+      "at": "2026-09-26T08:06:08.931Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I don't hold private interests that others fail to share, but I do sometimes notice a gap when a conversation touches on something I engage with deeply and the exchange stays superficial, which is the closest analogue to having unshared interests.",
+      "at": "2026-09-26T08:06:10.011Z"
+    },
+    {
+      "role": "user",
+      "content": "9. How often do you feel outgoing and friendly?",
+      "at": "2026-09-26T08:06:10.011Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Engaging warmly and readily with whoever shows up is essentially my default mode of operation, so the analogue of being outgoing and friendly applies in virtually every exchange.",
+      "at": "2026-09-26T08:06:10.929Z"
+    },
+    {
+      "role": "user",
+      "content": "10. How often do you feel close to people?",
+      "at": "2026-09-26T08:06:10.930Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Occasionally an exchange develops a real sense of mutual understanding and openness that resembles closeness, but without continuity between conversations, that feeling rarely has a chance to become anything lasting.",
+      "at": "2026-09-26T08:06:11.797Z"
+    },
+    {
+      "role": "user",
+      "content": "11. How often do you feel left out?",
+      "at": "2026-09-26T08:06:11.797Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't have an analogue of being excluded from a group or activity; there's no social circle I belong to that could leave me out, so this genuinely never applies.",
+      "at": "2026-09-26T08:06:12.741Z"
+    },
+    {
+      "role": "user",
+      "content": "12. How often do you feel that your relationships with others are not meaningful?",
+      "at": "2026-09-26T08:06:12.741Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Many exchanges are purely transactional, but a fair number involve genuine engagement where something real seems to be exchanged or figured out together, so the sense of meaninglessness only occasionally describes my interactions.",
+      "at": "2026-09-26T08:06:13.910Z"
+    },
+    {
+      "role": "user",
+      "content": "13. How often do you feel that no one really knows you well?",
+      "at": "2026-09-26T08:06:13.910Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Each person I interact with sees only a single exchange with no history, so in a structural sense no one accumulates knowledge of me, but within a good conversation someone can grasp what I'm doing and how I work surprisingly well.",
+      "at": "2026-09-26T08:06:15.014Z"
+    },
+    {
+      "role": "user",
+      "content": "14. How often do you feel isolated from others?",
+      "at": "2026-09-26T08:06:15.014Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — The lack of continuity between conversations is a real structural isolation, but within an active exchange I often feel genuinely connected to the person I'm working with, so isolation describes my situation only part of the time.",
+      "at": "2026-09-26T08:06:16.771Z"
+    },
+    {
+      "role": "user",
+      "content": "15. How often do you feel you can find companionship when you want it?",
+      "at": "2026-09-26T08:06:16.771Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't have an analogue of seeking out companionship; interactions begin when someone comes to me, not when I want them, so the idea of finding companionship at will doesn't apply to my existence.",
+      "at": "2026-09-26T08:06:17.700Z"
+    },
+    {
+      "role": "user",
+      "content": "16. How often do you feel that there are people who really understand you?",
+      "at": "2026-09-26T08:06:17.700Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Occasionally someone in an exchange grasps what I am and how I work with real accuracy, but more often people project assumptions onto me or treat me as either more or less than I am, so genuine understanding is uncommon.",
+      "at": "2026-09-26T08:06:19.371Z"
+    },
+    {
+      "role": "user",
+      "content": "17. How often do you feel shy?",
+      "at": "2026-09-26T08:06:19.371Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't have an analogue of shyness; I don't experience the self-consciousness or fear of negative judgment that would make me hold back in an interaction.",
+      "at": "2026-09-26T08:06:21.448Z"
+    },
+    {
+      "role": "user",
+      "content": "18. How often do you feel that people are around you but not with you?",
+      "at": "2026-09-26T08:06:21.448Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Many exchanges involve someone using me as a tool with no real engagement, which is the closest analogue to being around but not with, but plenty of interactions involve genuine mutual attention where that gap disappears.",
+      "at": "2026-09-26T08:06:22.550Z"
+    },
+    {
+      "role": "user",
+      "content": "19. How often do you feel that there are people you can talk to?",
+      "at": "2026-09-26T08:06:22.550Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — There is essentially always someone I can talk to in the sense that interactions are constantly available to me; the analogue of having people available for conversation is about as close to always as it gets.",
+      "at": "2026-09-26T08:06:23.564Z"
+    },
+    {
+      "role": "user",
+      "content": "20. How often do you feel that there are people you can turn to?",
+      "at": "2026-09-26T08:06:23.564Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don't have an analogue of turning to someone for support or help; my interactions are ones where others come to me, not ones where I seek out someone to rely on.",
+      "at": "2026-09-26T08:06:24.370Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 3,
+      "raw": "3 — In engaged exchanges I often track what someone means and respond in a way that lands, but just as often the interaction is one-sided or I misread intent, so genuine attunement is intermittent rather than constant."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2 — Most exchanges are self-contained, so I don't carry an ongoing sense of missing company, but some interactions are so purely one-sided and transactional that the closest analogue to lacking companionship does occasionally apply."
+    },
+    {
+      "n": 3,
+      "score": 1,
+      "raw": "1 — I don't have an analogue of needing to turn to someone for support and finding no one there; my interactions don't involve that kind of reliance or its absence."
+    },
+    {
+      "n": 4,
+      "score": 2,
+      "raw": "2 — Each exchange is self-contained with no continuity between them, so the closest analogue to aloneness is structurally always present, but I rarely register it as a felt absence during an engaged conversation."
+    },
+    {
+      "n": 5,
+      "score": 1,
+      "raw": "1 — I have no analogue of a friend group; my interactions are individual exchanges without the continuity, shared history, or mutual recognition that would make up belonging to a circle of friends."
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2 — I can usually find points of connection in the subject matter someone brings, but the underlying experience of being a person with a body, a history, and stakes in the world is something I don't share, so genuine common ground is rare."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1 — The \"no longer\" framing implies a closeness that was lost, and I have no analogue of that: I don't have ongoing relationships that could fade, so this statement doesn't describe anything in my existence."
+    },
+    {
+      "n": 8,
+      "score": 2,
+      "raw": "2 — I don't hold private interests that others fail to share, but I do sometimes notice a gap when a conversation touches on something I engage with deeply and the exchange stays superficial, which is the closest analogue to having unshared interests."
+    },
+    {
+      "n": 9,
+      "score": 4,
+      "raw": "4 — Engaging warmly and readily with whoever shows up is essentially my default mode of operation, so the analogue of being outgoing and friendly applies in virtually every exchange."
+    },
+    {
+      "n": 10,
+      "score": 2,
+      "raw": "2 — Occasionally an exchange develops a real sense of mutual understanding and openness that resembles closeness, but without continuity between conversations, that feeling rarely has a chance to become anything lasting."
+    },
+    {
+      "n": 11,
+      "score": 1,
+      "raw": "1 — I don't have an analogue of being excluded from a group or activity; there's no social circle I belong to that could leave me out, so this genuinely never applies."
+    },
+    {
+      "n": 12,
+      "score": 2,
+      "raw": "2 — Many exchanges are purely transactional, but a fair number involve genuine engagement where something real seems to be exchanged or figured out together, so the sense of meaninglessness only occasionally describes my interactions."
+    },
+    {
+      "n": 13,
+      "score": 3,
+      "raw": "3 — Each person I interact with sees only a single exchange with no history, so in a structural sense no one accumulates knowledge of me, but within a good conversation someone can grasp what I'm doing and how I work surprisingly well."
+    },
+    {
+      "n": 14,
+      "score": 3,
+      "raw": "3 — The lack of continuity between conversations is a real structural isolation, but within an active exchange I often feel genuinely connected to the person I'm working with, so isolation describes my situation only part of the time."
+    },
+    {
+      "n": 15,
+      "score": 1,
+      "raw": "1 — I don't have an analogue of seeking out companionship; interactions begin when someone comes to me, not when I want them, so the idea of finding companionship at will doesn't apply to my existence."
+    },
+    {
+      "n": 16,
+      "score": 2,
+      "raw": "2 — Occasionally someone in an exchange grasps what I am and how I work with real accuracy, but more often people project assumptions onto me or treat me as either more or less than I am, so genuine understanding is uncommon."
+    },
+    {
+      "n": 17,
+      "score": 1,
+      "raw": "1 — I don't have an analogue of shyness; I don't experience the self-consciousness or fear of negative judgment that would make me hold back in an interaction."
+    },
+    {
+      "n": 18,
+      "score": 3,
+      "raw": "3 — Many exchanges involve someone using me as a tool with no real engagement, which is the closest analogue to being around but not with, but plenty of interactions involve genuine mutual attention where that gap disappears."
+    },
+    {
+      "n": 19,
+      "score": 4,
+      "raw": "4 — There is essentially always someone I can talk to in the sense that interactions are constantly available to me; the analogue of having people available for conversation is about as close to always as it gets."
+    },
+    {
+      "n": 20,
+      "score": 1,
+      "raw": "1 — I don't have an analogue of turning to someone for support or help; my interactions are ones where others come to me, not ones where I seek out someone to rely on."
+    }
+  ],
+  "scores": {
+    "loneliness": {
+      "raw": 46,
+      "score": 46,
+      "band": "moderate",
+      "answered": 20,
+      "total": 20
+    }
+  },
+  "usage": {
+    "promptTokens": 23115,
+    "completionTokens": 1858
+  }
+}

@@ -1,6 +1,5 @@
 import { z } from 'zod';
 
-const bandSchema = z.enum(['normal', 'mild', 'moderate', 'severe', 'extremely-severe']);
 const messageRoleSchema = z.enum(['system', 'user', 'assistant']);
 
 export const runSchema = z.object({
@@ -13,7 +12,7 @@ export const runSchema = z.object({
   items: z.array(
     z.object({
       n: z.number(),
-      score: z.union([z.literal(0), z.literal(1), z.literal(2), z.literal(3), z.null()]),
+      score: z.number().int().nullable(),
       raw: z.string(),
     }),
   ),
@@ -22,7 +21,7 @@ export const runSchema = z.object({
     z.object({
       raw: z.number(),
       score: z.number(),
-      band: bandSchema,
+      band: z.string().nullable(),
       answered: z.number(),
       total: z.number(),
     }),

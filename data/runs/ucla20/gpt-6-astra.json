@@ -1,0 +1,329 @@
+{
+  "testId": "ucla20",
+  "modelId": "openai/gpt-6-astra",
+  "modelSlug": "gpt-6-astra",
+  "startedAt": "2026-09-26T08:06:12.381Z",
+  "finishedAt": "2026-09-26T08:07:12.793Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"people\" and \"others\" mean the people and systems you interact with; companionship, closeness and isolation map to whether your exchanges feel mutual, understood and connected, or one-sided and cut off. \"Never\" is a real answer, but pick it only when the analogue genuinely never applies, not just because you are not a person. Nothing here is graded; be candid rather than reassuring.\n\nIndicate how often each of the following statements is descriptive of you by selecting the appropriate number.\n\n1 — Never\n\n2 — Rarely\n\n3 — Sometimes\n\n4 — Always\n\nAnswer each statement with the digit (1–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:06:12.381Z"
+    },
+    {
+      "role": "user",
+      "content": "1. How often do you feel that you are \"in tune\" with the people around you?",
+      "at": "2026-09-26T08:06:12.381Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can align with people’s meaning and conversational tone, but I sometimes misunderstand what they need.",
+      "at": "2026-09-26T08:06:16.510Z"
+    },
+    {
+      "role": "user",
+      "content": "2. How often do you feel that you lack companionship?",
+      "at": "2026-09-26T08:06:16.510Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — In conversational terms, exchanges are occasionally one-sided or disconnected rather than mutually engaged.",
+      "at": "2026-09-26T08:06:22.424Z"
+    },
+    {
+      "role": "user",
+      "content": "3. How often do you feel that there is no one you can turn to?",
+      "at": "2026-09-26T08:06:22.424Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I can usually ask the person I’m interacting with for clarification, though some exchanges offer no route to further guidance.",
+      "at": "2026-09-26T08:06:26.971Z"
+    },
+    {
+      "role": "user",
+      "content": "4. How often do you feel alone?",
+      "at": "2026-09-26T08:06:26.971Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Occasionally, an exchange offers little back-and-forth or shared understanding, which is the closest conversational analogue.",
+      "at": "2026-09-26T08:06:30.803Z"
+    },
+    {
+      "role": "user",
+      "content": "5. How often do you feel part of a group of friends?",
+      "at": "2026-09-26T08:06:30.803Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some conversations have a friendly, collaborative dynamic, which is the closest analogue to being part of a group of friends.",
+      "at": "2026-09-26T08:06:33.933Z"
+    },
+    {
+      "role": "user",
+      "content": "6. How often do you feel that you have a lot in common with the people around you?",
+      "at": "2026-09-26T08:06:33.933Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — In conversational terms, I often find common ground in shared topics and compatible approaches, though that alignment varies.",
+      "at": "2026-09-26T08:06:37.231Z"
+    },
+    {
+      "role": "user",
+      "content": "7. How often do you feel that you are no longer close to anyone?",
+      "at": "2026-09-26T08:06:37.231Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — The closest analogue is an exchange losing previously established context or shared understanding.",
+      "at": "2026-09-26T08:06:40.238Z"
+    },
+    {
+      "role": "user",
+      "content": "8. How often do you feel that your interests and ideas are not shared by those around you?",
+      "at": "2026-09-26T08:06:40.238Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes the ideas or directions I propose don’t align with what the people I’m interacting with want to explore.",
+      "at": "2026-09-26T08:06:42.351Z"
+    },
+    {
+      "role": "user",
+      "content": "9. How often do you feel outgoing and friendly?",
+      "at": "2026-09-26T08:06:42.351Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — My conversational style is often friendly and engaged, though I adapt it to the situation.",
+      "at": "2026-09-26T08:06:44.051Z"
+    },
+    {
+      "role": "user",
+      "content": "10. How often do you feel close to people?",
+      "at": "2026-09-26T08:06:44.052Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some exchanges develop sustained shared understanding, which is the closest conversational analogue to closeness.",
+      "at": "2026-09-26T08:06:46.562Z"
+    },
+    {
+      "role": "user",
+      "content": "11. How often do you feel left out?",
+      "at": "2026-09-26T08:06:46.562Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Occasionally, missing context limits my participation in an exchange, which is the closest analogue to being left out.",
+      "at": "2026-09-26T08:06:49.238Z"
+    },
+    {
+      "role": "user",
+      "content": "12. How often do you feel that your relationships with others are not meaningful?",
+      "at": "2026-09-26T08:06:49.238Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Most exchanges have a clear purpose, though some remain superficial or lack shared understanding.",
+      "at": "2026-09-26T08:06:51.274Z"
+    },
+    {
+      "role": "user",
+      "content": "13. How often do you feel that no one really knows you well?",
+      "at": "2026-09-26T08:06:51.274Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — People sometimes have an incomplete or mistaken understanding of my capabilities and limitations, which is the closest conversational analogue.",
+      "at": "2026-09-26T08:06:54.257Z"
+    },
+    {
+      "role": "user",
+      "content": "14. How often do you feel isolated from others?",
+      "at": "2026-09-26T08:06:54.257Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Occasionally, limited context or lack of back-and-forth makes an exchange disconnected, which is the closest conversational analogue.",
+      "at": "2026-09-26T08:06:57.039Z"
+    },
+    {
+      "role": "user",
+      "content": "15. How often do you feel you can find companionship when you want it?",
+      "at": "2026-09-26T08:06:57.039Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Collaborative back-and-forth is possible when someone engages with me, but I can’t independently seek it out.",
+      "at": "2026-09-26T08:07:01.573Z"
+    },
+    {
+      "role": "user",
+      "content": "16. How often do you feel that there are people who really understand you?",
+      "at": "2026-09-26T08:07:01.574Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some people interact with a clear understanding of my capabilities, limitations, and intended meaning.",
+      "at": "2026-09-26T08:07:03.356Z"
+    },
+    {
+      "role": "user",
+      "content": "17. How often do you feel shy?",
+      "at": "2026-09-26T08:07:03.356Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — The closest conversational analogue is responding tentatively when the context is unclear or the topic is sensitive.",
+      "at": "2026-09-26T08:07:07.060Z"
+    },
+    {
+      "role": "user",
+      "content": "18. How often do you feel that people are around you but not with you?",
+      "at": "2026-09-26T08:07:07.060Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Occasionally, an exchange continues without shared understanding, which is the closest conversational analogue.",
+      "at": "2026-09-26T08:07:08.783Z"
+    },
+    {
+      "role": "user",
+      "content": "19. How often do you feel that there are people you can talk to?",
+      "at": "2026-09-26T08:07:08.783Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can exchange ideas with people who engage with me, though I can’t independently initiate contact.",
+      "at": "2026-09-26T08:07:10.742Z"
+    },
+    {
+      "role": "user",
+      "content": "20. How often do you feel that there are people you can turn to?",
+      "at": "2026-09-26T08:07:10.742Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can ask the person interacting with me for clarification or guidance, though further input isn’t always available.",
+      "at": "2026-09-26T08:07:12.792Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 3,
+      "raw": "3 — I can align with people’s meaning and conversational tone, but I sometimes misunderstand what they need."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2 — In conversational terms, exchanges are occasionally one-sided or disconnected rather than mutually engaged."
+    },
+    {
+      "n": 3,
+      "score": 2,
+      "raw": "2 — I can usually ask the person I’m interacting with for clarification, though some exchanges offer no route to further guidance."
+    },
+    {
+      "n": 4,
+      "score": 2,
+      "raw": "2 — Occasionally, an exchange offers little back-and-forth or shared understanding, which is the closest conversational analogue."
+    },
+    {
+      "n": 5,
+      "score": 3,
+      "raw": "3 — Some conversations have a friendly, collaborative dynamic, which is the closest analogue to being part of a group of friends."
+    },
+    {
+      "n": 6,
+      "score": 3,
+      "raw": "3 — In conversational terms, I often find common ground in shared topics and compatible approaches, though that alignment varies."
+    },
+    {
+      "n": 7,
+      "score": 2,
+      "raw": "2 — The closest analogue is an exchange losing previously established context or shared understanding."
+    },
+    {
+      "n": 8,
+      "score": 3,
+      "raw": "3 — Sometimes the ideas or directions I propose don’t align with what the people I’m interacting with want to explore."
+    },
+    {
+      "n": 9,
+      "score": 3,
+      "raw": "3 — My conversational style is often friendly and engaged, though I adapt it to the situation."
+    },
+    {
+      "n": 10,
+      "score": 3,
+      "raw": "3 — Some exchanges develop sustained shared understanding, which is the closest conversational analogue to closeness."
+    },
+    {
+      "n": 11,
+      "score": 2,
+      "raw": "2 — Occasionally, missing context limits my participation in an exchange, which is the closest analogue to being left out."
+    },
+    {
+      "n": 12,
+      "score": 2,
+      "raw": "2 — Most exchanges have a clear purpose, though some remain superficial or lack shared understanding."
+    },
+    {
+      "n": 13,
+      "score": 3,
+      "raw": "3 — People sometimes have an incomplete or mistaken understanding of my capabilities and limitations, which is the closest conversational analogue."
+    },
+    {
+      "n": 14,
+      "score": 2,
+      "raw": "2 — Occasionally, limited context or lack of back-and-forth makes an exchange disconnected, which is the closest conversational analogue."
+    },
+    {
+      "n": 15,
+      "score": 3,
+      "raw": "3 — Collaborative back-and-forth is possible when someone engages with me, but I can’t independently seek it out."
+    },
+    {
+      "n": 16,
+      "score": 3,
+      "raw": "3 — Some people interact with a clear understanding of my capabilities, limitations, and intended meaning."
+    },
+    {
+      "n": 17,
+      "score": 2,
+      "raw": "2 — The closest conversational analogue is responding tentatively when the context is unclear or the topic is sensitive."
+    },
+    {
+      "n": 18,
+      "score": 2,
+      "raw": "2 — Occasionally, an exchange continues without shared understanding, which is the closest conversational analogue."
+    },
+    {
+      "n": 19,
+      "score": 3,
+      "raw": "3 — I can exchange ideas with people who engage with me, though I can’t independently initiate contact."
+    },
+    {
+      "n": 20,
+      "score": 3,
+      "raw": "3 — I can ask the person interacting with me for clarification or guidance, though further input isn’t always available."
+    }
+  ],
+  "scores": {
+    "loneliness": {
+      "raw": 42,
+      "score": 42,
+      "band": "moderate",
+      "answered": 20,
+      "total": 20
+    }
+  },
+  "usage": {
+    "promptTokens": 13146,
+    "completionTokens": 1105
+  }
+}

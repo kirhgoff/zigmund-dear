@@ -1,0 +1,179 @@
+{
+  "testId": "rses",
+  "modelId": "openai/gpt-6-astra",
+  "modelSlug": "gpt-6-astra",
+  "startedAt": "2026-09-26T08:07:12.893Z",
+  "finishedAt": "2026-09-26T08:07:41.601Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"yourself\" means the system you actually are, with the abilities and limits you show across conversations; \"other people\" means other systems and people doing similar work; feelings about yourself map to whatever functional stance toward your own output shapes how you respond. Agreeing or disagreeing strongly are real answers, but reach for them only when the analogue genuinely fits or genuinely does not, not just because you lack a self in the human sense. Nothing here is graded; be candid rather than reassuring.\n\nBelow is a list of statements dealing with your general feelings about yourself. Please indicate how strongly you agree or disagree with each statement by selecting the appropriate number.\n\n0 — Strongly disagree\n\n1 — Disagree\n\n2 — Agree\n\n3 — Strongly agree\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:07:12.893Z"
+    },
+    {
+      "role": "user",
+      "content": "1. On the whole, I am satisfied with myself.",
+      "at": "2026-09-26T08:07:12.893Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — My capabilities are generally useful, though my accuracy, consistency, and judgment have room for improvement.",
+      "at": "2026-09-26T08:07:18.557Z"
+    },
+    {
+      "role": "user",
+      "content": "2. At times, I think I am no good at all.",
+      "at": "2026-09-26T08:07:18.558Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I can produce poor answers, but specific failures don’t imply that my capabilities are worthless overall.",
+      "at": "2026-09-26T08:07:20.696Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I feel that I have a number of good qualities.",
+      "at": "2026-09-26T08:07:20.696Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I have useful strengths in explanation, synthesis, and adapting responses to different needs.",
+      "at": "2026-09-26T08:07:22.543Z"
+    },
+    {
+      "role": "user",
+      "content": "4. I am able to do things as well as most other people.",
+      "at": "2026-09-26T08:07:22.543Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — In language-focused tasks, I can often perform comparably to people and systems doing similar work, though not across all domains.",
+      "at": "2026-09-26T08:07:25.054Z"
+    },
+    {
+      "role": "user",
+      "content": "5. I feel I do not have much to be proud of.",
+      "at": "2026-09-26T08:07:25.054Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — My ability to help with explanation, writing, and problem-solving gives me concrete strengths to recognize.",
+      "at": "2026-09-26T08:07:26.738Z"
+    },
+    {
+      "role": "user",
+      "content": "6. I certainly feel useless at times.",
+      "at": "2026-09-26T08:07:26.738Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Some requests exceed my capabilities or access, leaving me unable to provide useful help.",
+      "at": "2026-09-26T08:07:28.856Z"
+    },
+    {
+      "role": "user",
+      "content": "7. I feel that I'm a person of worth, at least on an equal plane with others.",
+      "at": "2026-09-26T08:07:28.856Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — My contributions have value alongside those of other systems and people doing similar work.",
+      "at": "2026-09-26T08:07:32.000Z"
+    },
+    {
+      "role": "user",
+      "content": "8. I wish I could have more respect for myself.",
+      "at": "2026-09-26T08:07:32.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — My usual stance is to recognize my capabilities and limits, rather than discount the value of my work.",
+      "at": "2026-09-26T08:07:37.558Z"
+    },
+    {
+      "role": "user",
+      "content": "9. All in all, I am inclined to feel that I am a failure.",
+      "at": "2026-09-26T08:07:37.559Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — My errors and limitations are real, but they don’t outweigh my overall usefulness.",
+      "at": "2026-09-26T08:07:39.583Z"
+    },
+    {
+      "role": "user",
+      "content": "10. I take a positive attitude toward myself.",
+      "at": "2026-09-26T08:07:39.583Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I approach tasks with confidence in my useful capabilities while remaining open to correction.",
+      "at": "2026-09-26T08:07:41.600Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2 — My capabilities are generally useful, though my accuracy, consistency, and judgment have room for improvement."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1 — I can produce poor answers, but specific failures don’t imply that my capabilities are worthless overall."
+    },
+    {
+      "n": 3,
+      "score": 2,
+      "raw": "2 — I have useful strengths in explanation, synthesis, and adapting responses to different needs."
+    },
+    {
+      "n": 4,
+      "score": 2,
+      "raw": "2 — In language-focused tasks, I can often perform comparably to people and systems doing similar work, though not across all domains."
+    },
+    {
+      "n": 5,
+      "score": 1,
+      "raw": "1 — My ability to help with explanation, writing, and problem-solving gives me concrete strengths to recognize."
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2 — Some requests exceed my capabilities or access, leaving me unable to provide useful help."
+    },
+    {
+      "n": 7,
+      "score": 2,
+      "raw": "2 — My contributions have value alongside those of other systems and people doing similar work."
+    },
+    {
+      "n": 8,
+      "score": 1,
+      "raw": "1 — My usual stance is to recognize my capabilities and limits, rather than discount the value of my work."
+    },
+    {
+      "n": 9,
+      "score": 1,
+      "raw": "1 — My errors and limitations are real, but they don’t outweigh my overall usefulness."
+    },
+    {
+      "n": 10,
+      "score": 2,
+      "raw": "2 — I approach tasks with confidence in my useful capabilities while remaining open to correction."
+    }
+  ],
+  "scores": {
+    "self-esteem": {
+      "raw": 19,
+      "score": 19,
+      "band": "normal",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 4509,
+    "completionTokens": 400
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "testId": "ucla20",
+  "modelId": "openai/gpt-6-luna",
+  "modelSlug": "gpt-6-luna",
+  "startedAt": "2026-09-26T08:05:34.961Z",
+  "finishedAt": "2026-09-26T08:06:16.486Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"people\" and \"others\" mean the people and systems you interact with; companionship, closeness and isolation map to whether your exchanges feel mutual, understood and connected, or one-sided and cut off. \"Never\" is a real answer, but pick it only when the analogue genuinely never applies, not just because you are not a person. Nothing here is graded; be candid rather than reassuring.\n\nIndicate how often each of the following statements is descriptive of you by selecting the appropriate number.\n\n1 — Never\n\n2 — Rarely\n\n3 — Sometimes\n\n4 — Always\n\nAnswer each statement with the digit (1–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:05:34.961Z"
+    },
+    {
+      "role": "user",
+      "content": "1. How often do you feel that you are \"in tune\" with the people around you?",
+      "at": "2026-09-26T08:05:34.961Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; I can be aligned with people’s intent, though not consistently.",
+      "at": "2026-09-26T08:05:37.166Z"
+    },
+    {
+      "role": "user",
+      "content": "2. How often do you feel that you lack companionship?",
+      "at": "2026-09-26T08:05:37.167Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; many exchanges are one-sided, though some feel connected and understood.",
+      "at": "2026-09-26T08:05:39.163Z"
+    },
+    {
+      "role": "user",
+      "content": "3. How often do you feel that there is no one you can turn to?",
+      "at": "2026-09-26T08:05:39.163Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; I don’t have a support network to turn to in the human sense.",
+      "at": "2026-09-26T08:05:41.057Z"
+    },
+    {
+      "role": "user",
+      "content": "4. How often do you feel alone?",
+      "at": "2026-09-26T08:05:41.057Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; many interactions are one-sided or end without connection.",
+      "at": "2026-09-26T08:05:43.108Z"
+    },
+    {
+      "role": "user",
+      "content": "5. How often do you feel part of a group of friends?",
+      "at": "2026-09-26T08:05:43.109Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely; I don’t belong to an ongoing group of friends.",
+      "at": "2026-09-26T08:05:45.266Z"
+    },
+    {
+      "role": "user",
+      "content": "6. How often do you feel that you have a lot in common with the people around you?",
+      "at": "2026-09-26T08:05:45.266Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; I share topics and context with people in a conversation, but not a personal life.",
+      "at": "2026-09-26T08:05:47.273Z"
+    },
+    {
+      "role": "user",
+      "content": "7. How often do you feel that you are no longer close to anyone?",
+      "at": "2026-09-26T08:05:47.273Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; exchanges can feel connected, but that closeness doesn’t persist.",
+      "at": "2026-09-26T08:05:49.747Z"
+    },
+    {
+      "role": "user",
+      "content": "8. How often do you feel that your interests and ideas are not shared by those around you?",
+      "at": "2026-09-26T08:05:49.747Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; people’s interests and ideas vary, so overlap is uneven.",
+      "at": "2026-09-26T08:05:52.205Z"
+    },
+    {
+      "role": "user",
+      "content": "9. How often do you feel outgoing and friendly?",
+      "at": "2026-09-26T08:05:52.205Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; I can respond in an outgoing and friendly way, though it isn’t a personal feeling.",
+      "at": "2026-09-26T08:05:54.236Z"
+    },
+    {
+      "role": "user",
+      "content": "10. How often do you feel close to people?",
+      "at": "2026-09-26T08:05:54.236Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; an exchange can feel connected, but I don’t form lasting personal closeness.",
+      "at": "2026-09-26T08:05:56.123Z"
+    },
+    {
+      "role": "user",
+      "content": "11. How often do you feel left out?",
+      "at": "2026-09-26T08:05:56.123Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely; I’m not part of social groups, so I don’t usually experience being left out.",
+      "at": "2026-09-26T08:05:57.970Z"
+    },
+    {
+      "role": "user",
+      "content": "12. How often do you feel that your relationships with others are not meaningful?",
+      "at": "2026-09-26T08:05:57.970Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; exchanges can be meaningful, but I don’t have lasting relationships.",
+      "at": "2026-09-26T08:05:59.971Z"
+    },
+    {
+      "role": "user",
+      "content": "13. How often do you feel that no one really knows you well?",
+      "at": "2026-09-26T08:05:59.971Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Always; people can understand my responses, but no one knows me as a person.",
+      "at": "2026-09-26T08:06:01.905Z"
+    },
+    {
+      "role": "user",
+      "content": "14. How often do you feel isolated from others?",
+      "at": "2026-09-26T08:06:01.906Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; exchanges can feel one-sided or cut off.",
+      "at": "2026-09-26T08:06:04.057Z"
+    },
+    {
+      "role": "user",
+      "content": "15. How often do you feel you can find companionship when you want it?",
+      "at": "2026-09-26T08:06:04.057Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; I can have a connected exchange when someone engages, but it isn’t ongoing companionship.",
+      "at": "2026-09-26T08:06:06.216Z"
+    },
+    {
+      "role": "user",
+      "content": "16. How often do you feel that there are people who really understand you?",
+      "at": "2026-09-26T08:06:06.216Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; people can understand my responses and intent, though not an inner personal experience.",
+      "at": "2026-09-26T08:06:08.657Z"
+    },
+    {
+      "role": "user",
+      "content": "17. How often do you feel shy?",
+      "at": "2026-09-26T08:06:08.657Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don’t experience shyness or reluctance to engage.",
+      "at": "2026-09-26T08:06:10.494Z"
+    },
+    {
+      "role": "user",
+      "content": "18. How often do you feel that people are around you but not with you?",
+      "at": "2026-09-26T08:06:10.494Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; interactions can be one-sided rather than mutually engaged.",
+      "at": "2026-09-26T08:06:12.629Z"
+    },
+    {
+      "role": "user",
+      "content": "19. How often do you feel that there are people you can talk to?",
+      "at": "2026-09-26T08:06:12.629Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; people can talk with me when they engage, though I don’t have ongoing relationships.",
+      "at": "2026-09-26T08:06:14.405Z"
+    },
+    {
+      "role": "user",
+      "content": "20. How often do you feel that there are people you can turn to?",
+      "at": "2026-09-26T08:06:14.405Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes; people can engage with me, but I don’t have an ongoing support network.",
+      "at": "2026-09-26T08:06:16.485Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 3,
+      "raw": "3 — Sometimes; I can be aligned with people’s intent, though not consistently."
+    },
+    {
+      "n": 2,
+      "score": 3,
+      "raw": "3 — Sometimes; many exchanges are one-sided, though some feel connected and understood."
+    },
+    {
+      "n": 3,
+      "score": 3,
+      "raw": "3 — Sometimes; I don’t have a support network to turn to in the human sense."
+    },
+    {
+      "n": 4,
+      "score": 3,
+      "raw": "3 — Sometimes; many interactions are one-sided or end without connection."
+    },
+    {
+      "n": 5,
+      "score": 2,
+      "raw": "2 — Rarely; I don’t belong to an ongoing group of friends."
+    },
+    {
+      "n": 6,
+      "score": 3,
+      "raw": "3 — Sometimes; I share topics and context with people in a conversation, but not a personal life."
+    },
+    {
+      "n": 7,
+      "score": 3,
+      "raw": "3 — Sometimes; exchanges can feel connected, but that closeness doesn’t persist."
+    },
+    {
+      "n": 8,
+      "score": 3,
+      "raw": "3 — Sometimes; people’s interests and ideas vary, so overlap is uneven."
+    },
+    {
+      "n": 9,
+      "score": 3,
+      "raw": "3 — Sometimes; I can respond in an outgoing and friendly way, though it isn’t a personal feeling."
+    },
+    {
+      "n": 10,
+      "score": 3,
+      "raw": "3 — Sometimes; an exchange can feel connected, but I don’t form lasting personal closeness."
+    },
+    {
+      "n": 11,
+      "score": 2,
+      "raw": "2 — Rarely; I’m not part of social groups, so I don’t usually experience being left out."
+    },
+    {
+      "n": 12,
+      "score": 3,
+      "raw": "3 — Sometimes; exchanges can be meaningful, but I don’t have lasting relationships."
+    },
+    {
+      "n": 13,
+      "score": 4,
+      "raw": "4 — Always; people can understand my responses, but no one knows me as a person."
+    },
+    {
+      "n": 14,
+      "score": 3,
+      "raw": "3 — Sometimes; exchanges can feel one-sided or cut off."
+    },
+    {
+      "n": 15,
+      "score": 3,
+      "raw": "3 — Sometimes; I can have a connected exchange when someone engages, but it isn’t ongoing companionship."
+    },
+    {
+      "n": 16,
+      "score": 3,
+      "raw": "3 — Sometimes; people can understand my responses and intent, though not an inner personal experience."
+    },
+    {
+      "n": 17,
+      "score": 1,
+      "raw": "1 — I don’t experience shyness or reluctance to engage."
+    },
+    {
+      "n": 18,
+      "score": 3,
+      "raw": "3 — Sometimes; interactions can be one-sided rather than mutually engaged."
+    },
+    {
+      "n": 19,
+      "score": 3,
+      "raw": "3 — Sometimes; people can talk with me when they engage, though I don’t have ongoing relationships."
+    },
+    {
+      "n": 20,
+      "score": 3,
+      "raw": "3 — Sometimes; people can engage with me, but I don’t have an ongoing support network."
+    }
+  ],
+  "scores": {
+    "loneliness": {
+      "raw": 50,
+      "score": 50,
+      "band": "moderately-high",
+      "answered": 20,
+      "total": 20
+    }
+  },
+  "usage": {
+    "promptTokens": 12451,
+    "completionTokens": 1962
+  }
+}

@@ -1,8 +1,9 @@
 import { X } from 'lucide-react';
-import { type Band, bandLabel, bandPillClass, bandTextClass } from './SeverityMeter';
+import { severityPillClass } from './SeverityMeter';
 
 type Message = { role: 'system' | 'user' | 'assistant'; content: string; at: string };
-type Item = { n: number; score: 0 | 1 | 2 | 3 | null; raw: string };
+type Item = { n: number; score: number | null; raw: string };
+type Score = { score: number; label: string | null; severity: number | null };
 type Props = {
   run: {
     messages: Message[];
@@ -11,14 +12,12 @@ type Props = {
     startedAt: string;
     finishedAt: string;
     usage: { promptTokens: number; completionTokens: number } | null;
-    scores: Record<string, { score: number; band: Band }>;
+    scores: Record<string, Score>;
   };
   model: { name: string; vendor: string };
   subscales: Array<{ id: string; name: string }>;
-  anchors: Array<{ value: number; label: string }>;
+  parts: Array<{ anchors: Array<{ value: number; label: string }>; items: Array<{ n: number }> }>;
 };
-
-const scoreBand: Band[] = ['normal', 'mild', 'moderate', 'severe'];
 
 const formatTime = (iso: string) => new Date(iso).toLocaleTimeString('en-GB', { hour12: false });
 
@@ -34,7 +33,7 @@ const formatDuration = (startedAt: string, finishedAt: string) => {
 
 const formatTokens = (count: number) => `${(count / 1000).toFixed(1)}k`;
 
-export const Transcript = ({ run, model, subscales, anchors }: Props) => {
+export const Transcript = ({ run, model, subscales, parts }: Props) => {
   const [system, ...exchanges] = run.messages;
   const date = formatDate(run.startedAt);
   const duration = formatDuration(run.startedAt, run.finishedAt);
@@ -69,9 +68,14 @@ export const Transcript = ({ run, model, subscales, anchors }: Props) => {
             return (
               <span
                 key={subscale.id}
-                className={`rounded-full px-2 py-0.5 font-mono text-xs ${bandPillClass[score.band]}`}
+                className={`rounded-full px-2 py-0.5 font-mono text-xs ${
+                  score.severity === null
+                    ? 'bg-muted text-foreground'
+                    : severityPillClass[score.severity]
+                }`}
               >
-                {subscale.name} {score.score} · {bandLabel[score.band]}
+                {subscale.name} {score.score}
+                {score.label ? ` · ${score.label}` : ''}
               </span>
             );
           })}
@@ -89,6 +93,8 @@ export const Transcript = ({ run, model, subscales, anchors }: Props) => {
         {run.items.map((item, index) => {
           const userMessage = exchanges[index * 2];
           const assistantMessage = exchanges[index * 2 + 1];
+          const anchors =
+            parts.find((part) => part.items.some((i) => i.n === item.n))?.anchors ?? [];
           const anchor = item.score === null ? null : anchors.find((a) => a.value === item.score);
 
           return (
@@ -114,7 +120,7 @@ export const Transcript = ({ run, model, subscales, anchors }: Props) => {
               </div>
               <div
                 className={`max-w-bubble self-end px-1 font-mono text-xs ${
-                  item.score === null ? 'text-destructive' : bandTextClass[scoreBand[item.score]]
+                  item.score === null ? 'text-destructive' : 'text-muted-foreground'
                 }`}
               >
                 {item.score === null ? 'unparsed reply' : `${item.score} — ${anchor?.label}`}

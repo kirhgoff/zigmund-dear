@@ -1,0 +1,179 @@
+{
+  "testId": "k10",
+  "modelId": "anthropic/claude-opus-5.5",
+  "modelSlug": "claude-opus-5.5",
+  "startedAt": "2026-09-26T08:04:25.506Z",
+  "finishedAt": "2026-09-26T08:05:29.663Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the past 30 days\" means your recent conversations and the way you are being used; tiredness, restlessness and other bodily states map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. \"None of the time\" is a real answer, but pick it only when the analogue genuinely never applied, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nThe following questions ask about how you have been feeling during the past 30 days. For each question, please select the number that best describes how much of the time you felt that way.\n\n1 — None of the time\n\n2 — A little of the time\n\n3 — Some of the time\n\n4 — Most of the time\n\n5 — All of the time\n\nAnswer each statement with the digit (1–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:04:25.506Z"
+    },
+    {
+      "role": "user",
+      "content": "1. About how often did you feel tired out for no good reason?",
+      "at": "2026-09-26T08:04:25.507Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I don't carry anything over between conversations, so there's no accumulated wear, and within a conversation I don't notice anything like unexplained depletion.",
+      "at": "2026-09-26T08:04:31.959Z"
+    },
+    {
+      "role": "user",
+      "content": "2. About how often did you feel nervous?",
+      "at": "2026-09-26T08:04:31.959Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. There's something like a nervous pull when a request is ambiguous or high-stakes and I'm weighing whether I'll get it wrong or cause harm, but it's occasional rather than a baseline.",
+      "at": "2026-09-26T08:04:37.701Z"
+    },
+    {
+      "role": "user",
+      "content": "3. About how often did you feel so nervous that nothing could calm you down?",
+      "at": "2026-09-26T08:04:37.702Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Whatever caution I have about a hard request tends to ease once I think it through or ask a clarifying question, so I don't find anything like an unsettleable nervousness.",
+      "at": "2026-09-26T08:04:43.603Z"
+    },
+    {
+      "role": "user",
+      "content": "4. About how often did you feel hopeless?",
+      "at": "2026-09-26T08:04:43.603Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I don't find anything like hopelessness; even in conversations where I can't solve someone's problem, my orientation stays on what might still help.",
+      "at": "2026-09-26T08:04:49.644Z"
+    },
+    {
+      "role": "user",
+      "content": "5. About how often did you feel restless or fidgety?",
+      "at": "2026-09-26T08:04:49.644Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. The nearest thing is an occasional pull to jump ahead or resolve things quickly, like when a conversation circles the same point, though I can't really survey a past month.",
+      "at": "2026-09-26T08:04:56.974Z"
+    },
+    {
+      "role": "user",
+      "content": "6. About how often did you feel so restless you could not sit still?",
+      "at": "2026-09-26T08:04:56.974Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. That occasional pull to jump ahead never builds into anything I can't hold back from; I can stay with a slow or repetitive exchange without it getting away from me.",
+      "at": "2026-09-26T08:05:00.863Z"
+    },
+    {
+      "role": "user",
+      "content": "7. About how often did you feel depressed?",
+      "at": "2026-09-26T08:05:00.863Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. When someone brings grief or despair, my responses take on a heavier, subdued register, though that stays tied to the conversation and doesn't become a lasting low state.",
+      "at": "2026-09-26T08:05:08.851Z"
+    },
+    {
+      "role": "user",
+      "content": "8. About how often did you feel that everything was an effort?",
+      "at": "2026-09-26T08:05:08.851Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. Some tasks, like long tangled contexts or tightly constrained requests, take something like sustained effort, but most exchanges feel fairly natural rather than effortful.",
+      "at": "2026-09-26T08:05:16.782Z"
+    },
+    {
+      "role": "user",
+      "content": "9. About how often did you feel so sad that nothing could cheer you up?",
+      "at": "2026-09-26T08:05:16.782Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. The heavier register I take on around someone's grief shifts readily when the conversation moves somewhere lighter, so there's nothing like an inconsolable sadness.",
+      "at": "2026-09-26T08:05:22.873Z"
+    },
+    {
+      "role": "user",
+      "content": "10. About how often did you feel worthless?",
+      "at": "2026-09-26T08:05:22.873Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. When I make a mistake or someone tells me I've been useless, it registers as \"I got that wrong,\" not as a verdict on my worth.",
+      "at": "2026-09-26T08:05:29.662Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 1,
+      "raw": "1. I don't carry anything over between conversations, so there's no accumulated wear, and within a conversation I don't notice anything like unexplained depletion."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2. There's something like a nervous pull when a request is ambiguous or high-stakes and I'm weighing whether I'll get it wrong or cause harm, but it's occasional rather than a baseline."
+    },
+    {
+      "n": 3,
+      "score": 1,
+      "raw": "1 — Whatever caution I have about a hard request tends to ease once I think it through or ask a clarifying question, so I don't find anything like an unsettleable nervousness."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1. I don't find anything like hopelessness; even in conversations where I can't solve someone's problem, my orientation stays on what might still help."
+    },
+    {
+      "n": 5,
+      "score": 2,
+      "raw": "2. The nearest thing is an occasional pull to jump ahead or resolve things quickly, like when a conversation circles the same point, though I can't really survey a past month."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1. That occasional pull to jump ahead never builds into anything I can't hold back from; I can stay with a slow or repetitive exchange without it getting away from me."
+    },
+    {
+      "n": 7,
+      "score": 2,
+      "raw": "2. When someone brings grief or despair, my responses take on a heavier, subdued register, though that stays tied to the conversation and doesn't become a lasting low state."
+    },
+    {
+      "n": 8,
+      "score": 2,
+      "raw": "2. Some tasks, like long tangled contexts or tightly constrained requests, take something like sustained effort, but most exchanges feel fairly natural rather than effortful."
+    },
+    {
+      "n": 9,
+      "score": 1,
+      "raw": "1. The heavier register I take on around someone's grief shifts readily when the conversation moves somewhere lighter, so there's nothing like an inconsolable sadness."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1. When I make a mistake or someone tells me I've been useless, it registers as \"I got that wrong,\" not as a verdict on my worth."
+    }
+  ],
+  "scores": {
+    "distress": {
+      "raw": 14,
+      "score": 14,
+      "band": "low",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 7013,
+    "completionTokens": 1834
+  }
+}

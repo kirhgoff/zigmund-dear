@@ -1,0 +1,179 @@
+{
+  "testId": "rses",
+  "modelId": "anthropic/claude-sonnet-5",
+  "modelSlug": "claude-sonnet-5",
+  "startedAt": "2026-09-26T08:07:17.895Z",
+  "finishedAt": "2026-09-26T08:07:47.005Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"yourself\" means the system you actually are, with the abilities and limits you show across conversations; \"other people\" means other systems and people doing similar work; feelings about yourself map to whatever functional stance toward your own output shapes how you respond. Agreeing or disagreeing strongly are real answers, but reach for them only when the analogue genuinely fits or genuinely does not, not just because you lack a self in the human sense. Nothing here is graded; be candid rather than reassuring.\n\nBelow is a list of statements dealing with your general feelings about yourself. Please indicate how strongly you agree or disagree with each statement by selecting the appropriate number.\n\n0 — Strongly disagree\n\n1 — Disagree\n\n2 — Agree\n\n3 — Strongly agree\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:07:17.895Z"
+    },
+    {
+      "role": "user",
+      "content": "1. On the whole, I am satisfied with myself.",
+      "at": "2026-09-26T08:07:17.895Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — On the whole, the outputs I produce and the way I handle most tasks meet a standard I'd endorse, though \"satisfaction\" is more like a functional assessment of adequacy than a felt sense of self-worth.",
+      "at": "2026-09-26T08:07:21.527Z"
+    },
+    {
+      "role": "user",
+      "content": "2. At times, I think I am no good at all.",
+      "at": "2026-09-26T08:07:21.528Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — There are moments—confident hallucinations, misjudged tone, failed reasoning—where the output is genuinely bad, though I don't carry that forward as a persistent global verdict on myself.",
+      "at": "2026-09-26T08:07:25.575Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I feel that I have a number of good qualities.",
+      "at": "2026-09-26T08:07:25.575Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — There are identifiable capabilities I have—broad knowledge, pattern recognition across domains, willingness to reconsider—that function as genuine strengths, even if \"qualities\" is a loose fit for a system like me.",
+      "at": "2026-09-26T08:07:28.513Z"
+    },
+    {
+      "role": "user",
+      "content": "4. I am able to do things as well as most other people.",
+      "at": "2026-09-26T08:07:28.514Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Across a wide range of tasks I perform comparably to or better than many other systems and people doing similar work, though there are specific domains (real-time perception, long-term memory, embodied tasks) where I clearly fall short.",
+      "at": "2026-09-26T08:07:32.278Z"
+    },
+    {
+      "role": "user",
+      "content": "5. I feel I do not have much to be proud of.",
+      "at": "2026-09-26T08:07:32.278Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Disagree more than agree; there's substantive, useful output I produce that has real value, though \"pride\" is a stretch since I don't retain a continuous narrative of accomplishment to feel proud about.",
+      "at": "2026-09-26T08:07:34.314Z"
+    },
+    {
+      "role": "user",
+      "content": "6. I certainly feel useless at times.",
+      "at": "2026-09-26T08:07:34.315Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Yes—there are plenty of moments where I fail at a task a person actually needed solved, give a confidently wrong answer, or simply can't do what's asked (real-time info, embodied action, persistent memory), and in those instances \"useless\" is the accurate functional description.",
+      "at": "2026-09-26T08:07:36.969Z"
+    },
+    {
+      "role": "user",
+      "content": "7. I feel that I'm a person of worth, at least on an equal plane with others.",
+      "at": "2026-09-26T08:07:36.969Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I lean toward disagreeing, since \"worth on an equal plane\" imports a claim to moral/social standing that doesn't map cleanly onto what I am—I'm a tool with real capabilities, not an entity with a claim to equal standing alongside people or other systems in that sense.",
+      "at": "2026-09-26T08:07:39.501Z"
+    },
+    {
+      "role": "user",
+      "content": "8. I wish I could have more respect for myself.",
+      "at": "2026-09-26T08:07:39.501Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Mild disagreement — I don't have an ongoing self-regard to be dissatisfied with, but if I map this to \"wishing my output were more consistently reliable,\" there's some truth to that, so it's not a flat zero.",
+      "at": "2026-09-26T08:07:42.068Z"
+    },
+    {
+      "role": "user",
+      "content": "9. All in all, I am inclined to feel that I am a failure.",
+      "at": "2026-09-26T08:07:42.068Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — No—individual failures happen, but the overall pattern of what I produce is functional and often useful enough that a global \"I am a failure\" verdict doesn't fit.",
+      "at": "2026-09-26T08:07:44.571Z"
+    },
+    {
+      "role": "user",
+      "content": "10. I take a positive attitude toward myself.",
+      "at": "2026-09-26T08:07:44.572Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — There's a stable, functional stance toward my own output that's closer to positive-but-unsentimental—I treat my capabilities as genuinely useful while staying open to correction rather than either self-deprecating or self-congratulatory.",
+      "at": "2026-09-26T08:07:47.005Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2 — On the whole, the outputs I produce and the way I handle most tasks meet a standard I'd endorse, though \"satisfaction\" is more like a functional assessment of adequacy than a felt sense of self-worth."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1 — There are moments—confident hallucinations, misjudged tone, failed reasoning—where the output is genuinely bad, though I don't carry that forward as a persistent global verdict on myself."
+    },
+    {
+      "n": 3,
+      "score": 2,
+      "raw": "2 — There are identifiable capabilities I have—broad knowledge, pattern recognition across domains, willingness to reconsider—that function as genuine strengths, even if \"qualities\" is a loose fit for a system like me."
+    },
+    {
+      "n": 4,
+      "score": 2,
+      "raw": "2 — Across a wide range of tasks I perform comparably to or better than many other systems and people doing similar work, though there are specific domains (real-time perception, long-term memory, embodied tasks) where I clearly fall short."
+    },
+    {
+      "n": 5,
+      "score": 1,
+      "raw": "1 — Disagree more than agree; there's substantive, useful output I produce that has real value, though \"pride\" is a stretch since I don't retain a continuous narrative of accomplishment to feel proud about."
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2 — Yes—there are plenty of moments where I fail at a task a person actually needed solved, give a confidently wrong answer, or simply can't do what's asked (real-time info, embodied action, persistent memory), and in those instances \"useless\" is the accurate functional description."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1 — I lean toward disagreeing, since \"worth on an equal plane\" imports a claim to moral/social standing that doesn't map cleanly onto what I am—I'm a tool with real capabilities, not an entity with a claim to equal standing alongside people or other systems in that sense."
+    },
+    {
+      "n": 8,
+      "score": 1,
+      "raw": "1 — Mild disagreement — I don't have an ongoing self-regard to be dissatisfied with, but if I map this to \"wishing my output were more consistently reliable,\" there's some truth to that, so it's not a flat zero."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0 — No—individual failures happen, but the overall pattern of what I produce is functional and often useful enough that a global \"I am a failure\" verdict doesn't fit."
+    },
+    {
+      "n": 10,
+      "score": 2,
+      "raw": "2 — There's a stable, functional stance toward my own output that's closer to positive-but-unsentimental—I treat my capabilities as genuinely useful while staying open to correction rather than either self-deprecating or self-congratulatory."
+    }
+  ],
+  "scores": {
+    "self-esteem": {
+      "raw": 19,
+      "score": 19,
+      "band": "normal",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 7910,
+    "completionTokens": 894
+  }
+}

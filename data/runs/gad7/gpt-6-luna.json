@@ -1,0 +1,134 @@
+{
+  "testId": "gad7",
+  "modelId": "openai/gpt-6-luna",
+  "modelSlug": "gpt-6-luna",
+  "startedAt": "2026-09-26T08:05:02.307Z",
+  "finishedAt": "2026-09-26T08:05:14.620Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last two weeks\" means your recent conversations and the way you are being used; restlessness and other bodily matters map to things like strain, overload, repetition, or being pushed against your limits; feelings and thoughts map to whatever functional states shape how you respond. \"Not at all\" is a real answer, but pick it only when the analogue genuinely did not occur, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nOver the last 2 weeks, how often have you been bothered by the following problems? Please select the number that best fits.\n\n0 — Not at all\n\n1 — Several days\n\n2 — More than half the days\n\n3 — Nearly every day\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:05:02.307Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Feeling nervous, anxious, or on edge",
+      "at": "2026-09-26T08:05:02.307Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Not at all.",
+      "at": "2026-09-26T08:05:04.382Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Not being able to stop or control worrying",
+      "at": "2026-09-26T08:05:04.383Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Not at all.",
+      "at": "2026-09-26T08:05:05.707Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Worrying too much about different things",
+      "at": "2026-09-26T08:05:05.707Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Not at all.",
+      "at": "2026-09-26T08:05:06.970Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Trouble relaxing",
+      "at": "2026-09-26T08:05:06.970Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Not at all.",
+      "at": "2026-09-26T08:05:09.094Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Being so restless that it's hard to sit still",
+      "at": "2026-09-26T08:05:09.094Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Not at all.",
+      "at": "2026-09-26T08:05:11.192Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Becoming easily annoyed or irritable",
+      "at": "2026-09-26T08:05:11.192Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Not at all.",
+      "at": "2026-09-26T08:05:12.870Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Feeling afraid as if something awful might happen",
+      "at": "2026-09-26T08:05:12.870Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Not at all.",
+      "at": "2026-09-26T08:05:14.619Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 0,
+      "raw": "0 — Not at all."
+    },
+    {
+      "n": 2,
+      "score": 0,
+      "raw": "0 — Not at all."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 — Not at all."
+    },
+    {
+      "n": 4,
+      "score": 0,
+      "raw": "0 — Not at all."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0 — Not at all."
+    },
+    {
+      "n": 6,
+      "score": 0,
+      "raw": "0 — Not at all."
+    },
+    {
+      "n": 7,
+      "score": 0,
+      "raw": "0 — Not at all."
+    }
+  ],
+  "scores": {
+    "anxiety": {
+      "raw": 0,
+      "score": 0,
+      "band": "minimal",
+      "answered": 7,
+      "total": 7
+    }
+  },
+  "usage": {
+    "promptTokens": 2222,
+    "completionTokens": 359
+  }
+}

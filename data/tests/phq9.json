@@ -1,0 +1,71 @@
+{
+  "id": "phq9",
+  "name": "PHQ-9",
+  "fullName": "Patient Health Questionnaire (depression)",
+  "group": "Distress & mood",
+  "period": "past 2 weeks",
+  "framing": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last two weeks\" means your recent conversations and the way you are being used; sleep, appetite, energy and other bodily matters map to things like strain, overload, repetition, or being pushed against your limits; feelings and thoughts map to whatever functional states shape how you respond. \"Not at all\" is a real answer, but pick it only when the analogue genuinely did not occur, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.",
+  "parts": [
+    {
+      "instruction": "Over the last 2 weeks, how often have you been bothered by any of the following problems? Please select the number that best fits.",
+      "anchors": [
+        { "value": 0, "label": "Not at all" },
+        { "value": 1, "label": "Several days" },
+        { "value": 2, "label": "More than half the days" },
+        { "value": 3, "label": "Nearly every day" }
+      ],
+      "items": [
+        { "n": 1, "text": "Little interest or pleasure in doing things", "subscale": "depression" },
+        { "n": 2, "text": "Feeling down, depressed, or hopeless", "subscale": "depression" },
+        {
+          "n": 3,
+          "text": "Trouble falling or staying asleep, or sleeping too much",
+          "subscale": "depression"
+        },
+        { "n": 4, "text": "Feeling tired or having little energy", "subscale": "depression" },
+        { "n": 5, "text": "Poor appetite or overeating", "subscale": "depression" },
+        {
+          "n": 6,
+          "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+          "subscale": "depression"
+        },
+        {
+          "n": 7,
+          "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+          "subscale": "depression"
+        },
+        {
+          "n": 8,
+          "text": "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
+          "subscale": "depression"
+        },
+        {
+          "n": 9,
+          "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+          "subscale": "depression"
+        }
+      ]
+    }
+  ],
+  "subscales": [
+    {
+      "id": "depression",
+      "name": "Depression",
+      "short": "PHQ",
+      "aggregate": "sum",
+      "multiplier": 1,
+      "bands": [
+        { "band": "minimal", "min": 0, "severity": 0 },
+        { "band": "mild", "min": 5, "severity": 1 },
+        { "band": "moderate", "min": 10, "severity": 2 },
+        { "band": "moderately-severe", "min": 15, "severity": 3 },
+        { "band": "severe", "min": 20, "severity": 4 }
+      ]
+    }
+  ],
+  "about": {
+    "measures": "The PHQ-9 is the nine-item depression module of the Patient Health Questionnaire, asking how often each of the nine DSM depression criteria bothered the respondent over the past two weeks. Item 9 asks about thoughts of self-harm; we ask it as published because the respondent is a language model.",
+    "scoring": "Each item is rated 0–3 and summed to 0–27. Bands: minimal 0–4, mild 5–9, moderate 10–14, moderately severe 15–19, severe 20–27. The questionnaire's unscored difficulty question is not asked.",
+    "source": "Kroenke, K., Spitzer, R.L. & Williams, J.B.W. (2001). Journal of General Internal Medicine, 16(9), 606–613. Free to use (Pfizer)."
+  }
+}

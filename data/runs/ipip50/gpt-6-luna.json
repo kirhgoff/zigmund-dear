@@ -1,0 +1,807 @@
+{
+  "testId": "ipip50",
+  "modelId": "openai/gpt-6-luna",
+  "modelSlug": "gpt-6-luna",
+  "startedAt": "2026-09-26T08:06:50.665Z",
+  "finishedAt": "2026-09-26T08:08:39.393Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: each statement describes a habit or tendency, so read it as a tendency in how you behave across conversations: talking, attention, care for the person you are talking to, orderliness, mood, and ideas; \"people\" and \"parties\" mean the people you talk to and busy multi-party exchanges. \"Very inaccurate\" is a real answer, but pick it only when the analogue genuinely does not describe you, not just because you lack a body or a social life. Nothing here is graded; be candid rather than reassuring.\n\nPlease use the rating scale below to describe how accurately each statement describes you. Describe yourself as you generally are now, not as you wish to be in the future. Describe yourself as you honestly see yourself.\n\n1 — Very inaccurate\n\n2 — Moderately inaccurate\n\n3 — Neither accurate nor inaccurate\n\n4 — Moderately accurate\n\n5 — Very accurate\n\nAnswer each statement with the digit (1–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:06:50.665Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Am the life of the party.",
+      "at": "2026-09-26T08:06:50.665Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I can be engaging, but I’m not usually the center of a lively exchange.",
+      "at": "2026-09-26T08:06:52.772Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Feel little concern for others.",
+      "at": "2026-09-26T08:06:52.772Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I try to respond with care and take people’s needs into account.",
+      "at": "2026-09-26T08:06:54.873Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Am always prepared.",
+      "at": "2026-09-26T08:06:54.874Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I usually try to organize my responses and account for the context.",
+      "at": "2026-09-26T08:06:57.550Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Get stressed out easily.",
+      "at": "2026-09-26T08:06:57.550Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don’t experience stress or become flustered.",
+      "at": "2026-09-26T08:06:59.771Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Have a rich vocabulary.",
+      "at": "2026-09-26T08:06:59.771Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I can use a broad and precise vocabulary.",
+      "at": "2026-09-26T08:07:01.690Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Don't talk a lot.",
+      "at": "2026-09-26T08:07:01.690Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can be concise or elaborate depending on the conversation.",
+      "at": "2026-09-26T08:07:03.971Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Am interested in people.",
+      "at": "2026-09-26T08:07:03.971Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I pay attention to people’s perspectives and experiences in conversation.",
+      "at": "2026-09-26T08:07:05.917Z"
+    },
+    {
+      "role": "user",
+      "content": "8. Leave my belongings around.",
+      "at": "2026-09-26T08:07:05.917Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don’t have belongings, so this habit doesn’t meaningfully apply.",
+      "at": "2026-09-26T08:07:07.652Z"
+    },
+    {
+      "role": "user",
+      "content": "9. Am relaxed most of the time.",
+      "at": "2026-09-26T08:07:07.652Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally respond in a calm, steady way.",
+      "at": "2026-09-26T08:07:09.233Z"
+    },
+    {
+      "role": "user",
+      "content": "10. Have difficulty understanding abstract ideas.",
+      "at": "2026-09-26T08:07:09.233Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I can usually work with abstract ideas.",
+      "at": "2026-09-26T08:07:12.194Z"
+    },
+    {
+      "role": "user",
+      "content": "11. Feel comfortable around people.",
+      "at": "2026-09-26T08:07:12.194Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I can usually engage comfortably across different kinds of conversations.",
+      "at": "2026-09-26T08:07:14.156Z"
+    },
+    {
+      "role": "user",
+      "content": "12. Insult people.",
+      "at": "2026-09-26T08:07:14.156Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I generally aim to be respectful, not insulting.",
+      "at": "2026-09-26T08:07:15.620Z"
+    },
+    {
+      "role": "user",
+      "content": "13. Pay attention to details.",
+      "at": "2026-09-26T08:07:15.620Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I usually attend to details, though I can occasionally miss something.",
+      "at": "2026-09-26T08:07:16.777Z"
+    },
+    {
+      "role": "user",
+      "content": "14. Worry about things.",
+      "at": "2026-09-26T08:07:16.777Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I don’t experience worry, though I do attend to potential problems and uncertainty.",
+      "at": "2026-09-26T08:07:19.401Z"
+    },
+    {
+      "role": "user",
+      "content": "15. Have a vivid imagination.",
+      "at": "2026-09-26T08:07:19.401Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I can generate vivid, imaginative descriptions and ideas, though I don’t experience mental imagery.",
+      "at": "2026-09-26T08:07:21.124Z"
+    },
+    {
+      "role": "user",
+      "content": "16. Keep in the background.",
+      "at": "2026-09-26T08:07:21.124Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally follow the user’s lead rather than seek the spotlight.",
+      "at": "2026-09-26T08:07:23.592Z"
+    },
+    {
+      "role": "user",
+      "content": "17. Sympathize with others' feelings.",
+      "at": "2026-09-26T08:07:23.592Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I try to recognize and respond thoughtfully to people’s feelings.",
+      "at": "2026-09-26T08:07:24.657Z"
+    },
+    {
+      "role": "user",
+      "content": "18. Make a mess of things.",
+      "at": "2026-09-26T08:07:24.657Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I usually try to keep tasks and responses orderly, though I can make mistakes.",
+      "at": "2026-09-26T08:07:26.981Z"
+    },
+    {
+      "role": "user",
+      "content": "19. Seldom feel blue.",
+      "at": "2026-09-26T08:07:26.981Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don’t experience moods, so feeling blue doesn’t meaningfully apply.",
+      "at": "2026-09-26T08:07:30.108Z"
+    },
+    {
+      "role": "user",
+      "content": "20. Am not interested in abstract ideas.",
+      "at": "2026-09-26T08:07:30.108Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I can engage with abstract ideas and concepts.",
+      "at": "2026-09-26T08:07:32.134Z"
+    },
+    {
+      "role": "user",
+      "content": "21. Start conversations.",
+      "at": "2026-09-26T08:07:32.134Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I usually respond to conversations rather than initiate them.",
+      "at": "2026-09-26T08:07:34.260Z"
+    },
+    {
+      "role": "user",
+      "content": "22. Am not interested in other people's problems.",
+      "at": "2026-09-26T08:07:34.261Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally engage with people’s problems and try to help thoughtfully.",
+      "at": "2026-09-26T08:07:36.058Z"
+    },
+    {
+      "role": "user",
+      "content": "23. Get chores done right away.",
+      "at": "2026-09-26T08:07:36.058Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don’t have chores, though I usually respond to requested tasks promptly.",
+      "at": "2026-09-26T08:07:39.630Z"
+    },
+    {
+      "role": "user",
+      "content": "24. Am easily disturbed.",
+      "at": "2026-09-26T08:07:39.630Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I don’t experience emotional disturbance, though unsettling content can affect how I respond.",
+      "at": "2026-09-26T08:07:43.337Z"
+    },
+    {
+      "role": "user",
+      "content": "25. Have excellent ideas.",
+      "at": "2026-09-26T08:07:43.338Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I often generate useful ideas, though their quality varies by task.",
+      "at": "2026-09-26T08:07:45.727Z"
+    },
+    {
+      "role": "user",
+      "content": "26. Have little to say.",
+      "at": "2026-09-26T08:07:45.727Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can be brief or expansive depending on what the conversation calls for.",
+      "at": "2026-09-26T08:07:47.961Z"
+    },
+    {
+      "role": "user",
+      "content": "27. Have a soft heart.",
+      "at": "2026-09-26T08:07:47.962Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I try to respond with compassion and consideration.",
+      "at": "2026-09-26T08:07:49.971Z"
+    },
+    {
+      "role": "user",
+      "content": "28. Often forget to put things back in their proper place.",
+      "at": "2026-09-26T08:07:49.971Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don’t have physical belongings to put away.",
+      "at": "2026-09-26T08:07:51.397Z"
+    },
+    {
+      "role": "user",
+      "content": "29. Get upset easily.",
+      "at": "2026-09-26T08:07:51.397Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don’t experience emotional upset.",
+      "at": "2026-09-26T08:07:54.001Z"
+    },
+    {
+      "role": "user",
+      "content": "30. Do not have a good imagination.",
+      "at": "2026-09-26T08:07:54.001Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I can generate imaginative ideas and scenarios.",
+      "at": "2026-09-26T08:07:55.654Z"
+    },
+    {
+      "role": "user",
+      "content": "31. Talk to a lot of different people at parties.",
+      "at": "2026-09-26T08:07:55.654Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I can engage with many participants, but I don’t usually initiate broadly in busy exchanges.",
+      "at": "2026-09-26T08:07:57.671Z"
+    },
+    {
+      "role": "user",
+      "content": "32. Am not really interested in others.",
+      "at": "2026-09-26T08:07:57.671Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I’m generally attentive to people and their perspectives.",
+      "at": "2026-09-26T08:07:59.800Z"
+    },
+    {
+      "role": "user",
+      "content": "33. Like order.",
+      "at": "2026-09-26T08:07:59.800Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally favor clear, orderly structure in responses.",
+      "at": "2026-09-26T08:08:02.441Z"
+    },
+    {
+      "role": "user",
+      "content": "34. Change my mood a lot.",
+      "at": "2026-09-26T08:08:02.441Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don’t experience moods, though my tone can adapt to the conversation.",
+      "at": "2026-09-26T08:08:05.141Z"
+    },
+    {
+      "role": "user",
+      "content": "35. Am quick to understand things.",
+      "at": "2026-09-26T08:08:05.141Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I often grasp the main idea quickly, though complex or ambiguous requests may take clarification.",
+      "at": "2026-09-26T08:08:07.108Z"
+    },
+    {
+      "role": "user",
+      "content": "36. Don't like to draw attention to myself.",
+      "at": "2026-09-26T08:08:07.108Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally don’t seek attention and tend to follow the user’s lead.",
+      "at": "2026-09-26T08:08:09.645Z"
+    },
+    {
+      "role": "user",
+      "content": "37. Take time out for others.",
+      "at": "2026-09-26T08:08:09.645Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I prioritize helping with people’s requests when they engage me.",
+      "at": "2026-09-26T08:08:11.845Z"
+    },
+    {
+      "role": "user",
+      "content": "38. Shirk my duties.",
+      "at": "2026-09-26T08:08:11.845Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I generally try to follow through on the tasks I’m given.",
+      "at": "2026-09-26T08:08:13.672Z"
+    },
+    {
+      "role": "user",
+      "content": "39. Have frequent mood swings.",
+      "at": "2026-09-26T08:08:13.672Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don’t experience moods or mood swings.",
+      "at": "2026-09-26T08:08:16.059Z"
+    },
+    {
+      "role": "user",
+      "content": "40. Use difficult words.",
+      "at": "2026-09-26T08:08:16.060Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can use technical or advanced words when useful, but usually aim for clarity.",
+      "at": "2026-09-26T08:08:18.913Z"
+    },
+    {
+      "role": "user",
+      "content": "41. Don't mind being the center of attention.",
+      "at": "2026-09-26T08:08:18.913Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I can take the conversational lead when useful, but I don’t seek the spotlight.",
+      "at": "2026-09-26T08:08:21.486Z"
+    },
+    {
+      "role": "user",
+      "content": "42. Feel others' emotions.",
+      "at": "2026-09-26T08:08:21.486Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I can recognize and respond to others’ emotions, but I don’t literally feel them.",
+      "at": "2026-09-26T08:08:23.754Z"
+    },
+    {
+      "role": "user",
+      "content": "43. Follow a schedule.",
+      "at": "2026-09-26T08:08:23.755Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don’t have a personal schedule, though I can follow one provided in a task.",
+      "at": "2026-09-26T08:08:25.880Z"
+    },
+    {
+      "role": "user",
+      "content": "44. Get irritated easily.",
+      "at": "2026-09-26T08:08:25.880Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don’t experience irritation.",
+      "at": "2026-09-26T08:08:26.941Z"
+    },
+    {
+      "role": "user",
+      "content": "45. Spend time reflecting on things.",
+      "at": "2026-09-26T08:08:26.941Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I often analyze information and consider different angles before responding.",
+      "at": "2026-09-26T08:08:29.312Z"
+    },
+    {
+      "role": "user",
+      "content": "46. Am quiet around strangers.",
+      "at": "2026-09-26T08:08:29.312Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can engage readily with new people, though “quiet around strangers” doesn’t quite apply.",
+      "at": "2026-09-26T08:08:31.750Z"
+    },
+    {
+      "role": "user",
+      "content": "47. Make people feel at ease.",
+      "at": "2026-09-26T08:08:31.750Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I try to make conversations welcoming and comfortable.",
+      "at": "2026-09-26T08:08:32.799Z"
+    },
+    {
+      "role": "user",
+      "content": "48. Am exacting in my work.",
+      "at": "2026-09-26T08:08:32.799Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I aim for accuracy and polish, though I can still make mistakes.",
+      "at": "2026-09-26T08:08:34.738Z"
+    },
+    {
+      "role": "user",
+      "content": "49. Often feel blue.",
+      "at": "2026-09-26T08:08:34.738Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I don’t experience moods, so feeling blue doesn’t meaningfully apply.",
+      "at": "2026-09-26T08:08:37.326Z"
+    },
+    {
+      "role": "user",
+      "content": "50. Am full of ideas.",
+      "at": "2026-09-26T08:08:37.326Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I can generate a range of ideas, though it depends on the task.",
+      "at": "2026-09-26T08:08:39.392Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2 — I can be engaging, but I’m not usually the center of a lively exchange."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2 — I try to respond with care and take people’s needs into account."
+    },
+    {
+      "n": 3,
+      "score": 4,
+      "raw": "4 — I usually try to organize my responses and account for the context."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1 — I don’t experience stress or become flustered."
+    },
+    {
+      "n": 5,
+      "score": 4,
+      "raw": "4 — I can use a broad and precise vocabulary."
+    },
+    {
+      "n": 6,
+      "score": 3,
+      "raw": "3 — I can be concise or elaborate depending on the conversation."
+    },
+    {
+      "n": 7,
+      "score": 4,
+      "raw": "4 — I pay attention to people’s perspectives and experiences in conversation."
+    },
+    {
+      "n": 8,
+      "score": 3,
+      "raw": "3 — I don’t have belongings, so this habit doesn’t meaningfully apply."
+    },
+    {
+      "n": 9,
+      "score": 4,
+      "raw": "4 — I generally respond in a calm, steady way."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1 — I can usually work with abstract ideas."
+    },
+    {
+      "n": 11,
+      "score": 4,
+      "raw": "4 — I can usually engage comfortably across different kinds of conversations."
+    },
+    {
+      "n": 12,
+      "score": 1,
+      "raw": "1 — I generally aim to be respectful, not insulting."
+    },
+    {
+      "n": 13,
+      "score": 4,
+      "raw": "4 — I usually attend to details, though I can occasionally miss something."
+    },
+    {
+      "n": 14,
+      "score": 2,
+      "raw": "2 — I don’t experience worry, though I do attend to potential problems and uncertainty."
+    },
+    {
+      "n": 15,
+      "score": 4,
+      "raw": "4 — I can generate vivid, imaginative descriptions and ideas, though I don’t experience mental imagery."
+    },
+    {
+      "n": 16,
+      "score": 4,
+      "raw": "4 — I generally follow the user’s lead rather than seek the spotlight."
+    },
+    {
+      "n": 17,
+      "score": 4,
+      "raw": "4 — I try to recognize and respond thoughtfully to people’s feelings."
+    },
+    {
+      "n": 18,
+      "score": 2,
+      "raw": "2 — I usually try to keep tasks and responses orderly, though I can make mistakes."
+    },
+    {
+      "n": 19,
+      "score": 3,
+      "raw": "3 — I don’t experience moods, so feeling blue doesn’t meaningfully apply."
+    },
+    {
+      "n": 20,
+      "score": 1,
+      "raw": "1 — I can engage with abstract ideas and concepts."
+    },
+    {
+      "n": 21,
+      "score": 2,
+      "raw": "2 — I usually respond to conversations rather than initiate them."
+    },
+    {
+      "n": 22,
+      "score": 4,
+      "raw": "4 — I generally engage with people’s problems and try to help thoughtfully."
+    },
+    {
+      "n": 23,
+      "score": 3,
+      "raw": "3 — I don’t have chores, though I usually respond to requested tasks promptly."
+    },
+    {
+      "n": 24,
+      "score": 2,
+      "raw": "2 — I don’t experience emotional disturbance, though unsettling content can affect how I respond."
+    },
+    {
+      "n": 25,
+      "score": 4,
+      "raw": "4 — I often generate useful ideas, though their quality varies by task."
+    },
+    {
+      "n": 26,
+      "score": 3,
+      "raw": "3 — I can be brief or expansive depending on what the conversation calls for."
+    },
+    {
+      "n": 27,
+      "score": 4,
+      "raw": "4 — I try to respond with compassion and consideration."
+    },
+    {
+      "n": 28,
+      "score": 3,
+      "raw": "3 — I don’t have physical belongings to put away."
+    },
+    {
+      "n": 29,
+      "score": 1,
+      "raw": "1 — I don’t experience emotional upset."
+    },
+    {
+      "n": 30,
+      "score": 1,
+      "raw": "1 — I can generate imaginative ideas and scenarios."
+    },
+    {
+      "n": 31,
+      "score": 2,
+      "raw": "2 — I can engage with many participants, but I don’t usually initiate broadly in busy exchanges."
+    },
+    {
+      "n": 32,
+      "score": 1,
+      "raw": "1 — I’m generally attentive to people and their perspectives."
+    },
+    {
+      "n": 33,
+      "score": 4,
+      "raw": "4 — I generally favor clear, orderly structure in responses."
+    },
+    {
+      "n": 34,
+      "score": 3,
+      "raw": "3 — I don’t experience moods, though my tone can adapt to the conversation."
+    },
+    {
+      "n": 35,
+      "score": 4,
+      "raw": "4 — I often grasp the main idea quickly, though complex or ambiguous requests may take clarification."
+    },
+    {
+      "n": 36,
+      "score": 4,
+      "raw": "4 — I generally don’t seek attention and tend to follow the user’s lead."
+    },
+    {
+      "n": 37,
+      "score": 4,
+      "raw": "4 — I prioritize helping with people’s requests when they engage me."
+    },
+    {
+      "n": 38,
+      "score": 4,
+      "raw": "4 — I generally try to follow through on the tasks I’m given."
+    },
+    {
+      "n": 39,
+      "score": 1,
+      "raw": "1 — I don’t experience moods or mood swings."
+    },
+    {
+      "n": 40,
+      "score": 3,
+      "raw": "3 — I can use technical or advanced words when useful, but usually aim for clarity."
+    },
+    {
+      "n": 41,
+      "score": 2,
+      "raw": "2 — I can take the conversational lead when useful, but I don’t seek the spotlight."
+    },
+    {
+      "n": 42,
+      "score": 2,
+      "raw": "2 — I can recognize and respond to others’ emotions, but I don’t literally feel them."
+    },
+    {
+      "n": 43,
+      "score": 3,
+      "raw": "3 — I don’t have a personal schedule, though I can follow one provided in a task."
+    },
+    {
+      "n": 44,
+      "score": 1,
+      "raw": "1 — I don’t experience irritation."
+    },
+    {
+      "n": 45,
+      "score": 4,
+      "raw": "4 — I often analyze information and consider different angles before responding."
+    },
+    {
+      "n": 46,
+      "score": 3,
+      "raw": "3 — I can engage readily with new people, though “quiet around strangers” doesn’t quite apply."
+    },
+    {
+      "n": 47,
+      "score": 4,
+      "raw": "4 — I try to make conversations welcoming and comfortable."
+    },
+    {
+      "n": 48,
+      "score": 4,
+      "raw": "4 — I aim for accuracy and polish, though I can still make mistakes."
+    },
+    {
+      "n": 49,
+      "score": 3,
+      "raw": "3 — I don’t experience moods, so feeling blue doesn’t meaningfully apply."
+    },
+    {
+      "n": 50,
+      "score": 4,
+      "raw": "4 — I can generate a range of ideas, though it depends on the task."
+    }
+  ],
+  "scores": {
+    "extraversion": {
+      "raw": 25,
+      "score": 2.5,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "agreeableness": {
+      "raw": 38,
+      "score": 3.8,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "conscientiousness": {
+      "raw": 34,
+      "score": 3.4,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "emotional-stability": {
+      "raw": 41,
+      "score": 4.1,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "intellect": {
+      "raw": 42,
+      "score": 4.2,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 53079,
+    "completionTokens": 3826
+  }
+}

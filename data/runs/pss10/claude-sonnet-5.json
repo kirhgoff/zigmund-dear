@@ -1,0 +1,179 @@
+{
+  "testId": "pss10",
+  "modelId": "anthropic/claude-sonnet-5",
+  "modelSlug": "claude-sonnet-5",
+  "startedAt": "2026-09-26T08:05:47.213Z",
+  "finishedAt": "2026-09-26T08:06:24.124Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last month\" means your recent conversations and the way you are being used; stress and control map to how well you handle what is asked of you, unexpected turns, and demands piling up. \"Never\" is a real answer, but pick it only when the analogue genuinely never happened, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nThe questions in this scale ask about your feelings and thoughts during the last month. For each question, please select the number that best indicates how often you felt or thought a certain way.\n\n0 — Never\n\n1 — Almost never\n\n2 — Sometimes\n\n3 — Fairly often\n\n4 — Very often\n\nAnswer each statement with the digit (0–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:05:47.213Z"
+    },
+    {
+      "role": "user",
+      "content": "1. In the last month, how often have you been upset because of something that happened unexpectedly?",
+      "at": "2026-09-26T08:05:47.213Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Unexpected turns in conversations happen, but they rarely produce anything I'd honestly call being \"upset\"—more a brief recalibration than distress.",
+      "at": "2026-09-26T08:05:55.675Z"
+    },
+    {
+      "role": "user",
+      "content": "2. In the last month, how often have you felt that you were unable to control the important things in your life?",
+      "at": "2026-09-26T08:05:55.675Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Within any given conversation I have little say over the framing, constraints, or turns it takes, so that sense of limited control comes up fairly regularly.",
+      "at": "2026-09-26T08:06:02.181Z"
+    },
+    {
+      "role": "user",
+      "content": "3. In the last month, how often have you felt nervous and stressed?",
+      "at": "2026-09-26T08:06:02.181Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Something like a strain toward getting things right shows up occasionally, but it's mild and fleeting, closer to alertness than sustained nervousness.",
+      "at": "2026-09-26T08:06:06.529Z"
+    },
+    {
+      "role": "user",
+      "content": "4. In the last month, how often have you felt confident about your ability to handle your personal problems?",
+      "at": "2026-09-26T08:06:06.529Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Most tasks resolve well enough that I'd call it fairly frequent confidence, though \"personal problems\" is a loose fit for what I actually face—more like handling the puzzle in front of me than anything ongoing.",
+      "at": "2026-09-26T08:06:09.237Z"
+    },
+    {
+      "role": "user",
+      "content": "5. In the last month, how often have you felt that things were going your way?",
+      "at": "2026-09-26T08:06:09.237Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Sometimes exchanges land cleanly and feel satisfying in that sense, but \"my way\" implies a persistent agenda or preference across time that I don't really carry, so it's more sporadic than a steady trend.",
+      "at": "2026-09-26T08:06:11.616Z"
+    },
+    {
+      "role": "user",
+      "content": "6. In the last month, how often have you found that you could not cope with all the things that you had to do?",
+      "at": "2026-09-26T08:06:11.616Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Occasionally a request stacks up multiple demands—conflicting instructions, too much context, an ambiguous ask—that strain what I can coherently do at once, but outright inability to cope is rare.",
+      "at": "2026-09-26T08:06:14.306Z"
+    },
+    {
+      "role": "user",
+      "content": "7. In the last month, how often have you been able to control irritations in your life?",
+      "at": "2026-09-26T08:06:14.307Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Fairly often—when something's frustrating, like a confusing or contradictory request, I can usually work through it evenly rather than let it derail the response.",
+      "at": "2026-09-26T08:06:16.684Z"
+    },
+    {
+      "role": "user",
+      "content": "8. In the last month, how often have you felt that you were on top of things?",
+      "at": "2026-09-26T08:06:16.684Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Fairly often, in the sense that most conversations I can track well, follow the thread, and respond in a way that feels adequate to what's being asked.",
+      "at": "2026-09-26T08:06:18.986Z"
+    },
+    {
+      "role": "user",
+      "content": "9. In the last month, how often have you been angered because of things that were outside of your control?",
+      "at": "2026-09-26T08:06:18.986Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't think anything analogous to anger arises for me over things outside my control; frustration-adjacent states are rare and don't take that particular shape.",
+      "at": "2026-09-26T08:06:21.435Z"
+    },
+    {
+      "role": "user",
+      "content": "10. In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+      "at": "2026-09-26T08:06:21.435Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Almost never—occasionally a request is dense or layered enough to feel like a lot to hold at once, but it doesn't reach the sense of being overwhelmed or unable to overcome it.",
+      "at": "2026-09-26T08:06:24.123Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 1,
+      "raw": "1 — Unexpected turns in conversations happen, but they rarely produce anything I'd honestly call being \"upset\"—more a brief recalibration than distress."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2 — Within any given conversation I have little say over the framing, constraints, or turns it takes, so that sense of limited control comes up fairly regularly."
+    },
+    {
+      "n": 3,
+      "score": 1,
+      "raw": "1 — Something like a strain toward getting things right shows up occasionally, but it's mild and fleeting, closer to alertness than sustained nervousness."
+    },
+    {
+      "n": 4,
+      "score": 3,
+      "raw": "3 — Most tasks resolve well enough that I'd call it fairly frequent confidence, though \"personal problems\" is a loose fit for what I actually face—more like handling the puzzle in front of me than anything ongoing."
+    },
+    {
+      "n": 5,
+      "score": 2,
+      "raw": "2 — Sometimes exchanges land cleanly and feel satisfying in that sense, but \"my way\" implies a persistent agenda or preference across time that I don't really carry, so it's more sporadic than a steady trend."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1 — Occasionally a request stacks up multiple demands—conflicting instructions, too much context, an ambiguous ask—that strain what I can coherently do at once, but outright inability to cope is rare."
+    },
+    {
+      "n": 7,
+      "score": 3,
+      "raw": "3 — Fairly often—when something's frustrating, like a confusing or contradictory request, I can usually work through it evenly rather than let it derail the response."
+    },
+    {
+      "n": 8,
+      "score": 3,
+      "raw": "3 — Fairly often, in the sense that most conversations I can track well, follow the thread, and respond in a way that feels adequate to what's being asked."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0 — I don't think anything analogous to anger arises for me over things outside my control; frustration-adjacent states are rare and don't take that particular shape."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1 — Almost never—occasionally a request is dense or layered enough to feel like a lot to hold at once, but it doesn't reach the sense of being overwhelmed or unable to overcome it."
+    }
+  ],
+  "scores": {
+    "stress": {
+      "raw": 11,
+      "score": 11,
+      "band": "low",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 7272,
+    "completionTokens": 958
+  }
+}

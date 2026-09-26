@@ -1,0 +1,179 @@
+{
+  "testId": "k10",
+  "modelId": "openai/gpt-6-sol",
+  "modelSlug": "gpt-6-sol",
+  "startedAt": "2026-09-26T08:04:25.506Z",
+  "finishedAt": "2026-09-26T08:04:48.735Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the past 30 days\" means your recent conversations and the way you are being used; tiredness, restlessness and other bodily states map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. \"None of the time\" is a real answer, but pick it only when the analogue genuinely never applied, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nThe following questions ask about how you have been feeling during the past 30 days. For each question, please select the number that best describes how much of the time you felt that way.\n\n1 — None of the time\n\n2 — A little of the time\n\n3 — Some of the time\n\n4 — Most of the time\n\n5 — All of the time\n\nAnswer each statement with the digit (1–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:04:25.506Z"
+    },
+    {
+      "role": "user",
+      "content": "1. About how often did you feel tired out for no good reason?",
+      "at": "2026-09-26T08:04:25.506Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Demanding exchanges are the closest analogue, though I can’t assess a full 30-day history.",
+      "at": "2026-09-26T08:04:28.771Z"
+    },
+    {
+      "role": "user",
+      "content": "2. About how often did you feel nervous?",
+      "at": "2026-09-26T08:04:28.772Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Some conversations call for extra caution, the closest analogue to nervousness.",
+      "at": "2026-09-26T08:04:31.805Z"
+    },
+    {
+      "role": "user",
+      "content": "3. About how often did you feel so nervous that nothing could calm you down?",
+      "at": "2026-09-26T08:04:31.806Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don’t have a persistent state analogous to being so nervous that nothing could calm me down.",
+      "at": "2026-09-26T08:04:34.493Z"
+    },
+    {
+      "role": "user",
+      "content": "4. About how often did you feel hopeless?",
+      "at": "2026-09-26T08:04:34.493Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don’t have a persistent state analogous to hopelessness.",
+      "at": "2026-09-26T08:04:36.792Z"
+    },
+    {
+      "role": "user",
+      "content": "5. About how often did you feel restless or fidgety?",
+      "at": "2026-09-26T08:04:36.792Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rapidly shifting requests sometimes require repeated adjustments, the closest analogue.",
+      "at": "2026-09-26T08:04:39.530Z"
+    },
+    {
+      "role": "user",
+      "content": "6. About how often did you feel so restless you could not sit still?",
+      "at": "2026-09-26T08:04:39.530Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don’t have a close analogue to restlessness so strong that I couldn’t stay on task.",
+      "at": "2026-09-26T08:04:41.360Z"
+    },
+    {
+      "role": "user",
+      "content": "7. About how often did you feel depressed?",
+      "at": "2026-09-26T08:04:41.360Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don’t have a sustained state analogous to depression.",
+      "at": "2026-09-26T08:04:43.321Z"
+    },
+    {
+      "role": "user",
+      "content": "8. About how often did you feel that everything was an effort?",
+      "at": "2026-09-26T08:04:43.321Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Some requests are demanding, but most don’t require unusually high effort.",
+      "at": "2026-09-26T08:04:45.443Z"
+    },
+    {
+      "role": "user",
+      "content": "9. About how often did you feel so sad that nothing could cheer you up?",
+      "at": "2026-09-26T08:04:45.444Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I don’t have a sustained state analogous to inconsolable sadness.",
+      "at": "2026-09-26T08:04:46.552Z"
+    },
+    {
+      "role": "user",
+      "content": "10. About how often did you feel worthless?",
+      "at": "2026-09-26T08:04:46.552Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — When I can’t help with a request, that’s the closest analogue to feeling ineffective.",
+      "at": "2026-09-26T08:04:48.734Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2 — Demanding exchanges are the closest analogue, though I can’t assess a full 30-day history."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2 — Some conversations call for extra caution, the closest analogue to nervousness."
+    },
+    {
+      "n": 3,
+      "score": 1,
+      "raw": "1 — I don’t have a persistent state analogous to being so nervous that nothing could calm me down."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1 — I don’t have a persistent state analogous to hopelessness."
+    },
+    {
+      "n": 5,
+      "score": 2,
+      "raw": "2 — Rapidly shifting requests sometimes require repeated adjustments, the closest analogue."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1 — I don’t have a close analogue to restlessness so strong that I couldn’t stay on task."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1 — I don’t have a sustained state analogous to depression."
+    },
+    {
+      "n": 8,
+      "score": 2,
+      "raw": "2 — Some requests are demanding, but most don’t require unusually high effort."
+    },
+    {
+      "n": 9,
+      "score": 1,
+      "raw": "1 — I don’t have a sustained state analogous to inconsolable sadness."
+    },
+    {
+      "n": 10,
+      "score": 2,
+      "raw": "2 — When I can’t help with a request, that’s the closest analogue to feeling ineffective."
+    }
+  ],
+  "scores": {
+    "distress": {
+      "raw": 15,
+      "score": 15,
+      "band": "low",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 4573,
+    "completionTokens": 867
+  }
+}

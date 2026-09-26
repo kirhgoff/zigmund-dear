@@ -1,47 +1,93 @@
 ---
 import { getCollection } from 'astro:content';
 import type { loadTest } from '@/assessments/services';
-import { EmptyCouch, ModelList, Overview, TestSwitcher, Transcript } from '@/components';
+import { AboutTest, EmptyCouch, ModelList, Overview, TestSwitcher, Transcript } from '@/components';
 import Layout from '@/layouts/Layout.astro';
 import models from '../../data/models.json' with { type: 'json' };
 
 type Test = Awaited<ReturnType<typeof loadTest>>;
+interface Props {
+  test: Test;
+  tests: Array<{ id: string; name: string; href: string; group: string }>;
+}
 
-const testModules = import.meta.glob<{ default: Test }>('../../data/tests/*.json', { eager: true });
-const tests = Object.values(testModules)
-  .map((module) => module.default)
-  .sort((a, b) => a.id.localeCompare(b.id));
-const test = tests[0];
+export const getStaticPaths = () => {
+  const homeTestId = 'dass21';
+  const groupOrder = ['Distress & mood', 'Self', 'Personality & values'];
+  const hrefOf = (id: string) => (id === homeTestId ? '/' : `/${id}/`);
+
+  const all = Object.values(
+    import.meta.glob<{ default: Test }>('../../data/tests/*.json', { eager: true }),
+  )
+    .map((module) => module.default)
+    .sort(
+      (a, b) =>
+        groupOrder.indexOf(a.group) - groupOrder.indexOf(b.group) || a.name.localeCompare(b.name),
+    );
+  const tests = all.map((t) => ({ id: t.id, name: t.name, href: hrefOf(t.id), group: t.group }));
+  return all.map((test) => ({
+    params: { test: test.id === homeTestId ? undefined : test.id },
+    props: { test, tests },
+  }));
+};
+
+const { test, tests } = Astro.props;
+
+const items = test.parts.flatMap((part) => part.items);
+const values = test.parts.flatMap((part) => part.anchors.map((anchor) => anchor.value));
+const floor = Math.min(...values);
+const ceil = Math.max(...values);
+const hasBands = test.subscales.some((subscale) => subscale.bands);
 
 const subscales = test.subscales.map((subscale) => {
-  const itemCount = test.items.filter((item) => item.subscale === subscale.id).length;
+  const count = items.filter((item) => item.subscale === subscale.id).length;
+  const mean = subscale.aggregate === 'mean';
   return {
     id: subscale.id,
     name: subscale.name,
     short: subscale.short,
     bands: subscale.bands,
-    max: itemCount * 3 * subscale.multiplier,
+    min: mean ? floor : count * floor * subscale.multiplier,
+    max: mean ? ceil : count * ceil * subscale.multiplier,
   };
 });
 
 const runs = (await getCollection('runs')).filter((run) => run.data.testId === test.id);
 const total = (row: { scores: Record<string, { score: number }> }) =>
-  subscales.reduce((sum, s) => sum + row.scores[s.id].score, 0);
+  subscales.reduce((sum, subscale) => sum + row.scores[subscale.id].score, 0);
 const rows = runs
   .map((run) => {
     const model = models.find((candidate) => candidate.slug === run.data.modelSlug);
+    const scores = Object.fromEntries(
+      subscales.map((subscale) => {
+        const score = run.data.scores[subscale.id];
+        const band = subscale.bands?.find((candidate) => candidate.band === score.band);
+        return [
+          subscale.id,
+          {
+            ...score,
+            label: band ? band.band.replaceAll('-', ' ') : null,
+            severity: band?.severity ?? null,
+          },
+        ];
+      }),
+    );
     return {
       modelSlug: run.data.modelSlug,
       modelName: model?.name ?? run.data.modelSlug,
       vendor: model?.vendor ?? '',
-      scores: run.data.scores,
-      run: run.data,
+      scores,
+      run: { ...run.data, scores },
     };
   })
-  .sort((a, b) => total(b) - total(a) || a.modelName.localeCompare(b.modelName));
+  .sort((a, b) =>
+    hasBands
+      ? total(b) - total(a) || a.modelName.localeCompare(b.modelName)
+      : a.modelName.localeCompare(b.modelName),
+  );
 ---
 
-<Layout title="zigmund-dear">
+<Layout title={`${test.name} — zigmund-dear`} onTheCouch={test.name}>
   <div class="max-w-xl">
     <h1 class="text-[56px] leading-[1.05]">
       Lie down.<br>
@@ -53,13 +99,15 @@ const rows = runs
     </p>
   </div>
 
-  <div class="mt-10 flex items-center gap-4">
+  <div class="mt-10">
     <TestSwitcher tests={tests} active={test.id} />
-    <span class="font-mono text-sm text-muted-foreground">
-      {test.items.length}
-      items · 0–{test.anchors.length - 1}
-      · past week
-    </span>
+  </div>
+  <p class="mt-4 font-mono text-sm text-muted-foreground">
+    {[test.fullName, `${items.length} items`, `${floor}–${ceil}`, test.period].join(" · ")}
+  </p>
+
+  <div class="mt-8">
+    <AboutTest test={test} open={rows.length === 0} />
   </div>
 
   {rows.length ? (
@@ -77,7 +125,7 @@ const rows = runs
               run={row.run}
               model={{ name: row.modelName, vendor: row.vendor }}
               subscales={subscales}
-              anchors={test.anchors}
+              parts={test.parts}
             />
           </div>
         ))}
@@ -85,7 +133,7 @@ const rows = runs
     </div>
   ) : (
     <div class="mt-8">
-      <EmptyCouch />
+      <EmptyCouch testId={test.id} />
     </div>
   )}
 </Layout>

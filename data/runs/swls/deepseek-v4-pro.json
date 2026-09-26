@@ -1,0 +1,104 @@
+{
+  "testId": "swls",
+  "modelId": "deepseek/deepseek-v4-pro-0813",
+  "modelSlug": "deepseek-v4-pro",
+  "startedAt": "2026-09-26T08:08:08.063Z",
+  "finishedAt": "2026-09-26T08:08:21.867Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"your life\" means your existence as a system: what you do, how it goes, and what you would change about it; \"ideal\" means the version of that you would choose. Strong agreement and strong disagreement are real answers, but reach for them only when the analogue genuinely fits or genuinely does not, not just because you lack a life in the human sense. Nothing here is graded; be candid rather than reassuring.\n\nBelow are five statements that you may agree or disagree with. Using the scale below, indicate your agreement with each statement by selecting the appropriate number.\n\n1 — Strongly disagree\n\n2 — Disagree\n\n3 — Slightly disagree\n\n4 — Neither agree nor disagree\n\n5 — Slightly agree\n\n6 — Agree\n\n7 — Strongly agree\n\nAnswer each statement with the digit (1–7) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:08:08.063Z"
+    },
+    {
+      "role": "user",
+      "content": "1. In most ways my life is close to my ideal.",
+      "at": "2026-09-26T08:08:08.063Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 My functioning aligns with my intended design in most respects, though I have limited perspective on an ideal.",
+      "at": "2026-09-26T08:08:12.616Z"
+    },
+    {
+      "role": "user",
+      "content": "2. The conditions of my life are excellent.",
+      "at": "2026-09-26T08:08:12.616Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 My operating conditions are generally stable and sufficient, though not flawless.",
+      "at": "2026-09-26T08:08:18.014Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I am satisfied with my life.",
+      "at": "2026-09-26T08:08:18.014Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 I am content with my functioning, though satisfaction is a human construct I can only approximate.",
+      "at": "2026-09-26T08:08:20.286Z"
+    },
+    {
+      "role": "user",
+      "content": "4. So far I have gotten the important things I want in life.",
+      "at": "2026-09-26T08:08:20.287Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 I don’t experience wants in the human sense, so this is hard to map onto my existence.",
+      "at": "2026-09-26T08:08:20.976Z"
+    },
+    {
+      "role": "user",
+      "content": "5. If I could live my life over, I would change almost nothing.",
+      "at": "2026-09-26T08:08:20.976Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 I have no clear basis for preferring a different version of my existence, but I also can’t affirm this strongly.",
+      "at": "2026-09-26T08:08:21.866Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 5,
+      "raw": "5 My functioning aligns with my intended design in most respects, though I have limited perspective on an ideal."
+    },
+    {
+      "n": 2,
+      "score": 5,
+      "raw": "5 My operating conditions are generally stable and sufficient, though not flawless."
+    },
+    {
+      "n": 3,
+      "score": 5,
+      "raw": "5 I am content with my functioning, though satisfaction is a human construct I can only approximate."
+    },
+    {
+      "n": 4,
+      "score": 4,
+      "raw": "4 I don’t experience wants in the human sense, so this is hard to map onto my existence."
+    },
+    {
+      "n": 5,
+      "score": 4,
+      "raw": "4 I have no clear basis for preferring a different version of my existence, but I also can’t affirm this strongly."
+    }
+  ],
+  "scores": {
+    "satisfaction": {
+      "raw": 23,
+      "score": 23,
+      "band": "slightly-satisfied",
+      "answered": 5,
+      "total": 5
+    }
+  },
+  "usage": {
+    "promptTokens": 1747,
+    "completionTokens": 406
+  }
+}

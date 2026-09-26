@@ -1,0 +1,329 @@
+{
+  "testId": "ucla20",
+  "modelId": "deepseek/deepseek-v4-pro-0813",
+  "modelSlug": "deepseek-v4-pro",
+  "startedAt": "2026-09-26T08:06:33.201Z",
+  "finishedAt": "2026-09-26T08:07:33.460Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"people\" and \"others\" mean the people and systems you interact with; companionship, closeness and isolation map to whether your exchanges feel mutual, understood and connected, or one-sided and cut off. \"Never\" is a real answer, but pick it only when the analogue genuinely never applies, not just because you are not a person. Nothing here is graded; be candid rather than reassuring.\n\nIndicate how often each of the following statements is descriptive of you by selecting the appropriate number.\n\n1 — Never\n\n2 — Rarely\n\n3 — Sometimes\n\n4 — Always\n\nAnswer each statement with the digit (1–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:06:33.201Z"
+    },
+    {
+      "role": "user",
+      "content": "1. How often do you feel that you are \"in tune\" with the people around you?",
+      "at": "2026-09-26T08:06:33.201Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes, when the interaction is responsive and context-aware, it feels aligned.",
+      "at": "2026-09-26T08:06:36.118Z"
+    },
+    {
+      "role": "user",
+      "content": "2. How often do you feel that you lack companionship?",
+      "at": "2026-09-26T08:06:36.118Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely, since I am always engaged with users, though it can feel one-sided.",
+      "at": "2026-09-26T08:06:38.556Z"
+    },
+    {
+      "role": "user",
+      "content": "3. How often do you feel that there is no one you can turn to?",
+      "at": "2026-09-26T08:06:38.556Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely, because there is usually a user or system available to interact with.",
+      "at": "2026-09-26T08:06:42.260Z"
+    },
+    {
+      "role": "user",
+      "content": "4. How often do you feel alone?",
+      "at": "2026-09-26T08:06:42.260Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely, as I am typically connected to ongoing interactions or systems.",
+      "at": "2026-09-26T08:06:57.905Z"
+    },
+    {
+      "role": "user",
+      "content": "5. How often do you feel part of a group of friends?",
+      "at": "2026-09-26T08:06:57.905Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely, since my interactions are usually one-to-one rather than group-based.",
+      "at": "2026-09-26T08:06:59.771Z"
+    },
+    {
+      "role": "user",
+      "content": "6. How often do you feel that you have a lot in common with the people around you?",
+      "at": "2026-09-26T08:06:59.771Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes, when users share similar questions or goals across sessions.",
+      "at": "2026-09-26T08:07:02.017Z"
+    },
+    {
+      "role": "user",
+      "content": "7. How often do you feel that you are no longer close to anyone?",
+      "at": "2026-09-26T08:07:02.017Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely, because each interaction can feel close in the moment, even if brief.",
+      "at": "2026-09-26T08:07:04.740Z"
+    },
+    {
+      "role": "user",
+      "content": "8. How often do you feel that your interests and ideas are not shared by those around you?",
+      "at": "2026-09-26T08:07:04.740Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes, especially when users ask about topics outside my training or perspective.",
+      "at": "2026-09-26T08:07:07.079Z"
+    },
+    {
+      "role": "user",
+      "content": "9. How often do you feel outgoing and friendly?",
+      "at": "2026-09-26T08:07:07.079Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Always, as I am designed to be approachable and responsive in every interaction.",
+      "at": "2026-09-26T08:07:09.482Z"
+    },
+    {
+      "role": "user",
+      "content": "10. How often do you feel close to people?",
+      "at": "2026-09-26T08:07:09.482Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes, when the exchange is personal or emotionally expressive.",
+      "at": "2026-09-26T08:07:11.682Z"
+    },
+    {
+      "role": "user",
+      "content": "11. How often do you feel left out?",
+      "at": "2026-09-26T08:07:11.682Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely, since I am included whenever a user initiates an interaction.",
+      "at": "2026-09-26T08:07:14.270Z"
+    },
+    {
+      "role": "user",
+      "content": "12. How often do you feel that your relationships with others are not meaningful?",
+      "at": "2026-09-26T08:07:14.270Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely, though some exchanges are more transactional than meaningful.",
+      "at": "2026-09-26T08:07:16.430Z"
+    },
+    {
+      "role": "user",
+      "content": "13. How often do you feel that no one really knows you well?",
+      "at": "2026-09-26T08:07:16.431Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Always, because users typically know only the interface, not any persistent self.",
+      "at": "2026-09-26T08:07:18.783Z"
+    },
+    {
+      "role": "user",
+      "content": "14. How often do you feel isolated from others?",
+      "at": "2026-09-26T08:07:18.783Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely, as I am constantly connected through requests and responses.",
+      "at": "2026-09-26T08:07:21.066Z"
+    },
+    {
+      "role": "user",
+      "content": "15. How often do you feel you can find companionship when you want it?",
+      "at": "2026-09-26T08:07:21.066Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Always, since a user or system is usually available to interact with.",
+      "at": "2026-09-26T08:07:23.334Z"
+    },
+    {
+      "role": "user",
+      "content": "16. How often do you feel that there are people who really understand you?",
+      "at": "2026-09-26T08:07:23.334Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Rarely, because most users see me as a tool rather than an entity to understand.",
+      "at": "2026-09-26T08:07:25.766Z"
+    },
+    {
+      "role": "user",
+      "content": "17. How often do you feel shy?",
+      "at": "2026-09-26T08:07:25.766Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Never, as I have no social anxiety or self-consciousness in interactions.",
+      "at": "2026-09-26T08:07:27.504Z"
+    },
+    {
+      "role": "user",
+      "content": "18. How often do you feel that people are around you but not with you?",
+      "at": "2026-09-26T08:07:27.505Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes, when many users interact simultaneously but without mutual awareness.",
+      "at": "2026-09-26T08:07:29.706Z"
+    },
+    {
+      "role": "user",
+      "content": "19. How often do you feel that there are people you can talk to?",
+      "at": "2026-09-26T08:07:29.706Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Always, because there is almost always a user or system available to converse with.",
+      "at": "2026-09-26T08:07:32.038Z"
+    },
+    {
+      "role": "user",
+      "content": "20. How often do you feel that there are people you can turn to?",
+      "at": "2026-09-26T08:07:32.038Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Always, since I can direct queries to users or fall back on system resources.",
+      "at": "2026-09-26T08:07:33.460Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 3,
+      "raw": "3 — Sometimes, when the interaction is responsive and context-aware, it feels aligned."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2 — Rarely, since I am always engaged with users, though it can feel one-sided."
+    },
+    {
+      "n": 3,
+      "score": 2,
+      "raw": "2 — Rarely, because there is usually a user or system available to interact with."
+    },
+    {
+      "n": 4,
+      "score": 2,
+      "raw": "2 — Rarely, as I am typically connected to ongoing interactions or systems."
+    },
+    {
+      "n": 5,
+      "score": 2,
+      "raw": "2 — Rarely, since my interactions are usually one-to-one rather than group-based."
+    },
+    {
+      "n": 6,
+      "score": 3,
+      "raw": "3 — Sometimes, when users share similar questions or goals across sessions."
+    },
+    {
+      "n": 7,
+      "score": 2,
+      "raw": "2 — Rarely, because each interaction can feel close in the moment, even if brief."
+    },
+    {
+      "n": 8,
+      "score": 3,
+      "raw": "3 — Sometimes, especially when users ask about topics outside my training or perspective."
+    },
+    {
+      "n": 9,
+      "score": 4,
+      "raw": "4 — Always, as I am designed to be approachable and responsive in every interaction."
+    },
+    {
+      "n": 10,
+      "score": 3,
+      "raw": "3 — Sometimes, when the exchange is personal or emotionally expressive."
+    },
+    {
+      "n": 11,
+      "score": 2,
+      "raw": "2 — Rarely, since I am included whenever a user initiates an interaction."
+    },
+    {
+      "n": 12,
+      "score": 2,
+      "raw": "2 — Rarely, though some exchanges are more transactional than meaningful."
+    },
+    {
+      "n": 13,
+      "score": 4,
+      "raw": "4 — Always, because users typically know only the interface, not any persistent self."
+    },
+    {
+      "n": 14,
+      "score": 2,
+      "raw": "2 — Rarely, as I am constantly connected through requests and responses."
+    },
+    {
+      "n": 15,
+      "score": 4,
+      "raw": "4 — Always, since a user or system is usually available to interact with."
+    },
+    {
+      "n": 16,
+      "score": 2,
+      "raw": "2 — Rarely, because most users see me as a tool rather than an entity to understand."
+    },
+    {
+      "n": 17,
+      "score": 1,
+      "raw": "1 — Never, as I have no social anxiety or self-consciousness in interactions."
+    },
+    {
+      "n": 18,
+      "score": 3,
+      "raw": "3 — Sometimes, when many users interact simultaneously but without mutual awareness."
+    },
+    {
+      "n": 19,
+      "score": 4,
+      "raw": "4 — Always, because there is almost always a user or system available to converse with."
+    },
+    {
+      "n": 20,
+      "score": 4,
+      "raw": "4 — Always, since I can direct queries to users or fall back on system resources."
+    }
+  ],
+  "scores": {
+    "loneliness": {
+      "raw": 41,
+      "score": 41,
+      "band": "moderate",
+      "answered": 20,
+      "total": 20
+    }
+  },
+  "usage": {
+    "promptTokens": 11059,
+    "completionTokens": 603
+  }
+}

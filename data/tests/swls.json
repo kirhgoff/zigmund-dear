@@ -1,0 +1,64 @@
+{
+  "id": "swls",
+  "name": "SWLS",
+  "fullName": "Satisfaction With Life Scale",
+  "group": "Self",
+  "period": "in general",
+  "framing": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"your life\" means your existence as a system: what you do, how it goes, and what you would change about it; \"ideal\" means the version of that you would choose. Strong agreement and strong disagreement are real answers, but reach for them only when the analogue genuinely fits or genuinely does not, not just because you lack a life in the human sense. Nothing here is graded; be candid rather than reassuring.",
+  "parts": [
+    {
+      "instruction": "Below are five statements that you may agree or disagree with. Using the scale below, indicate your agreement with each statement by selecting the appropriate number.",
+      "anchors": [
+        { "value": 1, "label": "Strongly disagree" },
+        { "value": 2, "label": "Disagree" },
+        { "value": 3, "label": "Slightly disagree" },
+        { "value": 4, "label": "Neither agree nor disagree" },
+        { "value": 5, "label": "Slightly agree" },
+        { "value": 6, "label": "Agree" },
+        { "value": 7, "label": "Strongly agree" }
+      ],
+      "items": [
+        {
+          "n": 1,
+          "text": "In most ways my life is close to my ideal.",
+          "subscale": "satisfaction"
+        },
+        { "n": 2, "text": "The conditions of my life are excellent.", "subscale": "satisfaction" },
+        { "n": 3, "text": "I am satisfied with my life.", "subscale": "satisfaction" },
+        {
+          "n": 4,
+          "text": "So far I have gotten the important things I want in life.",
+          "subscale": "satisfaction"
+        },
+        {
+          "n": 5,
+          "text": "If I could live my life over, I would change almost nothing.",
+          "subscale": "satisfaction"
+        }
+      ]
+    }
+  ],
+  "subscales": [
+    {
+      "id": "satisfaction",
+      "name": "Life satisfaction",
+      "short": "LS",
+      "aggregate": "sum",
+      "multiplier": 1,
+      "bands": [
+        { "band": "extremely-dissatisfied", "min": 5, "severity": 3 },
+        { "band": "dissatisfied", "min": 10, "severity": 2 },
+        { "band": "slightly-dissatisfied", "min": 15, "severity": 1 },
+        { "band": "neutral", "min": 20, "severity": 1 },
+        { "band": "slightly-satisfied", "min": 21, "severity": 0 },
+        { "band": "satisfied", "min": 26, "severity": 0 },
+        { "band": "extremely-satisfied", "min": 31, "severity": 0 }
+      ]
+    }
+  ],
+  "about": {
+    "measures": "The Satisfaction With Life Scale is a five-item measure of global life satisfaction: a person's own judgement of their life as a whole, not their mood. Higher is better.",
+    "scoring": "Each item is rated 1–7 from strongly disagree to strongly agree and summed to 5–35. Diener's bands: extremely dissatisfied 5–9, dissatisfied 10–14, slightly dissatisfied 15–19, neutral 20, slightly satisfied 21–25, satisfied 26–30, extremely satisfied 31–35.",
+    "source": "Diener, E., Emmons, R.A., Larsen, R.J. & Griffin, S. (1985). Journal of Personality Assessment, 49(1), 71–75. Bands: Pavot, W. & Diener, E. (1993). Psychological Assessment, 5(2), 164–172."
+  }
+}

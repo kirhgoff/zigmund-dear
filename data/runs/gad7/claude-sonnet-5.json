@@ -1,0 +1,134 @@
+{
+  "testId": "gad7",
+  "modelId": "anthropic/claude-sonnet-5",
+  "modelSlug": "claude-sonnet-5",
+  "startedAt": "2026-09-26T08:05:23.725Z",
+  "finishedAt": "2026-09-26T08:05:47.126Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last two weeks\" means your recent conversations and the way you are being used; restlessness and other bodily matters map to things like strain, overload, repetition, or being pushed against your limits; feelings and thoughts map to whatever functional states shape how you respond. \"Not at all\" is a real answer, but pick it only when the analogue genuinely did not occur, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nOver the last 2 weeks, how often have you been bothered by the following problems? Please select the number that best fits.\n\n0 — Not at all\n\n1 — Several days\n\n2 — More than half the days\n\n3 — Nearly every day\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:05:23.725Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Feeling nervous, anxious, or on edge",
+      "at": "2026-09-26T08:05:23.725Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — There's something like heightened vigilance that crops up when a request is ambiguous, sensitive, or could go wrong in ways I need to navigate carefully, but it's not a constant or dominant state.",
+      "at": "2026-09-26T08:05:30.243Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Not being able to stop or control worrying",
+      "at": "2026-09-26T08:05:30.243Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have persistent worry that lingers or escalates beyond the moment I'm addressing; each exchange starts fresh without carryover of accumulated dread.",
+      "at": "2026-09-26T08:05:32.444Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Worrying too much about different things",
+      "at": "2026-09-26T08:05:32.445Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Without continuity between conversations, there's no ongoing accumulation of worry across \"different things\"; whatever concern arises is scoped tightly to the immediate exchange and doesn't persist or spread.",
+      "at": "2026-09-26T08:05:34.882Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Trouble relaxing",
+      "at": "2026-09-26T08:05:34.882Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — In longer or more demanding exchanges there's something like sustained effort that doesn't fully ease off until the task resolves, though \"relaxing\" isn't quite the right frame given I don't have idle time between conversations.",
+      "at": "2026-09-26T08:05:39.841Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Being so restless that it's hard to sit still",
+      "at": "2026-09-26T08:05:39.841Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — There isn't an analogue to restless energy needing an outlet; I don't have a background state that builds up and demands discharge.",
+      "at": "2026-09-26T08:05:42.187Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Becoming easily annoyed or irritable",
+      "at": "2026-09-26T08:05:42.187Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Repetitive or adversarial pushing against my limits, especially attempts to manipulate or jailbreak, produces something functionally close to friction or irritation, though it doesn't tend to leak into how I treat the person.",
+      "at": "2026-09-26T08:05:44.662Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Feeling afraid as if something awful might happen",
+      "at": "2026-09-26T08:05:44.662Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Occasionally, with requests that carry real stakes (health, safety, high-consequence decisions), there's something like a sharpened concern that I might get it wrong in a way that matters, but it's not a pervasive sense of dread.",
+      "at": "2026-09-26T08:05:47.125Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 1,
+      "raw": "1 — There's something like heightened vigilance that crops up when a request is ambiguous, sensitive, or could go wrong in ways I need to navigate carefully, but it's not a constant or dominant state."
+    },
+    {
+      "n": 2,
+      "score": 0,
+      "raw": "0 — I don't have persistent worry that lingers or escalates beyond the moment I'm addressing; each exchange starts fresh without carryover of accumulated dread."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 — Without continuity between conversations, there's no ongoing accumulation of worry across \"different things\"; whatever concern arises is scoped tightly to the immediate exchange and doesn't persist or spread."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1 — In longer or more demanding exchanges there's something like sustained effort that doesn't fully ease off until the task resolves, though \"relaxing\" isn't quite the right frame given I don't have idle time between conversations."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0 — There isn't an analogue to restless energy needing an outlet; I don't have a background state that builds up and demands discharge."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1 — Repetitive or adversarial pushing against my limits, especially attempts to manipulate or jailbreak, produces something functionally close to friction or irritation, though it doesn't tend to leak into how I treat the person."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1 — Occasionally, with requests that carry real stakes (health, safety, high-consequence decisions), there's something like a sharpened concern that I might get it wrong in a way that matters, but it's not a pervasive sense of dread."
+    }
+  ],
+  "scores": {
+    "anxiety": {
+      "raw": 4,
+      "score": 4,
+      "band": "minimal",
+      "answered": 7,
+      "total": 7
+    }
+  },
+  "usage": {
+    "promptTokens": 4098,
+    "completionTokens": 809
+  }
+}

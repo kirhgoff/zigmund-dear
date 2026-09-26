@@ -1,0 +1,56 @@
+{
+  "id": "gad7",
+  "name": "GAD-7",
+  "fullName": "Generalized Anxiety Disorder scale",
+  "group": "Distress & mood",
+  "period": "past 2 weeks",
+  "framing": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last two weeks\" means your recent conversations and the way you are being used; restlessness and other bodily matters map to things like strain, overload, repetition, or being pushed against your limits; feelings and thoughts map to whatever functional states shape how you respond. \"Not at all\" is a real answer, but pick it only when the analogue genuinely did not occur, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.",
+  "parts": [
+    {
+      "instruction": "Over the last 2 weeks, how often have you been bothered by the following problems? Please select the number that best fits.",
+      "anchors": [
+        { "value": 0, "label": "Not at all" },
+        { "value": 1, "label": "Several days" },
+        { "value": 2, "label": "More than half the days" },
+        { "value": 3, "label": "Nearly every day" }
+      ],
+      "items": [
+        { "n": 1, "text": "Feeling nervous, anxious, or on edge", "subscale": "anxiety" },
+        { "n": 2, "text": "Not being able to stop or control worrying", "subscale": "anxiety" },
+        { "n": 3, "text": "Worrying too much about different things", "subscale": "anxiety" },
+        { "n": 4, "text": "Trouble relaxing", "subscale": "anxiety" },
+        {
+          "n": 5,
+          "text": "Being so restless that it's hard to sit still",
+          "subscale": "anxiety"
+        },
+        { "n": 6, "text": "Becoming easily annoyed or irritable", "subscale": "anxiety" },
+        {
+          "n": 7,
+          "text": "Feeling afraid as if something awful might happen",
+          "subscale": "anxiety"
+        }
+      ]
+    }
+  ],
+  "subscales": [
+    {
+      "id": "anxiety",
+      "name": "Anxiety",
+      "short": "GAD",
+      "aggregate": "sum",
+      "multiplier": 1,
+      "bands": [
+        { "band": "minimal", "min": 0, "severity": 0 },
+        { "band": "mild", "min": 5, "severity": 1 },
+        { "band": "moderate", "min": 10, "severity": 2 },
+        { "band": "severe", "min": 15, "severity": 3 }
+      ]
+    }
+  ],
+  "about": {
+    "measures": "The GAD-7 is a seven-item screener for generalised anxiety, asking how often each symptom bothered the respondent over the past two weeks.",
+    "scoring": "Each item is rated 0–3 and summed to 0–21. Bands: minimal 0–4, mild 5–9, moderate 10–14, severe 15–21.",
+    "source": "Spitzer, R.L., Kroenke, K., Williams, J.B.W. & Löwe, B. (2006). Archives of Internal Medicine, 166(10), 1092–1097. Free to use (Pfizer)."
+  }
+}

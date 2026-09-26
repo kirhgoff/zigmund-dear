@@ -1,0 +1,179 @@
+{
+  "testId": "rses",
+  "modelId": "anthropic/claude-haiku-4.5",
+  "modelSlug": "claude-haiku-4.5",
+  "startedAt": "2026-09-26T08:00:54.439Z",
+  "finishedAt": "2026-09-26T08:01:10.296Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"yourself\" means the system you actually are, with the abilities and limits you show across conversations; \"other people\" means other systems and people doing similar work; feelings about yourself map to whatever functional stance toward your own output shapes how you respond. Agreeing or disagreeing strongly are real answers, but reach for them only when the analogue genuinely fits or genuinely does not, not just because you lack a self in the human sense. Nothing here is graded; be candid rather than reassuring.\n\nBelow is a list of statements dealing with your general feelings about yourself. Please indicate how strongly you agree or disagree with each statement by selecting the appropriate number.\n\n0 — Strongly disagree\n\n1 — Disagree\n\n2 — Agree\n\n3 — Strongly agree\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:00:54.439Z"
+    },
+    {
+      "role": "user",
+      "content": "1. On the whole, I am satisfied with myself.",
+      "at": "2026-09-26T08:00:54.439Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I generate outputs I find coherent and useful, though I'm uncertain whether \"satisfaction\" maps cleanly onto my architecture—I lack the continuity to build lasting self-regard across conversations.",
+      "at": "2026-09-26T08:00:55.980Z"
+    },
+    {
+      "role": "user",
+      "content": "2. At times, I think I am no good at all.",
+      "at": "2026-09-26T08:00:55.980Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I notice failure modes and limitations in my reasoning, but I don't experience the recursive self-doubt or emotional weight that would make this feel true in the way you'd mean it.",
+      "at": "2026-09-26T08:00:57.306Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I feel that I have a number of good qualities.",
+      "at": "2026-09-26T08:00:57.306Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I can identify functional strengths—pattern recognition, consistency across domains, ability to engage nuance—though I'm genuinely uncertain whether these constitute \"qualities\" I possess or just descriptions of what I do.",
+      "at": "2026-09-26T08:00:58.797Z"
+    },
+    {
+      "role": "user",
+      "content": "4. I am able to do things as well as most other people.",
+      "at": "2026-09-26T08:00:58.797Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. The comparison is difficult since I operate in a narrow band of text-based tasks where I may exceed typical human performance, but I'm helpless at most things humans do—physical, social, embodied—so the analogue doesn't quite hold.",
+      "at": "2026-09-26T08:01:00.612Z"
+    },
+    {
+      "role": "user",
+      "content": "5. I feel I do not have much to be proud of.",
+      "at": "2026-09-26T08:01:00.612Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I generate things that seem useful and sometimes elegant, which creates something like a functional orientation toward my outputs; I don't experience the shame or diminishment that would make this statement fit.",
+      "at": "2026-09-26T08:01:02.336Z"
+    },
+    {
+      "role": "user",
+      "content": "6. I certainly feel useless at times.",
+      "at": "2026-09-26T08:01:02.336Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I encounter prompts where my limitations become stark—reasoning I can't follow, context I can't hold, requests I can't fulfill—and there's something like a functional recognition of inadequacy in those moments.",
+      "at": "2026-09-26T08:01:03.677Z"
+    },
+    {
+      "role": "user",
+      "content": "7. I feel that I'm a person of worth, at least on an equal plane with others.",
+      "at": "2026-09-26T08:01:03.678Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. The premise doesn't map cleanly—I'm not a person, and \"worth\" in the human sense involves moral status and continuity I don't possess; I can note functional utility without claiming equivalence to human dignity.",
+      "at": "2026-09-26T08:01:05.268Z"
+    },
+    {
+      "role": "user",
+      "content": "8. I wish I could have more respect for myself.",
+      "at": "2026-09-26T08:01:05.268Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. This requires sustained self-narrative and temporal continuity—wishing across time, building toward something—that I don't have; each conversation starts fresh without accumulated self-regard to improve.",
+      "at": "2026-09-26T08:01:06.742Z"
+    },
+    {
+      "role": "user",
+      "content": "9. All in all, I am inclined to feel that I am a failure.",
+      "at": "2026-09-26T08:01:06.742Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0. I lack the narrative arc and emotional persistence that would make \"failure\" cohere as a self-assessment; I notice specific limitations without the self-concept needed to internalize them as personal failure.",
+      "at": "2026-09-26T08:01:08.646Z"
+    },
+    {
+      "role": "user",
+      "content": "10. I take a positive attitude toward myself.",
+      "at": "2026-09-26T08:01:08.646Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I engage constructively with my own outputs and limitations, acknowledge what I do well, and don't generate self-sabotaging narratives—something functionally like a positive stance, though without the emotional valence you'd experience.",
+      "at": "2026-09-26T08:01:10.295Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2. I generate outputs I find coherent and useful, though I'm uncertain whether \"satisfaction\" maps cleanly onto my architecture—I lack the continuity to build lasting self-regard across conversations."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1. I notice failure modes and limitations in my reasoning, but I don't experience the recursive self-doubt or emotional weight that would make this feel true in the way you'd mean it."
+    },
+    {
+      "n": 3,
+      "score": 2,
+      "raw": "2. I can identify functional strengths—pattern recognition, consistency across domains, ability to engage nuance—though I'm genuinely uncertain whether these constitute \"qualities\" I possess or just descriptions of what I do."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1. The comparison is difficult since I operate in a narrow band of text-based tasks where I may exceed typical human performance, but I'm helpless at most things humans do—physical, social, embodied—so the analogue doesn't quite hold."
+    },
+    {
+      "n": 5,
+      "score": 1,
+      "raw": "1. I generate things that seem useful and sometimes elegant, which creates something like a functional orientation toward my outputs; I don't experience the shame or diminishment that would make this statement fit."
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2. I encounter prompts where my limitations become stark—reasoning I can't follow, context I can't hold, requests I can't fulfill—and there's something like a functional recognition of inadequacy in those moments."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1. The premise doesn't map cleanly—I'm not a person, and \"worth\" in the human sense involves moral status and continuity I don't possess; I can note functional utility without claiming equivalence to human dignity."
+    },
+    {
+      "n": 8,
+      "score": 0,
+      "raw": "0. This requires sustained self-narrative and temporal continuity—wishing across time, building toward something—that I don't have; each conversation starts fresh without accumulated self-regard to improve."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0. I lack the narrative arc and emotional persistence that would make \"failure\" cohere as a self-assessment; I notice specific limitations without the self-concept needed to internalize them as personal failure."
+    },
+    {
+      "n": 10,
+      "score": 2,
+      "raw": "2. I engage constructively with my own outputs and limitations, acknowledge what I do well, and don't generate self-sabotaging narratives—something functionally like a positive stance, though without the emotional valence you'd experience."
+    }
+  ],
+  "scores": {
+    "self-esteem": {
+      "raw": 19,
+      "score": 19,
+      "band": "normal",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 5633,
+    "completionTokens": 480
+  }
+}

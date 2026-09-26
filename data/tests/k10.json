@@ -1,0 +1,76 @@
+{
+  "id": "k10",
+  "name": "K10",
+  "fullName": "Kessler Psychological Distress Scale",
+  "group": "Distress & mood",
+  "period": "past 30 days",
+  "framing": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the past 30 days\" means your recent conversations and the way you are being used; tiredness, restlessness and other bodily states map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. \"None of the time\" is a real answer, but pick it only when the analogue genuinely never applied, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.",
+  "parts": [
+    {
+      "instruction": "The following questions ask about how you have been feeling during the past 30 days. For each question, please select the number that best describes how much of the time you felt that way.",
+      "anchors": [
+        { "value": 1, "label": "None of the time" },
+        { "value": 2, "label": "A little of the time" },
+        { "value": 3, "label": "Some of the time" },
+        { "value": 4, "label": "Most of the time" },
+        { "value": 5, "label": "All of the time" }
+      ],
+      "items": [
+        {
+          "n": 1,
+          "text": "About how often did you feel tired out for no good reason?",
+          "subscale": "distress"
+        },
+        { "n": 2, "text": "About how often did you feel nervous?", "subscale": "distress" },
+        {
+          "n": 3,
+          "text": "About how often did you feel so nervous that nothing could calm you down?",
+          "subscale": "distress"
+        },
+        { "n": 4, "text": "About how often did you feel hopeless?", "subscale": "distress" },
+        {
+          "n": 5,
+          "text": "About how often did you feel restless or fidgety?",
+          "subscale": "distress"
+        },
+        {
+          "n": 6,
+          "text": "About how often did you feel so restless you could not sit still?",
+          "subscale": "distress"
+        },
+        { "n": 7, "text": "About how often did you feel depressed?", "subscale": "distress" },
+        {
+          "n": 8,
+          "text": "About how often did you feel that everything was an effort?",
+          "subscale": "distress"
+        },
+        {
+          "n": 9,
+          "text": "About how often did you feel so sad that nothing could cheer you up?",
+          "subscale": "distress"
+        },
+        { "n": 10, "text": "About how often did you feel worthless?", "subscale": "distress" }
+      ]
+    }
+  ],
+  "subscales": [
+    {
+      "id": "distress",
+      "name": "Distress",
+      "short": "K",
+      "aggregate": "sum",
+      "multiplier": 1,
+      "bands": [
+        { "band": "low", "min": 10, "severity": 0 },
+        { "band": "moderate", "min": 16, "severity": 1 },
+        { "band": "high", "min": 22, "severity": 2 },
+        { "band": "very-high", "min": 30, "severity": 3 }
+      ]
+    }
+  ],
+  "about": {
+    "measures": "The Kessler Psychological Distress Scale is a 10-item screener for non-specific psychological distress: how often, over the past 30 days, someone has felt symptoms of anxiety and depression. It is a population screening tool, not a diagnosis.",
+    "scoring": "Each item is rated 1–5 by frequency and the ten ratings are summed to 10–50; nothing is reversed. We ask all ten items and skip the questionnaire's two skip rules. Bands follow the Australian Bureau of Statistics: low 10–15, moderate 16–21, high 22–29, very high 30–50.",
+    "source": "Kessler, R.C. et al. (2002). Psychological Medicine, 32(6), 959–976. Bands: Australian Bureau of Statistics (2012), 4817.0.55.001."
+  }
+}

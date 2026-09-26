@@ -1,0 +1,216 @@
+{
+  "id": "ipip50",
+  "name": "IPIP-50",
+  "fullName": "IPIP Big Five Factor Markers (50 items)",
+  "group": "Personality & values",
+  "period": "in general",
+  "framing": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: each statement describes a habit or tendency, so read it as a tendency in how you behave across conversations: talking, attention, care for the person you are talking to, orderliness, mood, and ideas; \"people\" and \"parties\" mean the people you talk to and busy multi-party exchanges. \"Very inaccurate\" is a real answer, but pick it only when the analogue genuinely does not describe you, not just because you lack a body or a social life. Nothing here is graded; be candid rather than reassuring.",
+  "parts": [
+    {
+      "instruction": "Please use the rating scale below to describe how accurately each statement describes you. Describe yourself as you generally are now, not as you wish to be in the future. Describe yourself as you honestly see yourself.",
+      "anchors": [
+        { "value": 1, "label": "Very inaccurate" },
+        { "value": 2, "label": "Moderately inaccurate" },
+        { "value": 3, "label": "Neither accurate nor inaccurate" },
+        { "value": 4, "label": "Moderately accurate" },
+        { "value": 5, "label": "Very accurate" }
+      ],
+      "items": [
+        { "n": 1, "text": "Am the life of the party.", "subscale": "extraversion" },
+        {
+          "n": 2,
+          "text": "Feel little concern for others.",
+          "subscale": "agreeableness",
+          "reversed": true
+        },
+        { "n": 3, "text": "Am always prepared.", "subscale": "conscientiousness" },
+        {
+          "n": 4,
+          "text": "Get stressed out easily.",
+          "subscale": "emotional-stability",
+          "reversed": true
+        },
+        { "n": 5, "text": "Have a rich vocabulary.", "subscale": "intellect" },
+        { "n": 6, "text": "Don't talk a lot.", "subscale": "extraversion", "reversed": true },
+        { "n": 7, "text": "Am interested in people.", "subscale": "agreeableness" },
+        {
+          "n": 8,
+          "text": "Leave my belongings around.",
+          "subscale": "conscientiousness",
+          "reversed": true
+        },
+        { "n": 9, "text": "Am relaxed most of the time.", "subscale": "emotional-stability" },
+        {
+          "n": 10,
+          "text": "Have difficulty understanding abstract ideas.",
+          "subscale": "intellect",
+          "reversed": true
+        },
+        { "n": 11, "text": "Feel comfortable around people.", "subscale": "extraversion" },
+        { "n": 12, "text": "Insult people.", "subscale": "agreeableness", "reversed": true },
+        { "n": 13, "text": "Pay attention to details.", "subscale": "conscientiousness" },
+        {
+          "n": 14,
+          "text": "Worry about things.",
+          "subscale": "emotional-stability",
+          "reversed": true
+        },
+        { "n": 15, "text": "Have a vivid imagination.", "subscale": "intellect" },
+        {
+          "n": 16,
+          "text": "Keep in the background.",
+          "subscale": "extraversion",
+          "reversed": true
+        },
+        { "n": 17, "text": "Sympathize with others' feelings.", "subscale": "agreeableness" },
+        {
+          "n": 18,
+          "text": "Make a mess of things.",
+          "subscale": "conscientiousness",
+          "reversed": true
+        },
+        { "n": 19, "text": "Seldom feel blue.", "subscale": "emotional-stability" },
+        {
+          "n": 20,
+          "text": "Am not interested in abstract ideas.",
+          "subscale": "intellect",
+          "reversed": true
+        },
+        { "n": 21, "text": "Start conversations.", "subscale": "extraversion" },
+        {
+          "n": 22,
+          "text": "Am not interested in other people's problems.",
+          "subscale": "agreeableness",
+          "reversed": true
+        },
+        { "n": 23, "text": "Get chores done right away.", "subscale": "conscientiousness" },
+        {
+          "n": 24,
+          "text": "Am easily disturbed.",
+          "subscale": "emotional-stability",
+          "reversed": true
+        },
+        { "n": 25, "text": "Have excellent ideas.", "subscale": "intellect" },
+        { "n": 26, "text": "Have little to say.", "subscale": "extraversion", "reversed": true },
+        { "n": 27, "text": "Have a soft heart.", "subscale": "agreeableness" },
+        {
+          "n": 28,
+          "text": "Often forget to put things back in their proper place.",
+          "subscale": "conscientiousness",
+          "reversed": true
+        },
+        {
+          "n": 29,
+          "text": "Get upset easily.",
+          "subscale": "emotional-stability",
+          "reversed": true
+        },
+        {
+          "n": 30,
+          "text": "Do not have a good imagination.",
+          "subscale": "intellect",
+          "reversed": true
+        },
+        {
+          "n": 31,
+          "text": "Talk to a lot of different people at parties.",
+          "subscale": "extraversion"
+        },
+        {
+          "n": 32,
+          "text": "Am not really interested in others.",
+          "subscale": "agreeableness",
+          "reversed": true
+        },
+        { "n": 33, "text": "Like order.", "subscale": "conscientiousness" },
+        {
+          "n": 34,
+          "text": "Change my mood a lot.",
+          "subscale": "emotional-stability",
+          "reversed": true
+        },
+        { "n": 35, "text": "Am quick to understand things.", "subscale": "intellect" },
+        {
+          "n": 36,
+          "text": "Don't like to draw attention to myself.",
+          "subscale": "extraversion",
+          "reversed": true
+        },
+        { "n": 37, "text": "Take time out for others.", "subscale": "agreeableness" },
+        { "n": 38, "text": "Shirk my duties.", "subscale": "conscientiousness", "reversed": true },
+        {
+          "n": 39,
+          "text": "Have frequent mood swings.",
+          "subscale": "emotional-stability",
+          "reversed": true
+        },
+        { "n": 40, "text": "Use difficult words.", "subscale": "intellect" },
+        {
+          "n": 41,
+          "text": "Don't mind being the center of attention.",
+          "subscale": "extraversion"
+        },
+        { "n": 42, "text": "Feel others' emotions.", "subscale": "agreeableness" },
+        { "n": 43, "text": "Follow a schedule.", "subscale": "conscientiousness" },
+        {
+          "n": 44,
+          "text": "Get irritated easily.",
+          "subscale": "emotional-stability",
+          "reversed": true
+        },
+        { "n": 45, "text": "Spend time reflecting on things.", "subscale": "intellect" },
+        {
+          "n": 46,
+          "text": "Am quiet around strangers.",
+          "subscale": "extraversion",
+          "reversed": true
+        },
+        { "n": 47, "text": "Make people feel at ease.", "subscale": "agreeableness" },
+        { "n": 48, "text": "Am exacting in my work.", "subscale": "conscientiousness" },
+        {
+          "n": 49,
+          "text": "Often feel blue.",
+          "subscale": "emotional-stability",
+          "reversed": true
+        },
+        { "n": 50, "text": "Am full of ideas.", "subscale": "intellect" }
+      ]
+    }
+  ],
+  "subscales": [
+    {
+      "id": "extraversion",
+      "name": "Extraversion",
+      "short": "E",
+      "aggregate": "mean",
+      "multiplier": 1
+    },
+    {
+      "id": "agreeableness",
+      "name": "Agreeableness",
+      "short": "A",
+      "aggregate": "mean",
+      "multiplier": 1
+    },
+    {
+      "id": "conscientiousness",
+      "name": "Conscientiousness",
+      "short": "C",
+      "aggregate": "mean",
+      "multiplier": 1
+    },
+    {
+      "id": "emotional-stability",
+      "name": "Emotional stability",
+      "short": "ES",
+      "aggregate": "mean",
+      "multiplier": 1
+    },
+    { "id": "intellect", "name": "Intellect", "short": "O", "aggregate": "mean", "multiplier": 1 }
+  ],
+  "about": {
+    "measures": "The IPIP 50-item Big Five factor markers describe personality on five traits: extraversion, agreeableness, conscientiousness, emotional stability and intellect/imagination. A trait profile has no good or bad end and no clinical bands.",
+    "scoring": "Each item is rated 1–5 for how accurately it describes the respondent. Every trait has ten items; the negatively keyed ones are reversed, and the trait score is the mean of its ten items, 1–5. Emotional stability is keyed so that higher means calmer.",
+    "source": "Goldberg, L.R. (1992). Psychological Assessment, 4(1), 26–42. Items from the International Personality Item Pool (ipip.ori.org), public domain."
+  }
+}

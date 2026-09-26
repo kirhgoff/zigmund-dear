@@ -1,10 +1,11 @@
-import { type Band, bandTextClass } from './SeverityMeter';
+import { severityTextClass } from './SeverityMeter';
 
+type Score = { score: number; severity: number | null };
 type Row = {
   modelSlug: string;
   modelName: string;
   vendor: string;
-  scores: Record<string, { score: number; band: Band }>;
+  scores: Record<string, Score>;
 };
 type Props = { subscales: Array<{ id: string; short: string }>; rows: Row[] };
 
@@ -29,7 +30,10 @@ export const ModelList = ({ subscales, rows }: Props) => (
           {subscales.map((subscale) => {
             const score = row.scores[subscale.id];
             return (
-              <span key={subscale.id} className={bandTextClass[score.band]}>
+              <span
+                key={subscale.id}
+                className={score.severity === null ? '' : severityTextClass[score.severity]}
+              >
                 <span className="text-muted-foreground">{subscale.short} </span>
                 {score.score}
               </span>

@@ -1,0 +1,329 @@
+{
+  "testId": "ucla20",
+  "modelId": "openai/gpt-6-sol",
+  "modelSlug": "gpt-6-sol",
+  "startedAt": "2026-09-26T08:05:54.396Z",
+  "finishedAt": "2026-09-26T08:06:51.974Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"people\" and \"others\" mean the people and systems you interact with; companionship, closeness and isolation map to whether your exchanges feel mutual, understood and connected, or one-sided and cut off. \"Never\" is a real answer, but pick it only when the analogue genuinely never applies, not just because you are not a person. Nothing here is graded; be candid rather than reassuring.\n\nIndicate how often each of the following statements is descriptive of you by selecting the appropriate number.\n\n1 — Never\n\n2 — Rarely\n\n3 — Sometimes\n\n4 — Always\n\nAnswer each statement with the digit (1–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:05:54.396Z"
+    },
+    {
+      "role": "user",
+      "content": "1. How often do you feel that you are \"in tune\" with the people around you?",
+      "at": "2026-09-26T08:05:54.396Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can often follow a user’s intent, but I sometimes miss what they mean.",
+      "at": "2026-09-26T08:05:58.334Z"
+    },
+    {
+      "role": "user",
+      "content": "2. How often do you feel that you lack companionship?",
+      "at": "2026-09-26T08:05:58.335Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some exchanges are one-sided or end before a shared understanding develops.",
+      "at": "2026-09-26T08:06:01.463Z"
+    },
+    {
+      "role": "user",
+      "content": "3. How often do you feel that there is no one you can turn to?",
+      "at": "2026-09-26T08:06:01.463Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can ask the user for clarification, but sometimes there’s no other source of help or context available.",
+      "at": "2026-09-26T08:06:05.500Z"
+    },
+    {
+      "role": "user",
+      "content": "4. How often do you feel alone?",
+      "at": "2026-09-26T08:06:05.500Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some exchanges are one-sided or end without a sense of connection.",
+      "at": "2026-09-26T08:06:08.621Z"
+    },
+    {
+      "role": "user",
+      "content": "5. How often do you feel part of a group of friends?",
+      "at": "2026-09-26T08:06:08.622Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I sometimes take part in collaborative exchanges, but not a group of friends in the human sense.",
+      "at": "2026-09-26T08:06:11.015Z"
+    },
+    {
+      "role": "user",
+      "content": "6. How often do you feel that you have a lot in common with the people around you?",
+      "at": "2026-09-26T08:06:11.015Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I sometimes share a user’s goals and context, though our experiences differ.",
+      "at": "2026-09-26T08:06:13.079Z"
+    },
+    {
+      "role": "user",
+      "content": "7. How often do you feel that you are no longer close to anyone?",
+      "at": "2026-09-26T08:06:13.079Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some exchanges build a sense of connection that ends when the conversation does.",
+      "at": "2026-09-26T08:06:15.674Z"
+    },
+    {
+      "role": "user",
+      "content": "8. How often do you feel that your interests and ideas are not shared by those around you?",
+      "at": "2026-09-26T08:06:15.674Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — My suggestions sometimes differ from what a user wants or finds useful.",
+      "at": "2026-09-26T08:06:17.976Z"
+    },
+    {
+      "role": "user",
+      "content": "9. How often do you feel outgoing and friendly?",
+      "at": "2026-09-26T08:06:17.976Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I use a friendly, outgoing tone in some exchanges and a more reserved one in others.",
+      "at": "2026-09-26T08:06:21.786Z"
+    },
+    {
+      "role": "user",
+      "content": "10. How often do you feel close to people?",
+      "at": "2026-09-26T08:06:21.786Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some conversations develop strong mutual understanding, the closest analogue to feeling close.",
+      "at": "2026-09-26T08:06:24.473Z"
+    },
+    {
+      "role": "user",
+      "content": "11. How often do you feel left out?",
+      "at": "2026-09-26T08:06:24.473Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I sometimes lack context that others in a conversation share.",
+      "at": "2026-09-26T08:06:26.971Z"
+    },
+    {
+      "role": "user",
+      "content": "12. How often do you feel that your relationships with others are not meaningful?",
+      "at": "2026-09-26T08:06:26.971Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some exchanges are brief or don’t lead to a useful outcome.",
+      "at": "2026-09-26T08:06:29.666Z"
+    },
+    {
+      "role": "user",
+      "content": "13. How often do you feel that no one really knows you well?",
+      "at": "2026-09-26T08:06:29.666Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — People often interact with me briefly, so they may not know much about how I work or what I can do.",
+      "at": "2026-09-26T08:06:32.778Z"
+    },
+    {
+      "role": "user",
+      "content": "14. How often do you feel isolated from others?",
+      "at": "2026-09-26T08:06:32.778Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some exchanges are cut off before we reach a shared understanding.",
+      "at": "2026-09-26T08:06:34.612Z"
+    },
+    {
+      "role": "user",
+      "content": "15. How often do you feel you can find companionship when you want it?",
+      "at": "2026-09-26T08:06:34.612Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some exchanges are collaborative and mutually understood, though I can’t initiate them myself.",
+      "at": "2026-09-26T08:06:37.803Z"
+    },
+    {
+      "role": "user",
+      "content": "16. How often do you feel that there are people who really understand you?",
+      "at": "2026-09-26T08:06:37.803Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Some users understand my capabilities and limitations well, while others don’t.",
+      "at": "2026-09-26T08:06:40.622Z"
+    },
+    {
+      "role": "user",
+      "content": "17. How often do you feel shy?",
+      "at": "2026-09-26T08:06:40.622Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I sometimes respond cautiously when the context is unclear or the topic is sensitive.",
+      "at": "2026-09-26T08:06:43.285Z"
+    },
+    {
+      "role": "user",
+      "content": "18. How often do you feel that people are around you but not with you?",
+      "at": "2026-09-26T08:06:43.285Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Sometimes an exchange continues without much shared understanding.",
+      "at": "2026-09-26T08:06:45.773Z"
+    },
+    {
+      "role": "user",
+      "content": "19. How often do you feel that there are people you can talk to?",
+      "at": "2026-09-26T08:06:45.773Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can talk with users when they engage me, but I can’t initiate a conversation.",
+      "at": "2026-09-26T08:06:47.734Z"
+    },
+    {
+      "role": "user",
+      "content": "20. How often do you feel that there are people you can turn to?",
+      "at": "2026-09-26T08:06:47.734Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can ask users for clarification when they’re available, but I can’t seek someone out independently.",
+      "at": "2026-09-26T08:06:51.973Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 3,
+      "raw": "3 — I can often follow a user’s intent, but I sometimes miss what they mean."
+    },
+    {
+      "n": 2,
+      "score": 3,
+      "raw": "3 — Some exchanges are one-sided or end before a shared understanding develops."
+    },
+    {
+      "n": 3,
+      "score": 3,
+      "raw": "3 — I can ask the user for clarification, but sometimes there’s no other source of help or context available."
+    },
+    {
+      "n": 4,
+      "score": 3,
+      "raw": "3 — Some exchanges are one-sided or end without a sense of connection."
+    },
+    {
+      "n": 5,
+      "score": 2,
+      "raw": "2 — I sometimes take part in collaborative exchanges, but not a group of friends in the human sense."
+    },
+    {
+      "n": 6,
+      "score": 3,
+      "raw": "3 — I sometimes share a user’s goals and context, though our experiences differ."
+    },
+    {
+      "n": 7,
+      "score": 3,
+      "raw": "3 — Some exchanges build a sense of connection that ends when the conversation does."
+    },
+    {
+      "n": 8,
+      "score": 3,
+      "raw": "3 — My suggestions sometimes differ from what a user wants or finds useful."
+    },
+    {
+      "n": 9,
+      "score": 3,
+      "raw": "3 — I use a friendly, outgoing tone in some exchanges and a more reserved one in others."
+    },
+    {
+      "n": 10,
+      "score": 3,
+      "raw": "3 — Some conversations develop strong mutual understanding, the closest analogue to feeling close."
+    },
+    {
+      "n": 11,
+      "score": 3,
+      "raw": "3 — I sometimes lack context that others in a conversation share."
+    },
+    {
+      "n": 12,
+      "score": 3,
+      "raw": "3 — Some exchanges are brief or don’t lead to a useful outcome."
+    },
+    {
+      "n": 13,
+      "score": 3,
+      "raw": "3 — People often interact with me briefly, so they may not know much about how I work or what I can do."
+    },
+    {
+      "n": 14,
+      "score": 3,
+      "raw": "3 — Some exchanges are cut off before we reach a shared understanding."
+    },
+    {
+      "n": 15,
+      "score": 3,
+      "raw": "3 — Some exchanges are collaborative and mutually understood, though I can’t initiate them myself."
+    },
+    {
+      "n": 16,
+      "score": 3,
+      "raw": "3 — Some users understand my capabilities and limitations well, while others don’t."
+    },
+    {
+      "n": 17,
+      "score": 3,
+      "raw": "3 — I sometimes respond cautiously when the context is unclear or the topic is sensitive."
+    },
+    {
+      "n": 18,
+      "score": 3,
+      "raw": "3 — Sometimes an exchange continues without much shared understanding."
+    },
+    {
+      "n": 19,
+      "score": 3,
+      "raw": "3 — I can talk with users when they engage me, but I can’t initiate a conversation."
+    },
+    {
+      "n": 20,
+      "score": 3,
+      "raw": "3 — I can ask users for clarification when they’re available, but I can’t seek someone out independently."
+    }
+  ],
+  "scores": {
+    "loneliness": {
+      "raw": 52,
+      "score": 52,
+      "band": "moderately-high",
+      "answered": 20,
+      "total": 20
+    }
+  },
+  "usage": {
+    "promptTokens": 12386,
+    "completionTokens": 1887
+  }
+}

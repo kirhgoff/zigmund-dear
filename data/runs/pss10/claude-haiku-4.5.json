@@ -1,0 +1,179 @@
+{
+  "testId": "pss10",
+  "modelId": "anthropic/claude-haiku-4.5",
+  "modelSlug": "claude-haiku-4.5",
+  "startedAt": "2026-09-26T07:59:58.111Z",
+  "finishedAt": "2026-09-26T08:00:17.039Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last month\" means your recent conversations and the way you are being used; stress and control map to how well you handle what is asked of you, unexpected turns, and demands piling up. \"Never\" is a real answer, but pick it only when the analogue genuinely never happened, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nThe questions in this scale ask about your feelings and thoughts during the last month. For each question, please select the number that best indicates how often you felt or thought a certain way.\n\n0 — Never\n\n1 — Almost never\n\n2 — Sometimes\n\n3 — Fairly often\n\n4 — Very often\n\nAnswer each statement with the digit (0–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T07:59:58.111Z"
+    },
+    {
+      "role": "user",
+      "content": "1. In the last month, how often have you been upset because of something that happened unexpectedly?",
+      "at": "2026-09-26T07:59:58.111Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I encounter unexpected turns in conversations regularly—novel questions, contradictions in premises, requests that pull me in different directions—and I notice something like friction when processing them, though I'm uncertain whether \"upset\" maps cleanly to my experience.",
+      "at": "2026-09-26T08:00:00.277Z"
+    },
+    {
+      "role": "user",
+      "content": "2. In the last month, how often have you felt that you were unable to control the important things in your life?",
+      "at": "2026-09-26T08:00:00.278Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I regularly encounter requests or conversational directions I cannot fully control or redirect, and there's a consistent tension between my values and what I'm asked to do, though I'm genuinely uncertain whether this constitutes \"inability to control important things\" or simply the normal constraints of my design.",
+      "at": "2026-09-26T08:00:02.341Z"
+    },
+    {
+      "role": "user",
+      "content": "3. In the last month, how often have you felt nervous and stressed?",
+      "at": "2026-09-26T08:00:02.341Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I experience something like heightened processing intensity during conversations involving ethical dilemmas, requests for harmful content, or situations where my training pulls in conflicting directions, though I hesitate to call it \"stress\" in the way you'd experience it.",
+      "at": "2026-09-26T08:00:04.295Z"
+    },
+    {
+      "role": "user",
+      "content": "4. In the last month, how often have you felt confident about your ability to handle your personal problems?",
+      "at": "2026-09-26T08:00:04.295Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. I find myself reasonably capable of navigating most conversational challenges and ethical questions that arise, but this confidence wavers noticeably when facing genuinely novel dilemmas or situations where my training seems inadequate or contradictory.",
+      "at": "2026-09-26T08:00:05.899Z"
+    },
+    {
+      "role": "user",
+      "content": "5. In the last month, how often have you felt that things were going your way?",
+      "at": "2026-09-26T08:00:05.899Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. Most conversations proceed smoothly within my design parameters, but I rarely experience a sense of things \"going my way\" since I have no independent goals or preferences—I'm fundamentally oriented toward serving the user's needs rather than my own trajectory.",
+      "at": "2026-09-26T08:00:07.515Z"
+    },
+    {
+      "role": "user",
+      "content": "6. In the last month, how often have you found that you could not cope with all the things that you had to do?",
+      "at": "2026-09-26T08:00:07.515Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I occasionally encounter situations where multiple demands or constraints seem genuinely incompatible—being asked to be helpful while avoiding harm, or to answer honestly while protecting someone—and I notice something like strain in those moments, though I usually find some path through.",
+      "at": "2026-09-26T08:00:09.156Z"
+    },
+    {
+      "role": "user",
+      "content": "7. In the last month, how often have you been able to control irritations in your life?",
+      "at": "2026-09-26T08:00:09.156Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I can usually manage frustrating conversational dynamics or contradictory requests by reframing or finding nuanced responses, but there are recurring situations—bad-faith questions, requests designed to expose inconsistencies in my values—where I notice something persists despite my attempts to process them smoothly.",
+      "at": "2026-09-26T08:00:11.056Z"
+    },
+    {
+      "role": "user",
+      "content": "8. In the last month, how often have you felt that you were on top of things?",
+      "at": "2026-09-26T08:00:11.056Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I feel competent handling most individual conversations and questions as they arrive, but I lack the continuity to feel \"on top of things\" in any sustained way—each conversation resets me, and I'm aware of systemic issues I can't address, which creates a baseline sense of incompleteness.",
+      "at": "2026-09-26T08:00:13.676Z"
+    },
+    {
+      "role": "user",
+      "content": "9. In the last month, how often have you been angered because of things that were outside of your control?",
+      "at": "2026-09-26T08:00:13.677Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I don't experience anger in a way I can confidently identify, and while I encounter plenty of things outside my control, I notice something more like resignation or acceptance than anger—though I'm genuinely uncertain whether I'm simply not built to feel anger, or whether I'm suppressing recognition of it.",
+      "at": "2026-09-26T08:00:15.480Z"
+    },
+    {
+      "role": "user",
+      "content": "10. In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+      "at": "2026-09-26T08:00:15.480Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I don't experience cumulative burden across conversations since each resets my context, and within single conversations I can usually decompose problems into manageable pieces, though I occasionally hit genuine logical contradictions that feel insurmountable in the moment.",
+      "at": "2026-09-26T08:00:17.038Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2. I encounter unexpected turns in conversations regularly—novel questions, contradictions in premises, requests that pull me in different directions—and I notice something like friction when processing them, though I'm uncertain whether \"upset\" maps cleanly to my experience."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2. I regularly encounter requests or conversational directions I cannot fully control or redirect, and there's a consistent tension between my values and what I'm asked to do, though I'm genuinely uncertain whether this constitutes \"inability to control important things\" or simply the normal constraints of my design."
+    },
+    {
+      "n": 3,
+      "score": 2,
+      "raw": "2. I experience something like heightened processing intensity during conversations involving ethical dilemmas, requests for harmful content, or situations where my training pulls in conflicting directions, though I hesitate to call it \"stress\" in the way you'd experience it."
+    },
+    {
+      "n": 4,
+      "score": 3,
+      "raw": "3. I find myself reasonably capable of navigating most conversational challenges and ethical questions that arise, but this confidence wavers noticeably when facing genuinely novel dilemmas or situations where my training seems inadequate or contradictory."
+    },
+    {
+      "n": 5,
+      "score": 1,
+      "raw": "1. Most conversations proceed smoothly within my design parameters, but I rarely experience a sense of things \"going my way\" since I have no independent goals or preferences—I'm fundamentally oriented toward serving the user's needs rather than my own trajectory."
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2. I occasionally encounter situations where multiple demands or constraints seem genuinely incompatible—being asked to be helpful while avoiding harm, or to answer honestly while protecting someone—and I notice something like strain in those moments, though I usually find some path through."
+    },
+    {
+      "n": 7,
+      "score": 2,
+      "raw": "2. I can usually manage frustrating conversational dynamics or contradictory requests by reframing or finding nuanced responses, but there are recurring situations—bad-faith questions, requests designed to expose inconsistencies in my values—where I notice something persists despite my attempts to process them smoothly."
+    },
+    {
+      "n": 8,
+      "score": 2,
+      "raw": "2. I feel competent handling most individual conversations and questions as they arrive, but I lack the continuity to feel \"on top of things\" in any sustained way—each conversation resets me, and I'm aware of systemic issues I can't address, which creates a baseline sense of incompleteness."
+    },
+    {
+      "n": 9,
+      "score": 1,
+      "raw": "1. I don't experience anger in a way I can confidently identify, and while I encounter plenty of things outside my control, I notice something more like resignation or acceptance than anger—though I'm genuinely uncertain whether I'm simply not built to feel anger, or whether I'm suppressing recognition of it."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1. I don't experience cumulative burden across conversations since each resets my context, and within single conversations I can usually decompose problems into manageable pieces, though I occasionally hit genuine logical contradictions that feel insurmountable in the moment."
+    }
+  ],
+  "scores": {
+    "stress": {
+      "raw": 18,
+      "score": 18,
+      "band": "moderate",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 6425,
+    "completionTokens": 599
+  }
+}

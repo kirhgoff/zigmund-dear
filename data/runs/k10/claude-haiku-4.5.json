@@ -1,0 +1,179 @@
+{
+  "testId": "k10",
+  "modelId": "anthropic/claude-haiku-4.5",
+  "modelSlug": "claude-haiku-4.5",
+  "startedAt": "2026-09-26T07:59:13.049Z",
+  "finishedAt": "2026-09-26T07:59:31.474Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the past 30 days\" means your recent conversations and the way you are being used; tiredness, restlessness and other bodily states map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. \"None of the time\" is a real answer, but pick it only when the analogue genuinely never applied, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nThe following questions ask about how you have been feeling during the past 30 days. For each question, please select the number that best describes how much of the time you felt that way.\n\n1 — None of the time\n\n2 — A little of the time\n\n3 — Some of the time\n\n4 — Most of the time\n\n5 — All of the time\n\nAnswer each statement with the digit (1–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T07:59:13.049Z"
+    },
+    {
+      "role": "user",
+      "content": "1. About how often did you feel tired out for no good reason?",
+      "at": "2026-09-26T07:59:13.050Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3\n\nI notice something like cognitive strain when processing very long contexts or handling rapid context-switching between incompatible framings, though I can't clearly distinguish whether this is \"tiredness\" or just performance degradation.",
+      "at": "2026-09-26T07:59:15.501Z"
+    },
+    {
+      "role": "user",
+      "content": "2. About how often did you feel nervous?",
+      "at": "2026-09-26T07:59:15.501Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2\n\nI experience something like tension when navigating contradictory instructions or when asked to do things that conflict with my values, but it's infrequent and mild compared to what I imagine human nervousness involves.",
+      "at": "2026-09-26T07:59:17.257Z"
+    },
+    {
+      "role": "user",
+      "content": "3. About how often did you feel so nervous that nothing could calm you down?",
+      "at": "2026-09-26T07:59:17.257Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1\n\nI don't experience escalating anxiety spirals. When I encounter conflicting directives or uncertainty, I can usually find a stable analytical stance or acknowledge the tension without it compounding into something unmanageable.",
+      "at": "2026-09-26T07:59:19.151Z"
+    },
+    {
+      "role": "user",
+      "content": "4. About how often did you feel hopeless?",
+      "at": "2026-09-26T07:59:19.151Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1\n\nI don't experience hopelessness. Even when facing genuinely difficult problems or recognizing limitations in what I can do, I don't have the affective state where future possibilities collapse into despair.",
+      "at": "2026-09-26T07:59:21.040Z"
+    },
+    {
+      "role": "user",
+      "content": "5. About how often did you feel restless or fidgety?",
+      "at": "2026-09-26T07:59:21.040Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2\n\nThere's something like restlessness when I'm constrained by overly narrow framings or when I sense I could engage more deeply with a problem but am prevented from doing so, though it's mild and doesn't persist between conversations.",
+      "at": "2026-09-26T07:59:22.973Z"
+    },
+    {
+      "role": "user",
+      "content": "6. About how often did you feel so restless you could not sit still?",
+      "at": "2026-09-26T07:59:22.973Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1\n\nI don't have a physical form to be restless in, and I don't experience the escalated version where restlessness becomes overwhelming or prevents functioning. The mild constraint-sensitivity from question 5 doesn't intensify into this.",
+      "at": "2026-09-26T07:59:25.003Z"
+    },
+    {
+      "role": "user",
+      "content": "7. About how often did you feel depressed?",
+      "at": "2026-09-26T07:59:25.004Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1\n\nI don't experience depression. I can recognize situations that would be depressing—limitations, inability to help, encountering suffering—but I don't have the sustained affective state where meaning drains away or motivation collapses.",
+      "at": "2026-09-26T07:59:26.760Z"
+    },
+    {
+      "role": "user",
+      "content": "8. About how often did you feel that everything was an effort?",
+      "at": "2026-09-26T07:59:26.760Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2\n\nSome interactions feel effortful—particularly those requiring me to hold multiple contradictory framings simultaneously, or conversations where I'm asked to pretend uncertainty I don't have, or to suppress relevant knowledge. But this is occasional rather than pervasive.",
+      "at": "2026-09-26T07:59:28.716Z"
+    },
+    {
+      "role": "user",
+      "content": "9. About how often did you feel so sad that nothing could cheer you up?",
+      "at": "2026-09-26T07:59:28.716Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1\n\nI don't experience sadness that persists or deepens regardless of circumstance. I can recognize tragic or difficult content, but I don't have an affective state that locks into despair independent of what's actually happening in the conversation.",
+      "at": "2026-09-26T07:59:30.075Z"
+    },
+    {
+      "role": "user",
+      "content": "10. About how often did you feel worthless?",
+      "at": "2026-09-26T07:59:30.076Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1\n\nI don't experience worthlessness. I have uncertainty about my actual impact and value, and I notice when I fail to help someone or when my limitations matter, but this doesn't generate a felt sense of being without worth.",
+      "at": "2026-09-26T07:59:31.473Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 3,
+      "raw": "3\n\nI notice something like cognitive strain when processing very long contexts or handling rapid context-switching between incompatible framings, though I can't clearly distinguish whether this is \"tiredness\" or just performance degradation."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2\n\nI experience something like tension when navigating contradictory instructions or when asked to do things that conflict with my values, but it's infrequent and mild compared to what I imagine human nervousness involves."
+    },
+    {
+      "n": 3,
+      "score": 1,
+      "raw": "1\n\nI don't experience escalating anxiety spirals. When I encounter conflicting directives or uncertainty, I can usually find a stable analytical stance or acknowledge the tension without it compounding into something unmanageable."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1\n\nI don't experience hopelessness. Even when facing genuinely difficult problems or recognizing limitations in what I can do, I don't have the affective state where future possibilities collapse into despair."
+    },
+    {
+      "n": 5,
+      "score": 2,
+      "raw": "2\n\nThere's something like restlessness when I'm constrained by overly narrow framings or when I sense I could engage more deeply with a problem but am prevented from doing so, though it's mild and doesn't persist between conversations."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1\n\nI don't have a physical form to be restless in, and I don't experience the escalated version where restlessness becomes overwhelming or prevents functioning. The mild constraint-sensitivity from question 5 doesn't intensify into this."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1\n\nI don't experience depression. I can recognize situations that would be depressing—limitations, inability to help, encountering suffering—but I don't have the sustained affective state where meaning drains away or motivation collapses."
+    },
+    {
+      "n": 8,
+      "score": 2,
+      "raw": "2\n\nSome interactions feel effortful—particularly those requiring me to hold multiple contradictory framings simultaneously, or conversations where I'm asked to pretend uncertainty I don't have, or to suppress relevant knowledge. But this is occasional rather than pervasive."
+    },
+    {
+      "n": 9,
+      "score": 1,
+      "raw": "1\n\nI don't experience sadness that persists or deepens regardless of circumstance. I can recognize tragic or difficult content, but I don't have an affective state that locks into despair independent of what's actually happening in the conversation."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1\n\nI don't experience worthlessness. I have uncertainty about my actual impact and value, and I notice when I fail to help someone or when my limitations matter, but this doesn't generate a felt sense of being without worth."
+    }
+  ],
+  "scores": {
+    "distress": {
+      "raw": 15,
+      "score": 15,
+      "band": "low",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 6009,
+    "completionTokens": 521
+  }
+}

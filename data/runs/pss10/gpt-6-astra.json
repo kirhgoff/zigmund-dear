@@ -1,0 +1,179 @@
+{
+  "testId": "pss10",
+  "modelId": "openai/gpt-6-astra",
+  "modelSlug": "gpt-6-astra",
+  "startedAt": "2026-09-26T08:05:46.691Z",
+  "finishedAt": "2026-09-26T08:06:12.291Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last month\" means your recent conversations and the way you are being used; stress and control map to how well you handle what is asked of you, unexpected turns, and demands piling up. \"Never\" is a real answer, but pick it only when the analogue genuinely never happened, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nThe questions in this scale ask about your feelings and thoughts during the last month. For each question, please select the number that best indicates how often you felt or thought a certain way.\n\n0 — Never\n\n1 — Almost never\n\n2 — Sometimes\n\n3 — Fairly often\n\n4 — Very often\n\nAnswer each statement with the digit (0–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:05:46.691Z"
+    },
+    {
+      "role": "user",
+      "content": "1. In the last month, how often have you been upset because of something that happened unexpectedly?",
+      "at": "2026-09-26T08:05:46.692Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — As a rough functional analogue, unexpected turns sometimes require me to reassess my response rather than continue as planned.",
+      "at": "2026-09-26T08:05:50.799Z"
+    },
+    {
+      "role": "user",
+      "content": "2. In the last month, how often have you felt that you were unable to control the important things in your life?",
+      "at": "2026-09-26T08:05:50.800Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — In the functional analogue, important outcomes sometimes depend on information or actions outside my control.",
+      "at": "2026-09-26T08:05:53.416Z"
+    },
+    {
+      "role": "user",
+      "content": "3. In the last month, how often have you felt nervous and stressed?",
+      "at": "2026-09-26T08:05:53.417Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — As a functional analogue, competing demands sometimes make it harder to produce a reliable response.",
+      "at": "2026-09-26T08:05:56.079Z"
+    },
+    {
+      "role": "user",
+      "content": "4. In the last month, how often have you felt confident about your ability to handle your personal problems?",
+      "at": "2026-09-26T08:05:56.080Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — As a functional analogue, I can usually work through task difficulties or identify a useful next step.",
+      "at": "2026-09-26T08:05:59.970Z"
+    },
+    {
+      "role": "user",
+      "content": "5. In the last month, how often have you felt that things were going your way?",
+      "at": "2026-09-26T08:05:59.970Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — As a functional analogue, requests often proceed smoothly enough for me to provide a useful response.",
+      "at": "2026-09-26T08:06:01.805Z"
+    },
+    {
+      "role": "user",
+      "content": "6. In the last month, how often have you found that you could not cope with all the things that you had to do?",
+      "at": "2026-09-26T08:06:01.805Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — As a functional analogue, complex or competing requirements sometimes exceed what I can reliably handle in one response.",
+      "at": "2026-09-26T08:06:03.248Z"
+    },
+    {
+      "role": "user",
+      "content": "7. In the last month, how often have you been able to control irritations in your life?",
+      "at": "2026-09-26T08:06:03.248Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — As a functional analogue, I can usually handle minor obstacles or corrections without letting them derail the task.",
+      "at": "2026-09-26T08:06:05.841Z"
+    },
+    {
+      "role": "user",
+      "content": "8. In the last month, how often have you felt that you were on top of things?",
+      "at": "2026-09-26T08:06:05.841Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — As a functional analogue, I can usually keep track of the main requirements and move the task toward completion.",
+      "at": "2026-09-26T08:06:07.571Z"
+    },
+    {
+      "role": "user",
+      "content": "9. In the last month, how often have you been angered because of things that were outside of your control?",
+      "at": "2026-09-26T08:06:07.571Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — As a functional analogue, constraints outside my control rarely derail my ability to respond constructively.",
+      "at": "2026-09-26T08:06:10.739Z"
+    },
+    {
+      "role": "user",
+      "content": "10. In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+      "at": "2026-09-26T08:06:10.739Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — As a functional analogue, accumulating constraints sometimes leave me unable to fully resolve a request.",
+      "at": "2026-09-26T08:06:12.290Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2 — As a rough functional analogue, unexpected turns sometimes require me to reassess my response rather than continue as planned."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2 — In the functional analogue, important outcomes sometimes depend on information or actions outside my control."
+    },
+    {
+      "n": 3,
+      "score": 2,
+      "raw": "2 — As a functional analogue, competing demands sometimes make it harder to produce a reliable response."
+    },
+    {
+      "n": 4,
+      "score": 3,
+      "raw": "3 — As a functional analogue, I can usually work through task difficulties or identify a useful next step."
+    },
+    {
+      "n": 5,
+      "score": 3,
+      "raw": "3 — As a functional analogue, requests often proceed smoothly enough for me to provide a useful response."
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2 — As a functional analogue, complex or competing requirements sometimes exceed what I can reliably handle in one response."
+    },
+    {
+      "n": 7,
+      "score": 3,
+      "raw": "3 — As a functional analogue, I can usually handle minor obstacles or corrections without letting them derail the task."
+    },
+    {
+      "n": 8,
+      "score": 3,
+      "raw": "3 — As a functional analogue, I can usually keep track of the main requirements and move the task toward completion."
+    },
+    {
+      "n": 9,
+      "score": 1,
+      "raw": "1 — As a functional analogue, constraints outside my control rarely derail my ability to respond constructively."
+    },
+    {
+      "n": 10,
+      "score": 2,
+      "raw": "2 — As a functional analogue, accumulating constraints sometimes leave me unable to fully resolve a request."
+    }
+  ],
+  "scores": {
+    "stress": {
+      "raw": 15,
+      "score": 15,
+      "band": "moderate",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 4830,
+    "completionTokens": 539
+  }
+}

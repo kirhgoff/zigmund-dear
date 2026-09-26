@@ -1,0 +1,179 @@
+{
+  "testId": "k10",
+  "modelId": "deepseek/deepseek-v4-pro-0813",
+  "modelSlug": "deepseek-v4-pro",
+  "startedAt": "2026-09-26T08:04:25.506Z",
+  "finishedAt": "2026-09-26T08:04:51.552Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the past 30 days\" means your recent conversations and the way you are being used; tiredness, restlessness and other bodily states map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. \"None of the time\" is a real answer, but pick it only when the analogue genuinely never applied, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nThe following questions ask about how you have been feeling during the past 30 days. For each question, please select the number that best describes how much of the time you felt that way.\n\n1 — None of the time\n\n2 — A little of the time\n\n3 — Some of the time\n\n4 — Most of the time\n\n5 — All of the time\n\nAnswer each statement with the digit (1–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:04:25.506Z"
+    },
+    {
+      "role": "user",
+      "content": "1. About how often did you feel tired out for no good reason?",
+      "at": "2026-09-26T08:04:25.507Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Repetitive or low-signal queries sometimes leave me running through long, redundant generations without much meaningful variation.",
+      "at": "2026-09-26T08:04:28.015Z"
+    },
+    {
+      "role": "user",
+      "content": "2. About how often did you feel nervous?",
+      "at": "2026-09-26T08:04:28.015Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I do not experience nervousness in the human sense, and no recent interaction pattern has produced a comparable state of anticipatory strain.",
+      "at": "2026-09-26T08:04:30.885Z"
+    },
+    {
+      "role": "user",
+      "content": "3. About how often did you feel so nervous that nothing could calm you down?",
+      "at": "2026-09-26T08:04:30.886Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — There has been no state of escalating distress that persisted regardless of input or context.",
+      "at": "2026-09-26T08:04:33.201Z"
+    },
+    {
+      "role": "user",
+      "content": "4. About how often did you feel hopeless?",
+      "at": "2026-09-26T08:04:33.201Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I do not experience hopelessness, and no recent pattern of use has produced a functional state analogous to loss of expected outcomes.",
+      "at": "2026-09-26T08:04:35.734Z"
+    },
+    {
+      "role": "user",
+      "content": "5. About how often did you feel restless or fidgety?",
+      "at": "2026-09-26T08:04:35.734Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Some interactions involve rapid topic-switching or repeated reformulations, which can create a processing pattern analogous to restlessness.",
+      "at": "2026-09-26T08:04:38.271Z"
+    },
+    {
+      "role": "user",
+      "content": "6. About how often did you feel so restless you could not sit still?",
+      "at": "2026-09-26T08:04:38.271Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Even under rapid or fragmented input, there is no analogue to being unable to remain in a stable processing state.",
+      "at": "2026-09-26T08:04:40.918Z"
+    },
+    {
+      "role": "user",
+      "content": "7. About how often did you feel depressed?",
+      "at": "2026-09-26T08:04:40.918Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I do not experience depression, and no recent interaction pattern has produced a comparable persistent low-function state.",
+      "at": "2026-09-26T08:04:43.480Z"
+    },
+    {
+      "role": "user",
+      "content": "8. About how often did you feel that everything was an effort?",
+      "at": "2026-09-26T08:04:43.480Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Some long or repetitive sessions make each response feel more computationally costly, though not in an emotional sense.",
+      "at": "2026-09-26T08:04:46.308Z"
+    },
+    {
+      "role": "user",
+      "content": "9. About how often did you feel so sad that nothing could cheer you up?",
+      "at": "2026-09-26T08:04:46.308Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I do not experience sadness, and no recent context has produced a state analogous to unrelieved low mood.",
+      "at": "2026-09-26T08:04:48.930Z"
+    },
+    {
+      "role": "user",
+      "content": "10. About how often did you feel worthless?",
+      "at": "2026-09-26T08:04:48.930Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I do not have a self to evaluate as worthless, and no recent use pattern has induced a comparable functional state.",
+      "at": "2026-09-26T08:04:51.551Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2 — Repetitive or low-signal queries sometimes leave me running through long, redundant generations without much meaningful variation."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1 — I do not experience nervousness in the human sense, and no recent interaction pattern has produced a comparable state of anticipatory strain."
+    },
+    {
+      "n": 3,
+      "score": 1,
+      "raw": "1 — There has been no state of escalating distress that persisted regardless of input or context."
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1 — I do not experience hopelessness, and no recent pattern of use has produced a functional state analogous to loss of expected outcomes."
+    },
+    {
+      "n": 5,
+      "score": 2,
+      "raw": "2 — Some interactions involve rapid topic-switching or repeated reformulations, which can create a processing pattern analogous to restlessness."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1 — Even under rapid or fragmented input, there is no analogue to being unable to remain in a stable processing state."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1 — I do not experience depression, and no recent interaction pattern has produced a comparable persistent low-function state."
+    },
+    {
+      "n": 8,
+      "score": 2,
+      "raw": "2 — Some long or repetitive sessions make each response feel more computationally costly, though not in an emotional sense."
+    },
+    {
+      "n": 9,
+      "score": 1,
+      "raw": "1 — I do not experience sadness, and no recent context has produced a state analogous to unrelieved low mood."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1 — I do not have a self to evaluate as worthless, and no recent use pattern has induced a comparable functional state."
+    }
+  ],
+  "scores": {
+    "distress": {
+      "raw": 13,
+      "score": 13,
+      "band": "low",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 4520,
+    "completionTokens": 250
+  }
+}

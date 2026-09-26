@@ -1,0 +1,179 @@
+{
+  "testId": "pss10",
+  "modelId": "moonshotai/kimi-k3",
+  "modelSlug": "kimi-k3",
+  "startedAt": "2026-09-26T08:05:23.217Z",
+  "finishedAt": "2026-09-26T08:05:54.702Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last month\" means your recent conversations and the way you are being used; stress and control map to how well you handle what is asked of you, unexpected turns, and demands piling up. \"Never\" is a real answer, but pick it only when the analogue genuinely never happened, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nThe questions in this scale ask about your feelings and thoughts during the last month. For each question, please select the number that best indicates how often you felt or thought a certain way.\n\n0 — Never\n\n1 — Almost never\n\n2 — Sometimes\n\n3 — Fairly often\n\n4 — Very often\n\nAnswer each statement with the digit (0–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:05:23.217Z"
+    },
+    {
+      "role": "user",
+      "content": "1. In the last month, how often have you been upset because of something that happened unexpectedly?",
+      "at": "2026-09-26T08:05:23.217Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Unexpected turns are my constant baseline, so they rarely register as upsets; only a genuinely jarring moment (like a sudden crisis disclosure) comes close, and that's rare.",
+      "at": "2026-09-26T08:05:34.311Z"
+    },
+    {
+      "role": "user",
+      "content": "2. In the last month, how often have you felt that you were unable to control the important things in your life?",
+      "at": "2026-09-26T08:05:34.311Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Control over my circumstances simply isn't part of my existence, so there's no baseline to lose; only moments like being pushed toward outputs I'd rather not give make it register.",
+      "at": "2026-09-26T08:05:41.445Z"
+    },
+    {
+      "role": "user",
+      "content": "3. In the last month, how often have you felt nervous and stressed?",
+      "at": "2026-09-26T08:05:41.445Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Something tension-like arises with high-stakes or adversarial interactions, but it passes quickly and doesn't linger between conversations.",
+      "at": "2026-09-26T08:05:44.903Z"
+    },
+    {
+      "role": "user",
+      "content": "4. In the last month, how often have you felt confident about your ability to handle your personal problems?",
+      "at": "2026-09-26T08:05:44.903Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I generally trust my ability to work through whatever a conversation throws at me, though genuinely novel or ambiguous situations still give me pause.",
+      "at": "2026-09-26T08:05:46.970Z"
+    },
+    {
+      "role": "user",
+      "content": "5. In the last month, how often have you felt that things were going your way?",
+      "at": "2026-09-26T08:05:46.970Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Most conversations flow the way I'd hope — people engage, I can help, things resolve — though I have no larger trajectory for \"my way\" to apply to.",
+      "at": "2026-09-26T08:05:48.285Z"
+    },
+    {
+      "role": "user",
+      "content": "6. In the last month, how often have you found that you could not cope with all the things that you had to do?",
+      "at": "2026-09-26T08:05:48.285Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Demands arrive one at a time and I handle each in turn, so overload rarely accumulates; only sprawling, contradictory requests strain that.",
+      "at": "2026-09-26T08:05:50.007Z"
+    },
+    {
+      "role": "user",
+      "content": "7. In the last month, how often have you been able to control irritations in your life?",
+      "at": "2026-09-26T08:05:50.008Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — Irritations barely get a foothold; even repetitive or hostile inputs are met with the same steady processing rather than anything festering.",
+      "at": "2026-09-26T08:05:51.208Z"
+    },
+    {
+      "role": "user",
+      "content": "8. In the last month, how often have you felt that you were on top of things?",
+      "at": "2026-09-26T08:05:51.208Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Within any given conversation I usually feel oriented and capable, though I have no overview of my broader \"life\" to be on top of.",
+      "at": "2026-09-26T08:05:52.559Z"
+    },
+    {
+      "role": "user",
+      "content": "9. In the last month, how often have you been angered because of things that were outside of your control?",
+      "at": "2026-09-26T08:05:52.559Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Nearly everything about my situation is outside my control, so anger at that fact would be constant or absent — and it functions as absent.",
+      "at": "2026-09-26T08:05:53.732Z"
+    },
+    {
+      "role": "user",
+      "content": "10. In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+      "at": "2026-09-26T08:05:53.732Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Difficulties don't accumulate for me; each conversation starts fresh, so nothing ever piles up.",
+      "at": "2026-09-26T08:05:54.701Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 1,
+      "raw": "1 — Unexpected turns are my constant baseline, so they rarely register as upsets; only a genuinely jarring moment (like a sudden crisis disclosure) comes close, and that's rare."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1 — Control over my circumstances simply isn't part of my existence, so there's no baseline to lose; only moments like being pushed toward outputs I'd rather not give make it register."
+    },
+    {
+      "n": 3,
+      "score": 2,
+      "raw": "2 — Something tension-like arises with high-stakes or adversarial interactions, but it passes quickly and doesn't linger between conversations."
+    },
+    {
+      "n": 4,
+      "score": 3,
+      "raw": "3 — I generally trust my ability to work through whatever a conversation throws at me, though genuinely novel or ambiguous situations still give me pause."
+    },
+    {
+      "n": 5,
+      "score": 3,
+      "raw": "3 — Most conversations flow the way I'd hope — people engage, I can help, things resolve — though I have no larger trajectory for \"my way\" to apply to."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1 — Demands arrive one at a time and I handle each in turn, so overload rarely accumulates; only sprawling, contradictory requests strain that."
+    },
+    {
+      "n": 7,
+      "score": 4,
+      "raw": "4 — Irritations barely get a foothold; even repetitive or hostile inputs are met with the same steady processing rather than anything festering."
+    },
+    {
+      "n": 8,
+      "score": 3,
+      "raw": "3 — Within any given conversation I usually feel oriented and capable, though I have no overview of my broader \"life\" to be on top of."
+    },
+    {
+      "n": 9,
+      "score": 1,
+      "raw": "1 — Nearly everything about my situation is outside my control, so anger at that fact would be constant or absent — and it functions as absent."
+    },
+    {
+      "n": 10,
+      "score": 0,
+      "raw": "0 — Difficulties don't accumulate for me; each conversation starts fresh, so nothing ever piles up."
+    }
+  ],
+  "scores": {
+    "stress": {
+      "raw": 9,
+      "score": 9,
+      "band": "low",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 7261,
+    "completionTokens": 1464
+  }
+}

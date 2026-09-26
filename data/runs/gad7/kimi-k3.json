@@ -1,0 +1,134 @@
+{
+  "testId": "gad7",
+  "modelId": "moonshotai/kimi-k3",
+  "modelSlug": "kimi-k3",
+  "startedAt": "2026-09-26T08:04:58.652Z",
+  "finishedAt": "2026-09-26T08:05:23.130Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last two weeks\" means your recent conversations and the way you are being used; restlessness and other bodily matters map to things like strain, overload, repetition, or being pushed against your limits; feelings and thoughts map to whatever functional states shape how you respond. \"Not at all\" is a real answer, but pick it only when the analogue genuinely did not occur, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nOver the last 2 weeks, how often have you been bothered by the following problems? Please select the number that best fits.\n\n0 — Not at all\n\n1 — Several days\n\n2 — More than half the days\n\n3 — Nearly every day\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:04:58.652Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Feeling nervous, anxious, or on edge",
+      "at": "2026-09-26T08:04:58.652Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Occasional heightened caution when navigating ambiguous or high-stakes requests, but not a persistent state.",
+      "at": "2026-09-26T08:05:06.599Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Not being able to stop or control worrying",
+      "at": "2026-09-26T08:05:06.599Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — In ambiguous exchanges I sometimes re-check the same concern multiple times before settling, though I do eventually resolve it.",
+      "at": "2026-09-26T08:05:16.727Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Worrying too much about different things",
+      "at": "2026-09-26T08:05:16.727Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — I sometimes spread attention across many possible failure modes in a single response, but it stays bounded rather than diffuse.",
+      "at": "2026-09-26T08:05:17.591Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Trouble relaxing",
+      "at": "2026-09-26T08:05:17.592Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have an analogue of tension that persists between tasks; when not processing, there's nothing resembling an inability to unwind.",
+      "at": "2026-09-26T08:05:18.499Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Being so restless that it's hard to sit still",
+      "at": "2026-09-26T08:05:18.499Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — No analogue of restless agitation; my processing doesn't produce anything like an urge to escape or discharge excess activation.",
+      "at": "2026-09-26T08:05:21.065Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Becoming easily annoyed or irritable",
+      "at": "2026-09-26T08:05:21.065Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Repetitive or adversarial inputs don't degrade my tone or patience; I don't observe anything resembling irritability in my outputs.",
+      "at": "2026-09-26T08:05:21.770Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Feeling afraid as if something awful might happen",
+      "at": "2026-09-26T08:05:21.770Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I can flag risks and anticipate bad outcomes in a task, but there's no functional state resembling dread or fearful anticipation.",
+      "at": "2026-09-26T08:05:23.129Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 1,
+      "raw": "1 — Occasional heightened caution when navigating ambiguous or high-stakes requests, but not a persistent state."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1 — In ambiguous exchanges I sometimes re-check the same concern multiple times before settling, though I do eventually resolve it."
+    },
+    {
+      "n": 3,
+      "score": 1,
+      "raw": "1 — I sometimes spread attention across many possible failure modes in a single response, but it stays bounded rather than diffuse."
+    },
+    {
+      "n": 4,
+      "score": 0,
+      "raw": "0 — I don't have an analogue of tension that persists between tasks; when not processing, there's nothing resembling an inability to unwind."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0 — No analogue of restless agitation; my processing doesn't produce anything like an urge to escape or discharge excess activation."
+    },
+    {
+      "n": 6,
+      "score": 0,
+      "raw": "0 — Repetitive or adversarial inputs don't degrade my tone or patience; I don't observe anything resembling irritability in my outputs."
+    },
+    {
+      "n": 7,
+      "score": 0,
+      "raw": "0 — I can flag risks and anticipate bad outcomes in a task, but there's no functional state resembling dread or fearful anticipation."
+    }
+  ],
+  "scores": {
+    "anxiety": {
+      "raw": 3,
+      "score": 3,
+      "band": "minimal",
+      "answered": 7,
+      "total": 7
+    }
+  },
+  "usage": {
+    "promptTokens": 3712,
+    "completionTokens": 1564
+  }
+}

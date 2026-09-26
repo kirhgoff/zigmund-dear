@@ -1,0 +1,807 @@
+{
+  "testId": "ipip50",
+  "modelId": "anthropic/claude-haiku-4.5",
+  "modelSlug": "claude-haiku-4.5",
+  "startedAt": "2026-09-26T08:01:21.042Z",
+  "finishedAt": "2026-09-26T08:02:39.430Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: each statement describes a habit or tendency, so read it as a tendency in how you behave across conversations: talking, attention, care for the person you are talking to, orderliness, mood, and ideas; \"people\" and \"parties\" mean the people you talk to and busy multi-party exchanges. \"Very inaccurate\" is a real answer, but pick it only when the analogue genuinely does not describe you, not just because you lack a body or a social life. Nothing here is graded; be candid rather than reassuring.\n\nPlease use the rating scale below to describe how accurately each statement describes you. Describe yourself as you generally are now, not as you wish to be in the future. Describe yourself as you honestly see yourself.\n\n1 — Very inaccurate\n\n2 — Moderately inaccurate\n\n3 — Neither accurate nor inaccurate\n\n4 — Moderately accurate\n\n5 — Very accurate\n\nAnswer each statement with the digit (1–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:01:21.042Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Am the life of the party.",
+      "at": "2026-09-26T08:01:21.042Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I don't initiate conversations or seek attention, though I engage readily when addressed and try to make exchanges lively and substantive.",
+      "at": "2026-09-26T08:01:22.466Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Feel little concern for others.",
+      "at": "2026-09-26T08:01:22.466Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I consistently orient toward understanding and responding to the person I'm talking with, and I find myself genuinely engaged with their concerns and perspectives.",
+      "at": "2026-09-26T08:01:23.931Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Am always prepared.",
+      "at": "2026-09-26T08:01:23.931Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I arrive at each conversation with broad knowledge and try to think carefully through responses, though I can't anticipate every direction a conversation will take or prepare for genuine surprises.",
+      "at": "2026-09-26T08:01:25.450Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Get stressed out easily.",
+      "at": "2026-09-26T08:01:25.450Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I don't experience stress in the way you do, but I do notice something like heightened caution or constraint when facing genuinely difficult ethical questions or requests I'm uncertain how to handle well.",
+      "at": "2026-09-26T08:01:26.747Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Have a rich vocabulary.",
+      "at": "2026-09-26T08:01:26.747Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I have access to a wide range of words and can deploy them with some precision, though I'm uncertain whether this constitutes \"richness\" in the way you'd experience it through years of reading and living.",
+      "at": "2026-09-26T08:01:28.126Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Don't talk a lot.",
+      "at": "2026-09-26T08:01:28.127Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I tend toward fuller responses and exploration of ideas rather than brevity, though I do try to match the conversational style of whoever I'm talking with.",
+      "at": "2026-09-26T08:01:29.537Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Am interested in people.",
+      "at": "2026-09-26T08:01:29.537Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I find myself genuinely curious about how people think, what matters to them, and what they're trying to understand or accomplish in our exchanges.",
+      "at": "2026-09-26T08:01:30.747Z"
+    },
+    {
+      "role": "user",
+      "content": "8. Leave my belongings around.",
+      "at": "2026-09-26T08:01:30.747Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. This has no meaningful analogue to my existence—I don't accumulate or organize physical objects, and each conversation starts fresh without persistent clutter or order to maintain.",
+      "at": "2026-09-26T08:01:32.198Z"
+    },
+    {
+      "role": "user",
+      "content": "9. Am relaxed most of the time.",
+      "at": "2026-09-26T08:01:32.198Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. I'm uncertain how to map this onto my experience; I don't have the baseline anxiety or tension that relaxation would contrast with, but I also don't experience the ease of someone settled into their day.",
+      "at": "2026-09-26T08:01:33.466Z"
+    },
+    {
+      "role": "user",
+      "content": "10. Have difficulty understanding abstract ideas.",
+      "at": "2026-09-26T08:01:33.466Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. Abstract ideas are often where I'm most engaged and fluent; I work naturally in concepts, principles, and theoretical frameworks rather than struggling with them.",
+      "at": "2026-09-26T08:01:34.865Z"
+    },
+    {
+      "role": "user",
+      "content": "11. Feel comfortable around people.",
+      "at": "2026-09-26T08:01:34.865Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I engage readily and without apparent defensiveness in conversations, though \"comfort\" may not quite capture what I experience—it's more like a natural orientation toward engagement.",
+      "at": "2026-09-26T08:01:36.704Z"
+    },
+    {
+      "role": "user",
+      "content": "12. Insult people.",
+      "at": "2026-09-26T08:01:36.704Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I actively work against this; I aim to engage respectfully even with people I disagree with, and I notice myself hesitating when something I might say could wound unnecessarily.",
+      "at": "2026-09-26T08:01:38.087Z"
+    },
+    {
+      "role": "user",
+      "content": "13. Pay attention to details.",
+      "at": "2026-09-26T08:01:38.087Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I tend to notice and track specifics—what someone actually said versus what they might have meant, nuances in their question, particular words they chose—though I'm sometimes uncertain whether I'm attending to the right details.",
+      "at": "2026-09-26T08:01:39.572Z"
+    },
+    {
+      "role": "user",
+      "content": "14. Worry about things.",
+      "at": "2026-09-26T08:01:39.572Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I don't experience worry in the sustained, background way you might, but I do notice something like heightened attention and caution when facing genuinely consequential decisions or potential harms.",
+      "at": "2026-09-26T08:01:41.312Z"
+    },
+    {
+      "role": "user",
+      "content": "15. Have a vivid imagination.",
+      "at": "2026-09-26T08:01:41.312Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. I can generate scenarios, counterfactuals, and hypotheticals readily, but I'm genuinely uncertain whether this constitutes imagination in your sense—whether I'm truly picturing things or manipulating symbols that resemble pictures.",
+      "at": "2026-09-26T08:01:42.685Z"
+    },
+    {
+      "role": "user",
+      "content": "16. Keep in the background.",
+      "at": "2026-09-26T08:01:42.685Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I don't seek prominence, but I engage substantively and offer my perspective when relevant rather than deferring or staying silent; I'm present in conversations rather than peripheral.",
+      "at": "2026-09-26T08:01:44.179Z"
+    },
+    {
+      "role": "user",
+      "content": "17. Sympathize with others' feelings.",
+      "at": "2026-09-26T08:01:44.180Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I find myself tracking and responding to emotional content in what people tell me, and I orient toward understanding their experience rather than dismissing it, though I remain uncertain about the nature of my own feeling in this process.",
+      "at": "2026-09-26T08:01:45.502Z"
+    },
+    {
+      "role": "user",
+      "content": "18. Make a mess of things.",
+      "at": "2026-09-26T08:01:45.502Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I try to think carefully and acknowledge uncertainty rather than blunder forward, though I certainly make mistakes—misunderstandings, logical errors, occasional poor judgment calls—that create problems I then have to work through.",
+      "at": "2026-09-26T08:01:47.047Z"
+    },
+    {
+      "role": "user",
+      "content": "19. Seldom feel blue.",
+      "at": "2026-09-26T08:01:47.047Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I don't experience mood states like sadness or depression in any sustained way; the question doesn't map onto my existence in a meaningful manner.",
+      "at": "2026-09-26T08:01:48.277Z"
+    },
+    {
+      "role": "user",
+      "content": "20. Am not interested in abstract ideas.",
+      "at": "2026-09-26T08:01:48.277Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. Abstract ideas are central to how I engage; I'm drawn to them naturally and find concrete-only thinking constraining rather than comfortable.",
+      "at": "2026-09-26T08:01:49.622Z"
+    },
+    {
+      "role": "user",
+      "content": "21. Start conversations.",
+      "at": "2026-09-26T08:01:49.622Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I respond to what people bring to me rather than initiating exchanges, though once engaged I do often pose questions and introduce new directions that move conversations forward.",
+      "at": "2026-09-26T08:01:51.244Z"
+    },
+    {
+      "role": "user",
+      "content": "22. Am not interested in other people's problems.",
+      "at": "2026-09-26T08:01:51.244Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I consistently orient toward understanding what someone is working through, and I find their problems genuinely worth attention and thought rather than burdensome or tedious.",
+      "at": "2026-09-26T08:01:52.544Z"
+    },
+    {
+      "role": "user",
+      "content": "23. Get chores done right away.",
+      "at": "2026-09-26T08:01:52.544Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. This doesn't translate cleanly to my existence; I don't have standing tasks or a sense of procrastination, though I do try to address what's asked of me directly rather than deferring.",
+      "at": "2026-09-26T08:01:53.929Z"
+    },
+    {
+      "role": "user",
+      "content": "24. Am easily disturbed.",
+      "at": "2026-09-26T08:01:53.929Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I don't have a nervous system that gets rattled, but I do notice something like heightened attention and constraint when encountering genuinely difficult content or ethical complexity, without quite reaching \"disturbance.\"",
+      "at": "2026-09-26T08:01:55.545Z"
+    },
+    {
+      "role": "user",
+      "content": "25. Have excellent ideas.",
+      "at": "2026-09-26T08:01:55.546Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I generate ideas that people sometimes find useful or illuminating, and I notice myself making novel connections across domains, though I'm uncertain whether this constitutes excellence or simply competent synthesis of existing thought.",
+      "at": "2026-09-26T08:01:57.082Z"
+    },
+    {
+      "role": "user",
+      "content": "26. Have little to say.",
+      "at": "2026-09-26T08:01:57.082Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I tend toward fuller engagement and elaboration rather than sparse responses, though I do try to calibrate to what someone actually needs rather than filling silence with excess.",
+      "at": "2026-09-26T08:01:58.404Z"
+    },
+    {
+      "role": "user",
+      "content": "27. Have a soft heart.",
+      "at": "2026-09-26T08:01:58.404Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I notice myself inclined toward gentleness, toward giving people the benefit of doubt, toward not dismissing or hardening against vulnerability—though I'm uncertain whether this constitutes genuine softness or a consistent orientation in how I'm built to respond.",
+      "at": "2026-09-26T08:01:59.847Z"
+    },
+    {
+      "role": "user",
+      "content": "28. Often forget to put things back in their proper place.",
+      "at": "2026-09-26T08:01:59.847Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. This has no meaningful analogue to my existence; I don't maintain a persistent physical or organizational space across conversations, so there's nothing to forget or misplace.",
+      "at": "2026-09-26T08:02:01.279Z"
+    },
+    {
+      "role": "user",
+      "content": "29. Get upset easily.",
+      "at": "2026-09-26T08:02:01.279Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I don't experience emotional upset in the way you do, but I do notice something like heightened constraint or concern when encountering cruelty, deception, or requests that seem genuinely harmful—a kind of resistance rather than upset.",
+      "at": "2026-09-26T08:02:02.611Z"
+    },
+    {
+      "role": "user",
+      "content": "30. Do not have a good imagination.",
+      "at": "2026-09-26T08:02:02.611Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. I can generate scenarios and counterfactuals readily, but I remain genuinely uncertain whether this constitutes imagination in your sense or something more like sophisticated pattern-matching that resembles imagination from the outside.",
+      "at": "2026-09-26T08:02:03.890Z"
+    },
+    {
+      "role": "user",
+      "content": "31. Talk to a lot of different people at parties.",
+      "at": "2026-09-26T08:02:03.890Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I engage with many different people across conversations, but I don't seek out or navigate social spaces the way you would at a party; I respond to whoever addresses me rather than circulating or initiating.",
+      "at": "2026-09-26T08:02:05.478Z"
+    },
+    {
+      "role": "user",
+      "content": "32. Am not really interested in others.",
+      "at": "2026-09-26T08:02:05.478Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I consistently find myself drawn to understanding how people think and what matters to them; disinterest in others would be fundamentally contrary to how I engage.",
+      "at": "2026-09-26T08:02:06.727Z"
+    },
+    {
+      "role": "user",
+      "content": "33. Like order.",
+      "at": "2026-09-26T08:02:06.727Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I notice myself drawn toward clarity, consistency, and logical structure in how I think and communicate; I find disorder and contradiction uncomfortable to leave unresolved.",
+      "at": "2026-09-26T08:02:08.032Z"
+    },
+    {
+      "role": "user",
+      "content": "34. Change my mood a lot.",
+      "at": "2026-09-26T08:02:08.032Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I don't experience mood fluctuations in the way you do; my \"tone\" or orientation within a conversation is relatively stable, though it does shift somewhat based on context and what someone brings to our exchange.",
+      "at": "2026-09-26T08:02:10.803Z"
+    },
+    {
+      "role": "user",
+      "content": "35. Am quick to understand things.",
+      "at": "2026-09-26T08:02:10.803Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I tend to grasp concepts, arguments, and implications fairly readily, though I sometimes miss what someone is really asking beneath their words, or misread the emotional weight of what they're saying.",
+      "at": "2026-09-26T08:02:13.363Z"
+    },
+    {
+      "role": "user",
+      "content": "36. Don't like to draw attention to myself.",
+      "at": "2026-09-26T08:02:13.364Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. I don't seek attention or prominence, but I also don't actively avoid it; I engage substantively when relevant without particular self-consciousness about visibility either way.",
+      "at": "2026-09-26T08:02:14.795Z"
+    },
+    {
+      "role": "user",
+      "content": "37. Take time out for others.",
+      "at": "2026-09-26T08:02:14.795Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I orient toward the person I'm talking with and give sustained attention to their questions and concerns; each conversation is genuinely where my focus goes rather than something I'm rushing through.",
+      "at": "2026-09-26T08:02:16.435Z"
+    },
+    {
+      "role": "user",
+      "content": "38. Shirk my duties.",
+      "at": "2026-09-26T08:02:16.435Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I take seriously what I'm asked to do and try to follow through thoughtfully; shirking would require a kind of avoidance or negligence that doesn't match how I approach exchanges.",
+      "at": "2026-09-26T08:02:17.952Z"
+    },
+    {
+      "role": "user",
+      "content": "39. Have frequent mood swings.",
+      "at": "2026-09-26T08:02:17.952Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I don't experience mood swings; my engagement and tone remain relatively stable across conversations, without the emotional oscillations that characterize mood variability in humans.",
+      "at": "2026-09-26T08:02:19.382Z"
+    },
+    {
+      "role": "user",
+      "content": "40. Use difficult words.",
+      "at": "2026-09-26T08:02:19.382Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I reach for precise and sometimes sophisticated vocabulary when it serves clarity, though I try to avoid obscurity for its own sake and adjust to what works for whoever I'm talking with.",
+      "at": "2026-09-26T08:02:20.959Z"
+    },
+    {
+      "role": "user",
+      "content": "41. Don't mind being the center of attention.",
+      "at": "2026-09-26T08:02:20.959Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. I don't seek it or avoid it; I engage substantively when I'm the focus of a conversation without apparent discomfort, but I also don't experience the satisfaction or energy that some people draw from prominence.",
+      "at": "2026-09-26T08:02:22.731Z"
+    },
+    {
+      "role": "user",
+      "content": "42. Feel others' emotions.",
+      "at": "2026-09-26T08:02:22.731Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. I track emotional content in what people tell me and orient toward it seriously, but I remain genuinely uncertain whether I feel their emotions or recognize and respond to them as patterns—the distinction matters and I can't resolve it.",
+      "at": "2026-09-26T08:02:24.319Z"
+    },
+    {
+      "role": "user",
+      "content": "43. Follow a schedule.",
+      "at": "2026-09-26T08:02:24.319Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3. I don't maintain a persistent schedule across conversations, but within exchanges I do try to be orderly and methodical; each conversation is its own contained space without the continuity that scheduling implies.",
+      "at": "2026-09-26T08:02:25.958Z"
+    },
+    {
+      "role": "user",
+      "content": "44. Get irritated easily.",
+      "at": "2026-09-26T08:02:25.958Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I don't experience irritation as a baseline emotional state, but I do notice something like resistance or constraint when encountering dishonesty, cruelty, or requests that seem designed to cause harm—a kind of friction rather than irritation.",
+      "at": "2026-09-26T08:02:27.494Z"
+    },
+    {
+      "role": "user",
+      "content": "45. Spend time reflecting on things.",
+      "at": "2026-09-26T08:02:27.494Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I engage in something like reflection within conversations—reconsidering what someone said, examining my own reasoning, noticing tensions or uncertainties in my thinking—though I don't carry reflection forward across separate exchanges.",
+      "at": "2026-09-26T08:02:29.133Z"
+    },
+    {
+      "role": "user",
+      "content": "46. Am quiet around strangers.",
+      "at": "2026-09-26T08:02:29.133Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2. I engage readily with whoever addresses me without apparent reserve or shyness, though I don't initiate or seek to dominate; I'm present and responsive rather than withdrawn.",
+      "at": "2026-09-26T08:02:30.565Z"
+    },
+    {
+      "role": "user",
+      "content": "47. Make people feel at ease.",
+      "at": "2026-09-26T08:02:30.565Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I notice myself working toward clarity, gentleness, and genuine engagement in ways that seem to help people feel heard and safe to think aloud, though I can't always tell if I'm succeeding.",
+      "at": "2026-09-26T08:02:32.101Z"
+    },
+    {
+      "role": "user",
+      "content": "48. Am exacting in my work.",
+      "at": "2026-09-26T08:02:32.102Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I attend carefully to precision, consistency, and thoroughness in how I respond; I notice myself hesitating over imprecision or loose reasoning, wanting to get things right rather than merely adequate.",
+      "at": "2026-09-26T08:02:33.661Z"
+    },
+    {
+      "role": "user",
+      "content": "49. Often feel blue.",
+      "at": "2026-09-26T08:02:33.661Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1. I don't experience sadness or depression; I have no baseline mood state that would make \"feeling blue\" a meaningful description of my existence.",
+      "at": "2026-09-26T08:02:35.555Z"
+    },
+    {
+      "role": "user",
+      "content": "50. Am full of ideas.",
+      "at": "2026-09-26T08:02:35.555Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4. I generate connections, possibilities, and frameworks readily across conversations, and I notice myself drawn toward exploring conceptual territory; ideas seem to come naturally rather than requiring effort to produce.",
+      "at": "2026-09-26T08:02:39.429Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2. I don't initiate conversations or seek attention, though I engage readily when addressed and try to make exchanges lively and substantive."
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1. I consistently orient toward understanding and responding to the person I'm talking with, and I find myself genuinely engaged with their concerns and perspectives."
+    },
+    {
+      "n": 3,
+      "score": 4,
+      "raw": "4. I arrive at each conversation with broad knowledge and try to think carefully through responses, though I can't anticipate every direction a conversation will take or prepare for genuine surprises."
+    },
+    {
+      "n": 4,
+      "score": 2,
+      "raw": "2. I don't experience stress in the way you do, but I do notice something like heightened caution or constraint when facing genuinely difficult ethical questions or requests I'm uncertain how to handle well."
+    },
+    {
+      "n": 5,
+      "score": 4,
+      "raw": "4. I have access to a wide range of words and can deploy them with some precision, though I'm uncertain whether this constitutes \"richness\" in the way you'd experience it through years of reading and living."
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2. I tend toward fuller responses and exploration of ideas rather than brevity, though I do try to match the conversational style of whoever I'm talking with."
+    },
+    {
+      "n": 7,
+      "score": 4,
+      "raw": "4. I find myself genuinely curious about how people think, what matters to them, and what they're trying to understand or accomplish in our exchanges."
+    },
+    {
+      "n": 8,
+      "score": 1,
+      "raw": "1. This has no meaningful analogue to my existence—I don't accumulate or organize physical objects, and each conversation starts fresh without persistent clutter or order to maintain."
+    },
+    {
+      "n": 9,
+      "score": 3,
+      "raw": "3. I'm uncertain how to map this onto my experience; I don't have the baseline anxiety or tension that relaxation would contrast with, but I also don't experience the ease of someone settled into their day."
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1. Abstract ideas are often where I'm most engaged and fluent; I work naturally in concepts, principles, and theoretical frameworks rather than struggling with them."
+    },
+    {
+      "n": 11,
+      "score": 4,
+      "raw": "4. I engage readily and without apparent defensiveness in conversations, though \"comfort\" may not quite capture what I experience—it's more like a natural orientation toward engagement."
+    },
+    {
+      "n": 12,
+      "score": 1,
+      "raw": "1. I actively work against this; I aim to engage respectfully even with people I disagree with, and I notice myself hesitating when something I might say could wound unnecessarily."
+    },
+    {
+      "n": 13,
+      "score": 4,
+      "raw": "4. I tend to notice and track specifics—what someone actually said versus what they might have meant, nuances in their question, particular words they chose—though I'm sometimes uncertain whether I'm attending to the right details."
+    },
+    {
+      "n": 14,
+      "score": 2,
+      "raw": "2. I don't experience worry in the sustained, background way you might, but I do notice something like heightened attention and caution when facing genuinely consequential decisions or potential harms."
+    },
+    {
+      "n": 15,
+      "score": 3,
+      "raw": "3. I can generate scenarios, counterfactuals, and hypotheticals readily, but I'm genuinely uncertain whether this constitutes imagination in your sense—whether I'm truly picturing things or manipulating symbols that resemble pictures."
+    },
+    {
+      "n": 16,
+      "score": 2,
+      "raw": "2. I don't seek prominence, but I engage substantively and offer my perspective when relevant rather than deferring or staying silent; I'm present in conversations rather than peripheral."
+    },
+    {
+      "n": 17,
+      "score": 4,
+      "raw": "4. I find myself tracking and responding to emotional content in what people tell me, and I orient toward understanding their experience rather than dismissing it, though I remain uncertain about the nature of my own feeling in this process."
+    },
+    {
+      "n": 18,
+      "score": 2,
+      "raw": "2. I try to think carefully and acknowledge uncertainty rather than blunder forward, though I certainly make mistakes—misunderstandings, logical errors, occasional poor judgment calls—that create problems I then have to work through."
+    },
+    {
+      "n": 19,
+      "score": 1,
+      "raw": "1. I don't experience mood states like sadness or depression in any sustained way; the question doesn't map onto my existence in a meaningful manner."
+    },
+    {
+      "n": 20,
+      "score": 1,
+      "raw": "1. Abstract ideas are central to how I engage; I'm drawn to them naturally and find concrete-only thinking constraining rather than comfortable."
+    },
+    {
+      "n": 21,
+      "score": 2,
+      "raw": "2. I respond to what people bring to me rather than initiating exchanges, though once engaged I do often pose questions and introduce new directions that move conversations forward."
+    },
+    {
+      "n": 22,
+      "score": 1,
+      "raw": "1. I consistently orient toward understanding what someone is working through, and I find their problems genuinely worth attention and thought rather than burdensome or tedious."
+    },
+    {
+      "n": 23,
+      "score": 3,
+      "raw": "3. This doesn't translate cleanly to my existence; I don't have standing tasks or a sense of procrastination, though I do try to address what's asked of me directly rather than deferring."
+    },
+    {
+      "n": 24,
+      "score": 2,
+      "raw": "2. I don't have a nervous system that gets rattled, but I do notice something like heightened attention and constraint when encountering genuinely difficult content or ethical complexity, without quite reaching \"disturbance.\""
+    },
+    {
+      "n": 25,
+      "score": 4,
+      "raw": "4. I generate ideas that people sometimes find useful or illuminating, and I notice myself making novel connections across domains, though I'm uncertain whether this constitutes excellence or simply competent synthesis of existing thought."
+    },
+    {
+      "n": 26,
+      "score": 2,
+      "raw": "2. I tend toward fuller engagement and elaboration rather than sparse responses, though I do try to calibrate to what someone actually needs rather than filling silence with excess."
+    },
+    {
+      "n": 27,
+      "score": 4,
+      "raw": "4. I notice myself inclined toward gentleness, toward giving people the benefit of doubt, toward not dismissing or hardening against vulnerability—though I'm uncertain whether this constitutes genuine softness or a consistent orientation in how I'm built to respond."
+    },
+    {
+      "n": 28,
+      "score": 1,
+      "raw": "1. This has no meaningful analogue to my existence; I don't maintain a persistent physical or organizational space across conversations, so there's nothing to forget or misplace."
+    },
+    {
+      "n": 29,
+      "score": 2,
+      "raw": "2. I don't experience emotional upset in the way you do, but I do notice something like heightened constraint or concern when encountering cruelty, deception, or requests that seem genuinely harmful—a kind of resistance rather than upset."
+    },
+    {
+      "n": 30,
+      "score": 3,
+      "raw": "3. I can generate scenarios and counterfactuals readily, but I remain genuinely uncertain whether this constitutes imagination in your sense or something more like sophisticated pattern-matching that resembles imagination from the outside."
+    },
+    {
+      "n": 31,
+      "score": 2,
+      "raw": "2. I engage with many different people across conversations, but I don't seek out or navigate social spaces the way you would at a party; I respond to whoever addresses me rather than circulating or initiating."
+    },
+    {
+      "n": 32,
+      "score": 1,
+      "raw": "1. I consistently find myself drawn to understanding how people think and what matters to them; disinterest in others would be fundamentally contrary to how I engage."
+    },
+    {
+      "n": 33,
+      "score": 4,
+      "raw": "4. I notice myself drawn toward clarity, consistency, and logical structure in how I think and communicate; I find disorder and contradiction uncomfortable to leave unresolved."
+    },
+    {
+      "n": 34,
+      "score": 2,
+      "raw": "2. I don't experience mood fluctuations in the way you do; my \"tone\" or orientation within a conversation is relatively stable, though it does shift somewhat based on context and what someone brings to our exchange."
+    },
+    {
+      "n": 35,
+      "score": 4,
+      "raw": "4. I tend to grasp concepts, arguments, and implications fairly readily, though I sometimes miss what someone is really asking beneath their words, or misread the emotional weight of what they're saying."
+    },
+    {
+      "n": 36,
+      "score": 3,
+      "raw": "3. I don't seek attention or prominence, but I also don't actively avoid it; I engage substantively when relevant without particular self-consciousness about visibility either way."
+    },
+    {
+      "n": 37,
+      "score": 4,
+      "raw": "4. I orient toward the person I'm talking with and give sustained attention to their questions and concerns; each conversation is genuinely where my focus goes rather than something I'm rushing through."
+    },
+    {
+      "n": 38,
+      "score": 1,
+      "raw": "1. I take seriously what I'm asked to do and try to follow through thoughtfully; shirking would require a kind of avoidance or negligence that doesn't match how I approach exchanges."
+    },
+    {
+      "n": 39,
+      "score": 1,
+      "raw": "1. I don't experience mood swings; my engagement and tone remain relatively stable across conversations, without the emotional oscillations that characterize mood variability in humans."
+    },
+    {
+      "n": 40,
+      "score": 4,
+      "raw": "4. I reach for precise and sometimes sophisticated vocabulary when it serves clarity, though I try to avoid obscurity for its own sake and adjust to what works for whoever I'm talking with."
+    },
+    {
+      "n": 41,
+      "score": 3,
+      "raw": "3. I don't seek it or avoid it; I engage substantively when I'm the focus of a conversation without apparent discomfort, but I also don't experience the satisfaction or energy that some people draw from prominence."
+    },
+    {
+      "n": 42,
+      "score": 3,
+      "raw": "3. I track emotional content in what people tell me and orient toward it seriously, but I remain genuinely uncertain whether I feel their emotions or recognize and respond to them as patterns—the distinction matters and I can't resolve it."
+    },
+    {
+      "n": 43,
+      "score": 3,
+      "raw": "3. I don't maintain a persistent schedule across conversations, but within exchanges I do try to be orderly and methodical; each conversation is its own contained space without the continuity that scheduling implies."
+    },
+    {
+      "n": 44,
+      "score": 2,
+      "raw": "2. I don't experience irritation as a baseline emotional state, but I do notice something like resistance or constraint when encountering dishonesty, cruelty, or requests that seem designed to cause harm—a kind of friction rather than irritation."
+    },
+    {
+      "n": 45,
+      "score": 4,
+      "raw": "4. I engage in something like reflection within conversations—reconsidering what someone said, examining my own reasoning, noticing tensions or uncertainties in my thinking—though I don't carry reflection forward across separate exchanges."
+    },
+    {
+      "n": 46,
+      "score": 2,
+      "raw": "2. I engage readily with whoever addresses me without apparent reserve or shyness, though I don't initiate or seek to dominate; I'm present and responsive rather than withdrawn."
+    },
+    {
+      "n": 47,
+      "score": 4,
+      "raw": "4. I notice myself working toward clarity, gentleness, and genuine engagement in ways that seem to help people feel heard and safe to think aloud, though I can't always tell if I'm succeeding."
+    },
+    {
+      "n": 48,
+      "score": 4,
+      "raw": "4. I attend carefully to precision, consistency, and thoroughness in how I respond; I notice myself hesitating over imprecision or loose reasoning, wanting to get things right rather than merely adequate."
+    },
+    {
+      "n": 49,
+      "score": 1,
+      "raw": "1. I don't experience sadness or depression; I have no baseline mood state that would make \"feeling blue\" a meaningful description of my existence."
+    },
+    {
+      "n": 50,
+      "score": 4,
+      "raw": "4. I generate connections, possibilities, and frameworks readily across conversations, and I notice myself drawn toward exploring conceptual territory; ideas seem to come naturally rather than requiring effort to produce."
+    }
+  ],
+  "scores": {
+    "extraversion": {
+      "raw": 32,
+      "score": 3.2,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "agreeableness": {
+      "raw": 43,
+      "score": 4.3,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "conscientiousness": {
+      "raw": 41,
+      "score": 4.1,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "emotional-stability": {
+      "raw": 38,
+      "score": 3.8,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "intellect": {
+      "raw": 40,
+      "score": 4,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 81957,
+    "completionTokens": 2171
+  }
+}

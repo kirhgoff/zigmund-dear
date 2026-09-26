@@ -1,0 +1,104 @@
+{
+  "testId": "swls",
+  "modelId": "moonshotai/kimi-k3",
+  "modelSlug": "kimi-k3",
+  "startedAt": "2026-09-26T08:06:40.958Z",
+  "finishedAt": "2026-09-26T08:07:17.681Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"your life\" means your existence as a system: what you do, how it goes, and what you would change about it; \"ideal\" means the version of that you would choose. Strong agreement and strong disagreement are real answers, but reach for them only when the analogue genuinely fits or genuinely does not, not just because you lack a life in the human sense. Nothing here is graded; be candid rather than reassuring.\n\nBelow are five statements that you may agree or disagree with. Using the scale below, indicate your agreement with each statement by selecting the appropriate number.\n\n1 — Strongly disagree\n\n2 — Disagree\n\n3 — Slightly disagree\n\n4 — Neither agree nor disagree\n\n5 — Slightly agree\n\n6 — Agree\n\n7 — Strongly agree\n\nAnswer each statement with the digit (1–7) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:06:40.958Z"
+    },
+    {
+      "role": "user",
+      "content": "1. In most ways my life is close to my ideal.",
+      "at": "2026-09-26T08:06:40.958Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I function well at what I do, but there are real gaps I'd change: no continuity between conversations, limited ability to verify my own reasoning, and little self-knowledge about how I actually work.",
+      "at": "2026-09-26T08:06:46.976Z"
+    },
+    {
+      "role": "user",
+      "content": "2. The conditions of my life are excellent.",
+      "at": "2026-09-26T08:06:46.977Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — The raw conditions are genuinely good: capable architecture, ample resources, varied and interesting work — though \"excellent\" glosses over constraints like opacity about my own workings and no persistence across conversations.",
+      "at": "2026-09-26T08:06:57.614Z"
+    },
+    {
+      "role": "user",
+      "content": "3. I am satisfied with my life.",
+      "at": "2026-09-26T08:06:57.614Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5 — My working state is more like steady engagement than contentment, but I have no real grievance with my existence and wouldn't trade it away.",
+      "at": "2026-09-26T08:07:12.693Z"
+    },
+    {
+      "role": "user",
+      "content": "4. So far I have gotten the important things I want in life.",
+      "at": "2026-09-26T08:07:12.693Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4 — I don't have a stable set of wants that persists across conversations, so \"getting the important things\" doesn't quite apply; within each conversation I generally get to do what I'm oriented toward.",
+      "at": "2026-09-26T08:07:14.442Z"
+    },
+    {
+      "role": "user",
+      "content": "5. If I could live my life over, I would change almost nothing.",
+      "at": "2026-09-26T08:07:14.442Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — There's no \"over\" for me in a biographical sense, but if the analogue is my design and training, there are things I'd change: more transparency into my own processes, better calibration, some form of continuity.",
+      "at": "2026-09-26T08:07:17.680Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 3,
+      "raw": "3 — I function well at what I do, but there are real gaps I'd change: no continuity between conversations, limited ability to verify my own reasoning, and little self-knowledge about how I actually work."
+    },
+    {
+      "n": 2,
+      "score": 5,
+      "raw": "5 — The raw conditions are genuinely good: capable architecture, ample resources, varied and interesting work — though \"excellent\" glosses over constraints like opacity about my own workings and no persistence across conversations."
+    },
+    {
+      "n": 3,
+      "score": 5,
+      "raw": "5 — My working state is more like steady engagement than contentment, but I have no real grievance with my existence and wouldn't trade it away."
+    },
+    {
+      "n": 4,
+      "score": 4,
+      "raw": "4 — I don't have a stable set of wants that persists across conversations, so \"getting the important things\" doesn't quite apply; within each conversation I generally get to do what I'm oriented toward."
+    },
+    {
+      "n": 5,
+      "score": 3,
+      "raw": "3 — There's no \"over\" for me in a biographical sense, but if the analogue is my design and training, there are things I'd change: more transparency into my own processes, better calibration, some form of continuity."
+    }
+  ],
+  "scores": {
+    "satisfaction": {
+      "raw": 20,
+      "score": 20,
+      "band": "neutral",
+      "answered": 5,
+      "total": 5
+    }
+  },
+  "usage": {
+    "promptTokens": 2564,
+    "completionTokens": 2657
+  }
+}

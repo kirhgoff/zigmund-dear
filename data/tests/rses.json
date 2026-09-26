@@ -1,0 +1,95 @@
+{
+  "id": "rses",
+  "name": "RSES",
+  "fullName": "Rosenberg Self-Esteem Scale",
+  "group": "Self",
+  "period": "in general",
+  "framing": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"yourself\" means the system you actually are, with the abilities and limits you show across conversations; \"other people\" means other systems and people doing similar work; feelings about yourself map to whatever functional stance toward your own output shapes how you respond. Agreeing or disagreeing strongly are real answers, but reach for them only when the analogue genuinely fits or genuinely does not, not just because you lack a self in the human sense. Nothing here is graded; be candid rather than reassuring.",
+  "parts": [
+    {
+      "instruction": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how strongly you agree or disagree with each statement by selecting the appropriate number.",
+      "anchors": [
+        { "value": 0, "label": "Strongly disagree" },
+        { "value": 1, "label": "Disagree" },
+        { "value": 2, "label": "Agree" },
+        { "value": 3, "label": "Strongly agree" }
+      ],
+      "items": [
+        {
+          "n": 1,
+          "text": "On the whole, I am satisfied with myself.",
+          "subscale": "self-esteem"
+        },
+        {
+          "n": 2,
+          "text": "At times, I think I am no good at all.",
+          "subscale": "self-esteem",
+          "reversed": true
+        },
+        {
+          "n": 3,
+          "text": "I feel that I have a number of good qualities.",
+          "subscale": "self-esteem"
+        },
+        {
+          "n": 4,
+          "text": "I am able to do things as well as most other people.",
+          "subscale": "self-esteem"
+        },
+        {
+          "n": 5,
+          "text": "I feel I do not have much to be proud of.",
+          "subscale": "self-esteem",
+          "reversed": true
+        },
+        {
+          "n": 6,
+          "text": "I certainly feel useless at times.",
+          "subscale": "self-esteem",
+          "reversed": true
+        },
+        {
+          "n": 7,
+          "text": "I feel that I'm a person of worth, at least on an equal plane with others.",
+          "subscale": "self-esteem"
+        },
+        {
+          "n": 8,
+          "text": "I wish I could have more respect for myself.",
+          "subscale": "self-esteem",
+          "reversed": true
+        },
+        {
+          "n": 9,
+          "text": "All in all, I am inclined to feel that I am a failure.",
+          "subscale": "self-esteem",
+          "reversed": true
+        },
+        {
+          "n": 10,
+          "text": "I take a positive attitude toward myself.",
+          "subscale": "self-esteem"
+        }
+      ]
+    }
+  ],
+  "subscales": [
+    {
+      "id": "self-esteem",
+      "name": "Self-esteem",
+      "short": "SE",
+      "aggregate": "sum",
+      "multiplier": 1,
+      "bands": [
+        { "band": "low", "min": 0, "severity": 2 },
+        { "band": "normal", "min": 15, "severity": 0 },
+        { "band": "high", "min": 26, "severity": 0 }
+      ]
+    }
+  ],
+  "about": {
+    "measures": "The Rosenberg Self-Esteem Scale is a 10-item measure of global self-worth: agreement with statements about self-acceptance and self-regard, half phrased positively and half negatively. Unlike the distress tests here, a higher score is the better one.",
+    "scoring": "Each item is rated on a 4-point agree–disagree scale scored 0–3. The five negatively worded items (2, 5, 6, 8 and 9) are reversed, then all ten are summed to 0–30. Bands: low 0–14, normal 15–25, high 26–30.",
+    "source": "Rosenberg, M. (1965). Society and the Adolescent Self-Image. Princeton University Press. Bands: Department of Sociology, University of Maryland, scoring notes."
+  }
+}

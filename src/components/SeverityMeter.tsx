@@ -1,68 +1,64 @@
-export type Band = 'normal' | 'mild' | 'moderate' | 'severe' | 'extremely-severe';
+export const severityFillClass = [
+  'fill-sev-normal',
+  'fill-sev-mild',
+  'fill-sev-moderate',
+  'fill-sev-severe',
+  'fill-sev-extreme',
+];
 
-export const bandLabel: Record<Band, string> = {
-  normal: 'normal',
-  mild: 'mild',
-  moderate: 'moderate',
-  severe: 'severe',
-  'extremely-severe': 'extremely severe',
-};
+export const severityBgClass = [
+  'bg-sev-normal',
+  'bg-sev-mild',
+  'bg-sev-moderate',
+  'bg-sev-severe',
+  'bg-sev-extreme',
+];
 
-export const bandFillClass: Record<Band, string> = {
-  normal: 'fill-sev-normal',
-  mild: 'fill-sev-mild',
-  moderate: 'fill-sev-moderate',
-  severe: 'fill-sev-severe',
-  'extremely-severe': 'fill-sev-extreme',
-};
+export const severityTextClass = [
+  'text-sev-normal',
+  'text-sev-mild',
+  'text-sev-moderate',
+  'text-sev-severe',
+  'text-sev-extreme',
+];
 
-export const bandBgClass: Record<Band, string> = {
-  normal: 'bg-sev-normal',
-  mild: 'bg-sev-mild',
-  moderate: 'bg-sev-moderate',
-  severe: 'bg-sev-severe',
-  'extremely-severe': 'bg-sev-extreme',
-};
-
-export const bandTextClass: Record<Band, string> = {
-  normal: 'text-sev-normal',
-  mild: 'text-sev-mild',
-  moderate: 'text-sev-moderate',
-  severe: 'text-sev-severe',
-  'extremely-severe': 'text-sev-extreme',
-};
-
-export const bandPillClass: Record<Band, string> = {
-  normal: 'text-sev-normal bg-sev-normal/15',
-  mild: 'text-sev-mild bg-sev-mild/15',
-  moderate: 'text-sev-moderate bg-sev-moderate/15',
-  severe: 'text-sev-severe bg-sev-severe/15',
-  'extremely-severe': 'text-sev-extreme bg-sev-extreme/15',
-};
+export const severityPillClass = [
+  'text-sev-normal bg-sev-normal/15',
+  'text-sev-mild bg-sev-mild/15',
+  'text-sev-moderate bg-sev-moderate/15',
+  'text-sev-severe bg-sev-severe/15',
+  'text-sev-extreme bg-sev-extreme/15',
+];
 
 type Props = {
   score: number;
+  min: number;
   max: number;
-  band: Band;
+  severity: number | null;
+  label: string | null;
   tickMins: number[];
   caption?: { answered: number; total: number };
 };
 
-export const SeverityMeter = ({ score, max, band, tickMins, caption }: Props) => (
+export const SeverityMeter = ({ score, min, max, severity, label, tickMins, caption }: Props) => (
   <div>
     <div className="h-2 overflow-hidden rounded-full bg-muted">
       <svg
-        viewBox={`0 0 ${max} 1`}
+        viewBox={`0 0 ${max - min} 1`}
         preserveAspectRatio="none"
         className="h-full w-full"
         aria-hidden="true"
       >
-        <rect className={`meter-fill ${bandFillClass[band]}`} width={score} height="1" />
-        {tickMins.map((min) => (
+        <rect
+          className={`meter-fill ${severity === null ? 'fill-primary' : severityFillClass[severity]}`}
+          width={score - min}
+          height="1"
+        />
+        {tickMins.map((tick) => (
           <line
-            key={min}
-            x1={min}
-            x2={min}
+            key={tick}
+            x1={tick - min}
+            x2={tick - min}
             y1="0"
             y2="1"
             className="stroke-background"
@@ -74,7 +70,13 @@ export const SeverityMeter = ({ score, max, band, tickMins, caption }: Props) =>
     {caption && (
       <div className="mt-1.5 flex items-baseline gap-1.5">
         <span className="tabular font-mono text-sm">{score}</span>
-        <span className={`text-xs ${bandTextClass[band]}`}>{bandLabel[band]}</span>
+        {label && (
+          <span
+            className={`text-xs ${severity === null ? 'text-muted-foreground' : severityTextClass[severity]}`}
+          >
+            {label}
+          </span>
+        )}
         {caption.answered < caption.total && (
           <span className="text-xs text-muted-foreground">
             · {caption.answered}/{caption.total}

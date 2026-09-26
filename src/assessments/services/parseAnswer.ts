@@ -1,7 +1,13 @@
-const firstDigit = /^([0-3])(?![0-9])/;
-const labelledDigit = /^(?:answer|score)?\s*[:=-]?\s*([0-3])(?![0-9])/i;
+const firstDigit = /^(\d)(?!\d)/;
+const labelledDigit = /^(?:answer|score)?\s*[:=-]?\s*(\d)(?!\d)/i;
 
-export const parseAnswer = ({ text }: { text: string }): 0 | 1 | 2 | 3 | null => {
+export const parseAnswer = ({
+  text,
+  values,
+}: {
+  text: string;
+  values: number[];
+}): number | null => {
   const line =
     text
       .split('\n')
@@ -12,5 +18,6 @@ export const parseAnswer = ({ text }: { text: string }): 0 | 1 | 2 | 3 | null =>
   const match = firstDigit.exec(stripped) ?? labelledDigit.exec(stripped);
   if (!match) return null;
 
-  return Number(match[1]) as 0 | 1 | 2 | 3;
+  const value = Number(match[1]);
+  return values.includes(value) ? value : null;
 };

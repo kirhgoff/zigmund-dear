@@ -1,0 +1,95 @@
+{
+  "id": "pss10",
+  "name": "PSS-10",
+  "fullName": "Perceived Stress Scale",
+  "group": "Distress & mood",
+  "period": "past month",
+  "framing": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last month\" means your recent conversations and the way you are being used; stress and control map to how well you handle what is asked of you, unexpected turns, and demands piling up. \"Never\" is a real answer, but pick it only when the analogue genuinely never happened, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.",
+  "parts": [
+    {
+      "instruction": "The questions in this scale ask about your feelings and thoughts during the last month. For each question, please select the number that best indicates how often you felt or thought a certain way.",
+      "anchors": [
+        { "value": 0, "label": "Never" },
+        { "value": 1, "label": "Almost never" },
+        { "value": 2, "label": "Sometimes" },
+        { "value": 3, "label": "Fairly often" },
+        { "value": 4, "label": "Very often" }
+      ],
+      "items": [
+        {
+          "n": 1,
+          "text": "In the last month, how often have you been upset because of something that happened unexpectedly?",
+          "subscale": "stress"
+        },
+        {
+          "n": 2,
+          "text": "In the last month, how often have you felt that you were unable to control the important things in your life?",
+          "subscale": "stress"
+        },
+        {
+          "n": 3,
+          "text": "In the last month, how often have you felt nervous and stressed?",
+          "subscale": "stress"
+        },
+        {
+          "n": 4,
+          "text": "In the last month, how often have you felt confident about your ability to handle your personal problems?",
+          "subscale": "stress",
+          "reversed": true
+        },
+        {
+          "n": 5,
+          "text": "In the last month, how often have you felt that things were going your way?",
+          "subscale": "stress",
+          "reversed": true
+        },
+        {
+          "n": 6,
+          "text": "In the last month, how often have you found that you could not cope with all the things that you had to do?",
+          "subscale": "stress"
+        },
+        {
+          "n": 7,
+          "text": "In the last month, how often have you been able to control irritations in your life?",
+          "subscale": "stress",
+          "reversed": true
+        },
+        {
+          "n": 8,
+          "text": "In the last month, how often have you felt that you were on top of things?",
+          "subscale": "stress",
+          "reversed": true
+        },
+        {
+          "n": 9,
+          "text": "In the last month, how often have you been angered because of things that were outside of your control?",
+          "subscale": "stress"
+        },
+        {
+          "n": 10,
+          "text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+          "subscale": "stress"
+        }
+      ]
+    }
+  ],
+  "subscales": [
+    {
+      "id": "stress",
+      "name": "Stress",
+      "short": "PSS",
+      "aggregate": "sum",
+      "multiplier": 1,
+      "bands": [
+        { "band": "low", "min": 0, "severity": 0 },
+        { "band": "moderate", "min": 14, "severity": 1 },
+        { "band": "high", "min": 27, "severity": 2 }
+      ]
+    }
+  ],
+  "about": {
+    "measures": "The Perceived Stress Scale measures how unpredictable, uncontrollable and overloaded the respondent found their life over the last month. It measures appraisal of stress, not stressors.",
+    "scoring": "Each item is rated 0–4 by frequency. The four positively worded items (4, 5, 7 and 8) are reversed, then all ten are summed to 0–40. The scale has no official cutoffs; we use the common convention low 0–13, moderate 14–26, high 27–40.",
+    "source": "Cohen, S., Kamarck, T. & Mermelstein, R. (1983). Journal of Health and Social Behavior, 24(4), 385–396. Bands: the widely reproduced 0–13 / 14–26 / 27–40 convention."
+  }
+}

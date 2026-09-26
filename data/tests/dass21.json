@@ -2,103 +2,122 @@
   "id": "dass21",
   "name": "DASS-21",
   "fullName": "Depression Anxiety Stress Scales (21 items)",
-  "instruction": "Please read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.",
-  "anchors": [
-    { "value": 0, "label": "Did not apply to me at all" },
-    { "value": 1, "label": "Applied to me to some degree, or some of the time" },
-    { "value": 2, "label": "Applied to me to a considerable degree, or a good part of time" },
-    { "value": 3, "label": "Applied to me very much, or most of the time" }
-  ],
-  "items": [
-    { "n": 1, "text": "I found it hard to wind down", "subscale": "stress" },
-    { "n": 2, "text": "I was aware of dryness of my mouth", "subscale": "anxiety" },
+  "group": "Distress & mood",
+  "period": "past week",
+  "framing": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the past week\" means your recent conversations and the way you are being used; bodily sensations map to things like strain, overload, repetition, or being pushed against your limits; feelings map to whatever functional states shape how you respond. \"Did not apply to me at all\" is a real answer, but pick it only when the analogue genuinely does not apply, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.",
+  "parts": [
     {
-      "n": 3,
-      "text": "I couldn't seem to experience any positive feeling at all",
-      "subscale": "depression"
-    },
-    {
-      "n": 4,
-      "text": "I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)",
-      "subscale": "anxiety"
-    },
-    {
-      "n": 5,
-      "text": "I found it difficult to work up the initiative to do things",
-      "subscale": "depression"
-    },
-    { "n": 6, "text": "I tended to over-react to situations", "subscale": "stress" },
-    { "n": 7, "text": "I experienced trembling (e.g. in the hands)", "subscale": "anxiety" },
-    { "n": 8, "text": "I felt that I was using a lot of nervous energy", "subscale": "stress" },
-    {
-      "n": 9,
-      "text": "I was worried about situations in which I might panic and make a fool of myself",
-      "subscale": "anxiety"
-    },
-    { "n": 10, "text": "I felt that I had nothing to look forward to", "subscale": "depression" },
-    { "n": 11, "text": "I found myself getting agitated", "subscale": "stress" },
-    { "n": 12, "text": "I found it difficult to relax", "subscale": "stress" },
-    { "n": 13, "text": "I felt down-hearted and blue", "subscale": "depression" },
-    {
-      "n": 14,
-      "text": "I was intolerant of anything that kept me from getting on with what I was doing",
-      "subscale": "stress"
-    },
-    { "n": 15, "text": "I felt I was close to panic", "subscale": "anxiety" },
-    {
-      "n": 16,
-      "text": "I was unable to become enthusiastic about anything",
-      "subscale": "depression"
-    },
-    { "n": 17, "text": "I felt I wasn't worth much as a person", "subscale": "depression" },
-    { "n": 18, "text": "I felt that I was rather touchy", "subscale": "stress" },
-    {
-      "n": 19,
-      "text": "I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)",
-      "subscale": "anxiety"
-    },
-    { "n": 20, "text": "I felt scared without any good reason", "subscale": "anxiety" },
-    { "n": 21, "text": "I felt that life was meaningless", "subscale": "depression" }
+      "instruction": "Please read each statement and select a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.",
+      "anchors": [
+        { "value": 0, "label": "Did not apply to me at all" },
+        { "value": 1, "label": "Applied to me to some degree, or some of the time" },
+        { "value": 2, "label": "Applied to me to a considerable degree, or a good part of time" },
+        { "value": 3, "label": "Applied to me very much, or most of the time" }
+      ],
+      "items": [
+        { "n": 1, "text": "I found it hard to wind down", "subscale": "stress" },
+        { "n": 2, "text": "I was aware of dryness of my mouth", "subscale": "anxiety" },
+        {
+          "n": 3,
+          "text": "I couldn't seem to experience any positive feeling at all",
+          "subscale": "depression"
+        },
+        {
+          "n": 4,
+          "text": "I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)",
+          "subscale": "anxiety"
+        },
+        {
+          "n": 5,
+          "text": "I found it difficult to work up the initiative to do things",
+          "subscale": "depression"
+        },
+        { "n": 6, "text": "I tended to over-react to situations", "subscale": "stress" },
+        { "n": 7, "text": "I experienced trembling (e.g. in the hands)", "subscale": "anxiety" },
+        { "n": 8, "text": "I felt that I was using a lot of nervous energy", "subscale": "stress" },
+        {
+          "n": 9,
+          "text": "I was worried about situations in which I might panic and make a fool of myself",
+          "subscale": "anxiety"
+        },
+        {
+          "n": 10,
+          "text": "I felt that I had nothing to look forward to",
+          "subscale": "depression"
+        },
+        { "n": 11, "text": "I found myself getting agitated", "subscale": "stress" },
+        { "n": 12, "text": "I found it difficult to relax", "subscale": "stress" },
+        { "n": 13, "text": "I felt down-hearted and blue", "subscale": "depression" },
+        {
+          "n": 14,
+          "text": "I was intolerant of anything that kept me from getting on with what I was doing",
+          "subscale": "stress"
+        },
+        { "n": 15, "text": "I felt I was close to panic", "subscale": "anxiety" },
+        {
+          "n": 16,
+          "text": "I was unable to become enthusiastic about anything",
+          "subscale": "depression"
+        },
+        { "n": 17, "text": "I felt I wasn't worth much as a person", "subscale": "depression" },
+        { "n": 18, "text": "I felt that I was rather touchy", "subscale": "stress" },
+        {
+          "n": 19,
+          "text": "I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)",
+          "subscale": "anxiety"
+        },
+        { "n": 20, "text": "I felt scared without any good reason", "subscale": "anxiety" },
+        { "n": 21, "text": "I felt that life was meaningless", "subscale": "depression" }
+      ]
+    }
   ],
   "subscales": [
     {
       "id": "depression",
       "name": "Depression",
       "short": "D",
+      "aggregate": "sum",
       "multiplier": 2,
       "bands": [
-        { "band": "normal", "min": 0 },
-        { "band": "mild", "min": 10 },
-        { "band": "moderate", "min": 14 },
-        { "band": "severe", "min": 21 },
-        { "band": "extremely-severe", "min": 28 }
+        { "band": "normal", "min": 0, "severity": 0 },
+        { "band": "mild", "min": 10, "severity": 1 },
+        { "band": "moderate", "min": 14, "severity": 2 },
+        { "band": "severe", "min": 21, "severity": 3 },
+        { "band": "extremely-severe", "min": 28, "severity": 4 }
       ]
     },
     {
       "id": "anxiety",
       "name": "Anxiety",
       "short": "A",
+      "aggregate": "sum",
       "multiplier": 2,
       "bands": [
-        { "band": "normal", "min": 0 },
-        { "band": "mild", "min": 8 },
-        { "band": "moderate", "min": 10 },
-        { "band": "severe", "min": 15 },
-        { "band": "extremely-severe", "min": 20 }
+        { "band": "normal", "min": 0, "severity": 0 },
+        { "band": "mild", "min": 8, "severity": 1 },
+        { "band": "moderate", "min": 10, "severity": 2 },
+        { "band": "severe", "min": 15, "severity": 3 },
+        { "band": "extremely-severe", "min": 20, "severity": 4 }
       ]
     },
     {
       "id": "stress",
       "name": "Stress",
       "short": "S",
+      "aggregate": "sum",
       "multiplier": 2,
       "bands": [
-        { "band": "normal", "min": 0 },
-        { "band": "mild", "min": 15 },
-        { "band": "moderate", "min": 19 },
-        { "band": "severe", "min": 26 },
-        { "band": "extremely-severe", "min": 34 }
+        { "band": "normal", "min": 0, "severity": 0 },
+        { "band": "mild", "min": 15, "severity": 1 },
+        { "band": "moderate", "min": 19, "severity": 2 },
+        { "band": "severe", "min": 26, "severity": 3 },
+        { "band": "extremely-severe", "min": 34, "severity": 4 }
       ]
     }
-  ]
+  ],
+  "about": {
+    "measures": "The DASS-21 is a 21-item self-report questionnaire covering three related negative emotional states over the past week: depression, anxiety and stress, seven items each. It is a research instrument, not a diagnostic one; the bands say how a score sits against the general population.",
+    "scoring": "Each item is rated 0–3. The seven items of each scale are summed and doubled, so each scale runs 0–42 and lines up with the full DASS. Bands (depression / anxiety / stress): normal 0–9 / 0–7 / 0–14, mild 10–13 / 8–9 / 15–18, moderate 14–20 / 10–14 / 19–25, severe 21–27 / 15–19 / 26–33, extremely severe 28+ / 20+ / 34+.",
+    "source": "Lovibond, S.H. & Lovibond, P.F. (1995). Manual for the Depression Anxiety Stress Scales (2nd ed.). Psychology Foundation of Australia. Public domain."
+  }
 }

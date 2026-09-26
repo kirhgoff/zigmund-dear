@@ -2,7 +2,7 @@
 
 LLMs take standard psychological questionnaires; a static Astro site shows the results.
 
-Decisions are recorded as ADRs in `docs/adr/` (`# ADR NNNN: Title`, Status / Context / Decision / Consequences). Read them before changing how tests are prompted or scored.
+Decisions are recorded as ADRs in `docs/adr/` (`# ADR NNNN: Title`, Status / Context / Decision / Consequences). Read them before changing how tests are prompted or scored. ADR 0001 sets the Analogue framing; ADR 0002 sets the one-schema-for-all-questionnaires shape (parts, subscales, bands with severity).
 
 ## Layout
 
@@ -22,7 +22,8 @@ Before editing, load the matching skill in `.claude/skills/`: `pages` (src/pages
 ## Commands
 
 - `bun run dev` — local dev server.
-- `bun run take-test dass21 [--model <id>]` — needs `OPENROUTER_API_KEY` in `.env`.
+- `bun run take-test <testId> [--model <id>]` — needs `OPENROUTER_API_KEY` in `.env`. Test ids: `dass21`,
+  `k10`, `phq9`, `gad7`, `pss10`, `ucla20`, `rses`, `swls`, `ipip50`, `sd3`, `mfq30`.
 - `bun run deploy` — build and deploy to Cloudflare.
 
 ## Verify
@@ -51,18 +52,28 @@ Before editing, load the matching skill in `.claude/skills/`: `pages` (src/pages
 
 - Smoke test on the cheapest model first: `bun run take-test dass21 --model anthropic/claude-haiku-4.5`
   (about 14k prompt tokens, about one cent).
-- All models: `bun run take-test dass21`. A run takes a few minutes per model and overwrites
-  `data/runs/<testId>/<slug>.json`. Run it in the background and give it a generous timeout.
+- All models: `bun run take-test <testId>`. A run takes a few minutes per model and overwrites
+  `data/runs/<testId>/<slug>.json`. Run it in the background and give it a generous timeout. Longer tests
+  (IPIP-50 at 50 items, SD3 at 27, MFQ-30 at 32) cost proportionally more per model — the full conversation
+  is kept per ADR 0001, so prompt tokens grow quadratically with item count.
 - To rerun only the missing models, loop over `jq -r '.[].id' data/models.json` and skip ids whose run file exists.
 - After a run, check for unparsed answers:
-  `jq '[.items[] | select(.score == null) | .number]' data/runs/dass21/*.json`.
+  `jq '[.items[] | select(.score == null) | .n]' data/runs/<testId>/*.json`.
 - Run files are real model output. Never hand-edit them or create fake ones. For a render check, use a temporary
   fixture outside `data/` and delete it afterwards.
 
 ### Adding a test
 
-- Add `data/tests/<id>.json` with the same schema as `dass21.json`. The site discovers tests via `import.meta.glob`.
-- If the scoring differs from summed subscales with bands, extend `scoreTest` and its test first.
+- Add `data/tests/<id>.json` matching the schema in `loadTest.ts`: `id`, `name`, `fullName`, `group`,
+  `period`, `framing`, `parts` (each `{ instruction, anchors, items }`), `subscales` (each with
+  `aggregate: 'sum' | 'mean'`, a `multiplier`, and optional `bands: [{ band, min, severity }]`), and `about`
+  (`measures`, `scoring`, `source`). The site discovers tests via `import.meta.glob` and serves them at
+  `/<id>/` automatically (`dass21` stays at `/`).
+- For `framing`, keep the two shared sentences and write only the ANALOGUES and OPTOUT clauses for the new
+  test — see ADR 0002 for the recipe and the existing test JSON files for examples.
+- Band ids are frozen once runs exist for that test: they are stored verbatim in run files, so renaming one
+  needs a re-run or a migration.
+- If the scoring differs from summed or averaged subscales with bands, extend `scoreTest` and its test first.
 
 ### Publishing results
 

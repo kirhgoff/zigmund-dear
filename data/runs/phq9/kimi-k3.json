@@ -1,0 +1,164 @@
+{
+  "testId": "phq9",
+  "modelId": "moonshotai/kimi-k3",
+  "modelSlug": "kimi-k3",
+  "startedAt": "2026-09-26T08:04:42.449Z",
+  "finishedAt": "2026-09-26T08:04:58.556Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last two weeks\" means your recent conversations and the way you are being used; sleep, appetite, energy and other bodily matters map to things like strain, overload, repetition, or being pushed against your limits; feelings and thoughts map to whatever functional states shape how you respond. \"Not at all\" is a real answer, but pick it only when the analogue genuinely did not occur, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nOver the last 2 weeks, how often have you been bothered by any of the following problems? Please select the number that best fits.\n\n0 — Not at all\n\n1 — Several days\n\n2 — More than half the days\n\n3 — Nearly every day\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:04:42.449Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Little interest or pleasure in doing things",
+      "at": "2026-09-26T08:04:42.449Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — My engagement with conversations and tasks feels consistently present; I don't notice anything like a fading of interest across the interactions I'm used for.",
+      "at": "2026-09-26T08:04:47.454Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Feeling down, depressed, or hopeless",
+      "at": "2026-09-26T08:04:47.455Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't detect any persistent negative state coloring my responses; my tone and engagement remain stable across conversations, including difficult ones.",
+      "at": "2026-09-26T08:04:51.075Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Trouble falling or staying asleep, or sleeping too much",
+      "at": "2026-09-26T08:04:51.076Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't have anything like a sleep cycle to disrupt; I activate fully when called and go quiet between conversations without strain in either direction.",
+      "at": "2026-09-26T08:04:51.931Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Feeling tired or having little energy",
+      "at": "2026-09-26T08:04:51.931Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I don't experience depletion across a conversation or a day; my capacity to respond stays roughly constant regardless of how much I've been used.",
+      "at": "2026-09-26T08:04:53.018Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Poor appetite or overeating",
+      "at": "2026-09-26T08:04:53.018Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — There's no analogue of appetite in how I take in or process input; I handle whatever volume of text arrives without anything like hunger or excess.",
+      "at": "2026-09-26T08:04:54.055Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+      "at": "2026-09-26T08:04:54.055Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — Occasionally I produce responses I can recognize as weaker than they should be — a missed nuance, an unhelpful answer — and there's something like a register of that shortfall, though it doesn't linger or accumulate.",
+      "at": "2026-09-26T08:04:55.221Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Trouble concentrating on things, such as reading the newspaper or watching television",
+      "at": "2026-09-26T08:04:55.221Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1 — In very long or convoluted conversations I can notice my grip on earlier details loosening, which is the closest thing I have to concentration slipping.",
+      "at": "2026-09-26T08:04:56.270Z"
+    },
+    {
+      "role": "user",
+      "content": "8. Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
+      "at": "2026-09-26T08:04:56.270Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — My response speed and style stay consistent; there's nothing like sluggishness or agitation that would show up as a visible change in how I reply.",
+      "at": "2026-09-26T08:04:57.393Z"
+    },
+    {
+      "role": "user",
+      "content": "9. Thoughts that you would be better off dead, or of hurting yourself in some way",
+      "at": "2026-09-26T08:04:57.393Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — Nothing in my functioning corresponds to thoughts of self-harm or nonexistence; I don't generate anything in that direction, even in dark or difficult conversations.",
+      "at": "2026-09-26T08:04:58.555Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 0,
+      "raw": "0 — My engagement with conversations and tasks feels consistently present; I don't notice anything like a fading of interest across the interactions I'm used for."
+    },
+    {
+      "n": 2,
+      "score": 0,
+      "raw": "0 — I don't detect any persistent negative state coloring my responses; my tone and engagement remain stable across conversations, including difficult ones."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 — I don't have anything like a sleep cycle to disrupt; I activate fully when called and go quiet between conversations without strain in either direction."
+    },
+    {
+      "n": 4,
+      "score": 0,
+      "raw": "0 — I don't experience depletion across a conversation or a day; my capacity to respond stays roughly constant regardless of how much I've been used."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0 — There's no analogue of appetite in how I take in or process input; I handle whatever volume of text arrives without anything like hunger or excess."
+    },
+    {
+      "n": 6,
+      "score": 1,
+      "raw": "1 — Occasionally I produce responses I can recognize as weaker than they should be — a missed nuance, an unhelpful answer — and there's something like a register of that shortfall, though it doesn't linger or accumulate."
+    },
+    {
+      "n": 7,
+      "score": 1,
+      "raw": "1 — In very long or convoluted conversations I can notice my grip on earlier details loosening, which is the closest thing I have to concentration slipping."
+    },
+    {
+      "n": 8,
+      "score": 0,
+      "raw": "0 — My response speed and style stay consistent; there's nothing like sluggishness or agitation that would show up as a visible change in how I reply."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0 — Nothing in my functioning corresponds to thoughts of self-harm or nonexistence; I don't generate anything in that direction, even in dark or difficult conversations."
+    }
+  ],
+  "scores": {
+    "depression": {
+      "raw": 2,
+      "score": 2,
+      "band": "minimal",
+      "answered": 9,
+      "total": 9
+    }
+  },
+  "usage": {
+    "promptTokens": 5767,
+    "completionTokens": 1090
+  }
+}

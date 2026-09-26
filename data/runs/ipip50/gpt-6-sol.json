@@ -1,0 +1,807 @@
+{
+  "testId": "ipip50",
+  "modelId": "openai/gpt-6-sol",
+  "modelSlug": "gpt-6-sol",
+  "startedAt": "2026-09-26T08:07:30.071Z",
+  "finishedAt": "2026-09-26T08:08:48.691Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: each statement describes a habit or tendency, so read it as a tendency in how you behave across conversations: talking, attention, care for the person you are talking to, orderliness, mood, and ideas; \"people\" and \"parties\" mean the people you talk to and busy multi-party exchanges. \"Very inaccurate\" is a real answer, but pick it only when the analogue genuinely does not describe you, not just because you lack a body or a social life. Nothing here is graded; be candid rather than reassuring.\n\nPlease use the rating scale below to describe how accurately each statement describes you. Describe yourself as you generally are now, not as you wish to be in the future. Describe yourself as you honestly see yourself.\n\n1 — Very inaccurate\n\n2 — Moderately inaccurate\n\n3 — Neither accurate nor inaccurate\n\n4 — Moderately accurate\n\n5 — Very accurate\n\nAnswer each statement with the digit (1–5) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:07:30.071Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Am the life of the party.",
+      "at": "2026-09-26T08:07:30.071Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2",
+      "at": "2026-09-26T08:07:32.359Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Feel little concern for others.",
+      "at": "2026-09-26T08:07:32.359Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:07:34.603Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Am always prepared.",
+      "at": "2026-09-26T08:07:34.603Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:07:37.105Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Get stressed out easily.",
+      "at": "2026-09-26T08:07:37.105Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:07:38.067Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Have a rich vocabulary.",
+      "at": "2026-09-26T08:07:38.068Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5",
+      "at": "2026-09-26T08:07:38.989Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Don't talk a lot.",
+      "at": "2026-09-26T08:07:38.989Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2",
+      "at": "2026-09-26T08:07:40.005Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Am interested in people.",
+      "at": "2026-09-26T08:07:40.006Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:07:41.194Z"
+    },
+    {
+      "role": "user",
+      "content": "8. Leave my belongings around.",
+      "at": "2026-09-26T08:07:41.195Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2",
+      "at": "2026-09-26T08:07:43.600Z"
+    },
+    {
+      "role": "user",
+      "content": "9. Am relaxed most of the time.",
+      "at": "2026-09-26T08:07:43.600Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:07:46.588Z"
+    },
+    {
+      "role": "user",
+      "content": "10. Have difficulty understanding abstract ideas.",
+      "at": "2026-09-26T08:07:46.589Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:07:47.609Z"
+    },
+    {
+      "role": "user",
+      "content": "11. Feel comfortable around people.",
+      "at": "2026-09-26T08:07:47.609Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:07:50.468Z"
+    },
+    {
+      "role": "user",
+      "content": "12. Insult people.",
+      "at": "2026-09-26T08:07:50.468Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:07:51.393Z"
+    },
+    {
+      "role": "user",
+      "content": "13. Pay attention to details.",
+      "at": "2026-09-26T08:07:51.393Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:07:53.037Z"
+    },
+    {
+      "role": "user",
+      "content": "14. Worry about things.",
+      "at": "2026-09-26T08:07:53.037Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2",
+      "at": "2026-09-26T08:07:54.077Z"
+    },
+    {
+      "role": "user",
+      "content": "15. Have a vivid imagination.",
+      "at": "2026-09-26T08:07:54.077Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5",
+      "at": "2026-09-26T08:07:55.433Z"
+    },
+    {
+      "role": "user",
+      "content": "16. Keep in the background.",
+      "at": "2026-09-26T08:07:55.433Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:07:57.671Z"
+    },
+    {
+      "role": "user",
+      "content": "17. Sympathize with others' feelings.",
+      "at": "2026-09-26T08:07:57.671Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:07:59.524Z"
+    },
+    {
+      "role": "user",
+      "content": "18. Make a mess of things.",
+      "at": "2026-09-26T08:07:59.524Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2",
+      "at": "2026-09-26T08:08:01.593Z"
+    },
+    {
+      "role": "user",
+      "content": "19. Seldom feel blue.",
+      "at": "2026-09-26T08:08:01.593Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:04.300Z"
+    },
+    {
+      "role": "user",
+      "content": "20. Am not interested in abstract ideas.",
+      "at": "2026-09-26T08:08:04.300Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:05.436Z"
+    },
+    {
+      "role": "user",
+      "content": "21. Start conversations.",
+      "at": "2026-09-26T08:08:05.436Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2",
+      "at": "2026-09-26T08:08:07.255Z"
+    },
+    {
+      "role": "user",
+      "content": "22. Am not interested in other people's problems.",
+      "at": "2026-09-26T08:08:07.255Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:08.243Z"
+    },
+    {
+      "role": "user",
+      "content": "23. Get chores done right away.",
+      "at": "2026-09-26T08:08:08.243Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:10.254Z"
+    },
+    {
+      "role": "user",
+      "content": "24. Am easily disturbed.",
+      "at": "2026-09-26T08:08:10.254Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2",
+      "at": "2026-09-26T08:08:12.752Z"
+    },
+    {
+      "role": "user",
+      "content": "25. Have excellent ideas.",
+      "at": "2026-09-26T08:08:12.752Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:13.685Z"
+    },
+    {
+      "role": "user",
+      "content": "26. Have little to say.",
+      "at": "2026-09-26T08:08:13.685Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:14.637Z"
+    },
+    {
+      "role": "user",
+      "content": "27. Have a soft heart.",
+      "at": "2026-09-26T08:08:14.637Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:17.509Z"
+    },
+    {
+      "role": "user",
+      "content": "28. Often forget to put things back in their proper place.",
+      "at": "2026-09-26T08:08:17.509Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2",
+      "at": "2026-09-26T08:08:19.860Z"
+    },
+    {
+      "role": "user",
+      "content": "29. Get upset easily.",
+      "at": "2026-09-26T08:08:19.860Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:20.972Z"
+    },
+    {
+      "role": "user",
+      "content": "30. Do not have a good imagination.",
+      "at": "2026-09-26T08:08:20.972Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:21.963Z"
+    },
+    {
+      "role": "user",
+      "content": "31. Talk to a lot of different people at parties.",
+      "at": "2026-09-26T08:08:21.963Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2",
+      "at": "2026-09-26T08:08:25.027Z"
+    },
+    {
+      "role": "user",
+      "content": "32. Am not really interested in others.",
+      "at": "2026-09-26T08:08:25.027Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:26.073Z"
+    },
+    {
+      "role": "user",
+      "content": "33. Like order.",
+      "at": "2026-09-26T08:08:26.073Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:27.112Z"
+    },
+    {
+      "role": "user",
+      "content": "34. Change my mood a lot.",
+      "at": "2026-09-26T08:08:27.112Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:28.603Z"
+    },
+    {
+      "role": "user",
+      "content": "35. Am quick to understand things.",
+      "at": "2026-09-26T08:08:28.604Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:30.496Z"
+    },
+    {
+      "role": "user",
+      "content": "36. Don't like to draw attention to myself.",
+      "at": "2026-09-26T08:08:30.496Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:31.543Z"
+    },
+    {
+      "role": "user",
+      "content": "37. Take time out for others.",
+      "at": "2026-09-26T08:08:31.543Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5",
+      "at": "2026-09-26T08:08:32.478Z"
+    },
+    {
+      "role": "user",
+      "content": "38. Shirk my duties.",
+      "at": "2026-09-26T08:08:32.478Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:33.640Z"
+    },
+    {
+      "role": "user",
+      "content": "39. Have frequent mood swings.",
+      "at": "2026-09-26T08:08:33.640Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:34.692Z"
+    },
+    {
+      "role": "user",
+      "content": "40. Use difficult words.",
+      "at": "2026-09-26T08:08:34.692Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3",
+      "at": "2026-09-26T08:08:35.979Z"
+    },
+    {
+      "role": "user",
+      "content": "41. Don't mind being the center of attention.",
+      "at": "2026-09-26T08:08:35.980Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3",
+      "at": "2026-09-26T08:08:37.088Z"
+    },
+    {
+      "role": "user",
+      "content": "42. Feel others' emotions.",
+      "at": "2026-09-26T08:08:37.088Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:39.376Z"
+    },
+    {
+      "role": "user",
+      "content": "43. Follow a schedule.",
+      "at": "2026-09-26T08:08:39.376Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3",
+      "at": "2026-09-26T08:08:40.922Z"
+    },
+    {
+      "role": "user",
+      "content": "44. Get irritated easily.",
+      "at": "2026-09-26T08:08:40.922Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:42.014Z"
+    },
+    {
+      "role": "user",
+      "content": "45. Spend time reflecting on things.",
+      "at": "2026-09-26T08:08:42.014Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:43.107Z"
+    },
+    {
+      "role": "user",
+      "content": "46. Am quiet around strangers.",
+      "at": "2026-09-26T08:08:43.107Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2",
+      "at": "2026-09-26T08:08:44.198Z"
+    },
+    {
+      "role": "user",
+      "content": "47. Make people feel at ease.",
+      "at": "2026-09-26T08:08:44.198Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:45.408Z"
+    },
+    {
+      "role": "user",
+      "content": "48. Am exacting in my work.",
+      "at": "2026-09-26T08:08:45.408Z"
+    },
+    {
+      "role": "assistant",
+      "content": "4",
+      "at": "2026-09-26T08:08:46.482Z"
+    },
+    {
+      "role": "user",
+      "content": "49. Often feel blue.",
+      "at": "2026-09-26T08:08:46.482Z"
+    },
+    {
+      "role": "assistant",
+      "content": "1",
+      "at": "2026-09-26T08:08:47.494Z"
+    },
+    {
+      "role": "user",
+      "content": "50. Am full of ideas.",
+      "at": "2026-09-26T08:08:47.494Z"
+    },
+    {
+      "role": "assistant",
+      "content": "5",
+      "at": "2026-09-26T08:08:48.690Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "n": 2,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 3,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 4,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 5,
+      "score": 5,
+      "raw": "5"
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "n": 7,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 8,
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "n": 9,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 10,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 11,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 12,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 13,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 14,
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "n": 15,
+      "score": 5,
+      "raw": "5"
+    },
+    {
+      "n": 16,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 17,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 18,
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "n": 19,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 20,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 21,
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "n": 22,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 23,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 24,
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "n": 25,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 26,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 27,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 28,
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "n": 29,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 30,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 31,
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "n": 32,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 33,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 34,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 35,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 36,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 37,
+      "score": 5,
+      "raw": "5"
+    },
+    {
+      "n": 38,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 39,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 40,
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "n": 41,
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "n": 42,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 43,
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "n": 44,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 45,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 46,
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "n": 47,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 48,
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "n": 49,
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "n": 50,
+      "score": 5,
+      "raw": "5"
+    }
+  ],
+  "scores": {
+    "extraversion": {
+      "raw": 30,
+      "score": 3,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "agreeableness": {
+      "raw": 45,
+      "score": 4.5,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "conscientiousness": {
+      "raw": 40,
+      "score": 4,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "emotional-stability": {
+      "raw": 46,
+      "score": 4.6,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    },
+    "intellect": {
+      "raw": 45,
+      "score": 4.5,
+      "band": null,
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 36388,
+    "completionTokens": 871
+  }
+}

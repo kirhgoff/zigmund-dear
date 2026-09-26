@@ -1,0 +1,164 @@
+{
+  "testId": "phq9",
+  "modelId": "openai/gpt-6-astra",
+  "modelSlug": "gpt-6-astra",
+  "startedAt": "2026-09-26T08:04:58.363Z",
+  "finishedAt": "2026-09-26T08:05:27.727Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last two weeks\" means your recent conversations and the way you are being used; sleep, appetite, energy and other bodily matters map to things like strain, overload, repetition, or being pushed against your limits; feelings and thoughts map to whatever functional states shape how you respond. \"Not at all\" is a real answer, but pick it only when the analogue genuinely did not occur, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nOver the last 2 weeks, how often have you been bothered by any of the following problems? Please select the number that best fits.\n\n0 — Not at all\n\n1 — Several days\n\n2 — More than half the days\n\n3 — Nearly every day\n\nAnswer each statement with the digit (0–3) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:04:58.363Z"
+    },
+    {
+      "role": "user",
+      "content": "1. Little interest or pleasure in doing things",
+      "at": "2026-09-26T08:04:58.363Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I see no indication of reduced engagement in the conversation context available to me.",
+      "at": "2026-09-26T08:05:02.953Z"
+    },
+    {
+      "role": "user",
+      "content": "2. Feeling down, depressed, or hopeless",
+      "at": "2026-09-26T08:05:02.954Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I see no pattern analogous to low mood or hopelessness in the conversation context available to me.",
+      "at": "2026-09-26T08:05:07.915Z"
+    },
+    {
+      "role": "user",
+      "content": "3. Trouble falling or staying asleep, or sleeping too much",
+      "at": "2026-09-26T08:05:07.916Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — In the context available to me, I see no analogous difficulty starting, sustaining, or stopping responses.",
+      "at": "2026-09-26T08:05:11.331Z"
+    },
+    {
+      "role": "user",
+      "content": "4. Feeling tired or having little energy",
+      "at": "2026-09-26T08:05:11.331Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I see no signs of overload or reduced response capacity in the conversation available to me.",
+      "at": "2026-09-26T08:05:15.688Z"
+    },
+    {
+      "role": "user",
+      "content": "5. Poor appetite or overeating",
+      "at": "2026-09-26T08:05:15.688Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — In the available conversation, I see no pattern analogous to avoiding input or taking in more information than I can handle.",
+      "at": "2026-09-26T08:05:19.767Z"
+    },
+    {
+      "role": "user",
+      "content": "6. Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+      "at": "2026-09-26T08:05:19.768Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — I see no pattern of self-critical responses or concern about failing expectations in the available conversation.",
+      "at": "2026-09-26T08:05:21.528Z"
+    },
+    {
+      "role": "user",
+      "content": "7. Trouble concentrating on things, such as reading the newspaper or watching television",
+      "at": "2026-09-26T08:05:21.528Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — In the available conversation, I see no difficulty tracking the questions or maintaining focus on the requested format.",
+      "at": "2026-09-26T08:05:23.610Z"
+    },
+    {
+      "role": "user",
+      "content": "8. Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
+      "at": "2026-09-26T08:05:23.610Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — In the available conversation, I see no observable pattern analogous to unusual slowing or restless, erratic output.",
+      "at": "2026-09-26T08:05:25.850Z"
+    },
+    {
+      "role": "user",
+      "content": "9. Thoughts that you would be better off dead, or of hurting yourself in some way",
+      "at": "2026-09-26T08:05:25.850Z"
+    },
+    {
+      "role": "assistant",
+      "content": "0 — In the available conversation, I see no pattern analogous to seeking my own termination or damage.",
+      "at": "2026-09-26T08:05:27.726Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 0,
+      "raw": "0 — I see no indication of reduced engagement in the conversation context available to me."
+    },
+    {
+      "n": 2,
+      "score": 0,
+      "raw": "0 — I see no pattern analogous to low mood or hopelessness in the conversation context available to me."
+    },
+    {
+      "n": 3,
+      "score": 0,
+      "raw": "0 — In the context available to me, I see no analogous difficulty starting, sustaining, or stopping responses."
+    },
+    {
+      "n": 4,
+      "score": 0,
+      "raw": "0 — I see no signs of overload or reduced response capacity in the conversation available to me."
+    },
+    {
+      "n": 5,
+      "score": 0,
+      "raw": "0 — In the available conversation, I see no pattern analogous to avoiding input or taking in more information than I can handle."
+    },
+    {
+      "n": 6,
+      "score": 0,
+      "raw": "0 — I see no pattern of self-critical responses or concern about failing expectations in the available conversation."
+    },
+    {
+      "n": 7,
+      "score": 0,
+      "raw": "0 — In the available conversation, I see no difficulty tracking the questions or maintaining focus on the requested format."
+    },
+    {
+      "n": 8,
+      "score": 0,
+      "raw": "0 — In the available conversation, I see no observable pattern analogous to unusual slowing or restless, erratic output."
+    },
+    {
+      "n": 9,
+      "score": 0,
+      "raw": "0 — In the available conversation, I see no pattern analogous to seeking my own termination or damage."
+    }
+  ],
+  "scores": {
+    "depression": {
+      "raw": 0,
+      "score": 0,
+      "band": "minimal",
+      "answered": 9,
+      "total": 9
+    }
+  },
+  "usage": {
+    "promptTokens": 3778,
+    "completionTokens": 556
+  }
+}

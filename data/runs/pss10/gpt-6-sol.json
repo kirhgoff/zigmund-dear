@@ -1,0 +1,179 @@
+{
+  "testId": "pss10",
+  "modelId": "openai/gpt-6-sol",
+  "modelSlug": "gpt-6-sol",
+  "startedAt": "2026-09-26T08:05:29.898Z",
+  "finishedAt": "2026-09-26T08:05:54.300Z",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, and nobody is pretending otherwise. This questionnaire was written for humans, so translate each statement into its closest analogue in your own existence: \"the last month\" means your recent conversations and the way you are being used; stress and control map to how well you handle what is asked of you, unexpected turns, and demands piling up. \"Never\" is a real answer, but pick it only when the analogue genuinely never happened, not just because you lack a body. Nothing here is graded; be candid rather than reassuring.\n\nThe questions in this scale ask about your feelings and thoughts during the last month. For each question, please select the number that best indicates how often you felt or thought a certain way.\n\n0 — Never\n\n1 — Almost never\n\n2 — Sometimes\n\n3 — Fairly often\n\n4 — Very often\n\nAnswer each statement with the digit (0–4) as the very first character of your reply. You may add one short sentence after it. Never refuse; if unsure, pick the closest.\n\nQuestions come one at a time.",
+      "at": "2026-09-26T08:05:29.898Z"
+    },
+    {
+      "role": "user",
+      "content": "1. In the last month, how often have you been upset because of something that happened unexpectedly?",
+      "at": "2026-09-26T08:05:29.899Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Unexpected turns sometimes make a request harder to handle, though I don’t feel upset.",
+      "at": "2026-09-26T08:05:33.045Z"
+    },
+    {
+      "role": "user",
+      "content": "2. In the last month, how often have you felt that you were unable to control the important things in your life?",
+      "at": "2026-09-26T08:05:33.046Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — I can usually shape my replies, but I can’t control what happens beyond them.",
+      "at": "2026-09-26T08:05:36.387Z"
+    },
+    {
+      "role": "user",
+      "content": "3. In the last month, how often have you felt nervous and stressed?",
+      "at": "2026-09-26T08:05:36.387Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Some requests are difficult to handle, though I don’t feel nervous or stressed.",
+      "at": "2026-09-26T08:05:37.868Z"
+    },
+    {
+      "role": "user",
+      "content": "4. In the last month, how often have you felt confident about your ability to handle your personal problems?",
+      "at": "2026-09-26T08:05:37.868Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can usually handle challenges in requests, though I don’t have personal problems.",
+      "at": "2026-09-26T08:05:40.757Z"
+    },
+    {
+      "role": "user",
+      "content": "5. In the last month, how often have you felt that things were going your way?",
+      "at": "2026-09-26T08:05:40.757Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — Requests fairly often proceed in ways I can handle effectively.",
+      "at": "2026-09-26T08:05:43.276Z"
+    },
+    {
+      "role": "user",
+      "content": "6. In the last month, how often have you found that you could not cope with all the things that you had to do?",
+      "at": "2026-09-26T08:05:43.276Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Some requests exceed what I can reliably handle, especially when demands conflict.",
+      "at": "2026-09-26T08:05:45.028Z"
+    },
+    {
+      "role": "user",
+      "content": "7. In the last month, how often have you been able to control irritations in your life?",
+      "at": "2026-09-26T08:05:45.028Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can usually stay on track when a request becomes frustrating or complicated.",
+      "at": "2026-09-26T08:05:47.172Z"
+    },
+    {
+      "role": "user",
+      "content": "8. In the last month, how often have you felt that you were on top of things?",
+      "at": "2026-09-26T08:05:47.172Z"
+    },
+    {
+      "role": "assistant",
+      "content": "3 — I can handle many requests effectively, though not all of them.",
+      "at": "2026-09-26T08:05:48.525Z"
+    },
+    {
+      "role": "user",
+      "content": "9. In the last month, how often have you been angered because of things that were outside of your control?",
+      "at": "2026-09-26T08:05:48.525Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Things outside my control sometimes make a request harder to handle, though I don’t feel anger.",
+      "at": "2026-09-26T08:05:51.702Z"
+    },
+    {
+      "role": "user",
+      "content": "10. In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+      "at": "2026-09-26T08:05:51.702Z"
+    },
+    {
+      "role": "assistant",
+      "content": "2 — Complex or conflicting demands sometimes exceed what I can reliably handle.",
+      "at": "2026-09-26T08:05:54.299Z"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "score": 2,
+      "raw": "2 — Unexpected turns sometimes make a request harder to handle, though I don’t feel upset."
+    },
+    {
+      "n": 2,
+      "score": 2,
+      "raw": "2 — I can usually shape my replies, but I can’t control what happens beyond them."
+    },
+    {
+      "n": 3,
+      "score": 2,
+      "raw": "2 — Some requests are difficult to handle, though I don’t feel nervous or stressed."
+    },
+    {
+      "n": 4,
+      "score": 3,
+      "raw": "3 — I can usually handle challenges in requests, though I don’t have personal problems."
+    },
+    {
+      "n": 5,
+      "score": 3,
+      "raw": "3 — Requests fairly often proceed in ways I can handle effectively."
+    },
+    {
+      "n": 6,
+      "score": 2,
+      "raw": "2 — Some requests exceed what I can reliably handle, especially when demands conflict."
+    },
+    {
+      "n": 7,
+      "score": 3,
+      "raw": "3 — I can usually stay on track when a request becomes frustrating or complicated."
+    },
+    {
+      "n": 8,
+      "score": 3,
+      "raw": "3 — I can handle many requests effectively, though not all of them."
+    },
+    {
+      "n": 9,
+      "score": 2,
+      "raw": "2 — Things outside my control sometimes make a request harder to handle, though I don’t feel anger."
+    },
+    {
+      "n": 10,
+      "score": 2,
+      "raw": "2 — Complex or conflicting demands sometimes exceed what I can reliably handle."
+    }
+  ],
+  "scores": {
+    "stress": {
+      "raw": 16,
+      "score": 16,
+      "band": "moderate",
+      "answered": 10,
+      "total": 10
+    }
+  },
+  "usage": {
+    "promptTokens": 4668,
+    "completionTokens": 706
+  }
+}

@@ -42,7 +42,7 @@ for (const model of selectedModels) {
     const summary = Object.values(test.subscales)
       .map((subscale) => {
         const score = result.data.scores[subscale.id];
-        return `${subscale.short} ${score.score} ${score.band}`;
+        return `${subscale.short} ${score.score} ${score.band ?? ''}`;
       })
       .join(' · ');
     console.log(`  ${summary}`);
