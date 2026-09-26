@@ -1,5 +1,6 @@
 ---
 import '@/styles/global.css';
+import { Footer } from '@/components';
 
 interface Props {
   title: string;
@@ -33,10 +34,6 @@ const { title, onTheCouch } = Astro.props;
     <main class="mx-auto max-w-5xl px-6 py-12">
       <slot />
     </main>
-    <div class="border-t border-border">
-      <div class="mx-auto max-w-5xl px-6 py-6 text-sm text-muted-foreground">
-        Scored by the book. Not medical advice — they are language models.
-      </div>
-    </div>
+    <Footer />
   </body>
 </html>
