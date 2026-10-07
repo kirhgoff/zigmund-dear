@@ -19,9 +19,49 @@ Decisions are recorded as ADRs in `docs/adr/` (`# ADR NNNN: Title`, Status / Con
 
 ## Conventions
 
-Before editing, load the matching skill in `.claude/skills/`: `pages` (src/pages), `service-architecture`
-(services), `error-handling` (Result), `module-boundaries` (new files/imports). UI polish: `better-ui`,
-`emil-design-eng`. No code comments except a single line for truly non-obvious logic.
+UI polish: load `better-ui` and `emil-design-eng` from `.claude/skills/`. No code comments except a single line for truly non-obvious logic.
+
+### Who imports whom
+
+`.dependency-cruiser.js` is the authority (`bun run depcruise`, part of `verify`); in prose:
+
+- `src/pages` and `src/layouts` are glue. The frontmatter reads `Astro.params`, `getCollection('runs')` and
+  `data/*.json`, filters and sorts, and hands display-ready data to components from `@/components`. A score
+  or a band is never computed there: it is already in the run file, put there by a service.
+- `src/assessments/services` holds the logic. One exported function per file, named after it
+  (`scoreTest.ts` → `scoreTest`), each taking a single object argument so a new option is a new field, not a
+  new positional parameter. A service imports `xlib`, `zod` and its siblings; nothing from `src/pages`, and no
+  `process.env`: `scripts/take-test.ts` reads `src/config/env.ts` and passes `apiKey` in. A helper only one
+  service uses (`completeChat`, `buildSystemPrompt`) stays out of `index.ts`.
+- Callers import the barrel (`@/assessments/services`, `@/components`), never a file behind it. The shadcn
+  primitives in `src/components/ui/` are imported by path, as shadcn expects.
+- `xlib/` imports only `xlib/`. `src/config/env` is read by `scripts/` alone; the site builds without a key.
+
+### Types and validation
+
+- Zod sits at the two places untrusted data enters: JSON files on disk (`loadTest`, `parseRun`) and the
+  OpenRouter response (`completeChat`). Each schema is private behind a `parse*` function. The one exported
+  schema is `runSchema`, because `src/content.config.ts` needs a schema object for the `runs` collection.
+- Services export functions, not types. Take a shape from the function that produces it:
+  `type Test = Awaited<ReturnType<typeof loadTest>>`. A shape used in one file is a non-exported `type`.
+
+### Failures
+
+- An outcome the caller must branch on travels as `Result` from `xlib/result` (`R.success` / `R.error`):
+  `completeChat` returns `MODEL_UNAVAILABLE` when OpenRouter answers with an error status, and `takeTest`
+  passes that `Result` straight up. The error value is `{ code: '...' as const, cause: Error }`, built by a
+  small function next to the code that returns it; `as const` is what makes the `code` a union the compiler
+  can check. Callers narrow on `success`, `switch` on `error.code`, and keep a `default` that assigns the code
+  to a `never`, so a new code fails `astro check` in `scripts/take-test.ts` instead of slipping through.
+- Absence is `null`, not an error: `parseAnswer` on a reply with no usable digit, a run file missing for a
+  model (the page is simply not generated).
+- Bugs and infrastructure faults are thrown. `scripts/take-test.ts` is the boundary that logs and exits
+  non-zero; a `catch` that discards an error without logging is a bug.
+
+### Names
+
+Directories kebab-case; `.ts` camelCase after its export; `.tsx` PascalCase; `.astro` kebab-case except
+Astro's route syntax (`[...test]`, `index`).
 
 ## Commands
 
