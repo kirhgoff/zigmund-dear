@@ -19,7 +19,7 @@ Decisions are recorded as ADRs in `docs/adr/` (`# ADR NNNN: Title`, Status / Con
 
 ## Conventions
 
-UI polish: load `better-ui` and `emil-design-eng` from `.claude/skills/`. No code comments except a single line for truly non-obvious logic.
+UI polish: load `better-ui` and `emil-design-eng` from `.agents/skills/`. No code comments except a single line for truly non-obvious logic.
 
 ### Who imports whom
 
