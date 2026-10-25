@@ -1,2 +1,2 @@
 [files]
-exclude = [".agents/skills/emil-design-eng/**"] # vendored emilkowalski/skills, 671-line SKILL.md trips AS-012 and cannot be edited locally
+exclude = [".agents/skills/emil-design-eng/**", ".claude/skills/emil-design-eng/**"] # vendored emilkowalski/skills, 671-line SKILL.md trips AS-012 and cannot be edited locally
