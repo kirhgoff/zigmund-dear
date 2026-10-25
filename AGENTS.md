@@ -39,7 +39,7 @@ UI polish: load `better-ui` and `emil-design-eng` from `.agents/skills/`. No cod
 
 ### Types and validation
 
-- Zod sits at the two places untrusted data enters: JSON files on disk (`loadTest`, `parseRun`) and the
+- Zod sits at the two places untrusted data enters: JSON files on disk (`loadTest`, `runSchema`) and the
   OpenRouter response (`completeChat`). Each schema is private behind a `parse*` function. The one exported
   schema is `runSchema`, because `src/content.config.ts` needs a schema object for the `runs` collection.
 - Services export functions, not types. Take a shape from the function that produces it:
@@ -72,7 +72,7 @@ Astro's route syntax (`[...test]`, `index`).
 
 ## Verify
 
-`bun run verify` — runs `bun test`, `astro check`, `biome check`, `eslint`, `depcruise`, and `astro build`.
+`mise run check` runs everything: `bun test`, `astro check`, `biome check`, `eslint`, `depcruise`, `knip`, `astro build`, plus `betterleaks`, `typos`, `actionlint`, `zizmor` and `agnix`. CI runs the same command. `mise run setup` installs dependencies and the git hooks; `mise run fix` applies automatic fixes. `bun run verify` stays as the quick local subset.
 
 ## Runbook
 
@@ -121,7 +121,7 @@ Astro's route syntax (`[...test]`, `index`).
 
 ### Publishing results
 
-- Run `bun run verify`, then commit `data/runs/`. Commits must be signed (the user's git config handles it;
+- Run `mise run check`, then commit `data/runs/`. Commits must be signed (the user's git config handles it;
   never disable signing). Push to `origin main` (GitHub `kirhgoff/zigmund-dear`).
 - Deploy with `bun run deploy`. It needs `wrangler login` (or `CLOUDFLARE_API_TOKEN`); ask the user first if not logged in.
 

@@ -1,0 +1,72 @@
+amends "package://github.com/jdx/hk/releases/download/v2.8.1/hk@2.8.1#/Config.pkl"
+import "package://github.com/jdx/hk/releases/download/v2.8.1/hk@2.8.1#/Builtins.pkl"
+
+local fast = new Mapping<String, Step> {
+    ["betterleaks"] {
+        check = "betterleaks git --staged --no-banner"
+    }
+    ["typos"] = Builtins.typos
+    ["actionlint"] = Builtins.actionlint
+    ["zizmor"] {
+        glob = List(".github/workflows/*.yml", ".github/workflows/*.yaml")
+        check = "zizmor --no-progress {{ files }}"
+    }
+    ["agnix"] {
+        glob = List("AGENTS.md", "CLAUDE.md", ".agents/skills/**/*")
+        check = "agnix ."
+    }
+    ["biome"] {
+        glob = List("**/*.{ts,tsx,js,mjs,json,jsonc,css}")
+        check = "bunx biome check {{ files }}"
+        fix = "bunx biome check --write {{ files }}"
+    }
+    ["eslint"] {
+        glob = List("src/components/**/*.{ts,tsx}")
+        check = "bunx eslint {{ files }}"
+    }
+}
+
+local all = (fast) {
+    ["betterleaks"] {
+        check = "betterleaks git --no-banner"
+    }
+    ["biome"] {
+        check = "bunx biome check ."
+    }
+    ["eslint"] {
+        check = "bunx eslint src/components"
+    }
+    ["test"] {
+        check = "bun test"
+    }
+    ["astro-check"] {
+        check = "bunx astro check"
+    }
+    ["depcruise"] {
+        check = "bun run depcruise"
+    }
+    ["knip"] {
+        check = "bunx knip"
+    }
+    ["build"] {
+        check = "bunx astro build"
+    }
+}
+
+hooks {
+    ["pre-commit"] {
+        fix = true
+        stash = "git"
+        steps = fast
+    }
+    ["pre-push"] {
+        steps = all
+    }
+    ["check"] {
+        steps = all
+    }
+    ["fix"] {
+        fix = true
+        steps = all
+    }
+}
