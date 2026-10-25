@@ -28,5 +28,3 @@ export const runSchema = z.object({
   ),
   usage: z.object({ promptTokens: z.number(), completionTokens: z.number() }).nullable(),
 });
-
-export const parseRun = (input: unknown) => runSchema.parse(input);

@@ -14,7 +14,7 @@ export const bandBgClass = [
   'bg-zd-band-extreme',
 ];
 
-export const bandFillClass = [
+const bandFillClass = [
   'fill-zd-band-normal',
   'fill-zd-band-mild',
   'fill-zd-band-moderate',

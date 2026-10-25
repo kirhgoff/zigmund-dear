@@ -1,5 +1,3 @@
 export { loadTest } from './loadTest';
-export { parseAnswer } from './parseAnswer';
-export { parseRun, runSchema } from './parseRun';
-export { scoreTest } from './scoreTest';
+export { runSchema } from './parseRun';
 export { takeTest } from './takeTest';

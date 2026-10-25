@@ -218,8 +218,8 @@ const jsonLd = [
     </div>
     <div class="flex flex-wrap gap-2 font-mono text-zd-mono text-zd-text-2">
       {chips.map((c) => (
-        <span class="rounded-zd-md border border-zd-line bg-zd-surface-2 px-3 py-1.5">{c}</span>
-      ))}
+  <span class="rounded-zd-md border border-zd-line bg-zd-surface-2 px-3 py-1.5">{c}</span>
+))}
     </div>
   </section>
   <div class="mt-7">
@@ -227,45 +227,45 @@ const jsonLd = [
   </div>
 
   {rows.length ? (
-    <section id="results" class="results scroll-mt-6 pt-16">
-      <div class="mb-5 flex flex-wrap items-end justify-between gap-x-8 gap-y-4">
-        <div>
-          <p class="mb-2.5 font-mono text-zd-eyebrow uppercase tracking-zd-eyebrow text-zd-text-muted">
-            Sessions
-          </p>
-          <h2 class="font-serif text-zd-section text-zd-text-hi">
-            <span class="results-closed">{modelsTitle}</span>
-            <span class="results-open">Session transcript</span>
-          </h2>
-        </div>
-        {legend.length > 0 && <Legend bands={legend} />}
+  <section id="results" class="results scroll-mt-6 pt-16">
+    <div class="mb-5 flex flex-wrap items-end justify-between gap-x-8 gap-y-4">
+      <div>
+        <p class="mb-2.5 font-mono text-zd-eyebrow uppercase tracking-zd-eyebrow text-zd-text-muted">
+          Sessions
+        </p>
+        <h2 class="font-serif text-zd-section text-zd-text-hi">
+          <span class="results-closed">{modelsTitle}</span>
+          <span class="results-open">Session transcript</span>
+        </h2>
       </div>
-      <div class="results-closed">
-        <Overview subscales={subscales} rows={rows} />
-      </div>
-      <div class="results-open flex flex-wrap items-start gap-8">
-        <aside class="min-w-0 grow basis-70 md:sticky md:top-6 md:max-w-85">
-          <ModelList subscales={subscales} rows={rows} />
-        </aside>
-        <div class="min-w-0 grow-999 basis-130">
-          {rows.map((row) => (
-            <div data-transcript={row.modelSlug} hidden>
-              <Transcript
-                run={row.run}
-                model={{ name: row.modelName, vendor: row.vendor }}
-                subscales={subscales}
-                parts={test.parts}
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  ) : (
-    <div class="mt-16">
-      <EmptyCouch testId={test.id} />
+      {legend.length > 0 && <Legend bands={legend} />}
     </div>
-  )}
+    <div class="results-closed">
+      <Overview subscales={subscales} rows={rows} />
+    </div>
+    <div class="results-open flex flex-wrap items-start gap-8">
+      <aside class="min-w-0 grow basis-70 md:sticky md:top-6 md:max-w-85">
+        <ModelList subscales={subscales} rows={rows} />
+      </aside>
+      <div class="min-w-0 grow-999 basis-130">
+        {rows.map((row) => (
+          <div data-transcript={row.modelSlug} hidden>
+            <Transcript
+              run={row.run}
+              model={{ name: row.modelName, vendor: row.vendor }}
+              subscales={subscales}
+              parts={test.parts}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+) : (
+  <div class="mt-16">
+    <EmptyCouch testId={test.id} />
+  </div>
+)}
 </Layout>
 
 <script>

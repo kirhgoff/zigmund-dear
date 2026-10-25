@@ -55,9 +55,7 @@ const themeColor = '#090c14';
     <meta name="twitter:description" content={description}>
     <meta name="twitter:image" content={ogImageUrl}>
 
-    {jsonLd.map((entry) => (
-      <script type="application/ld+json" set:html={JSON.stringify(entry)} />
-    ))}
+    {jsonLd.map((entry) => <script type="application/ld+json" set:html={JSON.stringify(entry)} />)}
   </head>
   <body class="overflow-x-clip">
     <header class="border-b border-zd-line-page bg-zd-bg-header">
@@ -72,12 +70,12 @@ const themeColor = '#090c14';
           <span class="text-zd-lg font-semibold tracking-zd-wordmark">zigmund-dear</span>
         </a>
         {onTheCouch && (
-          <div class="flex items-center gap-2.5 text-zd-sm text-zd-text-muted">
-            <span class="size-1.75 rounded-full bg-zd-band-normal ring-4 ring-zd-band-normal/12"></span>
-            <span>on the couch:</span>
-            <span class="font-mono text-zd-text">{onTheCouch}</span>
-          </div>
-        )}
+  <div class="flex items-center gap-2.5 text-zd-sm text-zd-text-muted">
+    <span class="size-1.75 rounded-full bg-zd-band-normal ring-4 ring-zd-band-normal/12"></span>
+    <span>on the couch:</span>
+    <span class="font-mono text-zd-text">{onTheCouch}</span>
+  </div>
+)}
       </div>
     </header>
     <main class="mx-auto max-w-zd px-4 pb-24 md:px-8">
