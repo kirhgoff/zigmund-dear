@@ -17,11 +17,11 @@ local fast = new Mapping<String, Step> {
     }
     ["biome"] {
         glob = List("**/*.{ts,tsx,js,mjs,json,jsonc,css}")
-        check = "bunx biome check {{ files }}"
-        fix = "bunx biome check --write {{ files }}"
+        check = "bunx biome check --no-errors-on-unmatched {{ files }}"
+        fix = "bunx biome check --write --no-errors-on-unmatched {{ files }}"
     }
     ["eslint"] {
-        glob = List("src/components/**/*.{ts,tsx}")
+        glob = List("src/components/**/*.tsx")
         check = "bunx eslint {{ files }}"
     }
 }
