@@ -14,8 +14,7 @@
     "format": "biome format --write .",
     "lint:ui": "eslint src/components",
     "depcruise": "depcruise src xlib scripts --config .dependency-cruiser.js",
-    "test": "bun test",
-    "verify": "bun test && bun run check && bun run lint && bun run lint:ui && bun run depcruise && bun run build"
+    "test": "bun test"
   },
   "dependencies": {
     "@astrojs/react": "^7.0.0",
