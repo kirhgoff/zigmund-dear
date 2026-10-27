@@ -22,7 +22,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.3.5",
     "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "react-dom": "^19.3.1",
     "shadcn": "^4.21.0",
     "tailwindcss": "^4.3.3",
     "zod": "^4.6.5"
