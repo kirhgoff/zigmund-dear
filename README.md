@@ -25,10 +25,10 @@ Each run is written to `data/runs/<testId>/<model-slug>.json` and picked up by t
 ## Verify
 
 ```sh
-bun run verify
+mise run check
 ```
 
-Runs `bun test`, `astro check`, `biome check`, `eslint src/components`, `depcruise`, and `astro build`.
+Runs every check CI runs: tests, `astro check`, biome, eslint, depcruise, knip, `astro build`, and the secret, spelling, workflow and agent-doc linters. `mise run setup` installs dependencies and the git hooks.
 
 ## Deploy
 

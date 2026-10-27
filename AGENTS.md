@@ -15,7 +15,7 @@ Decisions are recorded as ADRs in `docs/adr/` (`# ADR NNNN: Title`, Status / Con
 - `src/assessments/services` — pure scoring, answer parsing, run/test validation, and the OpenRouter call.
 - `src/components` — presentational React components rendered server-side into `.astro` pages.
 - `src/pages` — the site's routes.
-- `xlib/result` — the shared `Result` type.
+- `xlib/result` — `R.success` / `R.error`, the shared result shape.
 
 ## Conventions
 
@@ -23,7 +23,7 @@ UI polish: load `better-ui` and `emil-design-eng` from `.agents/skills/`. No cod
 
 ### Who imports whom
 
-`.dependency-cruiser.js` is the authority (`bun run depcruise`, part of `verify`); in prose:
+`.dependency-cruiser.js` is the authority (`bun run depcruise`, part of `mise run check`); in prose:
 
 - `src/pages` and `src/layouts` are glue. The frontmatter reads `Astro.params`, `getCollection('runs')` and
   `data/*.json`, filters and sorts, and hands display-ready data to components from `@/components`. A score
@@ -39,7 +39,7 @@ UI polish: load `better-ui` and `emil-design-eng` from `.agents/skills/`. No cod
 
 ### Types and validation
 
-- Zod sits at the two places untrusted data enters: JSON files on disk (`loadTest`, `parseRun`) and the
+- Zod sits at the two places untrusted data enters: JSON files on disk (`loadTest`, `runSchema`) and the
   OpenRouter response (`completeChat`). Each schema is private behind a `parse*` function. The one exported
   schema is `runSchema`, because `src/content.config.ts` needs a schema object for the `runs` collection.
 - Services export functions, not types. Take a shape from the function that produces it:
@@ -47,9 +47,9 @@ UI polish: load `better-ui` and `emil-design-eng` from `.agents/skills/`. No cod
 
 ### Failures
 
-- An outcome the caller must branch on travels as `Result` from `xlib/result` (`R.success` / `R.error`):
+- An outcome the caller must branch on travels as a result from `xlib/result` (`R.success` / `R.error`):
   `completeChat` returns `MODEL_UNAVAILABLE` when OpenRouter answers with an error status, and `takeTest`
-  passes that `Result` straight up. The error value is `{ code: '...' as const, cause: Error }`, built by a
+  passes that result straight up. The error value is `{ code: '...' as const, cause: Error }`, built by a
   small function next to the code that returns it; `as const` is what makes the `code` a union the compiler
   can check. Callers narrow on `success`, `switch` on `error.code`, and keep a `default` that assigns the code
   to a `never`, so a new code fails `astro check` in `scripts/take-test.ts` instead of slipping through.
@@ -72,7 +72,7 @@ Astro's route syntax (`[...test]`, `index`).
 
 ## Verify
 
-`bun run verify` — runs `bun test`, `astro check`, `biome check`, `eslint`, `depcruise`, and `astro build`.
+`mise run check` runs everything: `bun test`, `astro check`, `biome check`, `eslint`, `depcruise`, `knip`, `astro build`, plus `betterleaks`, `typos`, `actionlint`, `zizmor` and `agnix`. CI runs the same command. `mise run setup` installs dependencies and the git hooks; `mise run fix` applies automatic fixes.
 
 ## Runbook
 
@@ -121,7 +121,7 @@ Astro's route syntax (`[...test]`, `index`).
 
 ### Publishing results
 
-- Run `bun run verify`, then commit `data/runs/`. Commits must be signed (the user's git config handles it;
+- Run `mise run check`, then commit `data/runs/`. Commits must be signed (the user's git config handles it;
   never disable signing). Push to `origin main` (GitHub `kirhgoff/zigmund-dear`).
 - Deploy with `bun run deploy`. It needs `wrangler login` (or `CLOUDFLARE_API_TOKEN`); ask the user first if not logged in.
 

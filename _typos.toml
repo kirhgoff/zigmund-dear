@@ -1,0 +1,5 @@
+[default.extend-words]
+extraversion = "extraversion"
+
+[files]
+extend-exclude = ["data/runs/", "docs/design/"]

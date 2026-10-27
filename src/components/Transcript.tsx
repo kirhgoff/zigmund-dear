@@ -29,23 +29,21 @@ type Props = {
   parts: Part[];
 };
 
-export const withoutLeadingScore = (text: string) =>
-  text.replace(/^\s*\d(?!\d)\s*[.:)—–-]?\s*/, '');
+const withoutLeadingScore = (text: string) => text.replace(/^\s*\d(?!\d)\s*[.:)—–-]?\s*/, '');
 
-export const formatTime = (iso: string) =>
-  new Date(iso).toLocaleTimeString('en-GB', { hour12: false });
+const formatTime = (iso: string) => new Date(iso).toLocaleTimeString('en-GB', { hour12: false });
 
-export const formatDate = (iso: string) =>
+const formatDate = (iso: string) =>
   new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
 
-export const formatDuration = (startedAt: string, finishedAt: string) => {
+const formatDuration = (startedAt: string, finishedAt: string) => {
   const seconds = Math.round(
     (new Date(finishedAt).getTime() - new Date(startedAt).getTime()) / 1000,
   );
   return `${Math.floor(seconds / 60)}m ${seconds % 60}s`;
 };
 
-export const formatTokens = (count: number) => `${(count / 1000).toFixed(1)}k`;
+const formatTokens = (count: number) => `${(count / 1000).toFixed(1)}k`;
 
 const pill =
   'rounded-zd-pill border border-zd-line-pill bg-zd-surface px-3.5 py-1.75 text-zd-sm text-zd-text-2 aria-pressed:border-zd-accent aria-pressed:bg-zd-accent aria-pressed:text-zd-accent-ink';
