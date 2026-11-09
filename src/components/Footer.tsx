@@ -24,6 +24,12 @@ export const Footer = () => (
             </a>
           ))}
         </nav>
+        <p>
+          Made by{' '}
+          <a href="https://kirhgoff.me" className="text-zd-accent hover:text-zd-accent-soft">
+            Kirill Lastovirya
+          </a>
+        </p>
         <p>Code MIT · transcripts CC BY 4.0</p>
         <p>Not medical advice — they are language models.</p>
       </div>

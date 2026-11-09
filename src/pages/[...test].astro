@@ -128,6 +128,16 @@ const legend = [
 
 const pageTitle = `${test.name} — LLMs on the couch — zigmund-dear`;
 const description = `Frontier LLMs (Claude, GPT-6, Kimi, DeepSeek) take the ${test.fullName}, one question at a time. Scores and full transcripts.`;
+const author = {
+  '@type': 'Person',
+  name: 'Kirill Lastovirya',
+  url: 'https://kirhgoff.me',
+  sameAs: [
+    'https://github.com/kirhgoff',
+    'https://www.linkedin.com/in/kirhgoff',
+    'https://x.com/kirhgoff',
+  ],
+};
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site as URL).href;
 const jsonLd = [
   {
@@ -136,6 +146,7 @@ const jsonLd = [
     name: 'zigmund-dear',
     url: (Astro.site as URL).href,
     sameAs: ['https://github.com/kirhgoff/zigmund-dear'],
+    author,
   },
   {
     '@context': 'https://schema.org',
@@ -145,7 +156,7 @@ const jsonLd = [
     url: canonicalUrl,
     license: 'https://creativecommons.org/licenses/by/4.0/',
     isBasedOn: { '@type': 'CreativeWork', name: test.about.source },
-    creator: { '@type': 'Person', name: 'Kirill Lastovirya' },
+    creator: author,
     isAccessibleForFree: true,
   },
 ];
