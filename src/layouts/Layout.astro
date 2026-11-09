@@ -29,7 +29,7 @@ const themeColor = '#090c14';
       name="robots"
       content={noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large'}
     >
-    <link rel="canonical" href={canonicalUrl}>
+    {!noindex && <link rel="canonical" href={canonicalUrl}>}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -41,7 +41,7 @@ const themeColor = '#090c14';
     <title>{title}</title>
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content={canonicalUrl}>
+    {!noindex && <meta property="og:url" content={canonicalUrl}>}
     <meta property="og:title" content={title}>
     <meta property="og:description" content={description}>
     <meta property="og:image" content={ogImageUrl}>
@@ -51,6 +51,7 @@ const themeColor = '#090c14';
     <meta property="og:site_name" content="zigmund-dear">
 
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@kirhgoff">
     <meta name="twitter:title" content={title}>
     <meta name="twitter:description" content={description}>
     <meta name="twitter:image" content={ogImageUrl}>

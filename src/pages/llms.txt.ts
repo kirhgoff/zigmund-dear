@@ -45,6 +45,7 @@ ${testLines}
 ## Source
 
 - Repository: https://github.com/kirhgoff/zigmund-dear
+- Author: https://kirhgoff.me
 - Issues and feedback: https://github.com/kirhgoff/zigmund-dear/issues/new
 - Code is MIT licensed; run transcripts are CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
 `;
